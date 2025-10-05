@@ -1,0 +1,63 @@
+#.
+#Parameters and abilities of CROWNS's kinetic mechanisms
+[kinetics]
+
+	#.
+	#.
+	#Fine tune the speed and capacity of turbine stages
+	[kinetics.turbineValues]
+		#.
+		#turbine capacity factor
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		turbineCoefficient = 1.0
+		#.
+		#turbine capacity factor
+		# Default: 256
+		# Range: 1 ~ 256
+		turbineSpeed = 256
+
+#.
+#Parameter and constants for nuclear reactors
+[nuclear]
+	#.
+	#.
+	#make reactor reach equilibrium faster, don't change it will a reactor is running
+	# Default: 5000000.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	realismCoef = 5000000.0
+	#.
+	#the maximum distance for radiation influence on fission, the bigger the range,the better big reactor will perform. Huge performance impact don't make it higher than 10
+	# Default: 4.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	radiationRange = 4.0
+	#.
+	# decrease it to make reactor less reactive, control how much neutron each fission gives out (easeCoef * 2.5)
+	# Default: 0.800000011920929
+	# Range: 0.0 ~ 3.4028234663852886E38
+	easeCoef = 0.800000011920929
+	#.
+	#increase it to decrease the temperature, make neutron less likely to impact when temperature is higher ((temperature - 200) * negativeThermalCoef)
+	# Default: 0.007499999832361937
+	# Range: 0.0 ~ 3.4028234663852886E38
+	negativeThermalCoef = 0.007499999832361937
+
+#.
+#How heat is transferred. Changes can create instability and world corruption, HERE BE DRAGONS 
+[conduction]
+	#.
+	#.
+	#conduction coefficient between the heat exchanger and the exterior
+	# Default: 500000.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	heatExchangerExternal = 500000.0
+	#.
+	#conduction coefficient between the heat exchanger and the water flowing through it, if you have temperature oscillations decrease it
+	# Default: 1000000.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	heatExchangerInternal = 1000000.0
+	#.
+	#conduction coefficient between the assembly block and the exterior
+	# Default: 500000.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	assemblyBlock = 500000.0

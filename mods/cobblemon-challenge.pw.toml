@@ -1,0 +1,13 @@
+name = "Cobblemon Challenge"
+filename = "cobblemonchallenge-neoforge-2.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "47c071f9bcf5368f1fd7487616f757485bd45777"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6841544
+project-id = 908215

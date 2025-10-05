@@ -1,0 +1,13 @@
+name = "Cobblemon: SafePastures"
+filename = "SafePastures-1.1.0+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7c644daff2f83baa7d98f6c278f7cb610c3006dc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6458404
+project-id = 1248185

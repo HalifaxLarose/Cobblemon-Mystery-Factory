@@ -1,0 +1,13 @@
+name = "Cobblemon Mystery Factory"
+author = "Lizard"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "4589f25b4abd086173c28e7b69fc831fa3d0153bb34d5e87ea796c4e49b6026d"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.209"

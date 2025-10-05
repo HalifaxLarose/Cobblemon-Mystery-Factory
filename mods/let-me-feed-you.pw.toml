@@ -1,0 +1,13 @@
+name = "Let Me Feed You!"
+filename = "LetMeFeedYou-neoforge-1.21.1-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9b7f0df588e323b8118e95cdadacfbd0e3316c69"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6071142
+project-id = 1107181

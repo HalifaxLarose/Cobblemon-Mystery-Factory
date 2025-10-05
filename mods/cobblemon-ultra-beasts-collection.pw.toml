@@ -1,0 +1,13 @@
+name = "Cobblemon Ultra Beasts Collection"
+filename = "Cobblemon-Ultra-Beasts-Collection-1.0-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "96e4a873ea36e21274637156e69d55cbd98a4f20"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6887119
+project-id = 1327263

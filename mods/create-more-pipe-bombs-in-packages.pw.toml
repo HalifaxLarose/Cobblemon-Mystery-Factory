@@ -1,0 +1,13 @@
+name = "Create More: Pipe Bombs in Packages"
+filename = "cmpackagepipebomb-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4c5cdc6f4070a8676c8f8a75e6a4f30c381a697c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6755828
+project-id = 1304635

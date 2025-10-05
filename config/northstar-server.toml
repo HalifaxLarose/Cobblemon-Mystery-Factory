@@ -1,0 +1,30 @@
+#.
+["Oxygen sealer & Temperature regulator"]
+	#.
+	# Default: 100
+	# Range: > 1
+	maxSealedBlocksPerTick = 100
+	#.
+	# Default: 20
+	# Range: > 1
+	checkDelay = 20
+	#.
+	# Default: 20
+	# Range: > 1
+	oxygenSealerBlocksPerRpm = 20
+	#.
+	# Default: 0.0010000000474974513
+	# Range: 0.0 ~ 3.4028234663852886E38
+	oxygenPerBlockPerTick = 0.0010000000474974513
+	#.
+	# Default: 2500
+	# Range: > -2147483648
+	oxygenSealerMaxContraptionSealed = 2500
+	#.
+	# Default: 20
+	# Range: > 1
+	temperatureRegulatorBlocksPerRpm = 20
+	#.
+	# Default: 2500
+	# Range: > -2147483648
+	temperatureRegulatorMaxContraptionSealed = 2500
