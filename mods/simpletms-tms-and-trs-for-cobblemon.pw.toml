@@ -3,11 +3,11 @@ filename = "SimpleTMs-neoforge-2.1.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3dc6996d184437d03ea7f4258d3cd3389cbe0b4a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/yFqR0DNc/versions/SiplD8Nd/SimpleTMs-neoforge-2.1.2.jar"
+hash-format = "sha512"
+hash = "902156fd009d808d11e1b9a2e73fa8891440a17e0b305fdcfdc988ec96c270b82cc79a54b13c2ccf2df8dd43f96e020389668a68b4c324cd5ce1e72b5f2b1ce9"
 
 [update]
-[update.curseforge]
-file-id = 6402412
-project-id = 959184
+[update.modrinth]
+mod-id = "yFqR0DNc"
+version = "SiplD8Nd"

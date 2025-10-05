@@ -3,11 +3,11 @@ filename = "krypton_fnp-neoforge-1.21.1-0.2.23.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "87c30d4541e7336054838865b25c918a1006d590"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/JkxWVYwU/versions/P4TGV7np/krypton_fnp-neoforge-1.21.1-0.2.23.jar"
+hash-format = "sha512"
+hash = "a23730b17d654a6861657fc81bc942b8aa6ee1833945d08e71d1a3c691e48e7ef6ade96c412c271fa9722b158131d0b67831e956f43c499b8afbbf080e329967"
 
 [update]
-[update.curseforge]
-file-id = 6983074
-project-id = 1269169
+[update.modrinth]
+mod-id = "JkxWVYwU"
+version = "P4TGV7np"
