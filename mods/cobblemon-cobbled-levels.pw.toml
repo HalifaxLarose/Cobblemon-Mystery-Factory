@@ -1,0 +1,13 @@
+name = "Cobblemon: Cobbled Levels"
+filename = "CobbledLevels-neoforge-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7ba638f30974ecd894f937402ace6c474057c31b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7014531
+project-id = 1290184

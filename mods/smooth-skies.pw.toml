@@ -1,0 +1,13 @@
+name = "Smooth Skies"
+filename = "smoothskies-2.10.4+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c7c7bdb618123a12a62874eb24e8931c1cb9a0f0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6628379
+project-id = 1091678

@@ -1,0 +1,13 @@
+name = "[Cobblemon] Catch Cap - Neoforge"
+filename = "catchcap-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1c0801e338311bd36b89eef47b23669ac66b2049"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6838314
+project-id = 1319035

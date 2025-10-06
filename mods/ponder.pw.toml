@@ -1,0 +1,13 @@
+name = "Ponder for KubeJS"
+filename = "ponderjs-neoforge-1.21.1-2.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7d5639ad876db477f6484b887a9e8d4b415dbf35"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6690595
+project-id = 622888

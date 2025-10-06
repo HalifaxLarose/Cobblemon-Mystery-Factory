@@ -1,0 +1,13 @@
+name = "Tax Free Levels"
+filename = "TaxFreeLevels-1.4.7-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "36327d847462f5bb17bfddf1f01e3fc3d71b96cf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6106393
+project-id = 462128

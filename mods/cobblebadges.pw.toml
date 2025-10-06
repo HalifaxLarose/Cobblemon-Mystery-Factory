@@ -1,0 +1,13 @@
+name = "CobbleBadges [Cobblemon Addon]"
+filename = "CobbleBadges-neoforge-3.0.0+Beta-3+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8bb643cfd8642b9c6de8be1fceb323fe071f8e79"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6230022
+project-id = 848534

@@ -1,0 +1,13 @@
+name = "Create: Entity Control"
+filename = "createentitycontroller-1.21.1-0.2.7-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/43gwKokf/versions/GAwEiYgn/createentitycontroller-1.21.1-0.2.7-neoforge.jar"
+hash-format = "sha512"
+hash = "25944b0b88ff9501f5c72f31ccd908f187974a6931ac03a8f4c37423175ba1fb15b87e355889d77bebfe373648536d5111004da6d4b56c7ecd241e4cad5001c9"
+
+[update]
+[update.modrinth]
+mod-id = "43gwKokf"
+version = "GAwEiYgn"

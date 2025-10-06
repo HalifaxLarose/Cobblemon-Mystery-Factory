@@ -1,0 +1,13 @@
+name = "Macaw's Abnormals"
+filename = "mcwabnormals-neoforge-1.21.1-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "51dbea8ef23e97c7d5668ca7af26b7a99670892a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6544372
+project-id = 621057

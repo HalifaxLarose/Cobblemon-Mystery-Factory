@@ -1,0 +1,13 @@
+name = "CobbleBoom"
+filename = "cobbleboom-neoforge-1.4.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/75Ons9AY/versions/Sewatgxu/cobbleboom-neoforge-1.4.jar"
+hash-format = "sha512"
+hash = "49ecd6b0417780a818386baea26e9fcdd14824dc694c7013a4d95669024d60a7f016472369ecdf4467be9dd651a75037e7d22eae067cb580a1ec930c15bc69ae"
+
+[update]
+[update.modrinth]
+mod-id = "75Ons9AY"
+version = "Sewatgxu"
