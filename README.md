@@ -13,4 +13,7 @@
 12) packwiz *should* pull all the files needed from the repo, creating a modpack instance that is upto date with your clone
 
 
+# ALSO
+When making a commnit, PLEASE exlude the pack.toml and index.toml, they are local caches that change. they break everythign when commited
+
 Also DM if you get stuck :)
