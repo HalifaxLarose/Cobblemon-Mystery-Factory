@@ -1,0 +1,13 @@
+name = "Soaring Phantoms"
+filename = "soaring_phantoms-1.0.1+1.21.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/d4Rp6J8P/versions/CuxpcWKc/soaring_phantoms-1.0.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "5646ee638c8b8737e250cab2698fd9fbd9a0d0ceb854dfd770c3f3a147cf502d4cf169bcb5b1401a2e726cfa9aae11cd45a821187b586615b7fdcf9f95f16647"
+
+[update]
+[update.modrinth]
+mod-id = "d4Rp6J8P"
+version = "CuxpcWKc"

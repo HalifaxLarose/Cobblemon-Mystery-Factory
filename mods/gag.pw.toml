@@ -1,0 +1,13 @@
+name = "Gadgets Against Grind"
+filename = "gag-5.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IeYLjzpn/versions/YXonJVj4/gag-5.1.1.jar"
+hash-format = "sha512"
+hash = "937807990a12be9697368be89298a96e29c9a8f690a0b4539634f245ecb63872b6714770ab3b907ab655dea0e0279a3a1fb86f1b910425c961bd64b8a5b9d8b5"
+
+[update]
+[update.modrinth]
+mod-id = "IeYLjzpn"
+version = "YXonJVj4"

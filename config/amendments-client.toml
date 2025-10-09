@@ -64,13 +64,13 @@
 	sign_attachment = true
 
 	[hanging_sign.swing_physics]
-		min_angle = 0.7999999523162842
-		collision_force = 15.0
-		damping = 0.5249999761581421
-		collision_inertia = 1.0
-		collision_considers_entity_hitbox = true
 		frequency = 0.6000000238418579
+		collision_considers_entity_hitbox = true
+		collision_inertia = 1.0
+		collision_force = 15.0
+		min_angle = 0.7999999523162842
 		max_angle = 60.0
+		damping = 0.5249999761581421
 
 [lantern]
 	#Makes wall lantern use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animationNote that this option only affect lanterns close by as the one far away render as fast by default
@@ -85,13 +85,13 @@
 	lantern_item_holding_up = false
 
 	[lantern.swing_physics]
-		min_angle = 0.7999999523162842
-		collision_force = 15.0
-		damping = 0.5249999761581421
-		collision_inertia = 1.0
-		collision_considers_entity_hitbox = true
 		frequency = 0.6000000238418579
+		collision_considers_entity_hitbox = true
+		collision_inertia = 1.0
+		collision_force = 15.0
+		min_angle = 0.7999999523162842
 		max_angle = 60.0
+		damping = 0.5249999761581421
 
 [cauldron]
 	#Gives a unique texture to potion cauldrons

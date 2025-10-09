@@ -12,6 +12,7 @@
 11) Launch your modpack in prism.
 12) packwiz *should* pull all the files needed from the repo, creating a modpack instance that is upto date with your clone
 
+Once this is done, anytime you want to use that dev instance, make sure to run the ``packwiz serve`` in your repo, so your instances can get any fresh changes
 
 # ALSO
 When making a commnit, PLEASE exlude the pack.toml and index.toml, they are local caches that change. they break everythign when commited

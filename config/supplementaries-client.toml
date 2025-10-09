@@ -102,13 +102,13 @@
 		tickable_inside_jars = ["iceandfire:pixie", "druidcraft:dreadfish", "druidcraft:lunar_moth", "alexsmobs:hummingbird"]
 
 		[blocks.hat_stand.swing_physics]
-			min_angle = 0.0
-			collision_force = 15.0
-			damping = 1.625
-			collision_inertia = 1.5
-			collision_considers_entity_hitbox = true
 			frequency = 1.5
+			collision_considers_entity_hitbox = true
+			collision_inertia = 1.5
+			collision_force = 15.0
+			min_angle = 0.0
 			max_angle = 54.999996
+			damping = 1.625
 
 	[blocks.turn_table]
 		#Display visual particles when a block is rotated
@@ -149,7 +149,7 @@
 	#Disable incompatible mods warning screen
 	no_incompatible_mods_screen = false
 	#Enable Quark style config button on main menu. Needs Configured installed to work
-	config_button = false
+	config_button = true
 	#Config button Y offset
 	# Default: 0
 	# Range: -10000 ~ 10000
