@@ -1,0 +1,13 @@
+name = "Create: Arm-made Cuisine"
+filename = "create_cuisine-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fb165f18bc46ac481fe9d90579af6e066ba5e7f0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6749483
+project-id = 1267351

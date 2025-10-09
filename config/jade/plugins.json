@@ -81,9 +81,6 @@
     "pokemon_entity": true,
     "berry_bush": true
   },
-  "createsifter": {
-    "data": true
-  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,

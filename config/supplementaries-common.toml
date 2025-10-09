@@ -198,9 +198,9 @@
 
 		#This is a map of special blocks that can be cleaned with soap
 		[functional.soap.special_blocks]
-			"quark:dirty_glass" = "minecraft:glass"
 			"minecraft:wither_rose" = "minecraft:poppy"
 			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
+			"quark:dirty_glass" = "minecraft:glass"
 			"quark:dirty_glass_pane" = "minecraft:glass_pane"
 
 	[functional.cannon]

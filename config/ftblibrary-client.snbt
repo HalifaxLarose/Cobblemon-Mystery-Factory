@@ -33,15 +33,15 @@
 				x: 0
 				y: 0
 			}
-			"ftblibrary:config": {
+			"ftbchunks:claim_chunks": {
 				enabled: true
 				x: 3
 				y: 1
 			}
-			"ftbchunks:claim_chunks": {
+			"ftblibrary:config": {
 				enabled: true
-				x: 4
-				y: 1
+				x: 0
+				y: 2
 			}
 			"ftblibrary:toggle/day": {
 				enabled: true
