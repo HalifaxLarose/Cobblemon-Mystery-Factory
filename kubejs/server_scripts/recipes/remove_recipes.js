@@ -27,6 +27,6 @@ ServerEvents.recipes(event => {
         "cobblemon:ancient_ivory_ball",
         "cobblemon:safari_ball",
     ]
-    const pattern = new RegExp(`^cobblemon:(?!${ballsToKeep.join('$|')}$).*_ball$`);
-    event.remove({ output: pattern });
+    const pattern = new RegExp(`^(?!(${ballsToKeep.join('|')})$)cobblemon:.*_ball$`);
+    event.remove({ output: pattern, type: "minecraft:crafting_shaped"});
 })
