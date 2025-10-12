@@ -1,0 +1,168 @@
+{
+	chapter.035D1ABF4FA1F630.title: "4) The Future Age"
+	chapter.166963E568B61211.title: "3) The Industrial Age"
+	chapter.2ABB2A702B6169AE.title: "1) The Stone Age"
+	chapter.557957158909E65E.title: "1a) Your First Farms"
+	chapter.5F6BDBB03A7631E3.title: "2) The Steam Age"
+	chapter.6885E1A723E07E3F.title: "2a) Trains and Logistic Networks"
+	chapter_group.25AFFF4BEEB54E90.title: "To the End"
+	chapter_group.79A6FBFFF41742BB.title: "Fun"
+	quest.00263C66A24A4E32.quest_desc: ["It's called the stone age for a reason. Although it has to be this stone. Other stones won't work. Stupid technology."]
+	quest.00263C66A24A4E32.title: "Find Andesite"
+	quest.005E2061A2742EA8.quest_desc: [
+		"Almost all early machines require at least one andesite casing."
+		""
+		"In order to create andesite casing, you must:"
+		""
+		"1) Place a full log down"
+		"2) Right click it with an axe"
+		"3) Right click it with andesite alloy"
+		""
+		"It's unconventional crafting, but it has its charm."
+	]
+	quest.005E2061A2742EA8.title: "Andesite Casing"
+	quest.02834CB5B60C35E0.title: "Logistics"
+	quest.064EC8C54AECDF13.quest_desc: [
+		"The gearbox is an incredibly dear friend. It branches rotational power into three different directions at once!"
+		""
+		"Be careful though, they invert rotation directions, and they're a little expensive to produce."
+	]
+	quest.067C4963FADE5BAC.title: "Deck Your Train Out!"
+	quest.0946E21922298C64.quest_desc: ["One of the uses of golden sheets is advanced electronics. Actually, maybe gold sheets aren't that useless."]
+	quest.0A5D5740770A55D2.quest_desc: ["You can't grow a strong Guild without food to fuel everyone. This should help feed mouths. Plus, your guild wouldn't be popular if members were known to starve."]
+	quest.0A5D5740770A55D2.title: "Exploit Nature's Bounty"
+	quest.0B19548897BFDF79.title: "Now Give it a Try"
+	quest.0D9DCD0E20610EA8.quest_subtitle: "It's Going Upstairs so See Ya Later!"
+	quest.0D9DCD0E20610EA8.title: "Build an Elevator!"
+	quest.1269ECC706EC81E3.quest_desc: [
+		"Machines need power to move. A handcrank lets you supply that power through manual effort."
+		""
+		"This method of power generation does make you very hungry however, so have some hamburgers you found on the ground to replenish your strength later."
+	]
+	quest.138F71A191933F1E.quest_desc: ["You can probably guess how these work."]
+	quest.13BCA5A134625DDC.title: "Welcome to the World of Cobblemon Mystery Factory!"
+	quest.145CE8B7DF88596A.quest_desc: ["The drill should give you the rawest of resources to build everything upon. Maybe someday, it'll even break the heavens."]
+	quest.145CE8B7DF88596A.title: "Exploit the Ground Beneath You"
+	quest.15DCA245B19B9667.quest_desc: ["These two cogwheels are HUGE. Too huge, in fact: you won't be able to craft them until chapter 2. So close to completing your collection..."]
+	quest.15DCA245B19B9667.title: "This is Getting Ridiculous"
+	quest.19258004F540C3FD.title: "The WTF Way to Do Things"
+	quest.1DD6BF171DC10E1C.quest_desc: ["Andesite alloy is a material used for almost all of the early machines of the Create mod. You will want to stockpile them."]
+	quest.1DD6BF171DC10E1C.quest_subtitle: "The Tier 1 Material"
+	quest.1DD6BF171DC10E1C.title: "Craft Andesite Alloy"
+	quest.21072825C73FB514.quest_desc: ["Create's many addons on adds a wide variety of cogs and shafts. Try to collect all of the strangest ones there are!"]
+	quest.21072825C73FB514.title: "Collect all the Cogs"
+	quest.2188014C24C00AB0.quest_desc: [
+		"The gearshaft can reverse the direction of rotation with a redstone signal, which can be useful for fancy moving contraptions like elevators or pistons, which will be discussing in chapter 1a."
+		""
+		"Clutches turn off rotation when given a redstone signal, such as from a lever. You can turn off huge swaths off machines without breaking a single shaft if placed right. They can be useful if you're running out of SU and you don't need some machines to operate."
+	]
+	quest.2188014C24C00AB0.title: "Control Your Contraptions"
+	quest.21B2F0553C8DA3C1.quest_desc: [
+		"Congratulations on getting it work!"
+		""
+		"Iron sheets are used to craft the rest of the basic Create machines. You'll be crafting them often. You may want to find a way to operate it without manual labour: you only have so many peanut butter hamburgers, after all."
+	]
+	quest.26CB60C2EBDCA444.quest_desc: ["Since you're a dragon now, are iron nuggets really that far off from chicken nuggets in terms of edibleness?"]
+	quest.26CB60C2EBDCA444.title: "Find Nuggets"
+	quest.2832E128EB1B2DB9.title: "Welcome"
+	quest.2A93CFA2627ED3F8.quest_desc: ["You can craft these big boys to generate even more stress units! Give it a shot."]
+	quest.2A93CFA2627ED3F8.title: "MORE POWER!"
+	quest.2D60596BED788EEA.quest_desc: ["The modern computer has many uses and applications that can ease automation and production in your factory. Too bad you have no idea how to use this."]
+	quest.2D60596BED788EEA.title: "Skipping Ahead in the Tech Tree"
+	quest.31789F4CD0EA4FF2.quest_desc: [
+		"Large Cogwheels operate a little differently than small cogwheels, so listen up."
+		""
+		"Small cogs will attach to the corners of large cogs, and the large cog will spin twice as slow as the small cog. Additionally, if you place a large cogwheel next to a large cogwheel, it will connect perpendicularly. This is a good way to move rotation around corners."
+	]
+	quest.31BC7B591DD81EDB.quest_desc: [
+		"If you place a depot right below a machine, then you give yourself a neat, tidy spot to place your crafting materials for your machines to operate on."
+		""
+		"Technically optional. You can just chuck stuff on the floor below a press and it'll do its magic."
+	]
+	quest.3442B87707008E93.title: "Alternate Power"
+	quest.38BF2CAE6EC12222.title: "About Cog Speeds"
+	quest.3A1B3C0A77F150EC.title: "The Factory Must Grow"
+	quest.41606AF427A479A1.quest_desc: [
+		"A water wheel will rotate forever whenever running water passes through its spokes. It will power the mechanical press for you."
+		""
+		"Be warned: a water wheel can only provide \"stress units\", which you can think of as power. If you want to power multiple machines, you'll need to build multiple water wheels."
+	]
+	quest.41606AF427A479A1.title: "Automated Power Please"
+	quest.44286D097B53FD39.quest_desc: ["Cogs can be placed on the end of shafts, and will rotate neighbouring cogs."]
+	quest.47816EB4E84EE905.quest_desc: [
+		"If your water wheel is by the water and your press is far in land, the press isn't going to spin."
+		""
+		"There are plenty of ways to move kinetic energy around, however. Get familiar with shafts and cogs: they're your guild's bread and butter."
+		""
+		"Note: You can NOT use Klinks or Klangs as cogs."
+	]
+	quest.47816EB4E84EE905.title: "Transfering Power Around"
+	quest.4A9769629A5B8E9B.title: "Carry More Stuff!"
+	quest.4C9850CFFBA0FE8B.quest_desc: ["You can also make gold sheets. They're not nearly as helpful iron sheets, but they still have uses."]
+	quest.4E00B85073B1DC78.title: "Using Glue"
+	quest.52CCAE509402927D.title: "Two in One"
+	quest.530E15A5BD357D09.quest_desc: [
+		"Fresh in a new body with a mission from a stranger to rescue them, you look upon the world and realize you have no idea where to start."
+		""
+		"So instead of looking outward, you look inward - you're a former human, whose greatness was in their tenacity to exploit the world with fanciful contraptions to create plentiful bounty for all. This must be the only reason the voice chose you over any other hero across the multiverse."
+		""
+		"So you start your engineering guild from the ground up. It will be long, but with strong problem solving skills, you will soon have everything you ever want and more automated and at your finger tips. You will be able to dominate the world, and stretch your search for this voice out to the stars behind. But for now, you need andesite metals - all basic machines start with a simple alloy."
+	]
+	quest.530E15A5BD357D09.quest_subtitle: "Bring Human Industry to this Land!"
+	quest.530E15A5BD357D09.title: "Start Your Engineering Guild!"
+	quest.58537BAD4A6A58D1.quest_desc: [
+		"Drills don't work well on trees, but saws will do just fine instead. And using them gives you an addicting rush of adrenaline. "
+		""
+		"In fact, if you go out in the world, plop a mechanical saw in front of a tree, and operate it with a handcrank, it'll cut down the WHOLE tree. It saves a lot of time."
+	]
+	quest.58537BAD4A6A58D1.title: "Exploit Violence"
+	quest.5F9A7918F706602E.quest_desc: ["The encased chain drive transfers rotation in a straight line. Unlike cogs, their rotation direction won't alternate every block. They can look nicer than cogs in some places."]
+	quest.64292AE90578D1A7.quest_desc: ["Harvest clouds for the athmospheric condenser."]
+	quest.681A6370892186D5.title: "How to Automate Lava"
+	quest.6CD4E1ADCEEE6B60.title: "Most Useful Tool"
+	quest.6E4E34426C883504.title: "New Logistic Tools"
+	quest.7091A4D0B3222FDF.title: "I've Been Using Storage Drawers!"
+	quest.7709D40C9E7FE1FE.quest_desc: [
+		"Escalators - which can also be placed as walkways - add an incredibly stylish way to effortlessly get around your guild."
+		""
+		"You can even right click them with a mechanical belt to give them handrails, glass to make the handrails see through, and both the handrails and the walkway can be dyed. Use these things!"
+	]
+	quest.7709D40C9E7FE1FE.quest_subtitle: "Mayonaise on the Escalator!"
+	quest.7709D40C9E7FE1FE.title: "Make an Escalator!"
+	quest.7ABCDF82995A0325.quest_desc: [
+		"The encased fan allows you to blow air, water, and lava over various materials to change their state. Blowing lava (\"bulk blasting\") works the same as smelting ore but without any coal cost, and blowing water (\"bulk washing\") gives you new ways to manipulate materials."
+		""
+		"You considered if you could use your fellow guildmembers pals to harnest the power of the elements for a moment, but then the shining spinning of the fan distracts you. You've since never returned to this thought."
+	]
+	quest.7ABCDF82995A0325.title: "Exploit the Elements"
+	quest.7B40E692C6B23D11.quest_desc: [
+		"You craft a press, and are excited to make materials no claw can make on its own. Now to just assemble it."
+		""
+		""
+		"Place the depot on the ground, then put the press two blocks above it. Make sure it's facing down. Once it's in the right place, place the handcrank on the on side with the exposed shaft. Finally, place ingots on the depot, and hold right click on the crank. It will move very slowly, but it will do its job."
+		""
+		"You've seen monsters who can breath fire and summon lightning, yet it pales to the magic of engineering. Surely, this will inspire many Cobblemon to join your guild!"
+	]
+	quest.7B40E692C6B23D11.quest_subtitle: "You're Already Feeling the Power"
+	quest.7B40E692C6B23D11.title: "Your First Machine"
+	quest.7B44830D6D793BD5.title: "Find Two Storages"
+	quest.7DF9292B9A4CB370.quest_subtitle: "What the heck are all those items when I press e???"
+	task.036B28137F61205E.title: "Ethelyene and Proleyene"
+	task.0443033F3FF4F768.title: "Kerosene"
+	task.0AC5C18B39143601.title: "Understood"
+	task.0C6AF58B4E973316.title: "How to Build a Train"
+	task.0D5AA7E800B160D3.title: "Understood"
+	task.0F17964A34C2D44F.title: "Found."
+	task.1D7BC5EFD37AB3A9.title: "Understood"
+	task.1EE6D1370BC82F85.title: "Understood"
+	task.21067DEC181C43E7.title: "Understood"
+	task.320C10207214AB04.title: "It worked!"
+	task.33CB184B1FB6B249.title: "The Path of Automation"
+	task.357E8353BF8ABE81.title: "Carbon"
+	task.415D3F65CEB96CF5.title: "Ethelene and propylene "
+	task.49320E4EB0B4AD3B.title: "Understood"
+	task.4A81998FDA29266C.title: "Understood"
+	task.501D5AEA12506680.title: "How to Build and Operate a Rocket"
+	task.667322DF91FCF5B2.title: "Ethelene and  propylene "
+	task.6ED66D8C4C1A967E.title: "How to Use JEI"
+}

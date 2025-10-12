@@ -1,0 +1,524 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_quest_size: 1.5d
+	filename: "the_stone_age"
+	group: "25AFFF4BEEB54E90"
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:block/andesite"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "2ABB2A702B6169AE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "13BCA5A134625DDC"
+			rewards: [{
+				id: "2B6935CE8AD2F8D5"
+				item: {
+					count: 1
+					id: "minecraft:red_bed"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 4.0d
+			tasks: [{
+				id: "1EE6D1370BC82F85"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["530E15A5BD357D09"]
+			id: "00263C66A24A4E32"
+			tasks: [{
+				id: "78AE8B5F6DB06BAC"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: -5.25d
+		}
+		{
+			dependencies: ["13BCA5A134625DDC"]
+			id: "530E15A5BD357D09"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "33CB184B1FB6B249"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["530E15A5BD357D09"]
+			id: "26CB60C2EBDCA444"
+			rewards: [{
+				id: "22F616852BCBD76F"
+				item: {
+					count: 1
+					id: "create_deepfried:chicken_nuggets"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "432A0E5AE5B99003"
+					item: { count: 1, id: "minecraft:iron_nugget" }
+					type: "item"
+				}
+				{
+					id: "3C206016FF907CDD"
+					item: { count: 1, id: "create:zinc_nugget" }
+					type: "item"
+				}
+			]
+			x: -0.75d
+			y: -5.25d
+		}
+		{
+			dependencies: [
+				"26CB60C2EBDCA444"
+				"00263C66A24A4E32"
+			]
+			id: "1DD6BF171DC10E1C"
+			tasks: [{
+				count: 16L
+				id: "3E1944E3AE70F6F9"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1DD6BF171DC10E1C"]
+			id: "005E2061A2742EA8"
+			tasks: [{
+				id: "2B34F2268E6CB76B"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.75d
+		}
+		{
+			dependencies: ["1DD6BF171DC10E1C"]
+			id: "1269ECC706EC81E3"
+			rewards: [{
+				count: 3
+				id: "6248F3E4E0D0F3B1"
+				item: {
+					count: 1
+					id: "createfood:hamburger_peanut_butter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AC8A5A00F3BA09D"
+				item: { count: 1, id: "create:hand_crank" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.75d
+		}
+		{
+			dependencies: ["1DD6BF171DC10E1C"]
+			id: "31BC7B591DD81EDB"
+			tasks: [{
+				id: "05F69AB23ADCDB93"
+				item: { count: 1, id: "create:depot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: [
+				"1269ECC706EC81E3"
+				"005E2061A2742EA8"
+				"31BC7B591DD81EDB"
+			]
+			id: "7B40E692C6B23D11"
+			size: 2.5d
+			tasks: [{
+				id: "4B2929D0ED91F9BF"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["7B40E692C6B23D11"]
+			id: "21B2F0553C8DA3C1"
+			tasks: [{
+				id: "54AC72E99C534C2C"
+				item: { count: 1, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.75d
+		}
+		{
+			dependencies: ["21B2F0553C8DA3C1"]
+			id: "7ABCDF82995A0325"
+			tasks: [{
+				id: "3BCDABCCA0CD7C22"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -18.75d
+		}
+		{
+			dependencies: ["21B2F0553C8DA3C1"]
+			id: "145CE8B7DF88596A"
+			tasks: [{
+				id: "341A0D9D6F774C76"
+				item: { count: 1, id: "create:mechanical_drill" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -18.75d
+		}
+		{
+			dependencies: ["7B40E692C6B23D11"]
+			id: "4C9850CFFBA0FE8B"
+			tasks: [{
+				id: "10B8E849B92E94B1"
+				item: { count: 1, id: "create:golden_sheet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["4C9850CFFBA0FE8B"]
+			id: "0946E21922298C64"
+			tasks: [{
+				id: "2FCA72DF6C744938"
+				item: { count: 1, id: "ccbr:basic_integrated_circuit" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -12.75d
+		}
+		{
+			dependencies: ["0946E21922298C64"]
+			id: "2D60596BED788EEA"
+			rewards: [
+				{
+					count: 10
+					id: "788F489413FE5D7F"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4A732B84188DF6C1"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4FB0E9754F2F1181"
+				item: { count: 1, id: "computercraft:computer_normal" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["21B2F0553C8DA3C1"]
+			id: "58537BAD4A6A58D1"
+			tasks: [{
+				id: "0C7CDB594DD03FA3"
+				item: { count: 1, id: "create:mechanical_saw" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -18.75d
+		}
+		{
+			dependencies: ["21B2F0553C8DA3C1"]
+			id: "0A5D5740770A55D2"
+			tasks: [{
+				id: "6B1ADBA238AE4F72"
+				item: { count: 1, id: "create:mechanical_harvester" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -18.75d
+		}
+		{
+			dependencies: ["7B40E692C6B23D11"]
+			id: "41606AF427A479A1"
+			tasks: [{
+				id: "0EA7E964EFFA7CA1"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["41606AF427A479A1"]
+			id: "2A93CFA2627ED3F8"
+			tasks: [{
+				id: "1998A4500AEDABF2"
+				item: { count: 1, id: "create:large_water_wheel" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -14.25d
+		}
+		{
+			dependencies: ["41606AF427A479A1"]
+			id: "47816EB4E84EE905"
+			shape: "hexagon"
+			tasks: [{
+				id: "49320E4EB0B4AD3B"
+				type: "checkmark"
+			}]
+			x: 5.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["47816EB4E84EE905"]
+			id: "138F71A191933F1E"
+			tasks: [{
+				id: "2306FFD9DFBDAE34"
+				item: { count: 1, id: "create:shaft" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["138F71A191933F1E"]
+			id: "44286D097B53FD39"
+			tasks: [{
+				id: "5E5F4C2809E4E7D8"
+				item: { count: 1, id: "create:cogwheel" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: -10.5d
+		}
+		{
+			dependencies: ["44286D097B53FD39"]
+			id: "31789F4CD0EA4FF2"
+			tasks: [{
+				id: "3FE1771B9FAA8422"
+				item: { count: 1, id: "create:large_cogwheel" }
+				type: "item"
+			}]
+			x: 11.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["47816EB4E84EE905"]
+			id: "5F9A7918F706602E"
+			tasks: [{
+				id: "33D0B6765AD63B19"
+				item: { count: 1, id: "create:encased_chain_drive" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -12.0d
+		}
+		{
+			dependencies: ["47816EB4E84EE905"]
+			id: "064EC8C54AECDF13"
+			tasks: [{
+				id: "10B20FAA992FF9FC"
+				item: { count: 1, id: "create:gearbox" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -9.0d
+		}
+		{
+			dependencies: ["47816EB4E84EE905"]
+			id: "2188014C24C00AB0"
+			tasks: [
+				{
+					id: "194EA6E52D97518B"
+					item: { count: 1, id: "create:gearshift" }
+					type: "item"
+				}
+				{
+					id: "3B5E21D10ECF6327"
+					item: { count: 1, id: "create:clutch" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: -8.25d
+		}
+		{
+			dependencies: ["31789F4CD0EA4FF2"]
+			id: "21072825C73FB514"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "612550DCD06EC584"
+					item: { count: 1, id: "copycats:copycat_shaft" }
+					type: "item"
+				}
+				{
+					id: "7A2DAAA6003F296E"
+					item: { count: 1, id: "petrolsparts:corner_shaft" }
+					type: "item"
+				}
+				{
+					id: "2D077267762EE041"
+					item: { count: 1, id: "gnkinetics:tiny_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "445A6261B5D45CD9"
+					item: { count: 1, id: "gnkinetics:shaftless_tiny_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "540937339B10A7A9"
+					item: { count: 1, id: "copycats:copycat_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "775BF6D486E471C3"
+					item: { count: 1, id: "gnkinetics:cog_crank" }
+					type: "item"
+				}
+				{
+					id: "26665A0A279D13AF"
+					item: { count: 1, id: "gnkinetics:shaftless_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "3EFEF991285C934B"
+					item: { count: 1, id: "petrolsparts:coaxial_gear" }
+					type: "item"
+				}
+				{
+					id: "1CB6003FEC356F3E"
+					item: { count: 1, id: "gnkinetics:cogstone" }
+					type: "item"
+				}
+				{
+					id: "6D364AC0958C4535"
+					item: { count: 1, id: "gnkinetics:shaftless_cogstone" }
+					type: "item"
+				}
+				{
+					id: "03298A5156463F5E"
+					item: { count: 1, id: "copycats:copycat_large_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "6892782DBDAE8CE8"
+					item: { count: 1, id: "gnkinetics:large_cog_crank" }
+					type: "item"
+				}
+				{
+					id: "30A91F47CC6FA338"
+					item: { count: 1, id: "gnkinetics:chainable_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "18B2AABF263DD637"
+					item: { count: 1, id: "gnkinetics:shaftless_large_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "43D31CE1665879D3"
+					item: { count: 1, id: "petrolsparts:large_coaxial_gear" }
+					type: "item"
+				}
+				{
+					id: "426466603051F89B"
+					item: { count: 1, id: "petrolsparts:planetary_gearset" }
+					type: "item"
+				}
+			]
+			x: 12.75d
+			y: -10.5d
+		}
+		{
+			dependencies: ["21072825C73FB514"]
+			hide_until_deps_complete: true
+			id: "15DCA245B19B9667"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "611EF488212616E7"
+					item: { count: 1, id: "gnkinetics:ring_gear" }
+					type: "item"
+				}
+				{
+					id: "1F02502806C026CB"
+					item: { count: 1, id: "petrolsparts:colossal_cogwheel" }
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["21B2F0553C8DA3C1"]
+			id: "7709D40C9E7FE1FE"
+			rewards: [{
+				id: "47F60257E1A55055"
+				item: {
+					count: 1
+					id: "create_bic_bit:mayonnaise_bottle"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4985F83217ED0317"
+				item: { count: 1, id: "escalated:metal_walkway_steps" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -15.75d
+		}
+		{
+			id: "4A9769629A5B8E9B"
+			tasks: [{
+				id: "7216A33D2F32D9D1"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 3.75d
+		}
+		{
+			id: "7DF9292B9A4CB370"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6ED66D8C4C1A967E"
+				type: "checkmark"
+			}]
+			x: 2.25d
+			y: 5.25d
+		}
+	]
+}

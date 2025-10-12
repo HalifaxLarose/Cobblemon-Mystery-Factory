@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4_future_age"
+	group: "25AFFF4BEEB54E90"
+	icon: {
+		id: "oritech:black_hole_block"
+	}
+	id: "035D1ABF4FA1F630"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "65959938A199D292"
+		tasks: [{
+			id: "28F05F65B34493CE"
+			item: { count: 1, id: "cobblemon:poke_ball" }
+			type: "item"
+		}]
+		x: -4.0d
+		y: 3.0d
+	}]
+}
