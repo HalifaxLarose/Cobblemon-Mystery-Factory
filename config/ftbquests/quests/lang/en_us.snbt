@@ -21,7 +21,18 @@
 		"It's unconventional crafting, but it has its charm."
 	]
 	quest.005E2061A2742EA8.title: "Andesite Casing"
+	quest.02834CB5B60C35E0.quest_desc: [
+		"As you automate, you will need to move things from one machine to the next. You will also need to store items, especially in bulk. There are many, many tools to accomplish this, go through each one at a time."
+		""
+		"The items to the top right detail tools used to move items and have them enter and exit any storage. To the top left and top right are two powerful storage solutions. To the left are tools to help you manage factory and stress units."
+		""
+		"Dive right in and use these items, you'll pick up faster than just reading everything here."
+	]
+	quest.02834CB5B60C35E0.quest_subtitle: "How to get stuff around"
 	quest.02834CB5B60C35E0.title: "Logistics"
+	quest.0292D2861DD21B47.title: "Become a Cardboard Warrior!"
+	quest.033E501F0A85FEE8.quest_desc: ["Trust me, you never ever have enough belts. You'll aways need more."]
+	quest.033E501F0A85FEE8.title: "Automate Mechanical Belts!"
 	quest.064EC8C54AECDF13.quest_desc: [
 		"The gearbox is an incredibly dear friend. It branches rotational power into three different directions at once!"
 		""
@@ -29,11 +40,30 @@
 	]
 	quest.067C4963FADE5BAC.title: "Deck Your Train Out!"
 	quest.0946E21922298C64.quest_desc: ["One of the uses of golden sheets is advanced electronics. Actually, maybe gold sheets aren't that useless."]
-	quest.0A5D5740770A55D2.quest_desc: ["You can't grow a strong Guild without food to fuel everyone. This should help feed mouths. Plus, your guild wouldn't be popular if members were known to starve."]
-	quest.0A5D5740770A55D2.title: "Exploit Nature's Bounty"
+	quest.09AF652C5BF6375C.quest_desc: [
+		"Finally, you cook the dough into bread. See if you can get 64 items."
+		""
+		"If you been using JEI, you may have noticed there's a lot of recipes involving dough, flour, or bread. Feel free to experiment with automating  something fancier and more filling!"
+	]
+	quest.09AF652C5BF6375C.title: "Automate Bread!"
+	quest.0AEE300448ED5FA7.quest_desc: [
+		"Using a drill with a cobblestone generator involves dropping entities into the world. This can cause server lag quick if things aren't finely tuned."
+		""
+		"The mechanical extruder does the same job as a mechanical drill. When placed next to water and lava, it will create cobblestone internally, which can then be placed onto a belt with a funnel."
+	]
+	quest.0AEE300448ED5FA7.quest_subtitle: "Upgrades, people!"
 	quest.0B19548897BFDF79.title: "Now Give it a Try"
 	quest.0D9DCD0E20610EA8.quest_subtitle: "It's Going Upstairs so See Ya Later!"
 	quest.0D9DCD0E20610EA8.title: "Build an Elevator!"
+	quest.108410E4B63C51E8.quest_desc: ["You can wash gravel to uncover flint and iron nuggets burried beneath. You may want to use the storage drawer filtering trick to separate them from the assembly line."]
+	quest.10B277D07A049ED3.quest_desc: [
+		"This thing's lame."
+		""
+		"If a stack passes through it and it's connected to two outgoing belts, it'll split exactly one item off the top. That's it."
+		""
+		"It works better as a decoration piece."
+	]
+	quest.11157DC7D8C40913.title: "Become a Cardboard Handyman!"
 	quest.1269ECC706EC81E3.quest_desc: [
 		"Machines need power to move. A handcrank lets you supply that power through manual effort."
 		""
@@ -41,14 +71,49 @@
 	]
 	quest.138F71A191933F1E.quest_desc: ["You can probably guess how these work."]
 	quest.13BCA5A134625DDC.title: "Welcome to the World of Cobblemon Mystery Factory!"
-	quest.145CE8B7DF88596A.quest_desc: ["The drill should give you the rawest of resources to build everything upon. Maybe someday, it'll even break the heavens."]
-	quest.145CE8B7DF88596A.title: "Exploit the Ground Beneath You"
+	quest.15632D26666A0CBF.quest_desc: [
+		"The toolbox lets you store a few stacks of single items. You can then select what item you want by holding down left alt."
+		""
+		"The best part is that you can do this even if you place down the toolbox in the world. Load your toolbox up with your most frequently placed items like shafts and gears."
+	]
+	quest.15632D26666A0CBF.title: "Help! Minecraft's UI Sucks!"
 	quest.15DCA245B19B9667.quest_desc: ["These two cogwheels are HUGE. Too huge, in fact: you won't be able to craft them until chapter 2. So close to completing your collection..."]
 	quest.15DCA245B19B9667.title: "This is Getting Ridiculous"
+	quest.1626D22A68A81C35.quest_desc: ["Goggles are invaluable for factory building. They let you see stats about various machines, including how much stress they're consuming, how fast things are spinning, and more. Grab a pair when you can."]
+	quest.1626D22A68A81C35.quest_subtitle: "See Beyond"
+	quest.19258004F540C3FD.quest_desc: [
+		"Just check the ponder."
+		""
+		"They can be really helpful if you run out of space."
+	]
 	quest.19258004F540C3FD.title: "The WTF Way to Do Things"
+	quest.19B6477802FF062A.quest_desc: ["This cool upgrade lets you see how full your drawer is."]
+	quest.1CAF150BFDBD8E3E.quest_desc: [
+		"Contraptions will harvest the natural world for you, but everything it picks up will be stashed inside any inventory block glued to the machine."
+		""
+		"If you don't want to stop the contraption just to pick up the loot, you will need a portable storage interface. One gets glued to the contraption, while one is placed inside the world. When the interface on the contraption and the interface in the world line up, they will connect, and the contraption's inventory will be transfered into the other interface. You can then use a funnel to extract its contents."
+	]
+	quest.1CAF150BFDBD8E3E.title: "Wait, how Do I Get my Items off my Contraption?"
 	quest.1DD6BF171DC10E1C.quest_desc: ["Andesite alloy is a material used for almost all of the early machines of the Create mod. You will want to stockpile them."]
 	quest.1DD6BF171DC10E1C.quest_subtitle: "The Tier 1 Material"
 	quest.1DD6BF171DC10E1C.title: "Craft Andesite Alloy"
+	quest.1E5A4DE3BDDA2DA7.quest_desc: [
+		"You can use a mechanical presser to turn kelp into dried kelp blocks."
+		""
+		"Dried kelp blocks are an incredible source of furnace fuel, if setting up tree farms are too annoying to work with."
+	]
+	quest.208060DC3A35D465.quest_desc: [
+		"Vaults excel at storing an immense amount of items in one inventory. They are like gigachests."
+		""
+		"Their caveat is that you can't access them directly. You'll have to extract items using funnels and espots. This isn't quite a problem if you have only every have one type of item in storage, and in chapter 2, you'll have ways to filter extraction. They're also great for buffers or mass transport on trains."
+	]
+	quest.208060DC3A35D465.title: "One Storage for Mass Items"
+	quest.20BDC6C99562DECC.quest_desc: [
+		"Finally, you can mix andesite and nuggets to make andesite alloy."
+		""
+		"The best part is that this creates more andesite alloy than crafting by hand!"
+	]
+	quest.20BDC6C99562DECC.title: "Automate Andesite Alloy!"
 	quest.21072825C73FB514.quest_desc: ["Create's many addons on adds a wide variety of cogs and shafts. Try to collect all of the strangest ones there are!"]
 	quest.21072825C73FB514.title: "Collect all the Cogs"
 	quest.2188014C24C00AB0.quest_desc: [
@@ -62,13 +127,43 @@
 		""
 		"Iron sheets are used to craft the rest of the basic Create machines. You'll be crafting them often. You may want to find a way to operate it without manual labour: you only have so many peanut butter hamburgers, after all."
 	]
+	quest.21E8F2DA6F9C0AD1.quest_desc: ["Wheat, a familiar beloved crop, is one such crop that can be automated with the harvester."]
+	quest.23CCE09AC12A8F37.quest_desc: [
+		"Kelp can be smelted or bulk blasted into dried kelp, which can be used directly to craft belts and handles."
+		""
+		"However, you can't automatically craft belts from dried kelp, not until next chapter. To complete production, there's a few steps left."
+	]
+	quest.26A6308CF7AE20CC.quest_desc: ["This gizmo lets you insert items into vaults directly from your hands."]
 	quest.26CB60C2EBDCA444.quest_desc: ["Since you're a dragon now, are iron nuggets really that far off from chicken nuggets in terms of edibleness?"]
 	quest.26CB60C2EBDCA444.title: "Find Nuggets"
 	quest.2832E128EB1B2DB9.title: "Welcome"
+	quest.2A6F263F498ADA48.quest_desc: [
+		"These oak drawers will become your best friend. They can only store one type of item, but they will store huge amounts of it. Since you're likely to be mass producing singular items, these drawers can be more convenient than regular chests."
+		""
+		"You can also craft two half drawers, or four quarter shelves, if you don't quite need the space a full drawer provides."
+	]
+	quest.2A6F263F498ADA48.title: "Mass Storage for One Item"
 	quest.2A93CFA2627ED3F8.quest_desc: ["You can craft these big boys to generate even more stress units! Give it a shot."]
 	quest.2A93CFA2627ED3F8.title: "MORE POWER!"
+	quest.2BDF2361DAF97D58.quest_desc: [
+		"Water in front of an spinning encased fan will spit out bubbles. Any item caught inside these bubbles will be washed, transforming into a different item, if applicable."
+		""
+		"Keep in mind, increasing the fan speed only makes the fan project further. It will always take the same amount of time to wash an item no matter how fast or slow the fan is."
+	]
+	quest.2BDF2361DAF97D58.title: "Bulk Washing"
 	quest.2D60596BED788EEA.quest_desc: ["The modern computer has many uses and applications that can ease automation and production in your factory. Too bad you have no idea how to use this."]
 	quest.2D60596BED788EEA.title: "Skipping Ahead in the Tech Tree"
+	quest.2EAD774DE4B57AFC.title: "DON'T CRASH"
+	quest.30BB4ADF4FBEEE1C.quest_desc: [
+		"Flour needs to be mixed with water to turn into dough. Place a basin under a mix, and use a water bucket to fill it with water."
+		""
+		"The water will be temporary, however. Chapter 2 will teach you how to refill a basin with fluids automatically."
+	]
+	quest.30FD5EF31A2DC266.quest_desc: [
+		"When placed at the end of a conveyor belt, any item will hop onto the saw and be cut into the selected recipe. It will then continue onto the next belt if there's one behind it. This process lets you craft &nany stonecutting recipe&r in the game."
+		""
+		"Do note: the saw's shafts must be spinning in the opposite direction to the conveyor belt."
+	]
 	quest.31789F4CD0EA4FF2.quest_desc: [
 		"Large Cogwheels operate a little differently than small cogwheels, so listen up."
 		""
@@ -79,16 +174,91 @@
 		""
 		"Technically optional. You can just chuck stuff on the floor below a press and it'll do its magic."
 	]
+	quest.3360599F5B1838CB.quest_desc: [
+		"Since the recipe for an iron ingot is a 3x3 square of nuggets, they can be compacted with a mechanical press."
+		""
+		"Enjoy never needing to go on an iron mining errand. You can safely ignore all those ores now."
+	]
+	quest.3360599F5B1838CB.title: "Iron Ingots"
+	quest.3442B87707008E93.quest_desc: [
+		"Hopefully you've figured out how to set up moving contraptions! With this skilled learnt, you now have an alternative to water: wind power."
+		""
+		"You use a windmill bearing instead of a mechanical bearing, and you glue windmill sails anywhere on the connected contraption."
+		""
+		"Wind power will be more powerful than waterwheels, but their rotational speed is extremely slow and requires a lot of gearshifting."
+	]
 	quest.3442B87707008E93.title: "Alternate Power"
+	quest.35125530BA715478.quest_desc: ["Apicrots grow grom trees. Therefore, a tree farm is the best way to automate them."]
+	quest.357E014D47850417.quest_desc: ["The quantify key is used like a drawer key, but it does something completely different: it'll display how many items are being stored on the drawer."]
+	quest.357E014D47850417.title: "See Your Stock"
+	quest.361611B3CFF5F931.quest_desc: ["Automating cobblestone is a long and ancient history of two opposite forces of nature working in harmony."]
+	quest.37CA42075D974411.quest_desc: [
+		"The conveyor belt is your bread and butter for transporting items around. It works exactly how you'd expect."
+		""
+		"To place one, set two flat shafts down, then right click them while holding the belt. After it's placed, you can right click the belt with a shaft to add more shafts to it."
+		""
+		"Certain machines can operate on items while they're on conveyor belts. Encased fans, mechanical presses, mechanical saws, and spouts are the largest examples."
+	]
+	quest.3889FC150AD4A37F.quest_desc: [
+		"This is the second most important item for logistics, next to the mechanical belt. Depending on how they're set up, they will automatically output items from inventory storages onto depots, belts, etc., or take items off of belts and into inventory storages or machines."
+		""
+		"They work on everything that \"stores\" something. This includes depots, chests, storage drawers, vaults, furnaces, etc. You'll use them everywhere."
+	]
+	quest.38BF2CAE6EC12222.quest_desc: [
+		"Cogs and shafts can rotate at different speeds. Machines operated at higher speeds will take more stress, but will process items faster. Additionally, some machines require high speeds to operate."
+		""
+		"To change rotational speeds, you can carefully layer small and large cogwheels, as small cogs will spin twice as fast as any large cogwheels connected to its side."
+	]
 	quest.38BF2CAE6EC12222.title: "About Cog Speeds"
 	quest.3A1B3C0A77F150EC.title: "The Factory Must Grow"
+	quest.3AA5F12C4C48146C.quest_desc: ["Transmission Chains allows you to transfer rotational power between successive belts. Without it, you'll need to awkwardly place encased chain drives and gearboxes around your belts' ends."]
+	quest.3C4DE60854B564A5.quest_desc: ["The rolling mill is a niche machine that is predominantly used to create rods and wires for circuitry. However, it can be used to roll dried kelp blocks into mechanical belts."]
+	quest.3C87FD031586626D.quest_desc: ["Speedometers let you see how fast its connected shaft is rotating."]
+	quest.3C87FD031586626D.title: "How Fast are You?"
+	quest.3CB038C1A63EE776.quest_desc: [
+		"The millstone crushes whatever is inside."
+		""
+		"You can insert items by dropping them on top and output finished recipes with the funnel on the bottom. You can also add input and output funnels directly to the sides of the millstone. It will look very weird, but it will work."
+	]
+	quest.3CB038C1A63EE776.quest_subtitle: "Doing things old school"
+	quest.3D5936265F6B6CE5.quest_desc: [
+		"Automation is key to healthy industrialization. As your guild grows, you'll want to automate key resources, else you'll struggle to keep up with demand and you'll fail your fellow guildmembers."
+		""
+		"Almost anything can be automated in this world. To help narrow down your options, this chapter serves as a guide to common farms any engineering guild will want set up. Try picking a resource in a rectangular square you want and work from there."
+		""
+		"Additionally, the quests to the right will explain logistics for you. And don't get overwhelmed! Celebrate any failures you may have - experience is the sum of learnt mistakes."
+	]
+	quest.3D5936265F6B6CE5.title: "Begin Mass Production"
+	quest.3E5F0C50D261AC2F.quest_subtitle: "...What?"
+	quest.3E5F0C50D261AC2F.title: "Become a Cardboard God!"
+	quest.3FD4C8C666C4977B.quest_desc: [
+		"The most complex recipe of this chapter, you can combine gravel, flint, and lava in a basin under a press to create andesite."
+		""
+		"If spliting the gravel from your iron farm is too much of a headache, you can always build a second cobblestone generator."
+		""
+		"Working with fluids is covered in chapter 2."
+	]
+	quest.40DF0F34B630142A.quest_desc: ["The mechanical mixer will mix items and fluids found in a basin together. There's many unique processes that can be done with this, but you can also use this process to &nautomatically craft any crafting table recipe in the game&r that does not require its ingredients to be in a specific shape."]
 	quest.41606AF427A479A1.quest_desc: [
 		"A water wheel will rotate forever whenever running water passes through its spokes. It will power the mechanical press for you."
 		""
 		"Be warned: a water wheel can only provide \"stress units\", which you can think of as power. If you want to power multiple machines, you'll need to build multiple water wheels."
 	]
 	quest.41606AF427A479A1.title: "Automated Power Please"
+	quest.41B3D4B4B97A5FCF.quest_desc: [
+		"You can plant many saplings into a circular field, and a let mechanical saws spin around. When the saplings grow, the saws will cut down the entire tree, picking up all its contents and placing it in the storage interface."
+		""
+		"Unlike harvesters, saplings aren't automatically replaced by the saws themselves, and you lack the tool that allows you to automatically plant them.. However, planting an entire field of saplings will last you surprising while."
+		""
+		"Note: to automate apricorns, you'll need apricorn spouts in particular. These have a chance of dropping when plucking an apricorn fruit."
+	]
+	quest.41B3D4B4B97A5FCF.title: "Automate Lumber"
 	quest.44286D097B53FD39.quest_desc: ["Cogs can be placed on the end of shafts, and will rotate neighbouring cogs."]
+	quest.471CDA944D6A8C40.quest_desc: [
+		"The chute is similar to a funnel in that it will take items out of storage or put them into storage."
+		""
+		"The difference is that they are 100% gravity operated. They only take items out when on the bottom of storage, and only place items in on top of storage. They can be placed diagonally and two chute chains can merge together, that being said."
+	]
 	quest.47816EB4E84EE905.quest_desc: [
 		"If your water wheel is by the water and your press is far in land, the press isn't going to spin."
 		""
@@ -97,9 +267,27 @@
 		"Note: You can NOT use Klinks or Klangs as cogs."
 	]
 	quest.47816EB4E84EE905.title: "Transfering Power Around"
+	quest.47BB063334F8C001.quest_desc: ["Storage space upgrades increase how many items can be stored at once. It's useful."]
 	quest.4A9769629A5B8E9B.title: "Carry More Stuff!"
 	quest.4C9850CFFBA0FE8B.quest_desc: ["You can also make gold sheets. They're not nearly as helpful iron sheets, but they still have uses."]
-	quest.4E00B85073B1DC78.title: "Using Glue"
+	quest.4E00B85073B1DC78.quest_desc: [
+		"The magic of Create is the ability to craft your own moving \"contraptions\" comprised of multiple blocks. This is required for farms that use the saw and the harvester, as you'll want those machines to spin around to catch newly grown crops."
+		""
+		"Glue is what holds these large contraptions together. Set a bearing down, add blocks ontop of its sticky side, and glue everything together with right click. Then when you start rotating the bearing, the whole contraption spins as one, and any machines on it will interact with the world."
+		""
+		"It'll take some trial and error. These machines however, will be key to saving the voice who awakened you."
+	]
+	quest.4E00B85073B1DC78.quest_subtitle: "Stick to it"
+	quest.4E00B85073B1DC78.title: "Building Contraptions with Glue"
+	quest.50E775A4D1C98DB6.quest_desc: [
+		"Quite a few automation tasks will produce multiple items in the same line. For example, automating iron nuggets will produce excess flint. Andesite funnels aren't smart enough to do any filtering, but there is a sneaky workaround."
+		""
+		"If you assign an item to a drawer and lock it with the drawer key, the drawer will only ever accept its one assigned item. Sticking a funnel onto them next to a belt is the best way to filter items in production lines."
+		""
+		"Be mindful that if a storage is full, it'll skip collecting items. See the void upgrade for workarounds."
+	]
+	quest.50E775A4D1C98DB6.title: "Important: Filtering!"
+	quest.52CCAE509402927D.quest_desc: ["Hey, what if we just combined these two machines into one?"]
 	quest.52CCAE509402927D.title: "Two in One"
 	quest.530E15A5BD357D09.quest_desc: [
 		"Fresh in a new body with a mission from a stranger to rescue them, you look upon the world and realize you have no idea where to start."
@@ -110,18 +298,82 @@
 	]
 	quest.530E15A5BD357D09.quest_subtitle: "Bring Human Industry to this Land!"
 	quest.530E15A5BD357D09.title: "Start Your Engineering Guild!"
-	quest.58537BAD4A6A58D1.quest_desc: [
-		"Drills don't work well on trees, but saws will do just fine instead. And using them gives you an addicting rush of adrenaline. "
+	quest.548F517F8BA2ED6B.quest_desc: [
+		"The mechanical press is a powerful tool. It has two uses."
 		""
-		"In fact, if you go out in the world, plop a mechanical saw in front of a tree, and operate it with a handcrank, it'll cut down the WHOLE tree. It saves a lot of time."
+		"First, there are many recipes that can only be performed using the press, such as pressing iron ingots into iron sheets."
+		""
+		"Second, the mechanical press can craft every crafting recipe in the game whose shape is a 2x2 or 3x3 grid of the same ingredient. This is called \"compacting.\""
+		""
+		"Presses can operate on a depot, in a basin, or directly on a mechanical belt."
 	]
-	quest.58537BAD4A6A58D1.title: "Exploit Violence"
+	quest.55C84F908B2139C1.quest_desc: [
+		"When a storage drawer with the void upgrade receives an item while at full capacity, it will destroy the item. This is extremely useful to prevent backlog and overflow."
+		""
+		"It's also important for keeping server lag down, as clogged up systems tend to drop stuff onto the ground."
+	]
+	quest.56A19205C33CA00F.quest_desc: ["The direct chute transfer items directly from one inventory to another inventory storage, no need for a belt inbetween."]
+	quest.58835D0F5F9BCF7D.quest_desc: [
+		"When a spinning encased fan is placed in front of lava, it will project lava particles. Any item caught in these flames will either be smelted, or be incinerated. This is called \"bulk blasting\". Any item that can be made in a blaster can made this way instead."
+		""
+		"Do note: this is obviously extremely dangerous, so be careful. In order to not get lava anywhere, you can contain it in trapdoors. An open trapdoor will not let lava flow out, nor will it block the fan."
+		""
+		"In addition, increasing the fan speed only makes the fan project further. It will always take the same amount of time to smelt goods no matter how fast or slow the fan is."
+	]
+	quest.5D304AD3C66A4942.quest_desc: ["The stressometer allows you to see the total stress units available for the entire mechanical network. It'll let you upgrade power before things break."]
+	quest.5D304AD3C66A4942.title: "How Stressed Are You?"
+	quest.5D416510290959B2.title: "yeah"
+	quest.5F6D0517D279089E.title: "Automate Planks!"
 	quest.5F9A7918F706602E.quest_desc: ["The encased chain drive transfers rotation in a straight line. Unlike cogs, their rotation direction won't alternate every block. They can look nicer than cogs in some places."]
+	quest.60830DE9CF9FADC6.quest_desc: [
+		"You can get the base ingredients for a pokeball, but alas, you lack the tools to do the final assembly."
+		""
+		"Still, with its components automated, it can be easy to craft large quantities of pokeballs at once. See if you can get half a stack!"
+	]
+	quest.60830DE9CF9FADC6.title: "Automate Pokeballs?"
+	quest.60A46DD0FE6B9295.quest_desc: ["Your tree farm will produce saplings, sticks, logs, and even apples if using an oak log. You could store these all, but you're most likely interested in the lumber, as it can be processed into sweet furniture. And your guild absolutely needs some stylsh interior deco."]
+	quest.60A46DD0FE6B9295.title: "Get Logs"
 	quest.64292AE90578D1A7.quest_desc: ["Harvest clouds for the athmospheric condenser."]
-	quest.681A6370892186D5.title: "How to Automate Lava"
-	quest.6CD4E1ADCEEE6B60.title: "Most Useful Tool"
+	quest.6CD4E1ADCEEE6B60.quest_desc: [
+		"The Create Wrench let's you rotate blocks around. It also lets you instantly break Create blocks and return them to your inventory when crouch-clicked."
+		""
+		"Pick this up asap. It'll save you hours of mining shafts, gearboxes, belts, and machines."
+	]
+	quest.6CD4E1ADCEEE6B60.quest_subtitle: "Mandatory Pickup"
+	quest.6CD4E1ADCEEE6B60.title: "The Most Useful Tool"
 	quest.6E4E34426C883504.title: "New Logistic Tools"
+	quest.6FB53F649D7A1E96.quest_desc: ["Harvesters will harvest ANY type of crop. &oAny&r. They will also replant crop seeds automatically. They only really work as part of contraptions, however."]
+	quest.6FB53F649D7A1E96.title: "Automated Harvesting"
+	quest.70013AFEA5B49966.quest_desc: ["If you bulk blast logs, you get charcoal. This is free and infinite. See if you can stockpile a healthy amount of charcoal!"]
+	quest.70013AFEA5B49966.title: "Automate Charcoal!"
 	quest.7091A4D0B3222FDF.title: "I've Been Using Storage Drawers!"
+	quest.728B07747E8065F9.quest_desc: [
+		"Believe it or not, there's a completely vanilla way to automate lava."
+		""
+		"Place down a dripstone block in the air. Attach pointed dripstones beneath it and above it, place a contained lava source block. Lava will then slowly drip out of the pointed dripstone."
+		""
+		"This lava can be collected in a basin. This process is very slow, so it's recommended to make multiple basins to collect lava."
+		""
+		"Lava from the basins can then be pumped out. Start chapter 2 for more info."
+	]
+	quest.728B07747E8065F9.title: "Automating Lava"
+	quest.74AFBD46BF0C8F43.quest_desc: [
+		"The mechanical drill, when powered, will mine anything in front of it."
+		""
+		"This is usually used in tandem with a cobblestone generator."
+	]
+	quest.75FE6A13236FD377.quest_desc: [
+		"Storage drawers can be upgraded in many ways. The most useful ones are to have more storage space, and to let input be destroyed if the drawer is full. You will need storage templates to craft all of these upgrades."
+		""
+		"There's far more upgrades than the ones listed above this quest."
+	]
+	quest.75FE6A13236FD377.title: "Upgrade Your Drawers"
+	quest.7627D69FB436707E.quest_desc: [
+		"Kelp may not look like a crop, but the harvester works with it all the same. And as long as one piece of kelp remains planted in soil, it will keep growing more kelp."
+		""
+		"And don't worry: contraptions will work safely underwater."
+	]
+	quest.767CE983B352411F.quest_desc: ["Feed cobblestone into a millstone to break it into gravelly pieces."]
 	quest.7709D40C9E7FE1FE.quest_desc: [
 		"Escalators - which can also be placed as walkways - add an incredibly stylish way to effortlessly get around your guild."
 		""
@@ -129,12 +381,14 @@
 	]
 	quest.7709D40C9E7FE1FE.quest_subtitle: "Mayonaise on the Escalator!"
 	quest.7709D40C9E7FE1FE.title: "Make an Escalator!"
-	quest.7ABCDF82995A0325.quest_desc: [
-		"The encased fan allows you to blow air, water, and lava over various materials to change their state. Blowing lava (\"bulk blasting\") works the same as smelting ore but without any coal cost, and blowing water (\"bulk washing\") gives you new ways to manipulate materials."
+	quest.78E3D9D10DC8A719.quest_desc: [
 		""
-		"You considered if you could use your fellow guildmembers pals to harnest the power of the elements for a moment, but then the shining spinning of the fan distracts you. You've since never returned to this thought."
+		"When an encased fan is placed in front of a campfire, it will project its smoke in front of it. This is called \"bulk smoking.\" Any item caught in front of it will cook if possible."
+		""
+		"Every recipe that can be made inside a smoker can be also be done using bulk smoking."
+		""
+		"Keep in mind, increasing the fan speed only makes the fan project further. It will always take the same amount of time to smoke food no matter how fast or slow the fan is."
 	]
-	quest.7ABCDF82995A0325.title: "Exploit the Elements"
 	quest.7B40E692C6B23D11.quest_desc: [
 		"You craft a press, and are excited to make materials no claw can make on its own. Now to just assemble it."
 		""
@@ -146,23 +400,41 @@
 	quest.7B40E692C6B23D11.quest_subtitle: "You're Already Feeling the Power"
 	quest.7B40E692C6B23D11.title: "Your First Machine"
 	quest.7B44830D6D793BD5.title: "Find Two Storages"
+	quest.7BE1B1C55DE7C188.quest_desc: [
+		"Wheat can automatically processed into bread, but you need a few fancy steps, at least at this stage. Mix it in with some water."
+		""
+		"The first is to mill it into flour with a millstone."
+	]
 	quest.7DF9292B9A4CB370.quest_subtitle: "What the heck are all those items when I press e???"
+	task.00BACF868F130380.title: "4x64 Charcoal"
+	task.020424D7ED6084FF.title: "Any Stripped Log"
 	task.036B28137F61205E.title: "Ethelyene and Proleyene"
 	task.0443033F3FF4F768.title: "Kerosene"
+	task.0624199736CE2BB7.title: "Understood"
 	task.0AC5C18B39143601.title: "Understood"
 	task.0C6AF58B4E973316.title: "How to Build a Train"
 	task.0D5AA7E800B160D3.title: "Understood"
 	task.0F17964A34C2D44F.title: "Found."
+	task.180E36A68E5D7A5B.title: "Any Toolbox"
+	task.1918877266F1A840.title: "Any Log"
 	task.1D7BC5EFD37AB3A9.title: "Understood"
 	task.1EE6D1370BC82F85.title: "Understood"
 	task.21067DEC181C43E7.title: "Understood"
+	task.22BB11900BEB46EA.title: "4x64 Andestite Alloy"
+	task.23B3CF8AE8F81B3A.title: "4x64 Wooden Planks"
+	task.23E5B0E290D3DDC2.title: "4x64 Mechanical Belts"
 	task.320C10207214AB04.title: "It worked!"
 	task.33CB184B1FB6B249.title: "The Path of Automation"
-	task.357E8353BF8ABE81.title: "Carbon"
 	task.415D3F65CEB96CF5.title: "Ethelene and propylene "
+	task.46AA680FC9346250.title: "Any Apricorn Sprout"
 	task.49320E4EB0B4AD3B.title: "Understood"
 	task.4A81998FDA29266C.title: "Understood"
 	task.501D5AEA12506680.title: "How to Build and Operate a Rocket"
+	task.579ECBE69A1D03F0.title: "Any Sapling"
+	task.5F2B6C08EBB5F45B.title: "Any Apricorn"
+	task.62181154F14B523B.title: "Understood"
 	task.667322DF91FCF5B2.title: "Ethelene and  propylene "
 	task.6ED66D8C4C1A967E.title: "How to Use JEI"
+	task.6FC099E3F355ACE0.title: "Any 32 Pokeballs"
+	task.739E84BBF8AFBD82.title: "From A to B"
 }

@@ -60,8 +60,8 @@
 				item: { count: 1, id: "oritech:fragment_forge_block" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			id: "03BECF0CDFE6C49B"
@@ -183,8 +183,8 @@
 				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: -1.5d
+			x: -9.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["45F01D8B0C98DD80"]
@@ -201,8 +201,8 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
-			y: -1.5d
+			x: -11.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["32752DB90B322E59"]
@@ -266,7 +266,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3AAE0B043681A6D7"]
@@ -277,7 +277,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
 			id: "3AAE0B043681A6D7"
@@ -287,15 +287,17 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
+			dependencies: ["433141BA6C552F74"]
 			id: "172BC54EE5CD221C"
 			tasks: [{
-				id: "357E8353BF8ABE81"
-				type: "checkmark"
+				id: "5636BB233E951ACA"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
 			}]
-			x: -8.0d
+			x: -5.0d
 			y: 2.5d
 		}
 		{
@@ -353,7 +355,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["2A61636D7E40492D"]
+			dependencies: [
+				"2A61636D7E40492D"
+				"433141BA6C552F74"
+			]
 			id: "35D2DE55D0A8F5E2"
 			tasks: [{
 				id: "552BC667297AE65B"
@@ -505,7 +510,39 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["35D2DE55D0A8F5E2"]
+			id: "592CD9583CECC0EF"
+			tasks: [{
+				id: "2EF7186CD3FA1EB8"
+				item: { count: 1, id: "oritech:machine_extender" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "4D84153928AA6768"
+			tasks: [{
+				id: "186BA344D295A47B"
+				item: { count: 1, id: "oritech:machine_efficiency_addon" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["034A82636C6D606D"]
+			id: "33297A73CFB10E08"
+			tasks: [{
+				id: "502C34C6E4B8EC16"
+				item: { count: 1, id: "oritech:fuel_generator_block" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
 		}
 	]
 }

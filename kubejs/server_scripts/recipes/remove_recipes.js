@@ -1,6 +1,27 @@
 ServerEvents.recipes(event => {
     const recipeRemove = [
-        {output: "cobblemon:healing_machine", input: "cobblemon:revive"}
+        {output: "cobblemon:healing_machine", input: "cobblemon:revive"},
+
+        // Chapter 2
+        {output: "oritech:steel_ingot", type: "create:mixing"},
+        {type: "create:mechanical_crafting", output: "createaddition:alternator"},
+        {type: "create:mechanical_crafting", output: "createaddition:electric_motor"},
+        {type: "create:mechanical_crafting", output: "createaddition:tesla_coil"},
+        {id: "oritech:pulverizer/coal"},
+        {id: "oritech:foundry/alloy/steel"},
+        {id: "oritech:crafting/alloy/steel"},
+        {id: "oritech:foundry/alloy/electrum"},
+        {id: "oritech:crafting/alloy/electrum"},
+        {input:"minecraft:iron_ingot", output:"oritech:steel_ingot"},
+
+
+        // Ore processing
+        {id: "oritech:pulverizer/recycle/iron_dust"},
+        {id: "oritech:pulverizer/dust/iron"},
+        {id: "oritech:pulverizer/raw/iron"},
+
+        // Naughty Oritech recipes who won't go through global ingredient replacements
+        {id: "oritech:assembler/motor"},
 
     ]
     recipeRemove.forEach((recipe) => {
@@ -27,6 +48,7 @@ ServerEvents.recipes(event => {
         "cobblemon:ancient_ivory_ball",
         "cobblemon:safari_ball",
     ]
+
     const pattern = new RegExp(`^(?!(${ballsToKeep.join('|')})$)cobblemon:.*_ball$`);
     event.remove({ output: pattern, type: "minecraft:crafting_shaped"});
 })

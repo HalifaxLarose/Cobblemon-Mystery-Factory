@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	default_quest_size: 1.5d
 	filename: "2a_trains_and_logistic_networks"
 	group: "25AFFF4BEEB54E90"
 	icon: {
@@ -18,8 +19,8 @@
 				item: { count: 1, id: "create:controls" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: -22.0d
+			x: -9.0d
+			y: -21.75d
 		}
 		{
 			dependencies: ["1BEAA6D57950F6DD"]
@@ -29,18 +30,21 @@
 				item: { count: 1, id: "create:railway_casing" }
 				type: "item"
 			}]
-			x: -13.0d
+			x: -12.0d
 			y: -22.5d
 		}
 		{
-			dependencies: ["2832E128EB1B2DB9"]
+			dependencies: [
+				"2832E128EB1B2DB9"
+				"5763EF06A2D3686C"
+			]
 			id: "1BEAA6D57950F6DD"
 			tasks: [{
 				id: "2AC01992329994F0"
 				item: { count: 1, id: "create:sturdy_sheet" }
 				type: "item"
 			}]
-			x: -14.5d
+			x: -14.25d
 			y: -22.5d
 		}
 		{
@@ -51,47 +55,29 @@
 				item: { count: 1, id: "create:track_station" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: -23.0d
-		}
-		{
-			id: "681A6370892186D5"
-			tasks: [
-				{
-					id: "3388ED3C14801F8F"
-					item: { count: 1, id: "minecraft:pointed_dripstone" }
-					type: "item"
-				}
-				{
-					id: "3A851EFC6DFBB806"
-					item: { count: 1, id: "minecraft:cauldron" }
-					type: "item"
-				}
-				{
-					id: "536F38C1FD0D77DF"
-					item: { count: 1, id: "minecraft:dripstone_block" }
-					type: "item"
-				}
-				{
-					id: "4E6204B1E36459B6"
-					item: { count: 1, id: "minecraft:lava_bucket" }
-					type: "item"
-				}
-			]
-			x: -14.5d
-			y: -24.0d
+			x: -9.0d
+			y: -23.25d
 		}
 		{
 			dependencies: ["1BEAA6D57950F6DD"]
 			id: "1AAEA0D75666479B"
+			rewards: [{
+				count: 128
+				id: "1F625C429B8728CD"
+				item: {
+					count: 1
+					id: "create:track"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 64L
 				id: "4BF736E542CF1037"
 				item: { count: 1, id: "create:track" }
 				type: "item"
 			}]
-			x: -14.5d
-			y: -21.0d
+			x: -14.25d
+			y: -20.25d
 		}
 		{
 			dependencies: ["5621C34C88CBEAE7"]
@@ -101,7 +87,7 @@
 				item: { count: 1, id: "create:schedule" }
 				type: "item"
 			}]
-			x: -6.5d
+			x: -3.0d
 			y: -22.5d
 		}
 		{
@@ -109,6 +95,9 @@
 				"2FA6AB0F1224C606"
 				"3856928B0D0AA67A"
 			]
+			icon: {
+				id: "create:super_glue"
+			}
 			id: "5621C34C88CBEAE7"
 			shape: "hexagon"
 			size: 2.5d
@@ -116,7 +105,7 @@
 				id: "0C6AF58B4E973316"
 				type: "checkmark"
 			}]
-			x: -9.0d
+			x: -6.0d
 			y: -22.5d
 		}
 		{
@@ -129,7 +118,7 @@
 				id: "0F17964A34C2D44F"
 				type: "checkmark"
 			}]
-			x: -21.5d
+			x: -21.0d
 			y: -22.5d
 		}
 		{
@@ -151,7 +140,7 @@
 				item: { count: 1, id: "create:cardboard_block" }
 				type: "item"
 			}]
-			x: -23.0d
+			x: -23.25d
 			y: -22.5d
 		}
 		{
@@ -163,7 +152,7 @@
 				item: { count: 1, id: "create:packager" }
 				type: "item"
 			}]
-			x: -24.5d
+			x: -25.5d
 			y: -22.5d
 		}
 		{
@@ -175,7 +164,7 @@
 				item: { count: 1, id: "create:stock_link" }
 				type: "item"
 			}]
-			x: -26.0d
+			x: -27.5d
 			y: -22.5d
 		}
 		{
@@ -186,7 +175,7 @@
 				item: { count: 1, id: "create:stock_ticker" }
 				type: "item"
 			}]
-			x: -27.5d
+			x: -30.0d
 			y: -22.5d
 		}
 		{
@@ -195,11 +184,12 @@
 				"2D8B5B2710CFE41E"
 			]
 			id: "0B19548897BFDF79"
+			shape: "hexagon"
 			tasks: [{
 				id: "320C10207214AB04"
 				type: "checkmark"
 			}]
-			x: -30.5d
+			x: -33.0d
 			y: -22.5d
 		}
 		{
@@ -219,8 +209,8 @@
 					type: "item"
 				}
 			]
-			x: -29.0d
-			y: -22.0d
+			x: -31.5d
+			y: -21.75d
 		}
 		{
 			dependencies: ["68C7CCF05D37E931"]
@@ -231,26 +221,8 @@
 				item: { count: 1, id: "create:package_frogport" }
 				type: "item"
 			}]
-			x: -29.0d
-			y: -23.0d
-		}
-		{
-			dependencies: ["68C7CCF05D37E931"]
-			id: "00AFFBA2294FA1DE"
-			tasks: [
-				{
-					id: "23F2687474D60822"
-					item: { count: 1, id: "create:filter" }
-					type: "item"
-				}
-				{
-					id: "5F1AC8DF5BB39F5E"
-					item: { count: 1, id: "create:attribute_filter" }
-					type: "item"
-				}
-			]
-			x: -27.5d
-			y: -21.0d
+			x: -31.5d
+			y: -23.25d
 		}
 		{
 			dependencies: ["7B44830D6D793BD5"]
@@ -263,8 +235,8 @@
 				item: { count: 1, id: "storagedrawers:controller_io" }
 				type: "item"
 			}]
-			x: -21.5d
-			y: -24.0d
+			x: -21.0d
+			y: -24.75d
 		}
 		{
 			dependencies: ["68C7CCF05D37E931"]
@@ -274,24 +246,26 @@
 				item: { count: 1, id: "create:package_filter" }
 				type: "item"
 			}]
-			x: -27.5d
-			y: -24.0d
+			x: -29.25d
+			y: -24.75d
 		}
 		{
 			dependencies: ["5621C34C88CBEAE7"]
 			id: "006E924E38D3B4DC"
+			size: 1.0d
 			tasks: [{
 				id: "6DCA2AEEE51F18BE"
 				item: { count: 1, id: "create:steam_whistle" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: -25.0d
+			x: -6.0d
+			y: -24.5d
 		}
 		{
 			dependencies: ["006E924E38D3B4DC"]
 			id: "7833DE7344DB77FD"
 			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "7737E4E9F8801856"
@@ -344,11 +318,14 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: -26.5d
+			x: -6.0d
+			y: -25.5d
 		}
 		{
+			dependencies: ["5621C34C88CBEAE7"]
 			id: "067C4963FADE5BAC"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "0FBF240463FFEE14"
@@ -370,9 +347,225 @@
 					item: { count: 1, id: "bellsandwhistles:headlight" }
 					type: "item"
 				}
+				{
+					id: "1DA2066264D32DC8"
+					item: { count: 1, id: "bellsandwhistles:station_platform" }
+					type: "item"
+				}
 			]
-			x: -7.5d
-			y: -24.5d
+			x: -5.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["5621C34C88CBEAE7"]
+			id: "2EAD774DE4B57AFC"
+			tasks: [{
+				id: "2711328EB0A83E0F"
+				item: { count: 1, id: "create:track_signal" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["1EF94604C32773D9"]
+			id: "11157DC7D8C40913"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1E6C3F4375E72631"
+					item: { count: 1, id: "createcardboardthings:cardboard_elytra" }
+					type: "item"
+				}
+				{
+					id: "60F5D8AA25AEAF55"
+					item: { count: 1, id: "createcardboardthings:cardboard_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "594C83EBA68151D1"
+					item: { count: 1, id: "createcardboardthings:cardboard_shears" }
+					type: "item"
+				}
+				{
+					id: "44D0965C93A5F173"
+					item: { count: 1, id: "createcardboardthings:cardboard_saddle" }
+					type: "item"
+				}
+				{
+					id: "38D921A6000DA8B4"
+					item: { count: 1, id: "createcardboardthings:cardboard_ball" }
+					type: "item"
+				}
+				{
+					id: "3E95591F1F0C2714"
+					item: { count: 1, id: "createcardboardthings:cardboard_rocket" }
+					type: "item"
+				}
+				{
+					id: "270F540EF6FE45A2"
+					item: { count: 1, id: "creategoggles:goggle_cardboard_helmet" }
+					type: "item"
+				}
+				{
+					id: "793F50708EF849B7"
+					item: { count: 1, id: "createcardboardthings:cardboard_ingot" }
+					type: "item"
+				}
+			]
+			x: -23.25d
+			y: -20.25d
+		}
+		{
+			dependencies: ["11157DC7D8C40913"]
+			hide_until_deps_complete: true
+			id: "3E5F0C50D261AC2F"
+			shape: "diamond"
+			tasks: [{
+				id: "5EFC289C9CD84DB6"
+				item: { count: 1, id: "createcardboardthings:cardboard_totem" }
+				type: "item"
+			}]
+			x: -25.5d
+			y: -20.25d
+		}
+		{
+			dependencies: ["1EF94604C32773D9"]
+			id: "0292D2861DD21B47"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7D771F9C68E0A310"
+					item: { count: 1, id: "create:cardboard_helmet" }
+					type: "item"
+				}
+				{
+					id: "719B884307A84DBB"
+					item: { count: 1, id: "create:cardboard_chestplate" }
+					type: "item"
+				}
+				{
+					id: "77F54384165684A5"
+					item: { count: 1, id: "create:cardboard_leggings" }
+					type: "item"
+				}
+				{
+					id: "05944EACC17DCBBF"
+					item: { count: 1, id: "create:cardboard_boots" }
+					type: "item"
+				}
+				{
+					id: "72A500C36DB03312"
+					item: { count: 1, id: "create:cardboard_sword" }
+					type: "item"
+				}
+				{
+					id: "740815C2BAAA6C60"
+					item: { count: 1, id: "createcardboardthings:cardboard_arrow" }
+					type: "item"
+				}
+			]
+			x: -23.25d
+			y: -24.75d
+		}
+		{
+			dependencies: ["10CA3A6688229B1C"]
+			id: "2942C4487070EE75"
+			tasks: [{
+				id: "08DA289A62D2D48B"
+				item: { count: 1, id: "create:factory_gauge" }
+				type: "item"
+			}]
+			x: -37.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["0B19548897BFDF79"]
+			icon: {
+				id: "minecraft:oak_hanging_sign"
+			}
+			id: "10CA3A6688229B1C"
+			shape: "hexagon"
+			tasks: [{
+				id: "739E84BBF8AFBD82"
+				type: "checkmark"
+			}]
+			x: -35.25d
+			y: -22.5d
+		}
+		{
+			dependencies: ["2832E128EB1B2DB9"]
+			id: "0A1EB446D1F4F556"
+			size: 2.0d
+			tasks: [
+				{
+					id: "777D3195A0E1428E"
+					item: { count: 1, id: "create:display_link" }
+					type: "item"
+				}
+				{
+					id: "25A991250E19948B"
+					item: { count: 1, id: "create:display_board" }
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["5621C34C88CBEAE7"]
+			id: "1FF16C572ABB9F4A"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "54CE94756A89B52B"
+					item: { count: 1, id: "createrailwaysnavigator:advanced_display_panel" }
+					type: "item"
+				}
+				{
+					id: "7B864D0D9E811C82"
+					item: { count: 1, id: "createrailwaysnavigator:navigator" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["5621C34C88CBEAE7"]
+			id: "79D45F11481CBD19"
+			tasks: [{
+				id: "5A7125A81A87EDE4"
+				item: { count: 1, id: "create:mechanical_roller" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: -20.25d
+		}
+		{
+			dependencies: ["1AAEA0D75666479B"]
+			id: "44CD520B2C587695"
+			size: 1.0d
+			tasks: [{
+				id: "12CD34507F1A3931"
+				item: { count: 1, id: "createdieselgenerators:track_layers_bag" }
+				type: "item"
+			}]
+			x: -14.25d
+			y: -18.75d
+		}
+		{
+			id: "5763EF06A2D3686C"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "460BE2F1262EBD12"
+				item: { count: 1, id: "create_sa:flamethrower" }
+				type: "item"
+			}]
+			x: -14.25d
+			y: -24.75d
 		}
 	]
 }

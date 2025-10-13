@@ -167,28 +167,6 @@
 			y: -15.75d
 		}
 		{
-			dependencies: ["21B2F0553C8DA3C1"]
-			id: "7ABCDF82995A0325"
-			tasks: [{
-				id: "3BCDABCCA0CD7C22"
-				item: { count: 1, id: "create:encased_fan" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -18.75d
-		}
-		{
-			dependencies: ["21B2F0553C8DA3C1"]
-			id: "145CE8B7DF88596A"
-			tasks: [{
-				id: "341A0D9D6F774C76"
-				item: { count: 1, id: "create:mechanical_drill" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -18.75d
-		}
-		{
 			dependencies: ["7B40E692C6B23D11"]
 			id: "4C9850CFFBA0FE8B"
 			tasks: [{
@@ -241,28 +219,6 @@
 			}]
 			x: -6.0d
 			y: -12.75d
-		}
-		{
-			dependencies: ["21B2F0553C8DA3C1"]
-			id: "58537BAD4A6A58D1"
-			tasks: [{
-				id: "0C7CDB594DD03FA3"
-				item: { count: 1, id: "create:mechanical_saw" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -18.75d
-		}
-		{
-			dependencies: ["21B2F0553C8DA3C1"]
-			id: "0A5D5740770A55D2"
-			tasks: [{
-				id: "6B1ADBA238AE4F72"
-				item: { count: 1, id: "create:mechanical_harvester" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -18.75d
 		}
 		{
 			dependencies: ["7B40E692C6B23D11"]
@@ -519,6 +475,46 @@
 			}]
 			x: 2.25d
 			y: 5.25d
+		}
+		{
+			dependencies: ["21B2F0553C8DA3C1"]
+			id: "6467039452212EB0"
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [
+				{
+					id: "2D5D446D03A23E29"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "6C4537A48F244F12"
+					item: { count: 1, id: "create:mechanical_drill" }
+					type: "item"
+				}
+				{
+					id: "5FB8B83126A7AB9B"
+					item: { count: 1, id: "create:mechanical_saw" }
+					type: "item"
+				}
+				{
+					id: "69ED2F1936237D61"
+					item: { count: 1, id: "create:mechanical_harvester" }
+					type: "item"
+				}
+				{
+					id: "37E04841D1B98357"
+					item: { count: 1, id: "create:millstone" }
+					type: "item"
+				}
+				{
+					id: "28AADF19D4EEE926"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -19.5d
 		}
 	]
 }
