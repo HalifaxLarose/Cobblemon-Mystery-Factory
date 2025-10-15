@@ -19,6 +19,7 @@
 - Added GuideME
 - Added TesseractAPI
 - Added Resourceful Config
+- ProbeJS
 
 ### REMOVALS
 
