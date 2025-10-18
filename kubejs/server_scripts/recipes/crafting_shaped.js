@@ -18,6 +18,33 @@ ServerEvents.recipes(event => {
 
     // Chapter 2
     event.shaped(
+        Item.of('create:empty_blaze_burner'),
+        [
+            'AAA',
+            'ABA',
+            'CCC'
+        ],
+        {
+            A: 'createaddition:iron_rod',
+            B: 'minecraft:bricks',
+            C: 'create:iron_sheet'
+        }
+    )
+    event.shaped(
+        Item.of('create:empty_blaze_burner'),
+        [
+            'AAA',
+            'ABA',
+            'CCC'
+        ],
+        {
+            A: 'createaddition:iron_rod',
+            B: 'minecraft:netherrack',
+            C: 'create:iron_sheet'
+        }
+    )
+
+    event.shaped(
         Item.of("createaddition:alternator", 1),
         [
             "ABA",

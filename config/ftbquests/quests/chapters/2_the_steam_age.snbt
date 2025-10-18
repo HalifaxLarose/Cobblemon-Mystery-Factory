@@ -8,10 +8,11 @@
 		id: "create:steam_engine"
 	}
 	id: "5F6BDBB03A7631E3"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3A4D822386BBA666"]
 			id: "762C57887356A993"
 			shape: "rsquare"
 			size: 3.0d
@@ -21,7 +22,7 @@
 				type: "dimension"
 			}]
 			x: 0.75d
-			y: 3.75d
+			y: 5.25d
 		}
 		{
 			id: "0A18A7166FAF727E"
@@ -117,7 +118,6 @@
 			y: 14.25d
 		}
 		{
-			dependencies: ["762C57887356A993"]
 			id: "3A4D822386BBA666"
 			tasks: [{
 				id: "5789A310D44706A2"
@@ -125,10 +125,10 @@
 				type: "item"
 			}]
 			x: 0.75d
-			y: 6.75d
+			y: 2.25d
 		}
 		{
-			dependencies: ["3A4D822386BBA666"]
+			dependencies: ["762C57887356A993"]
 			id: "0E7FFBC699E11EA4"
 			tasks: [{
 				id: "10110444DA1EACD3"

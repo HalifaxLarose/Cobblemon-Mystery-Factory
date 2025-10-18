@@ -15,4 +15,20 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    event.custom({
+        type: "create:cutting",
+        ingredients: [
+            {
+                "tag": "minecraft:planks"
+            }
+        ],
+        processingTime: 20,
+        results: [
+            {
+                "count": 8,
+                "id": "kubejs:cog_teeth"
+            }
+        ]
+    })
 })

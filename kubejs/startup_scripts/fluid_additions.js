@@ -1,0 +1,61 @@
+StartupEvents.registry('fluid', event => {
+  event.create('industrial_crude_oil', 'thick')
+    .tint(0x1F2022)
+    .displayName("Industrial Crude Oil")
+  event.create('heavy_residual_crude_oil', 'thick')
+    .tint(0x341539)
+    .displayName('Heavy Residual Crude Oil')
+  event.create('bitumen', 'thick')
+    .tint(0x090000)
+    .displayName('Bitumen')
+  event.create('kerosene', 'thick')
+    .tint(0xFFFFA7)
+    .displayName('Kerosene')
+  event.create('light_petroleum_gas', 'thin')
+    .tint(0xDECBB7)
+  //   .displayName('Light Petroleum Gas')
+  // event.create('methane', 'thin')
+  //   .tint(0xFFFFBF)
+  //   .displayName('Methane')
+  event.create('butane', 'thin')
+    .tint(0x9B7A01)
+    .displayName('Butane')
+})
+
+// StartupEvents.registry('fluid', event => {
+//   event.create('heavy_residual_crude_oil')
+//     // .thickTexture(0x341539)
+//     // .bucketColor(0x341539)
+//     .displayName('Heavy Residual Crude Oil')
+
+//   event.create('bitumen')
+//     // .thickTexture(0x090000)
+//     // .bucketColor(0x090000)
+//     .displayName('Bitumen')
+
+//   // #FFFFA7
+//   event.create('kerosene')
+//     // .thickTexture(0xFFFFA7)
+//     // .bucketColor(0xFFFFA7)
+//     .displayName('Kerosene')
+
+//   event.create('lpg')
+//     // .thickTexture(0xDECBB7)
+//     // .bucketColor(0xDECBB7)
+//     .displayName('Light Petroleum Gas')
+//     // .gaseous()
+
+//   event.create('methane')
+//     // .thickTexture(0xFFFFBF)
+//     // .bucketColor(0xFFFFBF)
+//     .displayName('Methane')
+//     // .gaseous()
+
+//   event.create('butane')
+//     // .thickTexture(0x9B7A01)
+//     // .bucketColor(0x9B7A01)
+//     .displayName('Butane')
+//     // .gaseous()
+
+// })
+

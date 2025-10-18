@@ -2,11 +2,11 @@
 	chapter.035D1ABF4FA1F630.title: "4) The Future Age"
 	chapter.166963E568B61211.title: "3) The Industrial Age"
 	chapter.2ABB2A702B6169AE.title: "1) The Stone Age"
+	chapter.41FBEFF9BD4C1ECB.title: "0) Welcome to a New World"
 	chapter.557957158909E65E.title: "1a) Your First Farms"
 	chapter.5F6BDBB03A7631E3.title: "2) The Steam Age"
 	chapter.6885E1A723E07E3F.title: "2a) Trains and Logistic Networks"
 	chapter_group.25AFFF4BEEB54E90.title: "To the End"
-	chapter_group.79A6FBFFF41742BB.title: "Fun"
 	quest.00263C66A24A4E32.quest_desc: ["It's called the stone age for a reason. Although it has to be this stone. Other stones won't work. Stupid technology."]
 	quest.00263C66A24A4E32.title: "Find Andesite"
 	quest.005E2061A2742EA8.quest_desc: [
@@ -39,6 +39,7 @@
 		"Be careful though, they invert rotation directions, and they're a little expensive to produce."
 	]
 	quest.067C4963FADE5BAC.title: "Deck Your Train Out!"
+	quest.07C1943969D81782.title: "How to Ponder"
 	quest.0946E21922298C64.quest_desc: ["One of the uses of golden sheets is advanced electronics. Actually, maybe gold sheets aren't that useless."]
 	quest.09AF652C5BF6375C.quest_desc: [
 		"Finally, you cook the dough into bread. See if you can get 64 items."
@@ -53,6 +54,7 @@
 	]
 	quest.0AEE300448ED5FA7.quest_subtitle: "Upgrades, people!"
 	quest.0B19548897BFDF79.title: "Now Give it a Try"
+	quest.0D4ECFAD61112B9F.title: "Growing as a Dragon"
 	quest.0D9DCD0E20610EA8.quest_subtitle: "It's Going Upstairs so See Ya Later!"
 	quest.0D9DCD0E20610EA8.title: "Build an Elevator!"
 	quest.108410E4B63C51E8.quest_desc: ["You can wash gravel to uncover flint and iron nuggets burried beneath. You may want to use the storage drawer filtering trick to separate them from the assembly line."]
@@ -70,7 +72,6 @@
 		"This method of power generation does make you very hungry however, so have some hamburgers you found on the ground to replenish your strength later."
 	]
 	quest.138F71A191933F1E.quest_desc: ["You can probably guess how these work."]
-	quest.13BCA5A134625DDC.title: "Welcome to the World of Cobblemon Mystery Factory!"
 	quest.15632D26666A0CBF.quest_desc: [
 		"The toolbox lets you store a few stacks of single items. You can then select what item you want by holding down left alt."
 		""
@@ -88,6 +89,9 @@
 	]
 	quest.19258004F540C3FD.title: "The WTF Way to Do Things"
 	quest.19B6477802FF062A.quest_desc: ["This cool upgrade lets you see how full your drawer is."]
+	quest.19EA3845F442D5D9.title: "Get More Inventory Space"
+	quest.1B2E19172641070F.quest_subtitle: "What the heck are all those items when I press e?"
+	quest.1B2E19172641070F.title: "How to use JEI"
 	quest.1CAF150BFDBD8E3E.quest_desc: [
 		"Contraptions will harvest the natural world for you, but everything it picks up will be stashed inside any inventory block glued to the machine."
 		""
@@ -127,6 +131,7 @@
 		""
 		"Iron sheets are used to craft the rest of the basic Create machines. You'll be crafting them often. You may want to find a way to operate it without manual labour: you only have so many peanut butter hamburgers, after all."
 	]
+	quest.21E78150F0DE810B.title: "I want to stay as a human..."
 	quest.21E8F2DA6F9C0AD1.quest_desc: ["Wheat, a familiar beloved crop, is one such crop that can be automated with the harvester."]
 	quest.23CCE09AC12A8F37.quest_desc: [
 		"Kelp can be smelted or bulk blasted into dried kelp, which can be used directly to craft belts and handles."
@@ -136,6 +141,7 @@
 	quest.26A6308CF7AE20CC.quest_desc: ["This gizmo lets you insert items into vaults directly from your hands."]
 	quest.26CB60C2EBDCA444.quest_desc: ["Since you're a dragon now, are iron nuggets really that far off from chicken nuggets in terms of edibleness?"]
 	quest.26CB60C2EBDCA444.title: "Find Nuggets"
+	quest.26DE4A6B7692144E.title: "Alternative Heavy Oil Use"
 	quest.2832E128EB1B2DB9.title: "Welcome"
 	quest.2A6F263F498ADA48.quest_desc: [
 		"These oak drawers will become your best friend. They can only store one type of item, but they will store huge amounts of it. Since you're likely to be mass producing singular items, these drawers can be more convenient than regular chests."
@@ -180,6 +186,7 @@
 		"Enjoy never needing to go on an iron mining errand. You can safely ignore all those ores now."
 	]
 	quest.3360599F5B1838CB.title: "Iron Ingots"
+	quest.3386DE3C85EDBBB6.title: "You Awaken as a Dragon..."
 	quest.3442B87707008E93.quest_desc: [
 		"Hopefully you've figured out how to set up moving contraptions! With this skilled learnt, you now have an alternative to water: wind power."
 		""
@@ -253,7 +260,9 @@
 		"Note: to automate apricorns, you'll need apricorn spouts in particular. These have a chance of dropping when plucking an apricorn fruit."
 	]
 	quest.41B3D4B4B97A5FCF.title: "Automate Lumber"
+	quest.425C799A70DE09BF.title: "Acidify your production line"
 	quest.44286D097B53FD39.quest_desc: ["Cogs can be placed on the end of shafts, and will rotate neighbouring cogs."]
+	quest.44AE71346FC5369B.title: "Heavy Oil Products"
 	quest.471CDA944D6A8C40.quest_desc: [
 		"The chute is similar to a funnel in that it will take items out of storage or put them into storage."
 		""
@@ -268,7 +277,6 @@
 	]
 	quest.47816EB4E84EE905.title: "Transfering Power Around"
 	quest.47BB063334F8C001.quest_desc: ["Storage space upgrades increase how many items can be stored at once. It's useful."]
-	quest.4A9769629A5B8E9B.title: "Carry More Stuff!"
 	quest.4C9850CFFBA0FE8B.quest_desc: ["You can also make gold sheets. They're not nearly as helpful iron sheets, but they still have uses."]
 	quest.4E00B85073B1DC78.quest_desc: [
 		"The magic of Create is the ability to craft your own moving \"contraptions\" comprised of multiple blocks. This is required for farms that use the saw and the harvester, as you'll want those machines to spin around to catch newly grown crops."
@@ -307,6 +315,7 @@
 		""
 		"Presses can operate on a depot, in a basin, or directly on a mechanical belt."
 	]
+	quest.55A4CEB1697ABFA6.title: "Welcome to the World of Cobblemon Mystery Dungeon!"
 	quest.55C84F908B2139C1.quest_desc: [
 		"When a storage drawer with the void upgrade receives an item while at full capacity, it will destroy the item. This is extremely useful to prevent backlog and overflow."
 		""
@@ -334,6 +343,7 @@
 	quest.60A46DD0FE6B9295.quest_desc: ["Your tree farm will produce saplings, sticks, logs, and even apples if using an oak log. You could store these all, but you're most likely interested in the lumber, as it can be processed into sweet furniture. And your guild absolutely needs some stylsh interior deco."]
 	quest.60A46DD0FE6B9295.title: "Get Logs"
 	quest.64292AE90578D1A7.quest_desc: ["Harvest clouds for the athmospheric condenser."]
+	quest.66E15C13252F4BEC.title: "Recover as a Dragon"
 	quest.6CD4E1ADCEEE6B60.quest_desc: [
 		"The Create Wrench let's you rotate blocks around. It also lets you instantly break Create blocks and return them to your inventory when crouch-clicked."
 		""
@@ -341,6 +351,7 @@
 	]
 	quest.6CD4E1ADCEEE6B60.quest_subtitle: "Mandatory Pickup"
 	quest.6CD4E1ADCEEE6B60.title: "The Most Useful Tool"
+	quest.6E321FBE3B2DC9B3.title: "Check out the Deco!"
 	quest.6E4E34426C883504.title: "New Logistic Tools"
 	quest.6FB53F649D7A1E96.quest_desc: ["Harvesters will harvest ANY type of crop. &oAny&r. They will also replant crop seeds automatically. They only really work as part of contraptions, however."]
 	quest.6FB53F649D7A1E96.title: "Automated Harvesting"
@@ -405,36 +416,55 @@
 		""
 		"The first is to mill it into flour with a millstone."
 	]
-	quest.7DF9292B9A4CB370.quest_subtitle: "What the heck are all those items when I press e???"
 	task.00BACF868F130380.title: "4x64 Charcoal"
+	task.01AFE6B5F75F9708.title: "Understood"
 	task.020424D7ED6084FF.title: "Any Stripped Log"
 	task.036B28137F61205E.title: "Ethelyene and Proleyene"
+	task.03FB7D4E26017EAE.title: "Understood"
 	task.0443033F3FF4F768.title: "Kerosene"
 	task.0624199736CE2BB7.title: "Understood"
+	task.09069C3509A42F83.title: "Understood"
 	task.0AC5C18B39143601.title: "Understood"
 	task.0C6AF58B4E973316.title: "How to Build a Train"
 	task.0D5AA7E800B160D3.title: "Understood"
 	task.0F17964A34C2D44F.title: "Found."
+	task.1325D664F6217B94.title: "Wow!"
+	task.135D1281D64D4329.title: "Understood"
+	task.14830C57CD511151.title: "Understood"
 	task.180E36A68E5D7A5B.title: "Any Toolbox"
 	task.1918877266F1A840.title: "Any Log"
 	task.1D7BC5EFD37AB3A9.title: "Understood"
 	task.1EE6D1370BC82F85.title: "Understood"
+	task.1FDE64D9A907DA0C.title: "Carbon Gas Get"
 	task.21067DEC181C43E7.title: "Understood"
 	task.22BB11900BEB46EA.title: "4x64 Andestite Alloy"
 	task.23B3CF8AE8F81B3A.title: "4x64 Wooden Planks"
 	task.23E5B0E290D3DDC2.title: "4x64 Mechanical Belts"
+	task.25DA2C2FAE1DBE86.title: "Time to Become a Dragon"
+	task.297520682E165D85.title: "Understood"
+	task.2D20B4E08234FA02.title: "Any Treasure"
 	task.320C10207214AB04.title: "It worked!"
 	task.33CB184B1FB6B249.title: "The Path of Automation"
+	task.392330B52EF8DEB9.title: "Any Backpack"
+	task.3D5B6D0595D09E2A.title: "Understood"
 	task.415D3F65CEB96CF5.title: "Ethelene and propylene "
 	task.46AA680FC9346250.title: "Any Apricorn Sprout"
 	task.49320E4EB0B4AD3B.title: "Understood"
 	task.4A81998FDA29266C.title: "Understood"
+	task.4D42956ED1B19328.title: "Understood"
+	task.4DBE105356572221.title: "Understood"
 	task.501D5AEA12506680.title: "How to Build and Operate a Rocket"
+	task.55EBEF59C628B35B.title: "Understood"
+	task.55FB6097E08D0EAE.title: "Understood"
 	task.579ECBE69A1D03F0.title: "Any Sapling"
+	task.5CE8455D76A1A5C4.title: "Understood"
+	task.5D6230BD55D544AB.title: "Understood"
 	task.5F2B6C08EBB5F45B.title: "Any Apricorn"
 	task.62181154F14B523B.title: "Understood"
 	task.667322DF91FCF5B2.title: "Ethelene and  propylene "
 	task.6ED66D8C4C1A967E.title: "How to Use JEI"
 	task.6FC099E3F355ACE0.title: "Any 32 Pokeballs"
+	task.7216A33D2F32D9D1.title: "Any Backpack"
 	task.739E84BBF8AFBD82.title: "From A to B"
+	task.7483C98CF8259966.title: "Understood"
 }

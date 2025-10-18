@@ -9,6 +9,9 @@ ServerEvents.recipes(event => {
         {filter: {output: "oritech:motor"}, original: "#c:ingots/steel", replaceWith:"create:iron_sheet"},
         {filter: {output: "oritech:pulverizer_block"}, original: "#c:ingots/steel", replaceWith:"create:iron_sheet"},
         {filter: {input: "oritech:nickel_ingot", not: {output: /oritech:nickel_.*/}}, original: "oritech:nickel_ingot", replaceWith:"create:brass_ingot"},
+
+        // Chapter 3
+        {filter: {output: "dndesires:hydraulic_press"}, original: "minecraft:copper_block", replaceWith:"#c:storage_blocks/steel"},
     ]
     
     const replacementOutput = [

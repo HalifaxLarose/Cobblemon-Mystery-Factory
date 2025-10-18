@@ -11,28 +11,9 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "2ABB2A702B6169AE"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
-		{
-			id: "13BCA5A134625DDC"
-			rewards: [{
-				id: "2B6935CE8AD2F8D5"
-				item: {
-					count: 1
-					id: "minecraft:red_bed"
-				}
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 4.0d
-			tasks: [{
-				id: "1EE6D1370BC82F85"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.75d
-		}
 		{
 			dependencies: ["530E15A5BD357D09"]
 			id: "00263C66A24A4E32"
@@ -45,16 +26,15 @@
 			y: -5.25d
 		}
 		{
-			dependencies: ["13BCA5A134625DDC"]
 			id: "530E15A5BD357D09"
-			shape: "gear"
+			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "33CB184B1FB6B249"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["530E15A5BD357D09"]
@@ -456,27 +436,6 @@
 			y: -15.75d
 		}
 		{
-			id: "4A9769629A5B8E9B"
-			tasks: [{
-				id: "7216A33D2F32D9D1"
-				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
-				type: "item"
-			}]
-			x: 3.75d
-			y: 3.75d
-		}
-		{
-			id: "7DF9292B9A4CB370"
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "6ED66D8C4C1A967E"
-				type: "checkmark"
-			}]
-			x: 2.25d
-			y: 5.25d
-		}
-		{
 			dependencies: ["21B2F0553C8DA3C1"]
 			id: "6467039452212EB0"
 			shape: "pentagon"
@@ -488,28 +447,13 @@
 					type: "item"
 				}
 				{
-					id: "6C4537A48F244F12"
-					item: { count: 1, id: "create:mechanical_drill" }
+					id: "4A8D717C7504B6F3"
+					item: { count: 1, id: "create:basin" }
 					type: "item"
 				}
 				{
-					id: "5FB8B83126A7AB9B"
-					item: { count: 1, id: "create:mechanical_saw" }
-					type: "item"
-				}
-				{
-					id: "69ED2F1936237D61"
-					item: { count: 1, id: "create:mechanical_harvester" }
-					type: "item"
-				}
-				{
-					id: "37E04841D1B98357"
-					item: { count: 1, id: "create:millstone" }
-					type: "item"
-				}
-				{
-					id: "28AADF19D4EEE926"
-					item: { count: 1, id: "create:encased_fan" }
+					id: "68E86B0DD96B337F"
+					item: { count: 1, id: "createaddition:rolling_mill" }
 					type: "item"
 				}
 			]

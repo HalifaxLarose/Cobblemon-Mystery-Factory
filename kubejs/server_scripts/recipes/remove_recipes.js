@@ -3,6 +3,7 @@ ServerEvents.recipes(event => {
         {output: "cobblemon:healing_machine", input: "cobblemon:revive"},
 
         // Chapter 2
+        {id: 'create:crafting/kinetics/empty_blaze_burner'},
         {output: "oritech:steel_ingot", type: "create:mixing"},
         {type: "create:mechanical_crafting", output: "createaddition:alternator"},
         {type: "create:mechanical_crafting", output: "createaddition:electric_motor"},
@@ -23,6 +24,9 @@ ServerEvents.recipes(event => {
         // Naughty Oritech recipes who won't go through global ingredient replacements
         {id: "oritech:assembler/motor"},
 
+        // Chapter 3
+        // {output: "northstar:carbon"},
+        {id: "northstar:mixing/hydrocarbon_from_carbon"},
     ]
     recipeRemove.forEach((recipe) => {
         event.remove(recipe)

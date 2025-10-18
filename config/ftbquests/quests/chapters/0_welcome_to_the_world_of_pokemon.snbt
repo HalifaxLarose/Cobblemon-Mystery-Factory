@@ -1,0 +1,350 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_quest_size: 1.5d
+	filename: "0_welcome_to_the_world_of_pokemon"
+	group: "25AFFF4BEEB54E90"
+	id: "41FBEFF9BD4C1ECB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3386DE3C85EDBBB6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:item/advancements/cobblemon_logo"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "55A4CEB1697ABFA6"
+			shape: "rsquare"
+			size: 5.0d
+			tasks: [{
+				id: "7A4DF9467C6CACA0"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["111CF8517DF1F154"]
+			id: "19EA3845F442D5D9"
+			size: 2.0d
+			tasks: [{
+				id: "392330B52EF8DEB9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:back)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["55A4CEB1697ABFA6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1B2E19172641070F"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "4D42956ED1B19328"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55A4CEB1697ABFA6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "create:textures/gui/logo.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "07C1943969D81782"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "09069C3509A42F83"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/ds_logo.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3386DE3C85EDBBB6"
+			shape: "hexagon"
+			size: 4.0d
+			tasks: [{
+				id: "5B82A994EAF03B85"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3386DE3C85EDBBB6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "30E4DF528005FF11"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "119AE3AC46A4A1B4"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3386DE3C85EDBBB6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/cave/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "44B8C7DFFBC08CB9"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1E2B0133F875FC5A"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3386DE3C85EDBBB6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/forest/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "150F9D369115D63A"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "353EFBCA41774DBA"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3386DE3C85EDBBB6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/sea/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "725E1A54E3ECBDA3"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3A1D1A87E9A70C12"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3386DE3C85EDBBB6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/tundra/adult_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2D349BF02539E5DB"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0A8B0A121DA02DDE"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3386DE3C85EDBBB6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/astral/main_sequence_stage_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "416B86F17D1AB0DE"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "78C06FF3205DB4A4"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1B2E19172641070F"]
+			icon: {
+				id: "everycomp:hc/regions_unexplored/palm_chair"
+			}
+			id: "6E321FBE3B2DC9B3"
+			tasks: [{
+				id: "1325D664F6217B94"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"30E4DF528005FF11"
+				"725E1A54E3ECBDA3"
+				"150F9D369115D63A"
+				"2D349BF02539E5DB"
+				"44B8C7DFFBC08CB9"
+				"416B86F17D1AB0DE"
+				"21E78150F0DE810B"
+			]
+			hide_dependency_lines: true
+			id: "111CF8517DF1F154"
+			min_required_dependencies: 1
+			optional: true
+			rewards: [{
+				id: "1C1E9BA8ECEA2659"
+				item: {
+					count: 1
+					id: "comforts:sleeping_bag_white"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				id: "135D1281D64D4329"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["3386DE3C85EDBBB6"]
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "21E78150F0DE810B"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "14830C57CD511151"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["111CF8517DF1F154"]
+			id: "0D4ECFAD61112B9F"
+			shape: "hexagon"
+			tasks: [{
+				id: "03FB7D4E26017EAE"
+				type: "checkmark"
+			}]
+			x: -11.25d
+			y: -20.0d
+		}
+		{
+			dependencies: ["79400E10CEF4CA8C"]
+			id: "170301E9D65331BD"
+			tasks: [{
+				id: "1487B295152BE9E8"
+				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
+				type: "item"
+			}]
+			x: -11.25d
+			y: -27.0d
+		}
+		{
+			dependencies: ["0D4ECFAD61112B9F"]
+			id: "5A300859DE39D199"
+			tasks: [{
+				id: "4E8831E6E132118C"
+				item: { count: 1, id: "dragonsurvival:heart_element" }
+				type: "item"
+			}]
+			x: -11.25d
+			y: -22.5d
+		}
+		{
+			dependencies: ["5A300859DE39D199"]
+			id: "79400E10CEF4CA8C"
+			tasks: [{
+				id: "6BCEA5EE8B948C89"
+				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
+				type: "item"
+			}]
+			x: -11.25d
+			y: -24.75d
+		}
+		{
+			dependencies: ["0D4ECFAD61112B9F"]
+			id: "2D7FDEA914582A3F"
+			tasks: [{
+				id: "04F21299F1CEEBFF"
+				item: { count: 1, id: "dragonsurvival:star_bone" }
+				type: "item"
+			}]
+			x: -11.25d
+			y: -17.25d
+		}
+		{
+			dependencies: ["2D7FDEA914582A3F"]
+			id: "7CE9C13D767F8C8A"
+			tasks: [{
+				id: "0EEB9D964BD4121B"
+				item: { count: 1, id: "dragonsurvival:star_heart" }
+				type: "item"
+			}]
+			x: -11.25d
+			y: -14.25d
+		}
+		{
+			dependencies: ["0D4ECFAD61112B9F"]
+			id: "66E15C13252F4BEC"
+			tasks: [{
+				id: "2D20B4E08234FA02"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(dragonsurvival:dragon_treasures)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.25d
+			y: -22.5d
+		}
+		{
+			dependencies: ["0D4ECFAD61112B9F"]
+			id: "7171AC0F9E9F47C5"
+			tasks: [{
+				id: "2BEEFFA9765C4E4A"
+				item: { count: 1, id: "dragonsurvival:dragon_beacon" }
+				type: "item"
+			}]
+			x: -14.25d
+			y: -20.0d
+		}
+	]
+}

@@ -10,7 +10,7 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "166963E568B61211"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -43,6 +43,7 @@
 		}
 		{
 			id: "66B834D216407F46"
+			shape: "rsquare"
 			tasks: [{
 				id: "5212EEF87E8F92E4"
 				item: { count: 1, id: "createdieselgenerators:oil_scanner" }
@@ -60,18 +61,19 @@
 				item: { count: 1, id: "oritech:fragment_forge_block" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			id: "03BECF0CDFE6C49B"
 			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "59AF2518C18EBA44"
 				item: { count: 1, id: "oritech:centrifuge_block" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: -7.0d
 		}
 		{
@@ -82,8 +84,8 @@
 				item: { count: 1, id: "oritech:carbon_fibre_strands" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: -2.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["142EBF48F0082CFF"]
@@ -104,8 +106,8 @@
 				item: { count: 1, id: "oritech:refinery_module_block" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["66B834D216407F46"]
@@ -119,53 +121,33 @@
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"41B0C6106C9FC751"
-				"2B5A21EBF14E93C0"
-			]
-			id: "324528A1BC0F7601"
-			tasks: [{
-				id: "21067DEC181C43E7"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["324528A1BC0F7601"]
+			dependencies: ["0A80791CD01A78C4"]
 			id: "0F9AC6CC69E801FB"
 			tasks: [{
 				id: "217F0AF0148AE3B4"
 				item: { count: 1, id: "oritech:still_naphtha_bucket" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["324528A1BC0F7601"]
+			dependencies: [
+				"0A80791CD01A78C4"
+				"37B1AF0DCF9C5E39"
+			]
+			dependency_requirement: "one_completed"
 			id: "32752DB90B322E59"
 			tasks: [{
 				id: "6C835E52CB9A493D"
-				item: { count: 1, id: "oritech:still_heavy_oil_bucket" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["324528A1BC0F7601"]
-			id: "541DE51BA82C39FE"
-			tasks: [{
-				id: "56508D6FE3A1DE97"
-				item: { count: 1, id: "northstar:sulfuric_acid_bucket" }
+				item: { count: 1, id: "kubejs:kerosene_bucket" }
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["32752DB90B322E59"]
+			dependencies: ["0A80791CD01A78C4"]
 			id: "034A82636C6D606D"
 			tasks: [{
 				id: "36A7FC14AEC323AD"
@@ -173,7 +155,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["034A82636C6D606D"]
@@ -184,7 +166,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["45F01D8B0C98DD80"]
@@ -201,23 +183,13 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["32752DB90B322E59"]
-			id: "7F8FE80100AD9AF9"
-			tasks: [{
-				id: "0443033F3FF4F768"
-				type: "checkmark"
-			}]
-			x: -6.0d
-			y: 0.0d
+			x: -12.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
-				"6316A63414A96A6F"
 				"2AD7FD7E2C0EB28E"
+				"35D2DE55D0A8F5E2"
 			]
 			id: "4FFBEDDFCC6DB238"
 			tasks: [{
@@ -225,19 +197,19 @@
 				item: { count: 1, id: "northstar:circuit" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.5d
+			x: 13.0d
+			y: -0.5d
 		}
 		{
 			id: "2AD7FD7E2C0EB28E"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				id: "1148D33A795CB8CE"
 				item: { count: 1, id: "northstar:circuit_engraver" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -7.0d
+			x: 13.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -250,14 +222,15 @@
 				item: { count: 1, id: "northstar:oxygen_concentrator" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.5d
+			x: 15.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
 				"172BC54EE5CD221C"
 				"74B24604630D93E8"
-				"7F8FE80100AD9AF9"
+				"32752DB90B322E59"
+				"4CCA8EDAF63EF4FC"
 			]
 			id: "68DCD5A34A0573BC"
 			tasks: [{
@@ -265,8 +238,8 @@
 				item: { count: 1, id: "northstar:hydrocarbon_bucket" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.5d
+			x: -4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3AAE0B043681A6D7"]
@@ -276,8 +249,8 @@
 				item: { count: 1, id: "northstar:sodium_catalyst" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 4.5d
+			x: -4.0d
+			y: 8.5d
 		}
 		{
 			id: "3AAE0B043681A6D7"
@@ -286,19 +259,18 @@
 				item: { count: 1, id: "northstar:salt" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: 4.5d
+			x: -4.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["433141BA6C552F74"]
 			id: "172BC54EE5CD221C"
 			tasks: [{
-				id: "5636BB233E951ACA"
-				item: { count: 1, id: "minecraft:coal" }
-				type: "item"
+				id: "1FDE64D9A907DA0C"
+				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 2.5d
+			x: -6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0F9AC6CC69E801FB"]
@@ -309,64 +281,51 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["42B7C34E32827EB8"]
+			dependencies: ["7CDC03B5AB2EE1C4"]
 			id: "1D389A3BABABC85A"
 			tasks: [{
 				id: "3286E8933FD50D60"
 				item: { count: 1, id: "northstar:jet_engine" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: 9.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["35E5D5DAB54EFFF8"]
 			id: "42B7C34E32827EB8"
 			tasks: [{
+				count: 9L
 				id: "7C37C2815CE0433A"
 				item: { count: 1, id: "northstar:hardened_precision_mechanism" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			id: "64292AE90578D1A7"
-			shape: "rsquare"
 			tasks: [{
 				dimension: "aether:the_aether"
 				id: "091497C9AD7FEE71"
 				type: "dimension"
 			}]
-			x: 6.0d
-			y: -7.0d
+			x: 15.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["0F9AC6CC69E801FB"]
-			id: "2A61636D7E40492D"
-			tasks: [{
-				id: "036B28137F61205E"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: -0.5d
-		}
-		{
-			dependencies: [
-				"2A61636D7E40492D"
-				"433141BA6C552F74"
-			]
+			dependencies: ["5894CCB21F6146D4"]
+			dependency_requirement: "one_completed"
 			id: "35D2DE55D0A8F5E2"
 			tasks: [{
 				id: "552BC667297AE65B"
 				item: { count: 1, id: "oritech:plastic_sheet" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.5d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["01A898012FDA663B"]
@@ -376,8 +335,8 @@
 				item: { count: 1, id: "northstar:rocket_station" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 11.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -390,8 +349,8 @@
 				item: { count: 1, id: "northstar:targeting_computer" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 11.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4FFBEDDFCC6DB238"]
@@ -401,8 +360,8 @@
 				item: { count: 1, id: "northstar:rocket_controls" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.5d
+			x: 13.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6B2F817CE9E4F096"]
@@ -434,8 +393,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 1.5d
+			x: 15.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -443,7 +402,6 @@
 				"684BCCFEBCF2EC45"
 				"67528477F582BCC2"
 				"234247D72E055E77"
-				"68DCD5A34A0573BC"
 			]
 			id: "150D4F9EA3526C3F"
 			size: 2.0d
@@ -451,8 +409,8 @@
 				id: "501D5AEA12506680"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 4.5d
+			x: 12.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["12A50EF8D8C5FBCF"]
@@ -462,8 +420,8 @@
 				item: { count: 1, id: "oritech:augment_application_block" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -8.5d
+			x: -2.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["3167FF382443FD84"]
@@ -473,8 +431,8 @@
 				item: { count: 1, id: "oritech:simple_augment_station" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -9.5d
+			x: -2.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["6316A63414A96A6F"]
@@ -484,8 +442,8 @@
 				item: { count: 1, id: "oritech:assembler_block" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.5d
+			x: -2.0d
+			y: -9.0d
 		}
 		{
 			icon: {
@@ -499,8 +457,8 @@
 				id: "6F0B68D39A02FBF9"
 				type: "dimension"
 			}]
-			x: 3.0d
-			y: 7.5d
+			x: 12.0d
+			y: 12.5d
 		}
 		{
 			id: "433141BA6C552F74"
@@ -509,8 +467,8 @@
 				item: { count: 1, id: "dndesires:hydraulic_press" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: -8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["35D2DE55D0A8F5E2"]
@@ -520,18 +478,19 @@
 				item: { count: 1, id: "oritech:machine_extender" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["35D2DE55D0A8F5E2"]
 			id: "4D84153928AA6768"
 			tasks: [{
 				id: "186BA344D295A47B"
 				item: { count: 1, id: "oritech:machine_efficiency_addon" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.5d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["034A82636C6D606D"]
@@ -542,7 +501,224 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"41B0C6106C9FC751"
+				"2B5A21EBF14E93C0"
+			]
+			id: "57ACE39B62951158"
+			tasks: [
+				{
+					id: "5DC0BE7B77E23D3B"
+					item: { count: 1, id: "kubejs:industrial_crude_oil_bucket" }
+					type: "item"
+				}
+				{
+					id: "1D11B217B193887C"
+					item: { count: 1, id: "oritech:still_sulfuric_acid_bucket" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["57ACE39B62951158"]
+			id: "425C799A70DE09BF"
+			shape: "hexagon"
+			tasks: [{
+				id: "7483C98CF8259966"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["57ACE39B62951158"]
+			id: "0A80791CD01A78C4"
+			size: 2.5d
+			tasks: [{
+				id: "0748231EBA18B0D1"
+				item: { count: 1, id: "createdieselgenerators:distillation_controller" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0F9AC6CC69E801FB"
+				"44AE71346FC5369B"
+			]
+			id: "5894CCB21F6146D4"
+			tasks: [{
+				id: "2B6F42895DC3BBD7"
+				item: { count: 1, id: "oritech:polymer_resin" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["42B7C34E32827EB8"]
+			id: "7CDC03B5AB2EE1C4"
+			tasks: [{
+				id: "071549B5E9D21815"
+				item: { count: 1, id: "northstar:rocket_combustion_chamber" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			id: "4CCA8EDAF63EF4FC"
+			shape: "rsquare"
+			tasks: [{
+				id: "164C7B894C850872"
+				item: { count: 1, id: "create:blaze_cake" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0A80791CD01A78C4"]
+			id: "29D6C25365290376"
+			tasks: [{
+				id: "29C6B4970FDDCA05"
+				item: { count: 1, id: "kubejs:heavy_residual_crude_oil_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"29D6C25365290376"
+				"4CCA8EDAF63EF4FC"
+			]
+			id: "44AE71346FC5369B"
+			optional: true
+			tasks: [
+				{
+					id: "32D096778311C2DD"
+					item: { count: 1, id: "kubejs:bitumen_bucket" }
+					type: "item"
+				}
+				{
+					id: "7BB986A8F3F77009"
+					item: { count: 1, id: "oritech:still_heavy_oil_bucket" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"44AE71346FC5369B"
+				"29D6C25365290376"
+			]
+			id: "06093EAE5484C273"
+			tasks: [{
+				id: "4FB298FF7E5C0B60"
+				item: { count: 1, id: "createdieselgenerators:asphalt_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A80791CD01A78C4"]
+			id: "5F3F882E32837478"
+			tasks: [{
+				id: "57EDA5E16B629519"
+				item: { count: 1, id: "kubejs:light_petroleum_gas_bucket" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5F3F882E32837478"]
+			id: "37B1AF0DCF9C5E39"
+			optional: true
+			tasks: [{
+				id: "52B03BAA5FEA4B8B"
+				item: { count: 1, id: "northstar:methane_bucket" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5F3F882E32837478"]
+			id: "380A0B685B2A3EDC"
+			optional: true
+			tasks: [{
+				id: "1AC52373F2194FFC"
+				item: { count: 1, id: "createdieselgenerators:gasoline_bucket" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F3F882E32837478"]
+			id: "6C28D99B4CB48AA7"
+			optional: true
+			tasks: [{
+				id: "7265CDC31530AB11"
+				item: { count: 1, id: "kubejs:butane_bucket" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C28D99B4CB48AA7"]
+			id: "5DC2A64D173354DE"
+			optional: true
+			tasks: [{
+				id: "3982AD6C261BBAF3"
+				item: { count: 1, id: "oritech:plastic_sheet" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["44AE71346FC5369B"]
+			icon: {
+				id: "oritech:refinery_block"
+			}
+			id: "26DE4A6B7692144E"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "3D5B6D0595D09E2A"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2AD7FD7E2C0EB28E"
+				"64292AE90578D1A7"
+			]
+			id: "225EB1B9C530866D"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "5CF36E614403DB40"
+				item: { count: 1, id: "northstar:titanium_sheet" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.5d
 		}
 	]
 }
