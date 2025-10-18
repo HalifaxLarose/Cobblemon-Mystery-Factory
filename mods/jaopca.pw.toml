@@ -1,0 +1,13 @@
+name = "JAOPCA"
+filename = "JAOPCA-1.21.1-5.0.12.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P48mHi2j/versions/mKt88kla/JAOPCA-1.21.1-5.0.12.19.jar"
+hash-format = "sha512"
+hash = "e41631de24e6fc1a423ea5a3a50224525d364cd4b16ac244f05e8d3b7079e086fa641ce597ac4d48d81730aedcb7ed56b0bd2dc1a975bb24f8b722dbaf9077bf"
+
+[update]
+[update.modrinth]
+mod-id = "P48mHi2j"
+version = "mKt88kla"

@@ -1,7 +1,33 @@
 
-## 0.1.0
+## 0.2.0
 ### ADDITIONS
 
+#### Mod additions
+- Added Crafts and Additions
+- Added XTones
+- Added Tempad (100% only)
+- Added Brewin n chewin
+- Added Additional placements
+- Added JAOPCA
+- Added Almost Unified
+- Added FTB Filter System
+- Added EnderIO
+- Added Deeper and Darker
+- Added Enchantable Machinery
+- Added Reintegrated: Arts and Crafts
+- Added Cobblemon: Safe pastures
+- Added GuideME
+- Added TesseractAPI
+- Added Resourceful Config
+- ProbeJS
+
+### REMOVALS
+
+#### Mod removals
+*nothing to remove*
+
+## 0.1.0
+### ADDITIONS
 
 #### Mod additions
 - Added Enderscape
