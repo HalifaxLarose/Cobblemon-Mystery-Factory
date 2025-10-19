@@ -10,6 +10,7 @@
 	chapter.2ABB2A702B6169AE.title: "1) The Stone Age"
 	chapter.41FBEFF9BD4C1ECB.title: "0) Welcome to a New World"
 	chapter.557957158909E65E.title: "1a) Factory Basics"
+	chapter.5A985B5D6F38BD6A.title: "2b) Quaries and Advanced Agriculture"
 	chapter.5F6BDBB03A7631E3.title: "2) The Steam Age"
 	chapter.6885E1A723E07E3F.title: "2a) Trains and Logistic Networks"
 	chapter.77CD88C79A568EAB.title: "1b) Your First Farms"
@@ -346,6 +347,7 @@
 		"Note: to automate apricorns, you'll need apricorn spouts in particular. These have a chance of dropping when plucking an apricorn fruit."
 	]
 	quest.41B3D4B4B97A5FCF.title: "Automate Lumber"
+	quest.42346B8878F610DA.title: "Logic Tools of Interest"
 	quest.425C799A70DE09BF.title: "Acidify your production line"
 	quest.44286D097B53FD39.quest_desc: ["Cogs can be placed on the end of shafts, and will rotate neighbouring cogs."]
 	quest.44AE71346FC5369B.title: "Heavy Oil Products"
@@ -404,6 +406,16 @@
 		""
 		"Presses can operate on a depot, in a basin, or directly on a mechanical belt."
 	]
+	quest.54D337A20770D8CA.quest_desc: [
+		"Hi! It's me, Lizard!"
+		""
+		"I write these quests as thoroughly as possible to make tech automation as accessible as possible to my friends who may have never touched this side of modded Minecraft."
+		""
+		"However, one of the reasons I've made this modpack in the first place is to play with Create and its addons. Most of the advanced agriculture done through Create are its addons. I do not want to spoil the fun of figuring out how they work by simply playing, so I have left most of the top left section incomplete."
+		""
+		"The public version of this modpack will feature those quests completed, however :)"
+	]
+	quest.54D337A20770D8CA.title: "PLEASE READ"
 	quest.55A4CEB1697ABFA6.title: "Welcome to the World of Cobblemon Mystery Dungeon!"
 	quest.55C84F908B2139C1.quest_desc: [
 		"When a storage drawer with the void upgrade receives an item while at full capacity, it will destroy the item. This is extremely useful to prevent backlog and overflow."
@@ -501,6 +513,8 @@
 		"Lava from the basins can then be pumped out. Start chapter 2 for more info."
 	]
 	quest.728B07747E8065F9.title: "Automating Lava"
+	quest.7413E6C8B0D1CF8A.quest_subtitle: "This is for kinetic energy, needs balancing"
+	quest.7413E6C8B0D1CF8A.title: "Kinetic Solar Panel?"
 	quest.74AFBD46BF0C8F43.quest_desc: [
 		"The mechanical drill, when powered, will mine anything in front of it."
 		""
@@ -595,6 +609,7 @@
 	task.14830C57CD511151.title: "Understood"
 	task.180E36A68E5D7A5B.title: "Any Toolbox"
 	task.1918877266F1A840.title: "Any Log"
+	task.191A111D66937578.title: "Understood"
 	task.1C462D7741284336.title: "Any Tundra Dragon Food"
 	task.1CCB16211B5EE56D.title: "Understood"
 	task.1EE6D1370BC82F85.title: "Understood"
@@ -614,6 +629,8 @@
 	task.2AAA1B474A5FECA4.title: "Any Sea Dragon Food"
 	task.2BD65D01EF00B899.title: "Understood"
 	task.2D20B4E08234FA02.title: "Any Treasure"
+	task.2F346C3CEA6F185C.title: "drill drain"
+	task.2F6DA397BD086931.title: "CREATE SIDE"
 	task.320C10207214AB04.title: "It worked!"
 	task.33CB184B1FB6B249.title: "The Path of Automation"
 	task.392330B52EF8DEB9.title: "Any Backpack"
@@ -627,6 +644,7 @@
 	task.4DAA6D5B70F56043.title: "Understood"
 	task.4DBE105356572221.title: "Understood"
 	task.501D5AEA12506680.title: "How to Build and Operate a Rocket"
+	task.5110F2760E3FB00E.title: "ORITECH SIDE"
 	task.55EBEF59C628B35B.title: "Understood"
 	task.55FB6097E08D0EAE.title: "Understood"
 	task.579ECBE69A1D03F0.title: "Any Sapling"
@@ -644,4 +662,5 @@
 	task.7216A33D2F32D9D1.title: "Any Backpack"
 	task.739E84BBF8AFBD82.title: "From A to B"
 	task.7C84B3E9180247A4.title: "Understood"
+	task.7F42BC6BBE981932.title: "quary"
 }

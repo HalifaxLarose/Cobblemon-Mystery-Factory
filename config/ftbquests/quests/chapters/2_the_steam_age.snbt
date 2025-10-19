@@ -316,7 +316,7 @@
 				item: { count: 1, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 22.5d
 		}
 		{
@@ -385,8 +385,8 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
-			y: 15.75d
+			x: 14.75d
+			y: 19.0d
 		}
 		{
 			dependencies: ["599F25DDE7CE7C45"]
@@ -396,7 +396,7 @@
 				item: { count: 1, id: "createaddition:tesla_coil" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.75d
 			y: 11.25d
 		}
 		{
@@ -407,7 +407,7 @@
 				item: { count: 1, id: "createaddition:electrum_ingot" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.75d
 			y: 13.5d
 		}
 		{
@@ -643,7 +643,7 @@
 					type: "item"
 				}
 			]
-			x: 12.25d
+			x: 14.0d
 			y: 12.5d
 		}
 		{
@@ -657,8 +657,8 @@
 				item: { count: 1, id: "oritech:steel_ingot" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 20.25d
+			x: 8.25d
+			y: 18.0d
 		}
 		{
 			dependencies: ["5C3E53E38827C070"]
@@ -668,8 +668,8 @@
 				item: { count: 1, id: "oritech:basic_generator_block" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 13.5d
+			x: 17.25d
+			y: 15.75d
 		}
 		{
 			dependencies: ["0F4BA454F283D62A"]
@@ -679,11 +679,15 @@
 				item: { count: 1, id: "oritech:lava_generator_block" }
 				type: "item"
 			}]
-			x: 19.5d
-			y: 13.5d
+			x: 17.25d
+			y: 19.0d
 		}
 		{
-			dependencies: ["3BA75F5500EA27C9"]
+			dependencies: [
+				"3BA75F5500EA27C9"
+				"43F10159CACD7C11"
+				"5D13613A2A106353"
+			]
 			id: "552852905016218D"
 			tasks: [
 				{
@@ -697,8 +701,8 @@
 					type: "item"
 				}
 			]
-			x: 22.5d
-			y: 13.5d
+			x: 17.25d
+			y: 22.5d
 		}
 		{
 			dependencies: ["5C3E53E38827C070"]
@@ -708,8 +712,8 @@
 				item: { count: 1, id: "createaddition:modular_accumulator" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 15.75d
+			x: 17.25d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6D160C05DD00036A"]
@@ -731,7 +735,40 @@
 				type: "item"
 			}]
 			x: 19.5d
-			y: 15.75d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7EDC103B9424A115"]
+			id: "12973A49772AB62D"
+			tasks: [{
+				id: "3D2E95891528D4BD"
+				item: { count: 1, id: "oritech:quartz_dust" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: 24.75d
+		}
+		{
+			dependencies: ["672383DCF81D46B5"]
+			id: "5D13613A2A106353"
+			tasks: [{
+				id: "45726A9C7330D322"
+				item: { count: 1, id: "oritech:silicon" }
+				type: "item"
+			}]
+			x: 17.25d
+			y: 24.75d
+		}
+		{
+			dependencies: ["12973A49772AB62D"]
+			id: "672383DCF81D46B5"
+			tasks: [{
+				id: "0F1459AB20023E5A"
+				item: { count: 1, id: "oritech:raw_silicon" }
+				type: "item"
+			}]
+			x: 15.75d
+			y: 24.75d
 		}
 	]
 }

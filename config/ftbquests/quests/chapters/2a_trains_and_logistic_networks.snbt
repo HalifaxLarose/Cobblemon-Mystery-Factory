@@ -251,8 +251,8 @@
 				item: { count: 1, id: "create:package_filter" }
 				type: "item"
 			}]
-			x: -29.25d
-			y: -24.75d
+			x: -28.5d
+			y: -24.0d
 		}
 		{
 			dependencies: ["5621C34C88CBEAE7"]

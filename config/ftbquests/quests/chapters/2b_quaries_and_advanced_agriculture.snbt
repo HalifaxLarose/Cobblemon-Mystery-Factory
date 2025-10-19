@@ -1,0 +1,213 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_quest_size: 1.5d
+	filename: "2b_quaries_and_advanced_agriculture"
+	group: "25AFFF4BEEB54E90"
+	id: "5A985B5D6F38BD6A"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0F0DFC170412280D"]
+			id: "09323D5B840E46EC"
+			tasks: [{
+				id: "68940AD3FD408DFC"
+				item: { count: 1, id: "oritech:fertilizer_block" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3758CA898101FABE"]
+			id: "0F0DFC170412280D"
+			tasks: [{
+				id: "7B0169254B7B3A53"
+				item: { count: 1, id: "oritech:machine_frame_block" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F0DFC170412280D"]
+			id: "60EF099ABAB08AD5"
+			tasks: [{
+				id: "30875FE429C20431"
+				item: { count: 1, id: "oritech:placer_block" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0F0DFC170412280D"]
+			id: "50ECFA60ED2EA031"
+			tasks: [{
+				id: "608583D83B4211C2"
+				item: { count: 1, id: "oritech:destroyer_block" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6E577E4BB7A10106"]
+			id: "49183D472F7FC749"
+			tasks: [{
+				id: "2E013F4F912D8B19"
+				item: { count: 1, id: "dndesires:bore_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.75d
+		}
+		{
+			dependencies: ["50ECFA60ED2EA031"]
+			id: "490A4D6FFEB5B145"
+			tasks: [{
+				id: "0978C120EC6FCA51"
+				item: { count: 1, id: "oritech:quarry_addon" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["50ECFA60ED2EA031"]
+			id: "302225E49FD9751C"
+			tasks: [{
+				id: "3761BB2CD37EFD45"
+				item: { count: 1, id: "oritech:crop_filter_addon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "oritech:item/wrench"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3758CA898101FABE"
+			tasks: [{
+				id: "5110F2760E3FB00E"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.25d
+		}
+		{
+			icon: {
+				id: "create:wrench"
+			}
+			id: "03DE6FD0DBE9CFA6"
+			tasks: [{
+				id: "2F6DA397BD086931"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -8.25d
+		}
+		{
+			dependencies: ["6E577E4BB7A10106"]
+			id: "5396538800CDDB37"
+			tasks: [{
+				id: "4DB4E949C7060FB2"
+				item: { count: 1, id: "create:rope_pulley" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.25d
+		}
+		{
+			id: "7095251066EA4F6C"
+			tasks: [
+				{
+					id: "7B945F6F56D8C419"
+					item: { count: 1, id: "oritech:machine_plating_block" }
+					type: "item"
+				}
+				{
+					id: "7827411397159469"
+					item: { count: 1, id: "oritech:processing_unit" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E577E4BB7A10106"]
+			id: "42346B8878F610DA"
+			tasks: [{
+				id: "6C40C008CA381F81"
+				item: { count: 1, id: "create:pulse_timer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["03DE6FD0DBE9CFA6"]
+			id: "6E577E4BB7A10106"
+			tasks: [{
+				id: "7F42BC6BBE981932"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			id: "2BB7282862F954FE"
+			tasks: [{
+				id: "64E1ABF5BEE7A3F1"
+				item: { count: 1, id: "sliceanddice:sprinkler" }
+				type: "item"
+			}]
+			x: -6.75d
+			y: -12.75d
+		}
+		{
+			id: "2601D5868EC22044"
+			tasks: [{
+				id: "1FFEAC0A58974AD6"
+				item: { count: 1, id: "create_things_and_misc:sprinkler" }
+				type: "item"
+			}]
+			x: -8.25d
+			y: -12.0d
+		}
+		{
+			id: "3E99257FF4261768"
+			tasks: [{
+				id: "29EA45C14855A0D5"
+				item: { count: 1, id: "mechanical_botany:mechanical_composter" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -10.5d
+		}
+		{
+			id: "54D337A20770D8CA"
+			tasks: [{
+				id: "191A111D66937578"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			id: "26B68940794B658A"
+			tasks: [{
+				id: "2F346C3CEA6F185C"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -13.5d
+		}
+	]
+}

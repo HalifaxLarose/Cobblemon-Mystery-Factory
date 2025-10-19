@@ -8,7 +8,7 @@
 		id: "blocksyouneed_luna:steel_ingot"
 	}
 	id: "166963E568B61211"
-	order_index: 7
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -52,28 +52,17 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["35D2DE55D0A8F5E2"]
-			id: "03C6FD3F4179905D"
-			shape: "gear"
-			tasks: [{
-				id: "63115AA543EB854F"
-				item: { count: 1, id: "oritech:fragment_forge_block" }
-				type: "item"
-			}]
-			x: 10.5d
-			y: -3.0d
-		}
-		{
+			hide_until_deps_visible: false
 			id: "03BECF0CDFE6C49B"
 			shape: "rsquare"
-			size: 2.0d
+			size: 2.5d
 			tasks: [{
 				id: "59AF2518C18EBA44"
 				item: { count: 1, id: "oritech:centrifuge_block" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: -9.0d
+			x: -3.75d
+			y: -11.25d
 		}
 		{
 			dependencies: ["03BECF0CDFE6C49B"]
@@ -418,15 +407,15 @@
 			y: -2.25d
 		}
 		{
-			dependencies: ["12A50EF8D8C5FBCF"]
+			dependencies: ["35D2DE55D0A8F5E2"]
 			id: "3167FF382443FD84"
 			tasks: [{
 				id: "49669B30EBD89893"
 				item: { count: 1, id: "oritech:augment_application_block" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -13.5d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3167FF382443FD84"]
@@ -436,12 +425,16 @@
 				item: { count: 1, id: "oritech:simple_augment_station" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -15.75d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["6316A63414A96A6F"]
+			dependencies: [
+				"6316A63414A96A6F"
+				"38618BBF2497B43E"
+			]
 			id: "12A50EF8D8C5FBCF"
+			shape: "gear"
 			tasks: [{
 				id: "399A490FFD0C8159"
 				item: { count: 1, id: "oritech:assembler_block" }
@@ -489,21 +482,24 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -3.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["35D2DE55D0A8F5E2"]
+			dependencies: ["592CD9583CECC0EF"]
 			id: "4D84153928AA6768"
 			tasks: [{
 				id: "186BA344D295A47B"
 				item: { count: 1, id: "oritech:machine_efficiency_addon" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.0d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["034A82636C6D606D"]
+			dependencies: [
+				"034A82636C6D606D"
+				"293E7252B6BE58F3"
+			]
 			id: "33297A73CFB10E08"
 			tasks: [{
 				id: "502C34C6E4B8EC16"
@@ -707,8 +703,8 @@
 				id: "3D5B6D0595D09E2A"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: 3.75d
+			x: 5.25d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4CCA8EDAF63EF4FC"]
@@ -744,8 +740,8 @@
 				item: { count: 1, id: "create:factory_gauge" }
 				type: "item"
 			}]
-			x: 12.75d
-			y: 0.5d
+			x: 15.75d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -796,7 +792,86 @@
 				type: "item"
 			}]
 			x: 12.75d
-			y: -2.25d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2AD7FD7E2C0EB28E"
+				"35D2DE55D0A8F5E2"
+			]
+			id: "3BE287B0947AE810"
+			tasks: [{
+				id: "3A64059E8733D344"
+				item: { count: 1, id: "oritech:processing_unit" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2444271AB15D1B79"]
+			id: "38618BBF2497B43E"
+			tasks: [{
+				id: "50F33E57D5B697A8"
+				item: { count: 1, id: "oritech:adamant_ingot" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["03BECF0CDFE6C49B"]
+			id: "2D3935A777CEC349"
+			tasks: [{
+				id: "15DE4D31647F3E13"
+				item: { count: 1, id: "oritech:enderic_compound" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: -13.5d
+		}
+		{
+			id: "2444271AB15D1B79"
+			shape: "rsquare"
+			tasks: [{
+				id: "6D4FA382DE728E8F"
+				item: { count: 1, id: "createaddition:diamond_grit" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -15.75d
+		}
+		{
+			dependencies: [
+				"2D3935A777CEC349"
+				"38618BBF2497B43E"
+			]
+			id: "71E6E8C787E02D62"
+			tasks: [
+				{
+					id: "21D09CBEF456C574"
+					item: { count: 1, id: "oritech:chainsaw" }
+					type: "item"
+				}
+				{
+					id: "2036261CC6111789"
+					item: { count: 1, id: "oritech:hand_drill" }
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: -15.75d
+		}
+		{
+			dependencies: ["12A50EF8D8C5FBCF"]
+			id: "293E7252B6BE58F3"
+			tasks: [{
+				id: "126DCB7A58375927"
+				item: { count: 1, id: "oritech:enderic_lens" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -11.25d
 		}
 	]
 }
