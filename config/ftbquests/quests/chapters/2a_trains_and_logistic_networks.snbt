@@ -4,11 +4,12 @@
 	default_quest_size: 1.5d
 	filename: "2a_trains_and_logistic_networks"
 	group: "25AFFF4BEEB54E90"
+	hide_quest_until_deps_visible: true
 	icon: {
 		id: "create:item_vault"
 	}
 	id: "6885E1A723E07E3F"
-	order_index: 4
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -102,8 +103,10 @@
 			shape: "hexagon"
 			size: 2.5d
 			tasks: [{
-				id: "0C6AF58B4E973316"
-				type: "checkmark"
+				advancement: "create:train"
+				criterion: ""
+				id: "76C964ED6B99F00D"
+				type: "advancement"
 			}]
 			x: -6.0d
 			y: -22.5d
@@ -122,6 +125,8 @@
 			y: -22.5d
 		}
 		{
+			dependencies: ["3A1B3C0A77F150EC"]
+			hide_until_deps_complete: true
 			id: "2832E128EB1B2DB9"
 			shape: "rsquare"
 			size: 3.0d
@@ -496,6 +501,15 @@
 		{
 			dependencies: ["2832E128EB1B2DB9"]
 			id: "0A1EB446D1F4F556"
+			rewards: [{
+				count: 32
+				id: "5F7A5DBDEB2732E7"
+				item: {
+					count: 1
+					id: "create:display_board"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -504,6 +518,7 @@
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "25A991250E19948B"
 					item: { count: 1, id: "create:display_board" }
 					type: "item"
@@ -536,6 +551,7 @@
 			dependencies: ["5621C34C88CBEAE7"]
 			id: "79D45F11481CBD19"
 			tasks: [{
+				count: 3L
 				id: "5A7125A81A87EDE4"
 				item: { count: 1, id: "create:mechanical_roller" }
 				type: "item"
@@ -557,6 +573,14 @@
 		}
 		{
 			id: "5763EF06A2D3686C"
+			rewards: [{
+				id: "1281F4B0073F6483"
+				item: {
+					count: 1
+					id: "simpletms:tm_blastburn"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{

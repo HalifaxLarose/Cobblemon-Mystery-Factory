@@ -1,12 +1,20 @@
 {
-	chapter.035D1ABF4FA1F630.title: "4) The Future Age"
+	chapter.035D1ABF4FA1F630.title: "4) The Space Age"
+	chapter.0F534FED1A530BAA.title: "Reward Reclaim"
+	chapter.15790140419A8066.title: "Automation Challenges"
 	chapter.166963E568B61211.title: "3) The Industrial Age"
+	chapter.19757F331B3A25D3.title: "Exploration Side Quests"
+	chapter.1A5A28E4EAB97707.title: "Legendary Hunting"
+	chapter.1B50A088E0973BC1.title: "0a) Life as a Dragon"
+	chapter.2705BF127F8A0D81.title: "Crafting Side Quests"
 	chapter.2ABB2A702B6169AE.title: "1) The Stone Age"
 	chapter.41FBEFF9BD4C1ECB.title: "0) Welcome to a New World"
-	chapter.557957158909E65E.title: "1a) Your First Farms"
+	chapter.557957158909E65E.title: "1a) Factory Basics"
 	chapter.5F6BDBB03A7631E3.title: "2) The Steam Age"
 	chapter.6885E1A723E07E3F.title: "2a) Trains and Logistic Networks"
-	chapter_group.25AFFF4BEEB54E90.title: "To the End"
+	chapter.77CD88C79A568EAB.title: "1b) Your First Farms"
+	chapter_group.25AFFF4BEEB54E90.title: "Cobblemon Mystery Factory"
+	chapter_group.530E09679D7CD852.title: "Side Quests"
 	quest.00263C66A24A4E32.quest_desc: ["It's called the stone age for a reason. Although it has to be this stone. Other stones won't work. Stupid technology."]
 	quest.00263C66A24A4E32.title: "Find Andesite"
 	quest.005E2061A2742EA8.quest_desc: [
@@ -22,11 +30,11 @@
 	]
 	quest.005E2061A2742EA8.title: "Andesite Casing"
 	quest.02834CB5B60C35E0.quest_desc: [
-		"As you automate, you will need to move things from one machine to the next. You will also need to store items, especially in bulk. There are many, many tools to accomplish this, go through each one at a time."
+		"As you automate, you will need to move things between machines and into inventories."
 		""
-		"The items to the top right detail tools used to move items and have them enter and exit any storage. To the top left and top right are two powerful storage solutions. To the left are tools to help you manage factory and stress units."
+		"Your bread and butter are mechanical belts and andesite funnels. Mechanical belts will move items around. Andesite funnels will extract items from inventories or put them inside any block that can store items - this includes machines."
 		""
-		"Dive right in and use these items, you'll pick up faster than just reading everything here."
+		"You will these two items lots."
 	]
 	quest.02834CB5B60C35E0.quest_subtitle: "How to get stuff around"
 	quest.02834CB5B60C35E0.title: "Logistics"
@@ -38,9 +46,23 @@
 		""
 		"Be careful though, they invert rotation directions, and they're a little expensive to produce."
 	]
+	quest.065EDC2D4D98E0C6.quest_desc: ["Some dragon types have a special treat they can eat to have infinite magic for a short while. It'll be worth keeping some on hand."]
+	quest.065EDC2D4D98E0C6.title: "Dragon Treats"
 	quest.067C4963FADE5BAC.title: "Deck Your Train Out!"
 	quest.07C1943969D81782.title: "How to Ponder"
+	quest.07E9CB1BCC8E8F3B.quest_desc: [
+		"Do you regret your form? Do you miss being a human?"
+		""
+		"If you craft a dragon altar, you can change your appearance, or even return to a human, all for free."
+	]
+	quest.07E9CB1BCC8E8F3B.title: "Need a Style Do-over?"
 	quest.0946E21922298C64.quest_desc: ["One of the uses of golden sheets is advanced electronics. Actually, maybe gold sheets aren't that useless."]
+	quest.09A4424786AB5F35.quest_desc: [
+		"Cave Dragons have access to unique and varied food unavailable to other animals."
+		""
+		"Some of these food items grant noteworth bonuses for you. Take note of any that stand out to you!"
+	]
+	quest.09A4424786AB5F35.title: "Cave Dragon Diet"
 	quest.09AF652C5BF6375C.quest_desc: [
 		"Finally, you cook the dough into bread. See if you can get 64 items."
 		""
@@ -54,9 +76,27 @@
 	]
 	quest.0AEE300448ED5FA7.quest_subtitle: "Upgrades, people!"
 	quest.0B19548897BFDF79.title: "Now Give it a Try"
-	quest.0D4ECFAD61112B9F.title: "Growing as a Dragon"
+	quest.0BEE2813285872FC.quest_desc: ["As an Astral Dragon, you don't have any strong weaknesses. You don't even need to eat! Yippee!"]
+	quest.0BEE2813285872FC.title: "Astral Dragon Considerations"
+	quest.0D24B2C14A4AFC47.quest_desc: [
+		"As a Cave Dragon, you are weak to water - and that includes rain. You could building an extensive shelter over your head, but if you build your guild underground, you will always stay dry."
+		""
+		"And be careful with water buckets and bulk washing!"
+		""
+		"As you grow older and stronger, you will be able to tolerate your water allergy better. There are also treats you can eat to negate your weakness for awhile."
+	]
+	quest.0D24B2C14A4AFC47.title: "Cave Dragon Considerations"
+	quest.0D4ECFAD61112B9F.quest_desc: [
+		"In your brand new body, you are a babe once again."
+		""
+		"Over time you will gradually grow, becoming taller and strong. You can speed this along with the remains of elder dragons. Alternatively, there also ways to grow younger and stay that way."
+		""
+		"When your adult, you will be as tall as three blocks unless you crouch. &nDesign your living environments to accomodate this growth ahead of time!&r"
+	]
+	quest.0D4ECFAD61112B9F.title: "Growing as a \"Cobblemon\" Dragon"
 	quest.0D9DCD0E20610EA8.quest_subtitle: "It's Going Upstairs so See Ya Later!"
 	quest.0D9DCD0E20610EA8.title: "Build an Elevator!"
+	quest.0F4BA454F283D62A.quest_subtitle: "Will be hella nerfed"
 	quest.108410E4B63C51E8.quest_desc: ["You can wash gravel to uncover flint and iron nuggets burried beneath. You may want to use the storage drawer filtering trick to separate them from the assembly line."]
 	quest.10B277D07A049ED3.quest_desc: [
 		"This thing's lame."
@@ -65,13 +105,26 @@
 		""
 		"It works better as a decoration piece."
 	]
+	quest.10B277D07A049ED3.quest_subtitle: "Funnel's Virgin Brother"
 	quest.11157DC7D8C40913.title: "Become a Cardboard Handyman!"
+	quest.111CF8517DF1F154.quest_subtitle: "Chapter 0a, 1 Unlocked"
+	quest.111CF8517DF1F154.title: "Begin Your Adventure!"
 	quest.1269ECC706EC81E3.quest_desc: [
 		"Machines need power to move. A handcrank lets you supply that power through manual effort."
 		""
 		"This method of power generation does make you very hungry however, so have some hamburgers you found on the ground to replenish your strength later."
 	]
+	quest.1291F73793B04205.quest_desc: ["This item in particular help tundra dragons survive being alive."]
+	quest.1291F73793B04205.title: "Survive Weakness"
 	quest.138F71A191933F1E.quest_desc: ["You can probably guess how these work."]
+	quest.149084F279A4EDF0.quest_desc: ["This item in particular help aether dragons survive the darkness."]
+	quest.149084F279A4EDF0.title: "Survive Darkness"
+	quest.152B2C6A2A53D6E7.quest_desc: [
+		"Tundra Dragons have access to unique and varied food unavailable to other animals."
+		""
+		"Some of these food items grant noteworth bonuses for you. Take note of any that stand out to you!"
+	]
+	quest.152B2C6A2A53D6E7.title: "Tundra Dragon Diet"
 	quest.15632D26666A0CBF.quest_desc: [
 		"The toolbox lets you store a few stacks of single items. You can then select what item you want by holding down left alt."
 		""
@@ -82,14 +135,37 @@
 	quest.15DCA245B19B9667.title: "This is Getting Ridiculous"
 	quest.1626D22A68A81C35.quest_desc: ["Goggles are invaluable for factory building. They let you see stats about various machines, including how much stress they're consuming, how fast things are spinning, and more. Grab a pair when you can."]
 	quest.1626D22A68A81C35.quest_subtitle: "See Beyond"
+	quest.170301E9D65331BD.quest_desc: ["Elder Dragon Hearts will age adult dragons. If an adult dragon grows old enough, they will become an ancient dragon, and be particularly large."]
+	quest.170301E9D65331BD.title: "Become a Boomer"
+	quest.17676283D431B0BF.title: "A different Asphalt"
 	quest.19258004F540C3FD.quest_desc: [
 		"Just check the ponder."
 		""
 		"They can be really helpful if you run out of space."
 	]
 	quest.19258004F540C3FD.title: "The WTF Way to Do Things"
+	quest.1936350E8BD43C68.title: "Inventory Management"
 	quest.19B6477802FF062A.quest_desc: ["This cool upgrade lets you see how full your drawer is."]
+	quest.19D440D4A38C663D.quest_desc: ["You can use saws to automatically craft shafts from alloy, and this produces more shafts than hand crafting them."]
+	quest.19D440D4A38C663D.title: "Automate Shafts!"
+	quest.19EA3845F442D5D9.quest_desc: [
+		"Your default inventory is woefully limited. With how many tools, machines, ingots, food, deco, and everything else you'll need to hold, you will run out of space."
+		""
+		"Backpacks can alleviate that. They straight up extend your inventory. They can also be placed down with all their contents inside so you can prepare various packs for different purposes."
+	]
 	quest.19EA3845F442D5D9.title: "Get More Inventory Space"
+	quest.1AAFB7BD5BA0BB83.quest_desc: [
+		"You have special abilities to let you smite monsters or even process resources in a special manner. Some of these abilities are inherit, others require mana to cast. Your mana will need to regenerate with rest, food, or time."
+		""
+		"As you gain experience, these skills will level up. It is tied directly to how much exp you have - you do not select which skills get strong, and dying or enchanting will weaken abilities, so think carefully about how you want to use your experience."
+		""
+		"You can see all your abilities in the dragon tab of the dragon inventory menu."
+	]
+	quest.1AAFB7BD5BA0BB83.title: "Dragon Magic"
+	quest.1B13AD597C57BA0C.quest_desc: ["This item in particular help aether dragons survive deep underground."]
+	quest.1B13AD597C57BA0C.title: "Survive the Depths"
+	quest.1B2D84A8C5E84512.quest_desc: ["Instead of automating antidotes, awakenings, etc., it is much easier to just farm status healing berries directly."]
+	quest.1B2D84A8C5E84512.title: "Automate Berries"
 	quest.1B2E19172641070F.quest_subtitle: "What the heck are all those items when I press e?"
 	quest.1B2E19172641070F.title: "How to use JEI"
 	quest.1CAF150BFDBD8E3E.quest_desc: [
@@ -98,6 +174,7 @@
 		"If you don't want to stop the contraption just to pick up the loot, you will need a portable storage interface. One gets glued to the contraption, while one is placed inside the world. When the interface on the contraption and the interface in the world line up, they will connect, and the contraption's inventory will be transfered into the other interface. You can then use a funnel to extract its contents."
 	]
 	quest.1CAF150BFDBD8E3E.title: "Wait, how Do I Get my Items off my Contraption?"
+	quest.1CF3FEA9F907B67E.quest_desc: ["Dragon bones are the next tier of goods for dragons. They can be used to craft altars, star bones, or hearts."]
 	quest.1DD6BF171DC10E1C.quest_desc: ["Andesite alloy is a material used for almost all of the early machines of the Create mod. You will want to stockpile them."]
 	quest.1DD6BF171DC10E1C.quest_subtitle: "The Tier 1 Material"
 	quest.1DD6BF171DC10E1C.title: "Craft Andesite Alloy"
@@ -159,7 +236,15 @@
 	quest.2BDF2361DAF97D58.title: "Bulk Washing"
 	quest.2D60596BED788EEA.quest_desc: ["The modern computer has many uses and applications that can ease automation and production in your factory. Too bad you have no idea how to use this."]
 	quest.2D60596BED788EEA.title: "Skipping Ahead in the Tech Tree"
-	quest.2EAD774DE4B57AFC.title: "DON'T CRASH"
+	quest.2D7FDEA914582A3F.quest_desc: [
+		"If you ever get too big, you can craft a star bone to revert your age."
+		""
+		"The first star bone may be difficult to collect, but once you have one, it's easier to collect more."
+	]
+	quest.2D7FDEA914582A3F.title: "Grow Younger"
+	quest.2DE0E8FB8EDA4C94.quest_desc: ["This item in particular help sea dragons survive outside of water."]
+	quest.2DE0E8FB8EDA4C94.title: "Survive Land"
+	quest.2EAD774DE4B57AFC.title: "DON'T TRAINWRECK"
 	quest.30BB4ADF4FBEEE1C.quest_desc: [
 		"Flour needs to be mixed with water to turn into dough. Place a basin under a mix, and use a water bucket to fill it with water."
 		""
@@ -199,24 +284,22 @@
 	quest.357E014D47850417.quest_desc: ["The quantify key is used like a drawer key, but it does something completely different: it'll display how many items are being stored on the drawer."]
 	quest.357E014D47850417.title: "See Your Stock"
 	quest.361611B3CFF5F931.quest_desc: ["Automating cobblestone is a long and ancient history of two opposite forces of nature working in harmony."]
-	quest.37CA42075D974411.quest_desc: [
-		"The conveyor belt is your bread and butter for transporting items around. It works exactly how you'd expect."
-		""
-		"To place one, set two flat shafts down, then right click them while holding the belt. After it's placed, you can right click the belt with a shaft to add more shafts to it."
-		""
-		"Certain machines can operate on items while they're on conveyor belts. Encased fans, mechanical presses, mechanical saws, and spouts are the largest examples."
-	]
-	quest.3889FC150AD4A37F.quest_desc: [
-		"This is the second most important item for logistics, next to the mechanical belt. Depending on how they're set up, they will automatically output items from inventory storages onto depots, belts, etc., or take items off of belts and into inventory storages or machines."
-		""
-		"They work on everything that \"stores\" something. This includes depots, chests, storage drawers, vaults, furnaces, etc. You'll use them everywhere."
-	]
 	quest.38BF2CAE6EC12222.quest_desc: [
 		"Cogs and shafts can rotate at different speeds. Machines operated at higher speeds will take more stress, but will process items faster. Additionally, some machines require high speeds to operate."
 		""
 		"To change rotational speeds, you can carefully layer small and large cogwheels, as small cogs will spin twice as fast as any large cogwheels connected to its side."
 	]
 	quest.38BF2CAE6EC12222.title: "About Cog Speeds"
+	quest.38CFCAD7A4868A15.quest_desc: [
+		"As a Sea Dragon, you must stay in the sea regularly, else you'll dry out. You may also want to keep a bucket of water on you at all times."
+		""
+		"This weakness actually belies a hidden strength: you have greater access to all three dimensions when designing your factories."
+		""
+		"You will need to be careful not to dry your lava however - you may want to build dedicated dry rooms beneath the sea for such processing."
+		""
+		"As you grow older and stronger, you will be able to tolerate your land allergy better. There are also treats you can eat to negate your weakness for awhile."
+	]
+	quest.3A1B3C0A77F150EC.quest_subtitle: "Chapter 2a Unlocked"
 	quest.3A1B3C0A77F150EC.title: "The Factory Must Grow"
 	quest.3AA5F12C4C48146C.quest_desc: ["Transmission Chains allows you to transfer rotational power between successive belts. Without it, you'll need to awkwardly place encased chain drives and gearboxes around your belts' ends."]
 	quest.3C4DE60854B564A5.quest_desc: ["The rolling mill is a niche machine that is predominantly used to create rods and wires for circuitry. However, it can be used to roll dried kelp blocks into mechanical belts."]
@@ -229,15 +312,18 @@
 	]
 	quest.3CB038C1A63EE776.quest_subtitle: "Doing things old school"
 	quest.3D5936265F6B6CE5.quest_desc: [
-		"Automation is key to healthy industrialization. As your guild grows, you'll want to automate key resources, else you'll struggle to keep up with demand and you'll fail your fellow guildmembers."
+		"Automation is key to healthy engineering guild: without critical resources, you'll struggle to keep with demand and you'll fail your guildmembers depending on you."
 		""
-		"Almost anything can be automated in this world. To help narrow down your options, this chapter serves as a guide to common farms any engineering guild will want set up. Try picking a resource in a rectangular square you want and work from there."
+		"That being said, almost anything in the world can be automated. &oIt is up to you to decide what's important to automate or not&r, if at all. However, chapter 1b will guide you through automating resources that may be of interest of you."
 		""
-		"Additionally, the quests to the right will explain logistics for you. And don't get overwhelmed! Celebrate any failures you may have - experience is the sum of learnt mistakes."
+		"Do not be overwhelmed by chapter 1b - instead, pick one resource you want to automate the most, and focus on only that one. Nothing there is mandatory, everything is your choice to make."
 	]
+	quest.3D5936265F6B6CE5.quest_subtitle: "Chapter 1B Unlocked"
 	quest.3D5936265F6B6CE5.title: "Begin Mass Production"
 	quest.3E5F0C50D261AC2F.quest_subtitle: "...What?"
 	quest.3E5F0C50D261AC2F.title: "Become a Cardboard God!"
+	quest.3E6B4140D204B499.quest_desc: ["Cave dragons, sea dragons, and forest dragons can place special sources of magic to gain infinite mana temporarily. They're ideal for your own private lair within your guild!"]
+	quest.3E6B4140D204B499.title: "Source of Magic"
 	quest.3FD4C8C666C4977B.quest_desc: [
 		"The most complex recipe of this chapter, you can combine gravel, flint, and lava in a basin under a press to create andesite."
 		""
@@ -268,6 +354,7 @@
 		""
 		"The difference is that they are 100% gravity operated. They only take items out when on the bottom of storage, and only place items in on top of storage. They can be placed diagonally and two chute chains can merge together, that being said."
 	]
+	quest.477B0488360D2307.quest_desc: ["Dragon memories will activate the dragon beacon permanently."]
 	quest.47816EB4E84EE905.quest_desc: [
 		"If your water wheel is by the water and your press is far in land, the press isn't going to spin."
 		""
@@ -277,6 +364,8 @@
 	]
 	quest.47816EB4E84EE905.title: "Transfering Power Around"
 	quest.47BB063334F8C001.quest_desc: ["Storage space upgrades increase how many items can be stored at once. It's useful."]
+	quest.47DDB9241ED398B6.quest_desc: ["These two items in particular help cave dragons survive in bodies of water."]
+	quest.47DDB9241ED398B6.title: "Survive Water"
 	quest.4C9850CFFBA0FE8B.quest_desc: ["You can also make gold sheets. They're not nearly as helpful iron sheets, but they still have uses."]
 	quest.4E00B85073B1DC78.quest_desc: [
 		"The magic of Create is the ability to craft your own moving \"contraptions\" comprised of multiple blocks. This is required for farms that use the saw and the harvester, as you'll want those machines to spin around to catch newly grown crops."
@@ -321,6 +410,13 @@
 		""
 		"It's also important for keeping server lag down, as clogged up systems tend to drop stuff onto the ground."
 	]
+	quest.5621C34C88CBEAE7.title: "Assemble a Train"
+	quest.569AD8A316668481.quest_desc: [
+		"As a tundra dragon, you have no special weaknesses!"
+		""
+		"Instead, you just take more damage to everything! Yippee!"
+	]
+	quest.569AD8A316668481.title: "Tundra Dragon Considerations"
 	quest.56A19205C33CA00F.quest_desc: ["The direct chute transfer items directly from one inventory to another inventory storage, no need for a belt inbetween."]
 	quest.58835D0F5F9BCF7D.quest_desc: [
 		"When a spinning encased fan is placed in front of lava, it will project lava particles. Any item caught in these flames will either be smelted, or be incinerated. This is called \"bulk blasting\". Any item that can be made in a blaster can made this way instead."
@@ -329,9 +425,14 @@
 		""
 		"In addition, increasing the fan speed only makes the fan project further. It will always take the same amount of time to smelt goods no matter how fast or slow the fan is."
 	]
+	quest.59EA6F25FC90E26A.title: "How to Mine Oil"
+	quest.5A2E5621204929AB.quest_desc: ["A unique dish for Aether Dragons, which can help them heal."]
+	quest.5A300859DE39D199.quest_desc: ["Dragon Heart Shards will accelerate the growth of newborns into teenager dragons."]
+	quest.5A300859DE39D199.title: "Become a Teenager"
 	quest.5D304AD3C66A4942.quest_desc: ["The stressometer allows you to see the total stress units available for the entire mechanical network. It'll let you upgrade power before things break."]
 	quest.5D304AD3C66A4942.title: "How Stressed Are You?"
 	quest.5D416510290959B2.title: "yeah"
+	quest.5DC2A64D173354DE.title: "Alternative Plastic"
 	quest.5F6D0517D279089E.title: "Automate Planks!"
 	quest.5F9A7918F706602E.quest_desc: ["The encased chain drive transfers rotation in a straight line. Unlike cogs, their rotation direction won't alternate every block. They can look nicer than cogs in some places."]
 	quest.60830DE9CF9FADC6.quest_desc: [
@@ -343,21 +444,53 @@
 	quest.60A46DD0FE6B9295.quest_desc: ["Your tree farm will produce saplings, sticks, logs, and even apples if using an oak log. You could store these all, but you're most likely interested in the lumber, as it can be processed into sweet furniture. And your guild absolutely needs some stylsh interior deco."]
 	quest.60A46DD0FE6B9295.title: "Get Logs"
 	quest.64292AE90578D1A7.quest_desc: ["Harvest clouds for the athmospheric condenser."]
-	quest.66E15C13252F4BEC.title: "Recover as a Dragon"
+	quest.6467039452212EB0.quest_subtitle: "Chapter 1a, 2 Unlocked"
+	quest.66E15C13252F4BEC.quest_desc: [
+		"Dragons don't sleep on beds. They sleep on treasure."
+		""
+		"Collecting treasure and placing it down will allow you to sleep, which recovers health and mana. Placing more treasure down will recover yourself faster. Grow your hoard!"
+	]
+	quest.66E15C13252F4BEC.title: "Grow Your Treasure!"
+	quest.68DCD5A34A0573BC.title: "ROCKET FUEL"
 	quest.6CD4E1ADCEEE6B60.quest_desc: [
 		"The Create Wrench let's you rotate blocks around. It also lets you instantly break Create blocks and return them to your inventory when crouch-clicked."
 		""
 		"Pick this up asap. It'll save you hours of mining shafts, gearboxes, belts, and machines."
 	]
 	quest.6CD4E1ADCEEE6B60.quest_subtitle: "Mandatory Pickup"
-	quest.6CD4E1ADCEEE6B60.title: "The Most Useful Tool"
+	quest.6CD4E1ADCEEE6B60.title: "You NEED This Tool"
+	quest.6CDC20CF07C4E089.quest_desc: [
+		"Sea Dragons have access to unique and varied food unavailable to other animals."
+		""
+		"Some of these food items grant noteworth bonuses for you. Take note of any that stand out to you!"
+	]
+	quest.6CDC20CF07C4E089.title: "Sea Dragon Diet"
+	quest.6E1775F6FD33A62D.quest_desc: [
+		"Elder Dragon Dust is collected either as loot from chests, or from defeating monsters. Completing various quests may also reward some."
+		""
+		"Dragon dust is needed to craft many speciality dragon goods. Accumulating it will also allow you to craft growing items."
+	]
 	quest.6E321FBE3B2DC9B3.title: "Check out the Deco!"
 	quest.6E4E34426C883504.title: "New Logistic Tools"
+	quest.6F7EC2F2661F3CC6.quest_desc: [
+		"As a forest dragon, you're allergic to darkness. Thankfully, light is plentiful in this world."
+		""
+		"As you grow older and stronger, you will be able to tolerate the night better. There are also treats you can eat to negate your weakness for awhile."
+	]
+	quest.6F7EC2F2661F3CC6.title: "Forest Dragon Considerations"
 	quest.6FB53F649D7A1E96.quest_desc: ["Harvesters will harvest ANY type of crop. &oAny&r. They will also replant crop seeds automatically. They only really work as part of contraptions, however."]
 	quest.6FB53F649D7A1E96.title: "Automated Harvesting"
 	quest.70013AFEA5B49966.quest_desc: ["If you bulk blast logs, you get charcoal. This is free and infinite. See if you can stockpile a healthy amount of charcoal!"]
 	quest.70013AFEA5B49966.title: "Automate Charcoal!"
 	quest.7091A4D0B3222FDF.title: "I've Been Using Storage Drawers!"
+	quest.7171AC0F9E9F47C5.quest_desc: ["Much like a regular beacon, a dragon beacon will give you buffs in an area. You'll need a beacon activator to use it."]
+	quest.723FA2F993ED89B4.title: "Aether Dragon Considerations"
+	quest.727A327ECE33C3E7.quest_desc: [
+		"Forest Dragons have access to unique and varied food unavailable to other animals."
+		""
+		"Some of these food items grant noteworth bonuses for you, although you'll have dig a bit far the list to reach them. Take note of any that stand out to you!"
+	]
+	quest.727A327ECE33C3E7.title: "Forest Dragon Diet"
 	quest.728B07747E8065F9.quest_desc: [
 		"Believe it or not, there's a completely vanilla way to automate lava."
 		""
@@ -373,6 +506,14 @@
 		""
 		"This is usually used in tandem with a cobblestone generator."
 	]
+	quest.755CD75830E45C7C.quest_desc: [
+		"Your claws are strong enough to serve as tools all on their own. Which tool they function as depends on your species."
+		""
+		"In the dragon inventory however, you can equip numerous tools as \"equipment\" for your claws. This allows your claws to act as all of them at once, saving you the need to constantly change your tool."
+		""
+		"You also have wings, and can fly! It can be a bit draining on your hunger but its a very convenient way to travel. When you're an adult, you can even ferry newborn dragons and humans on your back!"
+	]
+	quest.755CD75830E45C7C.title: "Claw and Wing"
 	quest.75FE6A13236FD377.quest_desc: [
 		"Storage drawers can be upgraded in many ways. The most useful ones are to have more storage space, and to let input be destroyed if the drawer is full. You will need storage templates to craft all of these upgrades."
 		""
@@ -384,6 +525,8 @@
 		""
 		"And don't worry: contraptions will work safely underwater."
 	]
+	quest.765EC8DBE5162583.quest_subtitle: "Steel is Seriously Important"
+	quest.765EC8DBE5162583.title: "Automate Steel Ingots"
 	quest.767CE983B352411F.quest_desc: ["Feed cobblestone into a millstone to break it into gravelly pieces."]
 	quest.7709D40C9E7FE1FE.quest_desc: [
 		"Escalators - which can also be placed as walkways - add an incredibly stylish way to effortlessly get around your guild."
@@ -400,6 +543,8 @@
 		""
 		"Keep in mind, increasing the fan speed only makes the fan project further. It will always take the same amount of time to smoke food no matter how fast or slow the fan is."
 	]
+	quest.79400E10CEF4CA8C.quest_desc: ["Weak Dragon Hearts will accelerate the growth of newborns into adult dragons."]
+	quest.79400E10CEF4CA8C.title: "Become an Adult"
 	quest.7B40E692C6B23D11.quest_desc: [
 		"You craft a press, and are excited to make materials no claw can make on its own. Now to just assemble it."
 		""
@@ -416,32 +561,58 @@
 		""
 		"The first is to mill it into flour with a millstone."
 	]
+	quest.7CE9C13D767F8C8A.quest_desc: [
+		"If you are happy with your current size and want to stop growing, you can consume a star heart to stop aging permanently."
+		""
+		"Alternatively, it can be used to craft a dragon beacon."
+	]
+	quest.7CE9C13D767F8C8A.title: "Stay Young Forever"
+	quest.7CEE18F24A72C771.quest_desc: [
+		"Stop filthy non-dragons from accessing your treasure hoard. Dragon pressure plates and dragon doors will allow only dragons to enter."
+		""
+		"Cave dragons, forest dragons, and sea dragons can build special plates and doors that only open to their specific species of dragons."
+	]
+	quest.7CEE18F24A72C771.title: "Secure Your Lair"
+	quest.7EE3C83D0BF37910.quest_subtitle: "(Introduce in Chapter 3)"
 	task.00BACF868F130380.title: "4x64 Charcoal"
 	task.01AFE6B5F75F9708.title: "Understood"
+	task.01D407E3051BCC44.title: "Any Cave Dragon Food"
 	task.020424D7ED6084FF.title: "Any Stripped Log"
 	task.036B28137F61205E.title: "Ethelyene and Proleyene"
 	task.03FB7D4E26017EAE.title: "Understood"
 	task.0443033F3FF4F768.title: "Kerosene"
+	task.04B526EC3C7417A6.title: "Understood"
 	task.0624199736CE2BB7.title: "Understood"
 	task.09069C3509A42F83.title: "Understood"
 	task.0AC5C18B39143601.title: "Understood"
-	task.0C6AF58B4E973316.title: "How to Build a Train"
+	task.0CCE78AED87AC9B4.title: "Understood"
 	task.0D5AA7E800B160D3.title: "Understood"
-	task.0F17964A34C2D44F.title: "Found."
+	task.0F17964A34C2D44F.title: "Found"
+	task.0F312AD9B4AB1C09.title: "Any #dragonsurvival:dragon_treasures"
+	task.104BAC91C8C9DCAF.title: "Sea Dragon Considerations"
 	task.1325D664F6217B94.title: "Wow!"
 	task.135D1281D64D4329.title: "Understood"
 	task.14830C57CD511151.title: "Understood"
 	task.180E36A68E5D7A5B.title: "Any Toolbox"
 	task.1918877266F1A840.title: "Any Log"
-	task.1D7BC5EFD37AB3A9.title: "Understood"
+	task.1C462D7741284336.title: "Any Tundra Dragon Food"
+	task.1CCB16211B5EE56D.title: "Understood"
 	task.1EE6D1370BC82F85.title: "Understood"
+	task.1FD1ABCFA4D4252B.title: "understood"
 	task.1FDE64D9A907DA0C.title: "Carbon Gas Get"
 	task.21067DEC181C43E7.title: "Understood"
+	task.21B8B5A1053AE875.title: "Any Forest Dragon Food"
+	task.2215FE26D06E2B51.title: "64 Common Berries"
 	task.22BB11900BEB46EA.title: "4x64 Andestite Alloy"
+	task.235C04B17A2246A0.title: "Any #dragonsurvival:tundra_dragon_food"
 	task.23B3CF8AE8F81B3A.title: "4x64 Wooden Planks"
 	task.23E5B0E290D3DDC2.title: "4x64 Mechanical Belts"
+	task.24069D56347CFB96.title: "understood"
 	task.25DA2C2FAE1DBE86.title: "Time to Become a Dragon"
+	task.262A9AD39DA6C709.title: "16x64 Steel Ingots"
 	task.297520682E165D85.title: "Understood"
+	task.2AAA1B474A5FECA4.title: "Any Sea Dragon Food"
+	task.2BD65D01EF00B899.title: "Understood"
 	task.2D20B4E08234FA02.title: "Any Treasure"
 	task.320C10207214AB04.title: "It worked!"
 	task.33CB184B1FB6B249.title: "The Path of Automation"
@@ -451,20 +622,26 @@
 	task.46AA680FC9346250.title: "Any Apricorn Sprout"
 	task.49320E4EB0B4AD3B.title: "Understood"
 	task.4A81998FDA29266C.title: "Understood"
+	task.4CF6B3F652C261C5.title: "Understood"
 	task.4D42956ED1B19328.title: "Understood"
+	task.4DAA6D5B70F56043.title: "Understood"
 	task.4DBE105356572221.title: "Understood"
 	task.501D5AEA12506680.title: "How to Build and Operate a Rocket"
 	task.55EBEF59C628B35B.title: "Understood"
 	task.55FB6097E08D0EAE.title: "Understood"
 	task.579ECBE69A1D03F0.title: "Any Sapling"
+	task.5C05CB2182DB2DEE.title: "Dragon Passion"
 	task.5CE8455D76A1A5C4.title: "Understood"
 	task.5D6230BD55D544AB.title: "Understood"
+	task.5ECBE56A18782DC8.title: "Understood"
 	task.5F2B6C08EBB5F45B.title: "Any Apricorn"
-	task.62181154F14B523B.title: "Understood"
+	task.62181154F14B523B.title: "I'm Ready"
 	task.667322DF91FCF5B2.title: "Ethelene and  propylene "
+	task.6736993618769277.title: "4x64 Shafts"
+	task.6DAC00F53624AFAD.title: "Any Dragon Altar"
 	task.6ED66D8C4C1A967E.title: "How to Use JEI"
 	task.6FC099E3F355ACE0.title: "Any 32 Pokeballs"
 	task.7216A33D2F32D9D1.title: "Any Backpack"
 	task.739E84BBF8AFBD82.title: "From A to B"
-	task.7483C98CF8259966.title: "Understood"
+	task.7C84B3E9180247A4.title: "Understood"
 }

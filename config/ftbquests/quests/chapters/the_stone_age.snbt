@@ -11,7 +11,7 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "2ABB2A702B6169AE"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -26,9 +26,10 @@
 			y: -5.25d
 		}
 		{
+			dependencies: ["111CF8517DF1F154"]
 			id: "530E15A5BD357D09"
 			shape: "rsquare"
-			size: 2.0d
+			size: 2.5d
 			tasks: [{
 				id: "33CB184B1FB6B249"
 				type: "checkmark"
@@ -126,6 +127,7 @@
 				"31BC7B591DD81EDB"
 			]
 			id: "7B40E692C6B23D11"
+			shape: "gear"
 			size: 2.5d
 			tasks: [{
 				id: "4B2929D0ED91F9BF"
@@ -173,7 +175,7 @@
 			id: "2D60596BED788EEA"
 			rewards: [
 				{
-					count: 10
+					count: 5
 					id: "788F489413FE5D7F"
 					item: {
 						count: 1
@@ -182,11 +184,19 @@
 					type: "item"
 				}
 				{
-					count: 5
+					count: 3
 					id: "4A732B84188DF6C1"
 					item: {
 						count: 1
 						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "311133EEDFD2DD2B"
+					item: {
+						count: 1
+						id: "cobblemon:upgrade"
 					}
 					type: "item"
 				}
@@ -459,6 +469,21 @@
 			]
 			x: 0.0d
 			y: -19.5d
+		}
+		{
+			dependencies: [
+				"111CF8517DF1F154"
+				"530E15A5BD357D09"
+			]
+			id: "19EA3845F442D5D9"
+			size: 2.0d
+			tasks: [{
+				id: "392330B52EF8DEB9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:back)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 }

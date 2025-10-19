@@ -8,11 +8,11 @@
 		id: "create:steam_engine"
 	}
 	id: "5F6BDBB03A7631E3"
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3A4D822386BBA666"]
+			dependencies: ["6467039452212EB0"]
 			id: "762C57887356A993"
 			shape: "rsquare"
 			size: 3.0d
@@ -22,9 +22,10 @@
 				type: "dimension"
 			}]
 			x: 0.75d
-			y: 5.25d
+			y: 1.5d
 		}
 		{
+			dependencies: ["6467039452212EB0"]
 			id: "0A18A7166FAF727E"
 			shape: "rsquare"
 			size: 2.5d
@@ -118,6 +119,7 @@
 			y: 14.25d
 		}
 		{
+			dependencies: ["762C57887356A993"]
 			id: "3A4D822386BBA666"
 			tasks: [{
 				id: "5789A310D44706A2"
@@ -125,10 +127,10 @@
 				type: "item"
 			}]
 			x: 0.75d
-			y: 2.25d
+			y: 5.25d
 		}
 		{
-			dependencies: ["762C57887356A993"]
+			dependencies: ["3A4D822386BBA666"]
 			id: "0E7FFBC699E11EA4"
 			tasks: [{
 				id: "10110444DA1EACD3"
@@ -199,6 +201,7 @@
 				"6E4E34426C883504"
 			]
 			id: "2769D96526B7A2FE"
+			shape: "gear"
 			tasks: [{
 				id: "1CB0629BB9763F56"
 				item: { count: 1, id: "create:deployer" }
@@ -306,6 +309,7 @@
 		{
 			dependencies: ["3A1B3C0A77F150EC"]
 			id: "79D8A38D25FD6FEB"
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "5AFA6213F1E52F64"
@@ -318,6 +322,7 @@
 		{
 			dependencies: ["79D8A38D25FD6FEB"]
 			id: "7EDC103B9424A115"
+			shape: "gear"
 			tasks: [{
 				id: "3385B3A4E5E033D7"
 				item: { count: 1, id: "create:crushing_wheel" }
@@ -327,7 +332,10 @@
 			y: 22.5d
 		}
 		{
-			dependencies: ["6E4DC0FB20FCB6CF"]
+			dependencies: [
+				"6E4DC0FB20FCB6CF"
+				"0656B7840C606BB8"
+			]
 			id: "599F25DDE7CE7C45"
 			tasks: [{
 				id: "7E549311B502230D"
@@ -340,6 +348,7 @@
 		{
 			dependencies: ["599F25DDE7CE7C45"]
 			id: "25B19EF290BAC7B8"
+			shape: "gear"
 			tasks: [{
 				id: "0EBC268C379973F3"
 				item: { count: 1, id: "oritech:pulverizer_block" }
@@ -362,11 +371,20 @@
 		{
 			dependencies: ["5C3E53E38827C070"]
 			id: "3107D3458D88336D"
-			tasks: [{
-				id: "30C17AB57E603AAF"
-				item: { count: 1, id: "oritech:foundry_block" }
-				type: "item"
-			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "30C17AB57E603AAF"
+					item: { count: 1, id: "oritech:foundry_block" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3BA9A6648979F646"
+					item: { count: 1, id: "oritech:machine_core_2" }
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 15.75d
 		}
@@ -410,6 +428,14 @@
 				"3107D3458D88336D"
 			]
 			id: "67E8FC5EC26CF012"
+			rewards: [{
+				id: "71AE008E813D641D"
+				item: {
+					count: 1
+					id: "mega_showdown:steelmemory"
+				}
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 3.0d
 			tasks: [{
@@ -422,33 +448,15 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["0656B7840C606BB8"]
-			id: "4A5321CAB936C777"
-			tasks: [
-				{
-					id: "4B6165629D799964"
-					item: { count: 1, id: "createaddition:rolling_mill" }
-					type: "item"
-				}
-				{
-					id: "443E75DC46A67931"
-					item: { count: 1, id: "createdieselgenerators:wire_cutters" }
-					type: "item"
-				}
-			]
-			x: 3.75d
-			y: 11.25d
-		}
-		{
-			dependencies: ["4A5321CAB936C777"]
 			id: "6A9342529E8D9221"
+			shape: "rsquare"
 			tasks: [{
 				id: "5DB0FDAE03E953BC"
 				item: { count: 1, id: "createaddition:copper_wire" }
 				type: "item"
 			}]
-			x: 5.25d
-			y: 11.25d
+			x: 6.75d
+			y: 9.75d
 		}
 		{
 			dependencies: ["6A9342529E8D9221"]
@@ -458,8 +466,8 @@
 				item: { count: 1, id: "createaddition:copper_spool" }
 				type: "item"
 			}]
-			x: 6.75d
-			y: 11.25d
+			x: 8.25d
+			y: 9.75d
 		}
 		{
 			dependencies: ["599F25DDE7CE7C45"]
@@ -490,6 +498,14 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "3E00F73FA0DC4DEB"
+			rewards: [{
+				id: "50B269BD5FB7300A"
+				item: {
+					count: 1
+					id: "cobblemon:razor_claw"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "586A4093C0A99DE6"
 				item: { count: 1, id: "fluid:baton" }
@@ -507,6 +523,14 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "0E62B563A557D9F7"
+			rewards: [{
+				id: "54CD3B5B116A9FB2"
+				item: {
+					count: 1
+					id: "cobblemon:quick_claw"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5258EF8AD059EA31"
 				item: { count: 1, id: "create:filter" }
@@ -545,6 +569,7 @@
 			id: "789DC38345C759D7"
 			shape: "heart"
 			tasks: [{
+				count: 3L
 				id: "2315CB314614CAD9"
 				item: { count: 1, id: "create:rotation_speed_controller" }
 				type: "item"
@@ -568,8 +593,8 @@
 					type: "item"
 				}
 			]
-			x: 2.25d
-			y: 12.75d
+			x: 2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3A1B3C0A77F150EC"]
@@ -603,18 +628,6 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["3107D3458D88336D"]
-			id: "04EF49FDEF70A8ED"
-			tasks: [{
-				count: 3L
-				id: "59E39216C8C14FCA"
-				item: { count: 1, id: "oritech:machine_core_2" }
-				type: "item"
-			}]
-			x: 15.75d
-			y: 15.75d
-		}
-		{
 			dependencies: ["5C3E53E38827C070"]
 			id: "2B2CEC1E023328E9"
 			size: 1.0d
@@ -632,6 +645,93 @@
 			]
 			x: 12.25d
 			y: 12.5d
+		}
+		{
+			dependencies: ["67E8FC5EC26CF012"]
+			hide_until_deps_complete: true
+			id: "765EC8DBE5162583"
+			shape: "diamond"
+			tasks: [{
+				count: 1024L
+				id: "262A9AD39DA6C709"
+				item: { count: 1, id: "oritech:steel_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 20.25d
+		}
+		{
+			dependencies: ["5C3E53E38827C070"]
+			id: "0F4BA454F283D62A"
+			tasks: [{
+				id: "6DBD0AD2FE1072AB"
+				item: { count: 1, id: "oritech:basic_generator_block" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0F4BA454F283D62A"]
+			id: "3BA75F5500EA27C9"
+			tasks: [{
+				id: "0B2EE37C67245402"
+				item: { count: 1, id: "oritech:lava_generator_block" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3BA75F5500EA27C9"]
+			id: "552852905016218D"
+			tasks: [
+				{
+					id: "7ECFAE27F063C7BB"
+					item: { count: 1, id: "oritech:steam_boiler_addon" }
+					type: "item"
+				}
+				{
+					id: "6EC95392BC6DEA54"
+					item: { count: 1, id: "oritech:steam_engine_block" }
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5C3E53E38827C070"]
+			id: "667413DDB3A31753"
+			tasks: [{
+				id: "1278D60ECFC03708"
+				item: { count: 1, id: "createaddition:modular_accumulator" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 15.75d
+		}
+		{
+			dependencies: ["6D160C05DD00036A"]
+			id: "191C2FFC2CF75EA7"
+			tasks: [{
+				id: "07A580B6926D30F7"
+				item: { count: 1, id: "create:portable_fluid_interface" }
+				type: "item"
+			}]
+			x: -9.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["667413DDB3A31753"]
+			id: "2F385781C4F668AB"
+			tasks: [{
+				id: "2D99F72CDC096241"
+				item: { count: 1, id: "createaddition:portable_energy_interface" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 15.75d
 		}
 	]
 }
