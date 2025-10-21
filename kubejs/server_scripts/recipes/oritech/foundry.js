@@ -20,6 +20,29 @@ ServerEvents.recipes(event => {
         "id": "oritech:steel_ingot"
       }
     ],
-    "time": 39
+    "time": 30
+  })
+  event.custom({
+    "type": "oritech:foundry",
+    "fluidInput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
+    "fluidOutputs": [],
+    "ingredients": [
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "create:brass_ingot"
+      }
+    ],
+    "results": [
+      {
+        "count": 2,
+        "id": "oritech:adamant_ingot"
+      }
+    ],
+    "time": 120
   })
 })

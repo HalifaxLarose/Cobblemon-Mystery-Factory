@@ -1,5 +1,5 @@
-ServerEvents.recipes(event => {
-    // Chapter 3
+ServerEvents.recipes(event => {    
+    // Chapter 2
     event.custom({
         type: "create:mixing",
         "ingredients": [
@@ -22,5 +22,21 @@ ServerEvents.recipes(event => {
             id: "northstar:hydrocarbon"
         }],
         "heat_requirement": "superheated",
+    });
+    // Chapter 3
+    event.custom({
+        type: "create:mixing",
+        "ingredients": [
+            {
+                "tag": "minecraft:sand",
+            },
+            {
+                "tag": "c:dusts/quartz",
+            },
+        ],
+        "results": [{
+            count: 3,
+            id: "oritech:raw_silicon"
+        }],
     });
 })

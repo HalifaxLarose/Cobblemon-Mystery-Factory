@@ -14,7 +14,13 @@ ServerEvents.recipes(event => {
         {id: "oritech:foundry/alloy/electrum"},
         {id: "oritech:crafting/alloy/electrum"},
         {input:"minecraft:iron_ingot", output:"oritech:steel_ingot"},
+        {id: "oritech:crafting/electricfurnace"}, //Turning one of the earliest machines into one of the latest
 
+        // Enforcing distinction between Oritech pulverizer and Create crushing wheel
+        {id: "oritech:pulverizer/quartz"},
+        {id: "oritech:pulverizer/recycle/4_quartz_dust"},
+        {id: "oritech:pulverizer/recycle/2_quartz_dust"},
+        {id: "createaddition:crushing/diamond"},
 
         // Ore processing
         {id: "oritech:pulverizer/recycle/iron_dust"},
@@ -23,10 +29,18 @@ ServerEvents.recipes(event => {
 
         // Naughty Oritech recipes who won't go through global ingredient replacements
         {id: "oritech:assembler/motor"},
+        {id: "oritech:foundry/alloy/adamant"},
 
         // Chapter 3
         // {output: "northstar:carbon"},
         {id: "northstar:mixing/hydrocarbon_from_carbon"},
+        {id: "oritech:pulverizer/pearl_enderic"},
+        {id: "garnished:milling/crushed_ender_pearl"},
+        {id: "garnished:crushing/crushed_ender_pearl"},
+
+        // Chapter 4
+        {output: "oritech:laser_arm_block"},
+        {output: "minecraft:ender_eye", input: "minecraft:blaze_rod"},
     ]
     recipeRemove.forEach((recipe) => {
         event.remove(recipe)

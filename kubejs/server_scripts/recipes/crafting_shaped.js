@@ -72,22 +72,24 @@ ServerEvents.recipes(event => {
             D: "createaddition:capacitor"
         }
     )
+
+    // Chapter 4
     event.shaped(
-        Item.of("createaddition:tesla_coil", 1),
+        Item.of("oritech:laser_arm_block", 1),
         [
-            "ATA",
-            "SBS",
-            "CCC"
+            "PPE",
+            "P  ",
+            "AC "
         ],
         {
-            A: "create:brass_sheet",
-            T: "create:electron_tube",
-            S: "createaddition:copper_spool",
-            B: "create:brass_casing",
-            C: "createaddition:capacitor"
+            P: "oritech:platinum_ingot",
+            E: "oritech:enderic_lens",
+            A: "create:mechanical_arm",
+            C: "#oritech:plating",
         }
     )
     
+
 })
 
 

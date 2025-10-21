@@ -41,4 +41,37 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    event.custom({
+        type: "create:crushing",
+        ingredients: [
+            {
+                "item": "minecraft:crying_obsidian"
+            }
+        ],
+        processing_time: 150,
+        results: [
+            {
+                "chance": 0.125,
+                "id": "minecraft:ghast_tear"
+            }
+        ]
+    })
+
+    // event.custom({
+    //     type: "create:crushing",
+    //     ingredients: [
+    //         {
+    //             "item": "minecraft:ender_pearl"
+    //         }
+    //     ],
+    //     processing_time: 90,
+    //     results: [
+    //         {
+    //             "count": 6,
+    //             "id": "oritech:enderic_compound"
+    //         }
+    //     ]
+    // })
+
 })
