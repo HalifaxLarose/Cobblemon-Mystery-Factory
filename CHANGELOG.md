@@ -1,3 +1,27 @@
+## 0.3.0
+### ADDITIONS
+
+#### Mod additions
+- added Cobblemon Radical Red Trainers
+- added Blocks you need
+- added Create: Drill Drai
+- added Create Mechanical Cow
+- added Create Mechanical Chicken
+- added Draconic Evolution
+- added Brandon’s Core
+- added Code Chidken Lib
+
+Along with any libs needed
+
+### REMOVALS
+
+#### Mod removals
+- Removed Create: Food
+- Removed Ghosts
+- Removed Create: Garnished
+- Removed Cobblemon Size Variation
+- Removed Create: Vibrant Vaults
+
 
 ## 0.2.0
 ### ADDITIONS
