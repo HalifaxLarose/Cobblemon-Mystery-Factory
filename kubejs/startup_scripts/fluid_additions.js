@@ -1,3 +1,5 @@
+"#CB1631"
+
 StartupEvents.registry('fluid', event => {
   event.create('industrial_crude_oil', 'thick')
     .tint(0x1F2022)
@@ -20,6 +22,9 @@ StartupEvents.registry('fluid', event => {
   event.create('butane', 'thin')
     .tint(0x9B7A01)
     .displayName('Butane')
+  event.create('red_slurry', 'thin')
+    .tint(0xCB1631)
+    .displayName('Red Slurry')
 })
 
 // StartupEvents.registry('fluid', event => {

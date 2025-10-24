@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
         {output: "oritech:steel_ingot", type: "create:mixing"},
         {type: "create:mechanical_crafting", output: "createaddition:alternator"},
         {type: "create:mechanical_crafting", output: "createaddition:electric_motor"},
-        {type: "create:mechanical_crafting", output: "createaddition:tesla_coil"},
+        // {type: "create:mechanical_crafting", output: "createaddition:tesla_coil"},
         {id: "oritech:pulverizer/coal"},
         {id: "oritech:foundry/alloy/steel"},
         {id: "oritech:crafting/alloy/steel"},
@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
         {id: "oritech:crafting/alloy/electrum"},
         {input:"minecraft:iron_ingot", output:"oritech:steel_ingot"},
         {id: "oritech:crafting/electricfurnace"}, //Turning one of the earliest machines into one of the latest
+        {output: 'create:rose_quartz'},
 
         // Enforcing distinction between Oritech pulverizer and Create crushing wheel
         {id: "oritech:pulverizer/quartz"},

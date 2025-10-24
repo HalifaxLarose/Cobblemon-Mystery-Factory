@@ -83,6 +83,7 @@
 		{
 			dependencies: ["5621C34C88CBEAE7"]
 			id: "24970CBA9D5FC2D7"
+			shape: "heart"
 			tasks: [{
 				id: "6282E1B55D444194"
 				item: { count: 1, id: "create:schedule" }

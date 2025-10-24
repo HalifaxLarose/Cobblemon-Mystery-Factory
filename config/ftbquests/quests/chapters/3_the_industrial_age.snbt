@@ -429,10 +429,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"6316A63414A96A6F"
-				"38618BBF2497B43E"
-			]
+			dependencies: ["6316A63414A96A6F"]
 			id: "12A50EF8D8C5FBCF"
 			shape: "gear"
 			tasks: [{
@@ -707,7 +704,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["4CCA8EDAF63EF4FC"]
+			dependencies: [
+				"4CCA8EDAF63EF4FC"
+				"60806FF62BA5A20A"
+			]
 			id: "225EB1B9C530866D"
 			shape: "rsquare"
 			size: 1.5d
@@ -747,7 +747,6 @@
 			dependencies: [
 				"74B24604630D93E8"
 				"172BC54EE5CD221C"
-				"225EB1B9C530866D"
 				"4CCA8EDAF63EF4FC"
 			]
 			id: "60806FF62BA5A20A"
@@ -809,17 +808,6 @@
 			y: 0.0d
 		}
 		{
-			id: "38618BBF2497B43E"
-			shape: "rsquare"
-			tasks: [{
-				id: "50F33E57D5B697A8"
-				item: { count: 1, id: "oritech:adamant_ingot" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -13.5d
-		}
-		{
 			dependencies: ["03BECF0CDFE6C49B"]
 			id: "2D3935A777CEC349"
 			tasks: [{
@@ -831,10 +819,7 @@
 			y: -13.5d
 		}
 		{
-			dependencies: [
-				"2D3935A777CEC349"
-				"38618BBF2497B43E"
-			]
+			dependencies: ["2D3935A777CEC349"]
 			id: "71E6E8C787E02D62"
 			tasks: [
 				{

@@ -16,11 +16,18 @@
 			id: "762C57887356A993"
 			shape: "rsquare"
 			size: 3.0d
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "71371764F9D2341C"
-				type: "dimension"
-			}]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "71371764F9D2341C"
+					type: "dimension"
+				}
+				{
+					id: "4C62AEFF6ECC1827"
+					item: { count: 1, id: "minecraft:netherrack" }
+					type: "item"
+				}
+			]
 			x: 0.75d
 			y: 1.5d
 		}
@@ -54,6 +61,7 @@
 			dependencies: ["0A18A7166FAF727E"]
 			id: "6D160C05DD00036A"
 			tasks: [{
+				count: 8L
 				id: "37C9304D205609B7"
 				item: { count: 1, id: "create:fluid_tank" }
 				type: "item"
@@ -64,6 +72,14 @@
 		{
 			dependencies: ["0A18A7166FAF727E"]
 			id: "5849CC9BA757F975"
+			rewards: [{
+				id: "6F3B377C4A40A36D"
+				item: {
+					count: 1
+					id: "cobblemon:water_stone"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "19DCAB2E11A5B0FF"
@@ -91,6 +107,9 @@
 		}
 		{
 			dependencies: ["0A18A7166FAF727E"]
+			icon: {
+				id: "create:mechanical_mixer"
+			}
 			id: "598CCCB21C5CFAE1"
 			tasks: [
 				{
@@ -122,6 +141,7 @@
 			dependencies: ["762C57887356A993"]
 			id: "3A4D822386BBA666"
 			tasks: [{
+				count: 8L
 				id: "5789A310D44706A2"
 				item: { count: 1, id: "create:empty_blaze_burner" }
 				type: "item"
@@ -131,12 +151,41 @@
 		}
 		{
 			dependencies: ["3A4D822386BBA666"]
+			icon: {
+				id: "create:blaze_burner"
+			}
 			id: "0E7FFBC699E11EA4"
-			tasks: [{
-				id: "10110444DA1EACD3"
-				item: { count: 1, id: "create:blaze_burner" }
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4DB812E47738C96B"
+					item: {
+						count: 1
+						id: "simpletms:tr_firespin"
+					}
+					type: "item"
+				}
+				{
+					id: "7D537D8C90261669"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_blaze"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "10110444DA1EACD3"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+				{
+					id: "25E2BACD2B69F86E"
+					structure: "minecraft:fortress"
+					type: "structure"
+				}
+			]
 			x: 0.75d
 			y: 8.25d
 		}
@@ -146,6 +195,26 @@
 				"598CCCB21C5CFAE1"
 			]
 			id: "0656B7840C606BB8"
+			rewards: [
+				{
+					count: 16
+					id: "2F110BE361BE2782"
+					item: {
+						count: 1
+						id: "morebridges:brass_bridge"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "625AC97CB558E214"
+					item: {
+						count: 1
+						id: "morebridges:brass_bridge_stair"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1BE9544D5E0BB57C"
 				item: { count: 1, id: "create:brass_ingot" }
@@ -174,7 +243,10 @@
 			y: 22.5d
 		}
 		{
-			dependencies: ["43C5A3753F2AAA6A"]
+			dependencies: [
+				"43C5A3753F2AAA6A"
+				"496B8FD6BE25A5AD"
+			]
 			id: "5396F655F1F9866E"
 			tasks: [{
 				id: "75E4FC558D8F2D38"
@@ -187,6 +259,14 @@
 		{
 			dependencies: ["0656B7840C606BB8"]
 			id: "4C08103DE08919AF"
+			rewards: [{
+				id: "76D767F832D184AB"
+				item: {
+					count: 1
+					id: "simpletms:tm_helpinghand"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7193CCF2251F63B2"
 				item: { count: 1, id: "create:brass_hand" }
@@ -199,6 +279,9 @@
 			dependencies: [
 				"4C08103DE08919AF"
 				"6E4E34426C883504"
+				"1FE27F926442DEC7"
+				"2D8BA21FB58CE620"
+				"64446935A72B9350"
 			]
 			id: "2769D96526B7A2FE"
 			shape: "gear"
@@ -216,13 +299,49 @@
 				"0E7FFBC699E11EA4"
 			]
 			id: "65FF3369DBBEC9D9"
+			rewards: [
+				{
+					count: 32
+					id: "5A11188A4C9BB6FA"
+					item: {
+						count: 1
+						id: "create:fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6E38E0AC271E1934"
+					item: {
+						count: 1
+						id: "create:mechanical_pump"
+					}
+					type: "item"
+				}
+				{
+					id: "6497EDC6F49CED6F"
+					item: {
+						count: 1
+						id: "cobblemon:fire_stone"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.5d
-			tasks: [{
-				id: "785A525FD0571093"
-				item: { count: 1, id: "create:steam_engine" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "785A525FD0571093"
+					item: { count: 1, id: "create:steam_engine" }
+					type: "item"
+				}
+				{
+					advancement: "create:steam_engine"
+					criterion: ""
+					id: "509BECE1CCD95AC7"
+					type: "advancement"
+				}
+			]
 			x: -3.75d
 			y: 8.25d
 		}
@@ -309,9 +428,18 @@
 		{
 			dependencies: ["3A1B3C0A77F150EC"]
 			id: "79D8A38D25FD6FEB"
+			rewards: [{
+				id: "661B10F2F0B02DC4"
+				item: {
+					count: 1
+					id: "simpletms:tr_autotomize"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
+				count: 21L
 				id: "5AFA6213F1E52F64"
 				item: { count: 1, id: "create:mechanical_crafter" }
 				type: "item"
@@ -324,6 +452,7 @@
 			id: "7EDC103B9424A115"
 			shape: "gear"
 			tasks: [{
+				count: 2L
 				id: "3385B3A4E5E033D7"
 				item: { count: 1, id: "create:crushing_wheel" }
 				type: "item"
@@ -332,10 +461,7 @@
 			y: 22.5d
 		}
 		{
-			dependencies: [
-				"6E4DC0FB20FCB6CF"
-				"0656B7840C606BB8"
-			]
+			dependencies: ["6E4DC0FB20FCB6CF"]
 			id: "599F25DDE7CE7C45"
 			tasks: [{
 				id: "7E549311B502230D"
@@ -370,6 +496,9 @@
 		}
 		{
 			dependencies: ["5C3E53E38827C070"]
+			icon: {
+				id: "oritech:foundry_block"
+			}
 			id: "3107D3458D88336D"
 			shape: "gear"
 			tasks: [
@@ -428,16 +557,43 @@
 				"3107D3458D88336D"
 			]
 			id: "67E8FC5EC26CF012"
-			rewards: [{
-				id: "71AE008E813D641D"
-				item: {
-					count: 1
-					id: "mega_showdown:steelmemory"
+			rewards: [
+				{
+					id: "71AE008E813D641D"
+					item: {
+						count: 1
+						id: "mega_showdown:steelmemory"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "50618E1ACE961710"
+					item: {
+						count: 1
+						id: "mega_showdown:ironplate"
+					}
+					type: "item"
+				}
+				{
+					id: "792A267F613C031C"
+					item: {
+						count: 1
+						id: "cobblemon:metal_coat"
+					}
+					type: "item"
+				}
+				{
+					count: 256
+					id: "457D7DD3D5C6EE39"
+					item: {
+						count: 1
+						id: "create:metal_girder"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			size: 3.0d
+			size: 4.0d
 			tasks: [{
 				count: 32L
 				id: "2250BE06B5C75630"
@@ -448,15 +604,15 @@
 			y: 19.0d
 		}
 		{
+			dependencies: ["0656B7840C606BB8"]
 			id: "6A9342529E8D9221"
-			shape: "rsquare"
 			tasks: [{
 				id: "5DB0FDAE03E953BC"
 				item: { count: 1, id: "createaddition:copper_wire" }
 				type: "item"
 			}]
-			x: 6.75d
-			y: 9.75d
+			x: 3.75d
+			y: 11.25d
 		}
 		{
 			dependencies: ["6A9342529E8D9221"]
@@ -466,12 +622,20 @@
 				item: { count: 1, id: "createaddition:copper_spool" }
 				type: "item"
 			}]
-			x: 8.25d
-			y: 9.75d
+			x: 6.75d
+			y: 11.25d
 		}
 		{
 			dependencies: ["599F25DDE7CE7C45"]
 			id: "1B8A36994DB3C327"
+			rewards: [{
+				id: "2894D829AA5E8BE3"
+				item: {
+					count: 1
+					id: "cobblemon:thunder_stone"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E6EB588978E9E4D"
 				item: { count: 1, id: "createaddition:electric_motor" }
@@ -499,10 +663,10 @@
 			dependency_requirement: "one_completed"
 			id: "3E00F73FA0DC4DEB"
 			rewards: [{
-				id: "50B269BD5FB7300A"
+				id: "4CFE2DD3EF39C895"
 				item: {
 					count: 1
-					id: "cobblemon:razor_claw"
+					id: "cobblemon:metronome"
 				}
 				type: "item"
 			}]
@@ -523,14 +687,25 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "0E62B563A557D9F7"
-			rewards: [{
-				id: "54CD3B5B116A9FB2"
-				item: {
-					count: 1
-					id: "cobblemon:quick_claw"
+			rewards: [
+				{
+					count: 8
+					id: "0D8808495AA7CBF9"
+					item: {
+						count: 1
+						id: "create:filter"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "673BE19E1D94D890"
+					item: {
+						count: 1
+						id: "cobblemon:leaf_stone"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5258EF8AD059EA31"
 				item: { count: 1, id: "create:filter" }
@@ -542,6 +717,14 @@
 		{
 			dependencies: ["3A1B3C0A77F150EC"]
 			id: "3D7ED057FEC4A03C"
+			rewards: [{
+				id: "2F5E702C34084111"
+				item: {
+					count: 1
+					id: "cobblemon:quick_claw"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 2L
@@ -567,6 +750,15 @@
 		{
 			dependencies: ["3A1B3C0A77F150EC"]
 			id: "789DC38345C759D7"
+			rewards: [{
+				count: 20
+				id: "7DD730A9A5ADCA0C"
+				item: {
+					count: 1
+					id: "create:large_cogwheel"
+				}
+				type: "item"
+			}]
 			shape: "heart"
 			tasks: [{
 				count: 3L
@@ -574,12 +766,39 @@
 				item: { count: 1, id: "create:rotation_speed_controller" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 20.25d
+			x: -1.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["0656B7840C606BB8"]
 			id: "4DCE48D4B2A596FA"
+			rewards: [
+				{
+					count: 32
+					id: "7EE8602ABA3CA0CD"
+					item: {
+						count: 1
+						id: "blocksyouneed_luna:starchart"
+					}
+					type: "item"
+				}
+				{
+					id: "12F7B007A4B6CB69"
+					item: {
+						count: 1
+						id: "cobblemon:moon_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "2CFC4D8E9361FFC6"
+					item: {
+						count: 1
+						id: "cobblemon:sun_stone"
+					}
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [
 				{
@@ -599,14 +818,6 @@
 		{
 			dependencies: ["3A1B3C0A77F150EC"]
 			id: "0D9DCD0E20610EA8"
-			rewards: [{
-				id: "6247B999668A8846"
-				item: {
-					count: 1
-					id: "create_bic_bit:mayonnaise_bucket"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "3B04795B448399A2"
 				item: { count: 1, id: "create:elevator_pulley" }
@@ -630,6 +841,14 @@
 		{
 			dependencies: ["5C3E53E38827C070"]
 			id: "2B2CEC1E023328E9"
+			rewards: [{
+				id: "590973B3A2066436"
+				item: {
+					count: 1
+					id: "cobblemon:shiny_stone"
+				}
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -650,6 +869,24 @@
 			dependencies: ["67E8FC5EC26CF012"]
 			hide_until_deps_complete: true
 			id: "765EC8DBE5162583"
+			rewards: [
+				{
+					id: "4FF4D709ED6A32F1"
+					item: {
+						count: 1
+						id: "mega_showdown:steelium-z"
+					}
+					type: "item"
+				}
+				{
+					id: "29444D337052E25E"
+					item: {
+						count: 1
+						id: "simpletms:tm_steelbeam"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				count: 1024L
@@ -657,8 +894,8 @@
 				item: { count: 1, id: "oritech:steel_ingot" }
 				type: "item"
 			}]
-			x: 8.25d
-			y: 18.0d
+			x: 12.0d
+			y: 17.25d
 		}
 		{
 			dependencies: ["5C3E53E38827C070"]
@@ -687,6 +924,7 @@
 				"3BA75F5500EA27C9"
 				"43F10159CACD7C11"
 				"5D13613A2A106353"
+				"07DACF27D2E02D79"
 			]
 			id: "552852905016218D"
 			tasks: [
@@ -719,6 +957,7 @@
 			dependencies: ["6D160C05DD00036A"]
 			id: "191C2FFC2CF75EA7"
 			tasks: [{
+				count: 2L
 				id: "07A580B6926D30F7"
 				item: { count: 1, id: "create:portable_fluid_interface" }
 				type: "item"
@@ -729,6 +968,24 @@
 		{
 			dependencies: ["667413DDB3A31753"]
 			id: "2F385781C4F668AB"
+			rewards: [
+				{
+					id: "6FCE2252F270B538"
+					item: {
+						count: 1
+						id: "cobblemon:dawn_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "6017D0B9F322B4D0"
+					item: {
+						count: 1
+						id: "cobblemon:dusk_stone"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2D99F72CDC096241"
 				item: { count: 1, id: "createaddition:portable_energy_interface" }
@@ -769,6 +1026,164 @@
 			}]
 			x: 15.75d
 			y: 24.75d
+		}
+		{
+			dependencies: [
+				"15632D26666A0CBF"
+				"762C57887356A993"
+			]
+			id: "5FF98D1BE52A53C8"
+			rewards: [{
+				id: "0E7559A8CB55BC78"
+				item: {
+					count: 1
+					id: "plushie_buddies:plushie_ghast"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7A67646EBD768175"
+					item: { count: 1, id: "create_power_loader:empty_andesite_chunk_loader" }
+					type: "item"
+				}
+				{
+					id: "730FBF4E5A05C483"
+					item: { count: 1, id: "create_power_loader:andesite_chunk_loader" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79D8A38D25FD6FEB"]
+			id: "6F022C581F6530E5"
+			rewards: [{
+				id: "74F687FB77B3ABE2"
+				item: {
+					count: 1
+					id: "plushie_buddies:plushie_magma_cube"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "666E1E0B51E5574C"
+				item: { count: 1, id: "create_power_loader:empty_brass_chunk_loader" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 20.25d
+		}
+		{
+			dependencies: ["598CCCB21C5CFAE1"]
+			id: "496B8FD6BE25A5AD"
+			tasks: [{
+				id: "5DFB90DD916EF797"
+				item: { count: 1, id: "kubejs:red_slurry_bucket" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.25d
+		}
+		{
+			dependencies: [
+				"25B19EF290BAC7B8"
+				"7EDC103B9424A115"
+			]
+			id: "15A2E1D5F70C9F6E"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "77FA5410F2BB7962"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3107D3458D88336D"]
+			id: "07DACF27D2E02D79"
+			size: 1.0d
+			tasks: [{
+				id: "6E0E04596A632364"
+				item: { count: 1, id: "oritech:adamant_ingot" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["3A1B3C0A77F150EC"]
+			id: "7DF3D41A3CB1423F"
+			size: 1.0d
+			tasks: [{
+				count: 2L
+				id: "36C840C7A3E5A943"
+				item: { count: 1, id: "petrolsparts:pneumatic_tube" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 21.5d
+		}
+		{
+			icon: {
+				id: "create:large_cogwheel"
+			}
+			id: "1FE27F926442DEC7"
+			rewards: [{
+				id: "259784C5BDC26237"
+				item: {
+					count: 1
+					id: "cobblemon:eviolite"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					count: 256L
+					id: "54CC66CE0D47AA53"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					count: 256L
+					id: "41A8BFB8CF65604D"
+					item: { count: 1, id: "create:large_cogwheel" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			id: "2D8BA21FB58CE620"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				count: 64L
+				id: "7C3775A9ECA1D534"
+				item: { count: 1, id: "cobblemon:great_ball" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 16.5d
+		}
+		{
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "64446935A72B9350"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "34EB311F52B79867"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 18.0d
 		}
 	]
 }

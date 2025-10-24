@@ -6,6 +6,7 @@
 	chapter.19757F331B3A25D3.title: "Exploration Side Quests"
 	chapter.1A5A28E4EAB97707.title: "Legendary Hunting"
 	chapter.1B50A088E0973BC1.title: "0a) Life as a Dragon"
+	chapter.21AA1C666D354300.title: "World of Cuisine"
 	chapter.2705BF127F8A0D81.title: "Crafting Side Quests"
 	chapter.2ABB2A702B6169AE.title: "1) The Stone Age"
 	chapter.41FBEFF9BD4C1ECB.title: "0) Welcome to a New World"
@@ -47,10 +48,22 @@
 		""
 		"Be careful though, they invert rotation directions, and they're a little expensive to produce."
 	]
+	quest.0656B7840C606BB8.quest_desc: [
+		"Brass is a fundamentally important alloy, used in many logistical and quality of life tools. It's also required for many machines for Oritech."
+		""
+		"You'll want to consider automating this asap."
+	]
+	quest.0656B7840C606BB8.title: "Better than Gold"
 	quest.065EDC2D4D98E0C6.quest_desc: ["Some dragon types have a special treat they can eat to have infinite magic for a short while. It'll be worth keeping some on hand."]
 	quest.065EDC2D4D98E0C6.title: "Dragon Treats"
 	quest.067C4963FADE5BAC.title: "Deck Your Train Out!"
 	quest.07C1943969D81782.title: "How to Ponder"
+	quest.07DACF27D2E02D79.quest_desc: [
+		"The adamant ingot is another special kind of alloy, made from diamond and brass."
+		""
+		"It can be used to make machines that aren't necessarily required, but are powerful additions to your guild workfloor."
+	]
+	quest.07DACF27D2E02D79.quest_subtitle: "The sequel to diamonds"
 	quest.07E9CB1BCC8E8F3B.quest_desc: [
 		"Do you regret your form? Do you miss being a human?"
 		""
@@ -70,6 +83,16 @@
 		"If you been using JEI, you may have noticed there's a lot of recipes involving dough, flour, or bread. Feel free to experiment with automating  something fancier and more filling!"
 	]
 	quest.09AF652C5BF6375C.title: "Automate Bread!"
+	quest.0A18A7166FAF727E.quest_desc: [
+		"Fluids - such as familiar water and lava - are used in many forms of crafting in the world of engineering. Being unable to be held in hand however, they require special tools to move around."
+		""
+		"Namely, they travel through pipes with the help of pumps. Pumps can only push fluid before needing a second pump far so be mindful of this. Additionally, you can only have one type of fluid occupy a pipe at a time."
+		""
+		"To pick up fluid in the overworld, you only need to have an open face of the pump face the fluid."
+		""
+		"Fluids also use special machines to process them. Copper Casing is a common component in all these machines, much like hwo andesite casing is used in a lot of kinetic machines."
+	]
+	quest.0A18A7166FAF727E.title: "Bend Water to your Will"
 	quest.0AEE300448ED5FA7.quest_desc: [
 		"Using a drill with a cobblestone generator involves dropping entities into the world. This can cause server lag quick if things aren't finely tuned."
 		""
@@ -95,9 +118,26 @@
 		"When your adult, you will be as tall as three blocks unless you crouch. &nDesign your living environments to accomodate this growth ahead of time!&r"
 	]
 	quest.0D4ECFAD61112B9F.title: "Growing as a \"Cobblemon\" Dragon"
+	quest.0D9DCD0E20610EA8.quest_desc: [
+		"Elevators allow you to go up and down multiple floors with ease. "
+		""
+		"You may wonderr at times if fluff like this is important, but it is: you got to wow over your fellow guild members with innovation! Inspiring them keeps the motivated to work for you!"
+	]
 	quest.0D9DCD0E20610EA8.quest_subtitle: "It's Going Upstairs so See Ya Later!"
 	quest.0D9DCD0E20610EA8.title: "Build an Elevator!"
-	quest.0F4BA454F283D62A.quest_subtitle: "Will be hella nerfed"
+	quest.0E62B563A557D9F7.quest_desc: [
+		"You may have noticed a reoccuring theme in the previous quests: \"filter\"."
+		""
+		"You can slap any old item onto filter slots to have them accept only that item, but you can make elaborate filters allowing multiple items with the filter."
+	]
+	quest.0E7FFBC699E11EA4.quest_desc: ["Now with blaze burner in hand, find a Nether Fortress, and find some blazes, and right click on them. This will scoop the blaze into the burner, just like a Cobblemon in a friend ball. Once you're satisfied, head back to the overworld, to start putting them to good use."]
+	quest.0E7FFBC699E11EA4.quest_subtitle: "Hot, hot, hot!"
+	quest.0F4BA454F283D62A.quest_desc: [
+		"The basic generator takes basic burnable fuels like coal and generates electricity."
+		""
+		"It's unforunately a little too basic, and not terrible strong. Maybe it can be helpful in a pinch though."
+	]
+	quest.0F4BA454F283D62A.quest_subtitle: "This is hella nerfed"
 	quest.108410E4B63C51E8.quest_desc: ["You can wash gravel to uncover flint and iron nuggets burried beneath. You may want to use the storage drawer filtering trick to separate them from the assembly line."]
 	quest.10B277D07A049ED3.quest_desc: [
 		"This thing's lame."
@@ -117,6 +157,7 @@
 	]
 	quest.1291F73793B04205.quest_desc: ["This item in particular help tundra dragons survive being alive."]
 	quest.1291F73793B04205.title: "Survive Weakness"
+	quest.12973A49772AB62D.quest_desc: ["Crushing up Quartz from the Nether gives you Quartz Dust, which may have a use or two."]
 	quest.138F71A191933F1E.quest_desc: ["You can probably guess how these work."]
 	quest.149084F279A4EDF0.quest_desc: ["This item in particular help aether dragons survive the darkness."]
 	quest.149084F279A4EDF0.title: "Survive Darkness"
@@ -132,6 +173,12 @@
 		"The best part is that you can do this even if you place down the toolbox in the world. Load your toolbox up with your most frequently placed items like shafts and gears."
 	]
 	quest.15632D26666A0CBF.title: "Help! Minecraft's UI Sucks!"
+	quest.15A2E1D5F70C9F6E.quest_desc: [
+		"What if for every raw ore you got, you could get nearly double the amount of ingots?"
+		""
+		"Well, you can almost do that! The most efficient way to process ore is to crush it with a crushing wheel first, and then send it to the pulverizer. The dust produced can then be smelted into an ingot, and you'll end up with more than if you just smelted the raw or directly."
+	]
+	quest.15A2E1D5F70C9F6E.title: "Better Ore Processing"
 	quest.15DCA245B19B9667.quest_desc: ["These two cogwheels are HUGE. Too huge, in fact: you won't be able to craft them until chapter 2. So close to completing your collection..."]
 	quest.15DCA245B19B9667.title: "This is Getting Ridiculous"
 	quest.1626D22A68A81C35.quest_desc: ["Goggles are invaluable for factory building. They let you see stats about various machines, including how much stress they're consuming, how fast things are spinning, and more. Grab a pair when you can."]
@@ -139,6 +186,11 @@
 	quest.170301E9D65331BD.quest_desc: ["Elder Dragon Hearts will age adult dragons. If an adult dragon grows old enough, they will become an ancient dragon, and be particularly large."]
 	quest.170301E9D65331BD.title: "Become a Boomer"
 	quest.17676283D431B0BF.title: "A different Asphalt"
+	quest.191C2FFC2CF75EA7.quest_desc: [
+		"If you got into chapter 1b, you would have learned about portable item interfaces, which allow contraptions to move inventories to non-contraption storages."
+		""
+		"The portal fluid interface is the same idea, except for fluids. You may not have an immediate need for them, but they may come in handy later if you need to move liquid fuel around to satelite factories."
+	]
 	quest.19258004F540C3FD.quest_desc: [
 		"Just check the ponder."
 		""
@@ -169,6 +221,12 @@
 	quest.1B2D84A8C5E84512.title: "Automate Berries"
 	quest.1B2E19172641070F.quest_subtitle: "What the heck are all those items when I press e?"
 	quest.1B2E19172641070F.title: "How to use JEI"
+	quest.1B8A36994DB3C327.quest_desc: [
+		"The electric motor takes electricity to start spinning a shaft."
+		""
+		"About 10% of SU is lost then would have been used to generate the electricity used in the first place. But don't forget: time's a resource, and this 10% penalty may be a fair trade off."
+	]
+	quest.1B8A36994DB3C327.title: "Now in Reverse!"
 	quest.1CAF150BFDBD8E3E.quest_desc: [
 		"Contraptions will harvest the natural world for you, but everything it picks up will be stashed inside any inventory block glued to the machine."
 		""
@@ -184,6 +242,12 @@
 		""
 		"Dried kelp blocks are an incredible source of furnace fuel, if setting up tree farms are too annoying to work with."
 	]
+	quest.1FE27F926442DEC7.quest_desc: [
+		"With deployers, you can now automate cogwheels from start to end."
+		""
+		"Using a mechanical saw on wood planks allow you to make cog teeth, which can then be inserted into a deployer. You'll have to figure out how to automate the rest of the ingredients for this task, however."
+	]
+	quest.1FE27F926442DEC7.title: "Automate Cogwheels"
 	quest.208060DC3A35D465.quest_desc: [
 		"Vaults excel at storing an immense amount of items in one inventory. They are like gigachests."
 		""
@@ -209,6 +273,7 @@
 		""
 		"Iron sheets are used to craft the rest of the basic Create machines. You'll be crafting them often. You may want to find a way to operate it without manual labour: you only have so many peanut butter hamburgers, after all."
 	]
+	quest.21BAC44F2572FCFE.quest_desc: ["The Brass Funnel is an upgrade to the Andesite Tunnel. It can transfer stacks at a time instead of individual items, and you can set a filter so it'll only accept certain items. You'll likely be using a lot of these."]
 	quest.21E78150F0DE810B.title: "I want to stay as a human..."
 	quest.21E8F2DA6F9C0AD1.quest_desc: ["Wheat, a familiar beloved crop, is one such crop that can be automated with the harvester."]
 	quest.23CCE09AC12A8F37.quest_desc: [
@@ -216,10 +281,23 @@
 		""
 		"However, you can't automatically craft belts from dried kelp, not until next chapter. To complete production, there's a few steps left."
 	]
+	quest.25B19EF290BAC7B8.quest_desc: [
+		"Oritech is a world of electrical machines with many focused on processing ores in unique ways."
+		""
+		"Oritech machines are distinct from Create machines in that they can be upgraded in various ways down the line, and sometimes there will be more than one way to accomplish the same thing depending on how complicated you want to make your processing chains."
+		""
+		"For now, start with the pulverizer. The pulverizer specializes in crushing ingots into dust. Do note: it only operates on hard minerals like iron. Processes that don't involve something coming from ore will be used in the mixer or crusher."
+	]
+	quest.25B19EF290BAC7B8.title: "Welcome to Oritech!"
 	quest.26A6308CF7AE20CC.quest_desc: ["This gizmo lets you insert items into vaults directly from your hands."]
 	quest.26CB60C2EBDCA444.quest_desc: ["Since you're a dragon now, are iron nuggets really that far off from chicken nuggets in terms of edibleness?"]
 	quest.26CB60C2EBDCA444.title: "Find Nuggets"
 	quest.26DE4A6B7692144E.title: "Alternative Heavy Oil Use"
+	quest.2769D96526B7A2FE.quest_desc: [
+		"A deployer is like an automatic fist: it can be configured to to either left click or right click, and when powered, will act as if it was a player clicking the block it is pointing at. It can even be given a tool like shears to automatically shear sheep or bonemeal to automatically grow crops. If given a block, it can automatically place it."
+		""
+		"Deploying is also used for a few unique recipes, especially in sequenced assembly lines."
+	]
 	quest.2832E128EB1B2DB9.title: "Welcome"
 	quest.2A6F263F498ADA48.quest_desc: [
 		"These oak drawers will become your best friend. They can only store one type of item, but they will store huge amounts of it. Since you're likely to be mass producing singular items, these drawers can be more convenient than regular chests."
@@ -229,6 +307,7 @@
 	quest.2A6F263F498ADA48.title: "Mass Storage for One Item"
 	quest.2A93CFA2627ED3F8.quest_desc: ["You can craft these big boys to generate even more stress units! Give it a shot."]
 	quest.2A93CFA2627ED3F8.title: "MORE POWER!"
+	quest.2B2CEC1E023328E9.quest_desc: ["With access to electrum, you can now make large connectors and electrum wire. The former connects more wires at once, while electrum wire can handle more charge going through it at once. Not that you'll have any need for electrum for awhile."]
 	quest.2BDF2361DAF97D58.quest_desc: [
 		"Water in front of an spinning encased fan will spit out bubbles. Any item caught inside these bubbles will be washed, transforming into a different item, if applicable."
 		""
@@ -243,9 +322,15 @@
 		"The first star bone may be difficult to collect, but once you have one, it's easier to collect more."
 	]
 	quest.2D7FDEA914582A3F.title: "Grow Younger"
+	quest.2D8BA21FB58CE620.title: "Automate Great Balls"
 	quest.2DE0E8FB8EDA4C94.quest_desc: ["This item in particular help sea dragons survive outside of water."]
 	quest.2DE0E8FB8EDA4C94.title: "Survive Land"
 	quest.2EAD774DE4B57AFC.title: "DON'T TRAINWRECK"
+	quest.2F385781C4F668AB.quest_desc: [
+		"Like the portable item interface and the portable fluid interface, the portable energy interface allows you to transfer energy between contraptions and non-contraptions."
+		""
+		"This may be not be useful to hav ein your base, but may be pretty helpful for transfering energy long distance via, let's say, a train..."
+	]
 	quest.30BB4ADF4FBEEE1C.quest_desc: [
 		"Flour needs to be mixed with water to turn into dough. Place a basin under a mix, and use a water bucket to fill it with water."
 		""
@@ -256,6 +341,12 @@
 		""
 		"Do note: the saw's shafts must be spinning in the opposite direction to the conveyor belt."
 	]
+	quest.3107D3458D88336D.quest_desc: [
+		"The foundry is exclusively used to make alloys, and is the best way to do so for any alloy."
+		""
+		"It is also your first multiblock Oritech machine. Therefore, to actually assemble it, you will need to right click the placed block with machine cores to fill out the rest of it. Better cores means you can place more \"addon extenders\" down the line once you can actually make them."
+	]
+	quest.3107D3458D88336D.quest_subtitle: "Make alloys!"
 	quest.31789F4CD0EA4FF2.quest_desc: [
 		"Large Cogwheels operate a little differently than small cogwheels, so listen up."
 		""
@@ -300,9 +391,30 @@
 		""
 		"As you grow older and stronger, you will be able to tolerate your land allergy better. There are also treats you can eat to negate your weakness for awhile."
 	]
-	quest.3A1B3C0A77F150EC.quest_subtitle: "Chapter 2a Unlocked"
+	quest.3A1B3C0A77F150EC.quest_desc: [
+		"Precision mechanisms and brass casings are used for all the advanced Create machines. You'll soon find yourself beaming with joy everytime you see them."
+		""
+		"Additionally, brass casing is stylish as heck!"
+	]
+	quest.3A1B3C0A77F150EC.quest_subtitle: "Chapter 2a (Trains) Unlocked"
 	quest.3A1B3C0A77F150EC.title: "The Factory Must Grow"
+	quest.3A4D822386BBA666.quest_desc: [
+		"These blaze burners will be your new age furnaces. They can house a blaze, who can be fed with coal to heat certain productions up."
+		""
+		"Craft a few before heading deeper into the nether!"
+	]
+	quest.3A628C3A1A58375E.quest_desc: [
+		"The Tesla Coil can be use to zap an item to change its properties. Unforunately, this has incredibly niche uses."
+		""
+		"But, it does have some cool gimmicks: if you have a portal electric tool, the tesla coil can charge it up. The tesla coil can also shock hostile mobs when placed upright."
+	]
+	quest.3A628C3A1A58375E.quest_subtitle: "(Or Second)"
+	quest.3A628C3A1A58375E.title: "Your First Electrical Machine"
 	quest.3AA5F12C4C48146C.quest_desc: ["Transmission Chains allows you to transfer rotational power between successive belts. Without it, you'll need to awkwardly place encased chain drives and gearboxes around your belts' ends."]
+	quest.3B9E88B89A7251CE.quest_desc: ["The Fluid Hatch lets you drain buckets directly into a fluid tank, or withdraw fluids without a spout."]
+	quest.3BA75F5500EA27C9.quest_desc: ["The lava generator will allow you to generate electricity without any need of alternators, simply by pumping lava into it."]
+	quest.3BA75F5500EA27C9.quest_subtitle: "A true, proper, electrical generator"
+	quest.3BFC3E2847C75C3B.quest_desc: ["Iron dust can only be crafted from the pulvizer, and must be in this form to become steel."]
 	quest.3C4DE60854B564A5.quest_desc: ["The rolling mill is a niche machine that is predominantly used to create rods and wires for circuitry. However, it can be used to roll dried kelp blocks into mechanical belts."]
 	quest.3C87FD031586626D.quest_desc: ["Speedometers let you see how fast its connected shaft is rotating."]
 	quest.3C87FD031586626D.title: "How Fast are You?"
@@ -321,6 +433,9 @@
 	]
 	quest.3D5936265F6B6CE5.quest_subtitle: "Chapter 1B Unlocked"
 	quest.3D5936265F6B6CE5.title: "Begin Mass Production"
+	quest.3D7ED057FEC4A03C.quest_desc: ["Hypertubes let you get from one spot to another fast, so long accelerators along the way are powered."]
+	quest.3D7ED057FEC4A03C.title: "Gotta Go Fast"
+	quest.3E00F73FA0DC4DEB.quest_desc: ["You'd normally need to break an arm or pipette and place it down again to reassign what it operates on, but this handy baton allows you to do that without destruction."]
 	quest.3E5F0C50D261AC2F.quest_subtitle: "...What?"
 	quest.3E5F0C50D261AC2F.title: "Become a Cardboard God!"
 	quest.3E6B4140D204B499.quest_desc: ["Cave dragons, sea dragons, and forest dragons can place special sources of magic to gain infinite mana temporarily. They're ideal for your own private lair within your guild!"]
@@ -349,6 +464,13 @@
 	quest.41B3D4B4B97A5FCF.title: "Automate Lumber"
 	quest.42346B8878F610DA.title: "Logic Tools of Interest"
 	quest.425C799A70DE09BF.title: "Acidify your production line"
+	quest.43C5A3753F2AAA6A.quest_desc: [
+		"The spout is used splash fluids onto items, or to fill up buckets and glass bottles."
+		""
+		"Most of its uses are culinary-related, but it is needed to make rose quartz, the raw form of the powerful electron tubes."
+	]
+	quest.43C5A3753F2AAA6A.quest_subtitle: "Squirt squirt, ha ha ha"
+	quest.43F10159CACD7C11.quest_desc: ["SMASH STUFF UP!!"]
 	quest.44286D097B53FD39.quest_desc: ["Cogs can be placed on the end of shafts, and will rotate neighbouring cogs."]
 	quest.44AE71346FC5369B.title: "Heavy Oil Products"
 	quest.471CDA944D6A8C40.quest_desc: [
@@ -368,7 +490,24 @@
 	quest.47BB063334F8C001.quest_desc: ["Storage space upgrades increase how many items can be stored at once. It's useful."]
 	quest.47DDB9241ED398B6.quest_desc: ["These two items in particular help cave dragons survive in bodies of water."]
 	quest.47DDB9241ED398B6.title: "Survive Water"
+	quest.496B8FD6BE25A5AD.quest_desc: [
+		"Pump some water into the basin and chuck redstone in. They'll mix together into a wonderfully delicious red slurry you pour onto rose quartz like ketchup."
+		""
+		"If you toss 40 redstone, you'll make enough red slurry to pick up in a bucket."
+	]
+	quest.496B8FD6BE25A5AD.quest_subtitle: "It looks tasty..."
+	quest.4C08103DE08919AF.quest_desc: [
+		"You need to make a brass hand to make a deployer."
+		""
+		"You can't make hands out of any other material. You tried: it just doesn't work."
+	]
 	quest.4C9850CFFBA0FE8B.quest_desc: ["You can also make gold sheets. They're not nearly as helpful iron sheets, but they still have uses."]
+	quest.4DCE48D4B2A596FA.quest_desc: [
+		"With these tools, you can enjoy the ancient tradition of stargazing."
+		""
+		"In fact, by taking measurements of celestial bodies like the moon or mars, you'll be able to get star readings, which will let you navigate to them later. It's take a few in-game nights to collect the data you need, so you may want to check in on the telescope once in awhile."
+	]
+	quest.4DCE48D4B2A596FA.title: "Astronomy"
 	quest.4E00B85073B1DC78.quest_desc: [
 		"The magic of Create is the ability to craft your own moving \"contraptions\" comprised of multiple blocks. This is required for farms that use the saw and the harvester, as you'll want those machines to spin around to catch newly grown crops."
 		""
@@ -397,6 +536,13 @@
 	]
 	quest.530E15A5BD357D09.quest_subtitle: "Bring Human Industry to this Land!"
 	quest.530E15A5BD357D09.title: "Start Your Engineering Guild!"
+	quest.5396F655F1F9866E.quest_desc: [
+		"You spout red slurry onto quartz, and then you sand it into polished rose quartz. Finally, you place it on an iron plate to make an electron tube."
+		""
+		"There are numerous ways to sand something. The simplest is to combine sand with paper and use it on an item while holding the sandpaper in your offhand."
+		""
+		"The electron tube doesn't do anything on your own, but you'll soon find it's a very useful and in-demand material."
+	]
 	quest.548F517F8BA2ED6B.quest_desc: [
 		"The mechanical press is a powerful tool. It has two uses."
 		""
@@ -416,6 +562,13 @@
 		"The public version of this modpack will feature those quests completed, however :)"
 	]
 	quest.54D337A20770D8CA.title: "PLEASE READ"
+	quest.552852905016218D.quest_desc: [
+		"The steam boiler addon can be placed in the outlet-looking socket on ANY Oritech generator (except fission generators). Instead of producing electricity directly, the addon can take water and will produce steam. This steam can then be pumped to steam engines to produce twice the amount of power you would otherwise."
+		""
+		"It's a process that does cost diamonds, and you will have to manage excess water being made as steam is consumed. But, number goes up."
+	]
+	quest.552852905016218D.quest_subtitle: "Double your power"
+	quest.552852905016218D.title: "Steam Age Part 2"
 	quest.55A4CEB1697ABFA6.title: "Welcome to the World of Cobblemon Mystery Dungeon!"
 	quest.55C84F908B2139C1.quest_desc: [
 		"When a storage drawer with the void upgrade receives an item while at full capacity, it will destroy the item. This is extremely useful to prevent backlog and overflow."
@@ -423,6 +576,14 @@
 		"It's also important for keeping server lag down, as clogged up systems tend to drop stuff onto the ground."
 	]
 	quest.5621C34C88CBEAE7.title: "Assemble a Train"
+	quest.562D22ACCA7F1DDF.quest_desc: [
+		"The alternator's kinda useless if power has nowhere to go."
+		""
+		"The connector can be placed on any machine that accepts or produces electricity. You can then connect the connector to other connectors via wires."
+		""
+		"Note: \"Push\" means they take electricity FROM the machine/generator and transfer it aronud, while \"pull\" means it's powering the machine from the network. Use a wrench on the connector to change its state."
+	]
+	quest.562D22ACCA7F1DDF.title: "Connecting Wires"
 	quest.569AD8A316668481.quest_desc: [
 		"As a tundra dragon, you have no special weaknesses!"
 		""
@@ -430,6 +591,14 @@
 	]
 	quest.569AD8A316668481.title: "Tundra Dragon Considerations"
 	quest.56A19205C33CA00F.quest_desc: ["The direct chute transfer items directly from one inventory to another inventory storage, no need for a belt inbetween."]
+	quest.5849CC9BA757F975.quest_desc: [
+		"A Rose Pulley has a nozzle which can be lifted up and down with rotational force. They're intended to use to suck up large bodies of fluid, or fill up a natural basin."
+		""
+		"The valve is a bit like the clutch; it can stop fluid from flowing through it. To operate it, a valve handle or a coghweel will need to spin it. Best for advanced users."
+		""
+		"An item drain will take a bucket of anything and drain it into a fluid pipe, if you ever have fluids in bucket form."
+	]
+	quest.5849CC9BA757F975.title: "Miscelanous Fluid Logistics"
 	quest.58835D0F5F9BCF7D.quest_desc: [
 		"When a spinning encased fan is placed in front of lava, it will project lava particles. Any item caught in these flames will either be smelted, or be incinerated. This is called \"bulk blasting\". Any item that can be made in a blaster can made this way instead."
 		""
@@ -437,16 +606,44 @@
 		""
 		"In addition, increasing the fan speed only makes the fan project further. It will always take the same amount of time to smelt goods no matter how fast or slow the fan is."
 	]
+	quest.598CCCB21C5CFAE1.quest_desc: [
+		"This mixer is one of the most useful and versatile machines out there. It can mix solids together, or solids with liquids, or even liquids with liquids. It can even do this over a heated basin for more possibilities."
+		""
+		"On top of that, it can craft &oany shapeless recipe in the game&r - ie any recipe that you would need a crafting table for, but the order of items don't matter."
+	]
+	quest.599F25DDE7CE7C45.quest_desc: [
+		"When electricity travels through a wire, it creates a magnetic field looping around itself."
+		""
+		"Strangely, this process can work in reverse: if you move a magnetic near a wire, it will start conducting electricity."
+		""
+		"That's what an alternator is: you spin a magnet next to a wire, and that creates electricity. Electricity can be used to power more fine and precise tools then the kinetic machines of Create."
+	]
+	quest.599F25DDE7CE7C45.title: "Your First Electric Generator"
 	quest.59EA6F25FC90E26A.title: "How to Mine Oil"
 	quest.5A2E5621204929AB.quest_desc: ["A unique dish for Aether Dragons, which can help them heal."]
 	quest.5A300859DE39D199.quest_desc: ["Dragon Heart Shards will accelerate the growth of newborns into teenager dragons."]
 	quest.5A300859DE39D199.title: "Become a Teenager"
+	quest.5C3E53E38827C070.quest_desc: [
+		"Electrum is an essential material in advanced electronics, circuitry, and power generation."
+		""
+		"It is normally an alloy of gold and silver, but its difficult to find silver anywhere in this world, nor would do you have a way to make alloys."
+		""
+		"Thankfully, zapping gold with electricity somehow adds silver to its chemical structure. Your electric guildmembers just knew this somehow."
+	]
+	quest.5D13613A2A106353.quest_desc: ["Silicon is a strong sealant used for advanced fluid operations, made by smelting raw silicon."]
 	quest.5D304AD3C66A4942.quest_desc: ["The stressometer allows you to see the total stress units available for the entire mechanical network. It'll let you upgrade power before things break."]
 	quest.5D304AD3C66A4942.title: "How Stressed Are You?"
 	quest.5D416510290959B2.title: "yeah"
 	quest.5DC2A64D173354DE.title: "Alternative Plastic"
 	quest.5F6D0517D279089E.title: "Automate Planks!"
 	quest.5F9A7918F706602E.quest_desc: ["The encased chain drive transfers rotation in a straight line. Unlike cogs, their rotation direction won't alternate every block. They can look nicer than cogs in some places."]
+	quest.5FF98D1BE52A53C8.quest_desc: [
+		"A chunk loader forces a chunk to stay loaded, even if you are far away from it. This allows farms to continue automating even if you're not around."
+		""
+		"Such power comes at a price though, as this recipe isn't easy, and they require a lot of SU to run. On top of that, you'll need to snatch a Ghast with the empty chunk loader!"
+	]
+	quest.5FF98D1BE52A53C8.quest_subtitle: "A Server's Nightmare!"
+	quest.5FF98D1BE52A53C8.title: "Chunk Loading!"
 	quest.60830DE9CF9FADC6.quest_desc: [
 		"You can get the base ingredients for a pokeball, but alas, you lack the tools to do the final assembly."
 		""
@@ -455,15 +652,54 @@
 	quest.60830DE9CF9FADC6.title: "Automate Pokeballs?"
 	quest.60A46DD0FE6B9295.quest_desc: ["Your tree farm will produce saplings, sticks, logs, and even apples if using an oak log. You could store these all, but you're most likely interested in the lumber, as it can be processed into sweet furniture. And your guild absolutely needs some stylsh interior deco."]
 	quest.60A46DD0FE6B9295.title: "Get Logs"
+	quest.63B4D36F936A25A8.quest_desc: ["Smart fluid items can be set a filter such that only a specific type of fluid can go through it. Very useful when a mixer has a fluid input and output, and you only want to pump out the output."]
+	quest.63B4D36F936A25A8.quest_subtitle: "If only you had this sooner..."
 	quest.64292AE90578D1A7.quest_desc: ["Harvest clouds for the athmospheric condenser."]
+	quest.64446935A72B9350.quest_desc: ["You can add deployers to tree farms to plant any saplings it collects, thus letting the tree farm go on forever."]
+	quest.64446935A72B9350.title: "Improve Tree Farms"
+	quest.6467039452212EB0.quest_desc: [
+		"You now have a wide access to machines, but the ones you most immediately need are the rolling machine, and the mixing basin - these will allow you to create cables and more powerful alloys respectively, which will empower you to create the next suite of technology."
+		""
+		"Chapter 2 will cover where to grow from here. However, chapter 1a and 1b will go over the basics of creating larger, more intricate factories, including how to start producing tools for your team like friend balls."
+		""
+		"Godspeed, you've now formed an engineering guiod!"
+	]
 	quest.6467039452212EB0.quest_subtitle: "Chapter 1a, 2 Unlocked"
+	quest.65FF3369DBBEC9D9.quest_desc: [
+		"Steam Engines are a powerful source of kinetic energy, which you'll need as you expand and expand."
+		""
+		"To set it up, place fluid tanks down, and underneath them, place blaze burners (or campfires for a weaker engine). Pump in a steady source of water, and attach a steam engine. Then you get power!"
+		""
+		"How much power you get will depend on how large the boiler is, how much heat is underneath the boiler, and how much water it's being supplied with. You may have to tweak with the parameters to get the perfect balance."
+		""
+		"If you're going with blaze burners, you'll want to keep them fed with a fuel source - charcoal or lava are the perfect fit!"
+	]
+	quest.65FF3369DBBEC9D9.quest_subtitle: "Steam in my age??"
+	quest.667413DDB3A31753.quest_desc: [
+		"A unique property of electrical energy over kinetic energy is that it can be stored and used later."
+		""
+		"The accumulator is a block that does such."
+	]
+	quest.667413DDB3A31753.title: "Store Your Energy"
 	quest.66E15C13252F4BEC.quest_desc: [
 		"Dragons don't sleep on beds. They sleep on treasure."
 		""
 		"Collecting treasure and placing it down will allow you to sleep, which recovers health and mana. Placing more treasure down will recover yourself faster. Grow your hoard!"
 	]
 	quest.66E15C13252F4BEC.title: "Grow Your Treasure!"
+	quest.66FA8D5801720727.quest_desc: ["With the mechanical arm in hand, you assign where the arm will pick stuff up from, and where it will place items. After placing it down and giving it power, it will move items for you. Saves a lot of headaches with mechanical belt wrangling."]
+	quest.66FA8D5801720727.quest_subtitle: "Very Handy"
+	quest.66FA8D5801720727.title: "Arm"
+	quest.672383DCF81D46B5.quest_desc: [
+		"Raw Silicon is one step away from full silicon."
+		""
+		"It can be crafted in a crafting able, but you get better results using a mixer."
+	]
+	quest.67E8FC5EC26CF012.title: "Make Steel!"
 	quest.68DCD5A34A0573BC.title: "ROCKET FUEL"
+	quest.6A9342529E8D9221.quest_desc: ["Copper wires, capable of conducting a circuit, are the basis of the vast majority of electronics. They'll also be used in cables everywhere."]
+	quest.6C846C8CBA9DA3A6.quest_desc: ["The mechanical pipette is similar to the mechanical arm, except it transports fluids instead of items."]
+	quest.6C846C8CBA9DA3A6.title: "Wet Arm"
 	quest.6CD4E1ADCEEE6B60.quest_desc: [
 		"The Create Wrench let's you rotate blocks around. It also lets you instantly break Create blocks and return them to your inventory when crouch-clicked."
 		""
@@ -477,13 +713,31 @@
 		"Some of these food items grant noteworth bonuses for you. Take note of any that stand out to you!"
 	]
 	quest.6CDC20CF07C4E089.title: "Sea Dragon Diet"
+	quest.6D160C05DD00036A.quest_desc: [
+		"The fluid tank is like a chest: it can store a lot of fluid. Like, a lot."
+		""
+		"They're as simple as they sound."
+	]
+	quest.6D160C05DD00036A.quest_subtitle: "I bet these can get tall!"
+	quest.6D160C05DD00036A.title: "Store Your Fluids"
 	quest.6E1775F6FD33A62D.quest_desc: [
 		"Elder Dragon Dust is collected either as loot from chests, or from defeating monsters. Completing various quests may also reward some."
 		""
 		"Dragon dust is needed to craft many speciality dragon goods. Accumulating it will also allow you to craft growing items."
 	]
 	quest.6E321FBE3B2DC9B3.title: "Check out the Deco!"
+	quest.6E4DC0FB20FCB6CF.quest_desc: [
+		"A copper spool wraps the wire nice and tightly, ready to be used in practical applications."
+		""
+		"In particular, spools are what's used to connect wires around, but they're also a common crafting ingredient."
+	]
+	quest.6E4E34426C883504.quest_desc: ["The electron tube and brass metal combine together to form a suite of very powerful logistical tools. These tools allow you to filter out items in transit, making many headaches go away. Check them out!"]
 	quest.6E4E34426C883504.title: "New Logistic Tools"
+	quest.6F022C581F6530E5.quest_desc: [
+		"One chunk can feel a little cramped, and adding more chunk loaders can really eat your SU."
+		""
+		"The brass chunk loader is an upgrade that allows you to load chunks up to a 3x3 or a 5x5 grid. Like its andesite version, you need to capture a ghast to make it usable."
+	]
 	quest.6F7EC2F2661F3CC6.quest_desc: [
 		"As a forest dragon, you're allergic to darkness. Thankfully, light is plentiful in this world."
 		""
@@ -494,6 +748,9 @@
 	quest.6FB53F649D7A1E96.title: "Automated Harvesting"
 	quest.70013AFEA5B49966.quest_desc: ["If you bulk blast logs, you get charcoal. This is free and infinite. See if you can stockpile a healthy amount of charcoal!"]
 	quest.70013AFEA5B49966.title: "Automate Charcoal!"
+	quest.70165EEF2890AD6F.quest_desc: ["Girders are one of the most stylish deco pieces you can have for your factory, with some fun surprises hidden within them!"]
+	quest.70165EEF2890AD6F.quest_subtitle: "They're COOL"
+	quest.70165EEF2890AD6F.title: "Check out these Girders"
 	quest.7091A4D0B3222FDF.title: "I've Been Using Storage Drawers!"
 	quest.7171AC0F9E9F47C5.quest_desc: ["Much like a regular beacon, a dragon beacon will give you buffs in an area. You'll need a beacon activator to use it."]
 	quest.723FA2F993ED89B4.title: "Aether Dragon Considerations"
@@ -528,6 +785,9 @@
 		"You also have wings, and can fly! It can be a bit draining on your hunger but its a very convenient way to travel. When you're an adult, you can even ferry newborn dragons and humans on your back!"
 	]
 	quest.755CD75830E45C7C.title: "Claw and Wing"
+	quest.7579BA2504060B7C.quest_desc: ["It's a chute, but it can filter to only transfer certain items!"]
+	quest.75F5EAFBADFAE013.quest_desc: ["This thing is very useful. If placed on a belt intersection, it will allow you to separate items from the conveyor based on filters set. It can also be used to randomize items go from one belt onto multiple belts."]
+	quest.75F5EAFBADFAE013.quest_subtitle: "Funnel's Chad Brother"
 	quest.75FE6A13236FD377.quest_desc: [
 		"Storage drawers can be upgraded in many ways. The most useful ones are to have more storage space, and to let input be destroyed if the drawer is full. You will need storage templates to craft all of these upgrades."
 		""
@@ -539,6 +799,11 @@
 		""
 		"And don't worry: contraptions will work safely underwater."
 	]
+	quest.762C57887356A993.quest_desc: [
+		"The Nether has the hellish heat hot enough to fuel progress."
+		""
+		"Your first goal should be to get a piece of netherrack off the ground as soon as you enter, there's something you'll want to do before you go further."
+	]
 	quest.765EC8DBE5162583.quest_subtitle: "Steel is Seriously Important"
 	quest.765EC8DBE5162583.title: "Automate Steel Ingots"
 	quest.767CE983B352411F.quest_desc: ["Feed cobblestone into a millstone to break it into gravelly pieces."]
@@ -549,6 +814,8 @@
 	]
 	quest.7709D40C9E7FE1FE.quest_subtitle: "Mayonaise on the Escalator!"
 	quest.7709D40C9E7FE1FE.title: "Make an Escalator!"
+	quest.789DC38345C759D7.quest_desc: ["I'm sure gear shifting is starting to get tiresome and very cubbersome. The rotation speed controller fixes all your problems in one space-efficient block! Just insert the large cog on top and tell how fast it should spin!"]
+	quest.789DC38345C759D7.title: "Control Speed with Ease"
 	quest.78E3D9D10DC8A719.quest_desc: [
 		""
 		"When an encased fan is placed in front of a campfire, it will project its smoke in front of it. This is called \"bulk smoking.\" Any item caught in front of it will cook if possible."
@@ -559,6 +826,15 @@
 	]
 	quest.79400E10CEF4CA8C.quest_desc: ["Weak Dragon Hearts will accelerate the growth of newborns into adult dragons."]
 	quest.79400E10CEF4CA8C.title: "Become an Adult"
+	quest.79D8A38D25FD6FEB.quest_desc: [
+		"The mechanical crafter will automatically craft any (shaped) crafting recipe in the game."
+		""
+		"ALL OF THEM. All 10000+. The automation possibilities are endless."
+		""
+		"In addition, you can now craft recipes that require more space than the standard 3x3 grid."
+	]
+	quest.79D8A38D25FD6FEB.quest_subtitle: "Important Machine!"
+	quest.79D8A38D25FD6FEB.title: "Automated Crafting"
 	quest.7B40E692C6B23D11.quest_desc: [
 		"You craft a press, and are excited to make materials no claw can make on its own. Now to just assemble it."
 		""
@@ -587,6 +863,14 @@
 		"Cave dragons, forest dragons, and sea dragons can build special plates and doors that only open to their specific species of dragons."
 	]
 	quest.7CEE18F24A72C771.title: "Secure Your Lair"
+	quest.7DF3D41A3CB1423F.quest_desc: ["The Pneumatic Tube can help you move items through awkward spaces."]
+	quest.7DF3D41A3CB1423F.title: "Yet Another Way to Move Items"
+	quest.7EDC103B9424A115.quest_desc: [
+		"The crushing wheels does exactly what you'd think it'd do, with as much terrifying force as you want it to have."
+		""
+		"It's good for turning natural materials into dust, and being the first step of advanced ore processing."
+	]
+	quest.7EDC103B9424A115.title: "Crush"
 	quest.7EE3C83D0BF37910.quest_subtitle: "(Introduce in Chapter 3)"
 	task.00BACF868F130380.title: "4x64 Charcoal"
 	task.01AFE6B5F75F9708.title: "Understood"
@@ -633,9 +917,12 @@
 	task.2F6DA397BD086931.title: "CREATE SIDE"
 	task.320C10207214AB04.title: "It worked!"
 	task.33CB184B1FB6B249.title: "The Path of Automation"
+	task.34EB311F52B79867.title: "Understood"
 	task.392330B52EF8DEB9.title: "Any Backpack"
+	task.3A0F57279675471B.title: "Red Slurry"
 	task.3D5B6D0595D09E2A.title: "Understood"
 	task.415D3F65CEB96CF5.title: "Ethelene and propylene "
+	task.41A8BFB8CF65604D.title: "4x64 Large Cogwheels"
 	task.46AA680FC9346250.title: "Any Apricorn Sprout"
 	task.49320E4EB0B4AD3B.title: "Understood"
 	task.4A81998FDA29266C.title: "Understood"
@@ -645,6 +932,7 @@
 	task.4DBE105356572221.title: "Understood"
 	task.501D5AEA12506680.title: "How to Build and Operate a Rocket"
 	task.5110F2760E3FB00E.title: "ORITECH SIDE"
+	task.54CC66CE0D47AA53.title: "4x64 Cogwheels"
 	task.55EBEF59C628B35B.title: "Understood"
 	task.55FB6097E08D0EAE.title: "Understood"
 	task.579ECBE69A1D03F0.title: "Any Sapling"
@@ -661,6 +949,7 @@
 	task.6FC099E3F355ACE0.title: "Any 32 Pokeballs"
 	task.7216A33D2F32D9D1.title: "Any Backpack"
 	task.739E84BBF8AFBD82.title: "From A to B"
+	task.77FA5410F2BB7962.title: "Understood"
 	task.7C84B3E9180247A4.title: "Understood"
 	task.7F42BC6BBE981932.title: "quary"
 }

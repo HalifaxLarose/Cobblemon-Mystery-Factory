@@ -319,6 +319,33 @@
 		{
 			dependencies: ["31789F4CD0EA4FF2"]
 			id: "21072825C73FB514"
+			rewards: [
+				{
+					count: 32
+					id: "3338816BA2733780"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "2F48D6A88FE42C6C"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_allay"
+					}
+					type: "item"
+				}
+				{
+					id: "593B2D38C8079A28"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -401,6 +428,11 @@
 					item: { count: 1, id: "petrolsparts:planetary_gearset" }
 					type: "item"
 				}
+				{
+					id: "11FBDA701D0E36B8"
+					item: { count: 1, id: "petrolsparts:differential" }
+					type: "item"
+				}
 			]
 			x: 12.75d
 			y: -10.5d
@@ -409,6 +441,14 @@
 			dependencies: ["21072825C73FB514"]
 			hide_until_deps_complete: true
 			id: "15DCA245B19B9667"
+			rewards: [{
+				id: "7F8B6CC071C61B44"
+				item: {
+					count: 1
+					id: "simpletms:tm_shiftgear"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -428,21 +468,13 @@
 		{
 			dependencies: ["21B2F0553C8DA3C1"]
 			id: "7709D40C9E7FE1FE"
-			rewards: [{
-				id: "47F60257E1A55055"
-				item: {
-					count: 1
-					id: "create_bic_bit:mayonnaise_bottle"
-				}
-				type: "item"
-			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4985F83217ED0317"
 				item: { count: 1, id: "escalated:metal_walkway_steps" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.0d
 			y: -15.75d
 		}
 		{
@@ -484,6 +516,27 @@
 			}]
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["21B2F0553C8DA3C1"]
+			id: "70165EEF2890AD6F"
+			rewards: [{
+				count: 32
+				id: "10E9FD24538AE2FA"
+				item: {
+					count: 1
+					id: "create:metal_girder"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7213F3C100B0CA87"
+				item: { count: 1, id: "create:metal_girder" }
+				type: "item"
+			}]
+			x: 1.8999999999999995d
+			y: -15.700000000000001d
 		}
 	]
 }

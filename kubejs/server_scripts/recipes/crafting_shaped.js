@@ -72,6 +72,21 @@ ServerEvents.recipes(event => {
             D: "createaddition:capacitor"
         }
     )
+    event.shaped(
+        Item.of('createaddition:tesla_coil', 1),
+        [
+            "SES",
+            "BRB",
+            "CCC"
+        ],
+            {
+            S: "createaddition:copper_spool",
+            E: "create:electron_tube",
+            B: "create:brass_sheet",
+            R: "create:brass_casing",
+            C: "createaddition:capacitor",
+        },
+    )
 
     // Chapter 4
     event.shaped(

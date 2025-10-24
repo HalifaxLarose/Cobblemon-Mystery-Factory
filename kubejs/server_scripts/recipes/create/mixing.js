@@ -39,4 +39,22 @@ ServerEvents.recipes(event => {
             id: "oritech:raw_silicon"
         }],
     });
+
+    event.custom({
+        type: "create:mixing",
+        "ingredients": [
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "type": "fluid_stack",
+                "fluid": "minecraft:water",
+                "amount": 25,
+            },
+        ],
+        "results": [{
+            amount: 25,
+            id: "kubejs:red_slurry"
+        }],
+    });
 })
