@@ -35,10 +35,7 @@
 			y: -22.5d
 		}
 		{
-			dependencies: [
-				"2832E128EB1B2DB9"
-				"5763EF06A2D3686C"
-			]
+			dependencies: ["2832E128EB1B2DB9"]
 			id: "1BEAA6D57950F6DD"
 			tasks: [{
 				id: "2AC01992329994F0"
@@ -409,11 +406,6 @@
 					type: "item"
 				}
 				{
-					id: "270F540EF6FE45A2"
-					item: { count: 1, id: "creategoggles:goggle_cardboard_helmet" }
-					type: "item"
-				}
-				{
 					id: "793F50708EF849B7"
 					item: { count: 1, id: "createcardboardthings:cardboard_ingot" }
 					type: "item"
@@ -571,26 +563,6 @@
 			}]
 			x: -14.25d
 			y: -18.75d
-		}
-		{
-			id: "5763EF06A2D3686C"
-			rewards: [{
-				id: "1281F4B0073F6483"
-				item: {
-					count: 1
-					id: "simpletms:tm_blastburn"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			size: 1.0d
-			tasks: [{
-				id: "460BE2F1262EBD12"
-				item: { count: 1, id: "create_sa:flamethrower" }
-				type: "item"
-			}]
-			x: -14.25d
-			y: -24.75d
 		}
 	]
 }

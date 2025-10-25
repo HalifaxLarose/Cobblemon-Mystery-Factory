@@ -303,16 +303,6 @@
 			y: 54.75d
 		}
 		{
-			id: "64DA8C68EB64F185"
-			tasks: [{
-				id: "7FDB9F873C3D70F0"
-				item: { count: 1, id: "enderio:powdered_ender_pearl" }
-				type: "item"
-			}]
-			x: -12.0d
-			y: 60.75d
-		}
-		{
 			id: "5AAECCC3EC910B39"
 			tasks: [{
 				id: "5A9A50988684F9A3"

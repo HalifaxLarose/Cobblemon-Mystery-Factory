@@ -381,11 +381,6 @@
 			id: "0AEE300448ED5FA7"
 			shape: "gear"
 			size: 3.0d
-			tasks: [{
-				id: "3C7B5F97ED49A267"
-				item: { count: 1, id: "create_mechanical_extruder:mechanical_extruder" }
-				type: "item"
-			}]
 			x: -34.5d
 			y: -0.75d
 		}

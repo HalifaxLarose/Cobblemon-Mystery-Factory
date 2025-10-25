@@ -83,24 +83,6 @@
 			dependencies: ["3386DE3C85EDBBB6"]
 			icon: {
 				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_hover.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "30E4DF528005FF11"
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "119AE3AC46A4A1B4"
-				type: "checkmark"
-			}]
-			x: -6.0d
-			y: -12.0d
-		}
-		{
-			dependencies: ["3386DE3C85EDBBB6"]
-			icon: {
-				components: {
 					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/cave/adult_stage_hover.png"
 				}
 				id: "ftbquests:custom_icon"
@@ -112,8 +94,8 @@
 				id: "1E2B0133F875FC5A"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: -14.0d
+			x: -3.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["3386DE3C85EDBBB6"]
@@ -130,8 +112,8 @@
 				id: "353EFBCA41774DBA"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -15.0d
+			x: -5.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["3386DE3C85EDBBB6"]
@@ -149,48 +131,12 @@
 				type: "checkmark"
 			}]
 			x: -1.0d
-			y: -15.0d
-		}
-		{
-			dependencies: ["3386DE3C85EDBBB6"]
-			icon: {
-				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/tundra/adult_stage_hover.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "2D349BF02539E5DB"
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "0A8B0A121DA02DDE"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: -14.0d
-		}
-		{
-			dependencies: ["3386DE3C85EDBBB6"]
-			icon: {
-				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/astral/main_sequence_stage_hover.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "416B86F17D1AB0DE"
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "78C06FF3205DB4A4"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -12.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["1B2E19172641070F"]
 			icon: {
-				id: "everycomp:hc/regions_unexplored/palm_chair"
+				id: "mcwfurnitures:oak_modern_chair"
 			}
 			id: "6E321FBE3B2DC9B3"
 			tasks: [{
@@ -202,15 +148,11 @@
 		}
 		{
 			dependencies: [
-				"30E4DF528005FF11"
 				"725E1A54E3ECBDA3"
 				"150F9D369115D63A"
-				"2D349BF02539E5DB"
 				"44B8C7DFFBC08CB9"
-				"416B86F17D1AB0DE"
 				"21E78150F0DE810B"
 			]
-			hide_dependency_lines: true
 			id: "111CF8517DF1F154"
 			min_required_dependencies: 1
 			rewards: [
@@ -262,8 +204,8 @@
 				id: "14830C57CD511151"
 				type: "checkmark"
 			}]
-			x: -6.5d
-			y: -8.0d
+			x: 1.0d
+			y: -12.0d
 		}
 	]
 }

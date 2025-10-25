@@ -96,8 +96,11 @@
 				count: 3
 				id: "6248F3E4E0D0F3B1"
 				item: {
+					components: {
+						"ftbquests:missing_item": "createfood:hamburger_peanut_butter"
+					}
 					count: 1
-					id: "createfood:hamburger_peanut_butter"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]

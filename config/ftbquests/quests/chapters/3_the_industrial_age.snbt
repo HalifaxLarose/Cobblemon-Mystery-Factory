@@ -794,20 +794,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"2AD7FD7E2C0EB28E"
-				"35D2DE55D0A8F5E2"
-			]
-			id: "3BE287B0947AE810"
-			tasks: [{
-				id: "3A64059E8733D344"
-				item: { count: 1, id: "oritech:processing_unit" }
-				type: "item"
-			}]
-			x: 13.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["03BECF0CDFE6C49B"]
 			id: "2D3935A777CEC349"
 			tasks: [{

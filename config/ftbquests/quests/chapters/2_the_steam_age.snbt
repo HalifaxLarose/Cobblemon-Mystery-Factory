@@ -200,8 +200,11 @@
 					count: 16
 					id: "2F110BE361BE2782"
 					item: {
+						components: {
+							"ftbquests:missing_item": "morebridges:brass_bridge"
+						}
 						count: 1
-						id: "morebridges:brass_bridge"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -209,8 +212,11 @@
 					count: 8
 					id: "625AC97CB558E214"
 					item: {
+						components: {
+							"ftbquests:missing_item": "morebridges:brass_bridge_stair"
+						}
 						count: 1
-						id: "morebridges:brass_bridge_stair"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}

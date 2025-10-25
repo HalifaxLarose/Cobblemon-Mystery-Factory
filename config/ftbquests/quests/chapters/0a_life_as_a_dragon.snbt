@@ -27,10 +27,10 @@
 			id: "0D4ECFAD61112B9F"
 			ignore_reward_blocking: true
 			rewards: [{
-				id: "275192898FE4B898"
+				id: "176FB51F0A2C4FEE"
 				item: {
 					count: 1
-					id: "atmospheric:dragon_fruit"
+					id: "cobblemon:dragon_scale"
 				}
 				type: "item"
 			}]
@@ -303,11 +303,6 @@
 			}]
 			tasks: [
 				{
-					id: "7612B05AE1BD86F1"
-					item: { count: 1, id: "tundradragon:tundra_dragon_treat" }
-					type: "item"
-				}
-				{
 					id: "3C513031CFC23B85"
 					item: { count: 1, id: "dragonsurvival:sea_dragon_treat" }
 					type: "item"
@@ -329,10 +324,7 @@
 		{
 			dependencies: ["0D4ECFAD61112B9F"]
 			icon: {
-				components: {
-					"ftbquests:icon": "dragonsurvival:textures/ability_effect/astral_dragon_wings.png"
-				}
-				id: "ftbquests:custom_icon"
+				id: "cobblemon:dragon_fang"
 			}
 			id: "755CD75830E45C7C"
 			shape: "hexagon"
@@ -467,101 +459,6 @@
 			}]
 			x: 6.75d
 			y: 3.0d
-		}
-		{
-			dependencies: ["0D4ECFAD61112B9F"]
-			icon: {
-				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/aether/adult_stage_hover.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "723FA2F993ED89B4"
-			shape: "hexagon"
-			tasks: [{
-				id: "4DAA6D5B70F56043"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["152B2C6A2A53D6E7"]
-			id: "1291F73793B04205"
-			tasks: [{
-				id: "2A8DB0E3F587EF98"
-				item: { count: 1, id: "tundradragon:infused_ice_crystal" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["723FA2F993ED89B4"]
-			id: "5A2E5621204929AB"
-			tasks: [{
-				id: "6149CEDF0E29F2BC"
-				item: { count: 1, id: "ds_aether_addon:stroganina" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5A2E5621204929AB"]
-			id: "1B13AD597C57BA0C"
-			tasks: [{
-				id: "04760AB2DF3E899D"
-				item: { count: 1, id: "ds_aether_addon:zephyr" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0D4ECFAD61112B9F"]
-			icon: {
-				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/tundra/adult_stage_hover.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "569AD8A316668481"
-			shape: "hexagon"
-			tasks: [{
-				id: "0CCE78AED87AC9B4"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["569AD8A316668481"]
-			id: "152B2C6A2A53D6E7"
-			tasks: [{
-				id: "1C462D7741284336"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(dragonsurvival:tundra_dragon_food)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["0D4ECFAD61112B9F"]
-			icon: {
-				components: {
-					"ftbquests:icon": "dragonsurvival:textures/gui/custom/stage/astral/main_sequence_stage_hover.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "0BEE2813285872FC"
-			shape: "hexagon"
-			tasks: [{
-				id: "1FD1ABCFA4D4252B"
-				type: "checkmark"
-			}]
-			x: 2.25d
-			y: 6.0d
 		}
 		{
 			dependencies: ["66E15C13252F4BEC"]

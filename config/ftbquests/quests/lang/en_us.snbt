@@ -100,8 +100,6 @@
 	]
 	quest.0AEE300448ED5FA7.quest_subtitle: "Upgrades, people!"
 	quest.0B19548897BFDF79.title: "Now Give it a Try"
-	quest.0BEE2813285872FC.quest_desc: ["As an Astral Dragon, you don't have any strong weaknesses. You don't even need to eat! Yippee!"]
-	quest.0BEE2813285872FC.title: "Astral Dragon Considerations"
 	quest.0D24B2C14A4AFC47.quest_desc: [
 		"As a Cave Dragon, you are weak to water - and that includes rain. You could building an extensive shelter over your head, but if you build your guild underground, you will always stay dry."
 		""
@@ -115,7 +113,7 @@
 		""
 		"Over time you will gradually grow, becoming taller and strong. You can speed this along with the remains of elder dragons. Alternatively, there also ways to grow younger and stay that way."
 		""
-		"When your adult, you will be as tall as three blocks unless you crouch. &nDesign your living environments to accomodate this growth ahead of time!&r"
+		"When you're an adult, you will be as tall as three blocks unless you crouch. &nDesign your living environments to accomodate this growth ahead of time!&r"
 	]
 	quest.0D4ECFAD61112B9F.title: "Growing as a \"Cobblemon\" Dragon"
 	quest.0D9DCD0E20610EA8.quest_desc: [
@@ -155,18 +153,10 @@
 		""
 		"This method of power generation does make you very hungry however, so have some hamburgers you found on the ground to replenish your strength later."
 	]
-	quest.1291F73793B04205.quest_desc: ["This item in particular help tundra dragons survive being alive."]
-	quest.1291F73793B04205.title: "Survive Weakness"
 	quest.12973A49772AB62D.quest_desc: ["Crushing up Quartz from the Nether gives you Quartz Dust, which may have a use or two."]
 	quest.138F71A191933F1E.quest_desc: ["You can probably guess how these work."]
 	quest.149084F279A4EDF0.quest_desc: ["This item in particular help aether dragons survive the darkness."]
 	quest.149084F279A4EDF0.title: "Survive Darkness"
-	quest.152B2C6A2A53D6E7.quest_desc: [
-		"Tundra Dragons have access to unique and varied food unavailable to other animals."
-		""
-		"Some of these food items grant noteworth bonuses for you. Take note of any that stand out to you!"
-	]
-	quest.152B2C6A2A53D6E7.title: "Tundra Dragon Diet"
 	quest.15632D26666A0CBF.quest_desc: [
 		"The toolbox lets you store a few stacks of single items. You can then select what item you want by holding down left alt."
 		""
@@ -215,8 +205,6 @@
 		"You can see all your abilities in the dragon tab of the dragon inventory menu."
 	]
 	quest.1AAFB7BD5BA0BB83.title: "Dragon Magic"
-	quest.1B13AD597C57BA0C.quest_desc: ["This item in particular help aether dragons survive deep underground."]
-	quest.1B13AD597C57BA0C.title: "Survive the Depths"
 	quest.1B2D84A8C5E84512.quest_desc: ["Instead of automating antidotes, awakenings, etc., it is much easier to just farm status healing berries directly."]
 	quest.1B2D84A8C5E84512.title: "Automate Berries"
 	quest.1B2E19172641070F.quest_subtitle: "What the heck are all those items when I press e?"
@@ -438,7 +426,7 @@
 	quest.3E00F73FA0DC4DEB.quest_desc: ["You'd normally need to break an arm or pipette and place it down again to reassign what it operates on, but this handy baton allows you to do that without destruction."]
 	quest.3E5F0C50D261AC2F.quest_subtitle: "...What?"
 	quest.3E5F0C50D261AC2F.title: "Become a Cardboard God!"
-	quest.3E6B4140D204B499.quest_desc: ["Cave dragons, sea dragons, and forest dragons can place special sources of magic to gain infinite mana temporarily. They're ideal for your own private lair within your guild!"]
+	quest.3E6B4140D204B499.quest_desc: ["Dragons can place special sources of magic to gain infinite mana temporarily. They're ideal for your own private lair within your guild!"]
 	quest.3E6B4140D204B499.title: "Source of Magic"
 	quest.3FD4C8C666C4977B.quest_desc: [
 		"The most complex recipe of this chapter, you can combine gravel, flint, and lava in a basin under a press to create andesite."
@@ -584,12 +572,6 @@
 		"Note: \"Push\" means they take electricity FROM the machine/generator and transfer it aronud, while \"pull\" means it's powering the machine from the network. Use a wrench on the connector to change its state."
 	]
 	quest.562D22ACCA7F1DDF.title: "Connecting Wires"
-	quest.569AD8A316668481.quest_desc: [
-		"As a tundra dragon, you have no special weaknesses!"
-		""
-		"Instead, you just take more damage to everything! Yippee!"
-	]
-	quest.569AD8A316668481.title: "Tundra Dragon Considerations"
 	quest.56A19205C33CA00F.quest_desc: ["The direct chute transfer items directly from one inventory to another inventory storage, no need for a belt inbetween."]
 	quest.5849CC9BA757F975.quest_desc: [
 		"A Rose Pulley has a nozzle which can be lifted up and down with rotational force. They're intended to use to suck up large bodies of fluid, or fill up a natural basin."
@@ -620,7 +602,6 @@
 	]
 	quest.599F25DDE7CE7C45.title: "Your First Electric Generator"
 	quest.59EA6F25FC90E26A.title: "How to Mine Oil"
-	quest.5A2E5621204929AB.quest_desc: ["A unique dish for Aether Dragons, which can help them heal."]
 	quest.5A300859DE39D199.quest_desc: ["Dragon Heart Shards will accelerate the growth of newborns into teenager dragons."]
 	quest.5A300859DE39D199.title: "Become a Teenager"
 	quest.5C3E53E38827C070.quest_desc: [
@@ -753,7 +734,6 @@
 	quest.70165EEF2890AD6F.title: "Check out these Girders"
 	quest.7091A4D0B3222FDF.title: "I've Been Using Storage Drawers!"
 	quest.7171AC0F9E9F47C5.quest_desc: ["Much like a regular beacon, a dragon beacon will give you buffs in an area. You'll need a beacon activator to use it."]
-	quest.723FA2F993ED89B4.title: "Aether Dragon Considerations"
 	quest.727A327ECE33C3E7.quest_desc: [
 		"Forest Dragons have access to unique and varied food unavailable to other animals."
 		""
