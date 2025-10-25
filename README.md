@@ -2,7 +2,7 @@
 1) Use prism for your launcher.
 2) Fork Lizards repo
 3) Clone the repo
-4) In prism, make a new modpack, select 1.21.1 for game verison, select Neoforge for the loader, select 21.1.209 for Neoforge.
+4) In prism, make a new modpack, select 1.21.1 for game verison, select Neoforge for the loader, select 21.1.213 for Neoforge.
 5) Open the modpack folder, and enter in to the minecraft folder
 6) Add packwiz-installer-bootstrap.jar from [here](https://github.com/packwiz/packwiz-installer-bootstrap/releases) into that minecraft foleder
 7) In prism, edit the instance you just made, then go to settings -> custom commands -> toggle the custom command button
