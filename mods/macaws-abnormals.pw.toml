@@ -1,13 +1,16 @@
+filename = 'mcwabnormals-neoforge-1.21.1-1.2.jar'
 name = "Macaw's Abnormals"
-filename = "mcwabnormals-neoforge-1.21.1-1.2.jar"
-side = "both"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "51dbea8ef23e97c7d5668ca7af26b7a99670892a"
-mode = "metadata:curseforge"
+hash = '868641f7167e6d4ab9294dc5ba02cb37b080c85e1b421c19a7ec5cd618d05ff233fbb25cc8d877fb8116d9d90168d974ec65eeb2a3191fd919c0873401843889'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jZrq3qzM/versions/8WziXPA4/mcwabnormals-neoforge-1.21.1-1.2.jar'
 
-[update]
-[update.curseforge]
-file-id = 6544372
-project-id = 621057
+[update.modrinth]
+mod-id = 'jZrq3qzM'
+version = '8WziXPA4'

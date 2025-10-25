@@ -1,13 +1,16 @@
-name = "Cobblemon Quests"
-filename = "cobblemon_quests-[1.21.1]-neoforge-1.1.14.jar"
-side = "both"
+filename = 'cobblemon_quests-[1.21.1]-neoforge-1.1.14.jar'
+name = 'Cobblemon Quests'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "c1d1b12e74e2cedca79898c96e16138feecb3a93"
-mode = "metadata:curseforge"
+hash = '6214aa67bcdf25619e37c47bbe7e75b23f6f0da21452baaae12dc6e9932d9a8747897033bde60338fe14b085470959f4c803062d879e07d01559f664d179f91b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kZgRPg5R/versions/9u0GCyVP/cobblemon_quests-%5B1.21.1%5D-neoforge-1.1.14.jar'
 
-[update]
-[update.curseforge]
-file-id = 6364992
-project-id = 922979
+[update.modrinth]
+mod-id = 'kZgRPg5R'
+version = '9u0GCyVP'

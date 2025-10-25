@@ -1,0 +1,16 @@
+filename = 'cobblemonmechanicalhealingmachine-1.2.1-1.6.1.jar'
+name = 'Mechanical Healing Machine'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e2d664c2a62834e79d5a69e167dc7ceb5c5b6159f2530443fe513f78597a877ee872719b44cabace2455e5ae88521a1c06d90d7958bc78d48590a0df57253c61'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/86iPxuL3/versions/MqiYJ9k3/cobblemonmechanicalhealingmachine-1.2.1-1.6.1.jar'
+
+[update.modrinth]
+mod-id = '86iPxuL3'
+version = 'MqiYJ9k3'

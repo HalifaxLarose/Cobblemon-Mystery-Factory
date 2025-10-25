@@ -1,13 +1,16 @@
+filename = 'GnKinetics-1.21.1-1.0l.jar'
 name = "Create: Gears n' Kinetics"
-filename = "GnKinetics-1.21.1-1.0l.jar"
-side = "both"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-url = "https://cdn.modrinth.com/data/gEWECBVL/versions/1SG2AP9A/GnKinetics-1.21.1-1.0l.jar"
-hash-format = "sha512"
-hash = "c043e3e146fb83739f6c4f03fca3c8017d925cd68656c42a0f17d0bce6796f6c949403ee7d4e5f5eaa431b0ad1516866d32bc7aa916977eb4a16ba88e3e306c4"
+hash = 'c043e3e146fb83739f6c4f03fca3c8017d925cd68656c42a0f17d0bce6796f6c949403ee7d4e5f5eaa431b0ad1516866d32bc7aa916977eb4a16ba88e3e306c4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gEWECBVL/versions/1SG2AP9A/GnKinetics-1.21.1-1.0l.jar'
 
-[update]
 [update.modrinth]
-mod-id = "gEWECBVL"
-version = "1SG2AP9A"
+mod-id = 'gEWECBVL'
+version = '1SG2AP9A'

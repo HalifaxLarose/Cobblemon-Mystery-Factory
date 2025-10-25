@@ -1,13 +1,16 @@
-name = "Building Wands"
-filename = "BuildingWands-neoforge-MC1.21-2.9.jar"
-side = "both"
+filename = 'BuildingWands-neoforge-MC1.21-2.9.jar'
+name = 'Building Wands'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "a133650d7e87a7425ee2de44d688271fd6234519"
-mode = "metadata:curseforge"
+hash = '8d85ba79d6f8bd58d9b5f5d5e3e3500d16771ab6763fd5f29af2d9555436357969132194567044d1ee8782dd889a141b80ffc6ca80705a5092d5883c903832ff'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XkisZUfp/versions/2t88eqU2/BuildingWands-neoforge-MC1.21-2.9.jar'
 
-[update]
-[update.curseforge]
-file-id = 6547877
-project-id = 363392
+[update.modrinth]
+mod-id = 'XkisZUfp'
+version = '2t88eqU2'

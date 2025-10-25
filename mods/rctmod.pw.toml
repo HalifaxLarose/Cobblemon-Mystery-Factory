@@ -1,0 +1,16 @@
+filename = 'rctmod-neoforge-1.21.1-0.16.10-beta.jar'
+name = 'Radical Cobblemon Trainers'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'a3ca2380bf955f4c1d3e6105acca19e59cd05b01cf932e4636aecd3b51e8d7d2d641d1a52c8d45a75350440751be433b8793ca9d9a482d2f59205a09756a6d13'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lRwTUnD7/versions/Sc9VDZ4f/rctmod-neoforge-1.21.1-0.16.10-beta.jar'
+
+[update.modrinth]
+mod-id = 'lRwTUnD7'
+version = 'Sc9VDZ4f'

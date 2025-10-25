@@ -1,0 +1,16 @@
+filename = 'animal_pen-neoforge-1.21-1.5.1.jar'
+name = 'Animal Pens'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0884ea5849b24ab570a15e2efd23288c72c784e62b5460614ee3ae21ec673ce445500a2cb56f9d87d15939248f57ab26924f328ea4eeef34636949c1f02b80e9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/K5CAV4wi/versions/udDzXR5H/animal_pen-neoforge-1.21-1.5.1.jar'
+
+[update.modrinth]
+mod-id = 'K5CAV4wi'
+version = 'udDzXR5H'

@@ -1,13 +1,16 @@
-name = "Some Assembly Required"
-filename = "someassemblyrequired-5.2.2.jar"
-side = "both"
+filename = 'someassemblyrequired-5.2.4.jar'
+name = 'Some Assembly Required'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "709c1d835952eff27a68f3cde2054a32614cc7db"
-mode = "metadata:curseforge"
+hash = '4274baf7e65ffe3e343426ba511a4f0ae72c76f19f741b6c02db95d53d50f8a7b19d6d0e701667d35739fae9eb302c6863e41c425c752252c6063c0034d51151'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jZi8ogTA/versions/A3PPaY6G/someassemblyrequired-5.2.4.jar'
 
-[update]
-[update.curseforge]
-file-id = 6915991
-project-id = 422951
+[update.modrinth]
+mod-id = 'jZi8ogTA'
+version = 'A3PPaY6G'

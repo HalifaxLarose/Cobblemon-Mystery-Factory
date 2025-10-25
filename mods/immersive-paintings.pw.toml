@@ -1,13 +1,16 @@
-name = "Immersive Paintings [Fabric/Forge]"
-filename = "immersive_paintings-neoforge-1.21.1-0.7.4.jar"
-side = "both"
+filename = 'immersive_paintings-neoforge-1.21.1-0.7.4.jar'
+name = 'Immersive Paintings'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "937f192e9cdc1d50e997df0aef6ddfea87771e92"
-mode = "metadata:curseforge"
+hash = '23f376cd649a241a0d8e8da6876669516b0213f6b7c0503163f29fcee5d1e929c049c19af2a676bdc5432ab3250406e297736157309c67bd6d60203cbcae93dc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6txNkua3/versions/wVfl5LeH/immersive_paintings-neoforge-1.21.1-0.7.4.jar'
 
-[update]
-[update.curseforge]
-file-id = 7019925
-project-id = 639584
+[update.modrinth]
+mod-id = '6txNkua3'
+version = 'wVfl5LeH'

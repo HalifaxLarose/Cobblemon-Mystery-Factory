@@ -1,13 +1,16 @@
-name = "Aether Addon: Treasure Reforging"
-filename = "aether_treasure_reforging-1.21.1-1.0.1-neoforge.jar"
-side = "both"
+filename = 'aether_treasure_reforging-1.21.1-1.0.1-neoforge.jar'
+name = 'Aether Addon: Treasure Reforging'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-url = "https://cdn.modrinth.com/data/4qIW8vBb/versions/I5oQA1d4/aether_treasure_reforging-1.21.1-1.0.1-neoforge.jar"
-hash-format = "sha512"
-hash = "ed088b703465af01be24263b4f434e3e1caece71d026df0200a032122afef6073938ffc3ba8bfef26d37d380343259639befa64c2bf8e8af63582556a8d9f724"
+hash = 'ed088b703465af01be24263b4f434e3e1caece71d026df0200a032122afef6073938ffc3ba8bfef26d37d380343259639befa64c2bf8e8af63582556a8d9f724'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4qIW8vBb/versions/I5oQA1d4/aether_treasure_reforging-1.21.1-1.0.1-neoforge.jar'
 
-[update]
 [update.modrinth]
-mod-id = "4qIW8vBb"
-version = "I5oQA1d4"
+mod-id = '4qIW8vBb'
+version = 'I5oQA1d4'

@@ -1,13 +1,16 @@
-name = "Cobblemon Counter"
-filename = "counter-neoforge-1.6.1-1.6.0.jar"
-side = "both"
+filename = 'counter-neoforge-1.6.1-1.6.1.jar'
+name = 'Cobblemon Counter'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "8eaa7f74f6d4b36705eef87b7c0e2d2e1c27ca4d"
-mode = "metadata:curseforge"
+hash = '8a6ec15f8c964ea87a79a0172af6d08b953d140d896e975788258bafe557c2b9587f96f519b3dad26a7193baae35ab74f2c96d4e322d4fbc54f09663f2091620'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rj8uLYP4/versions/1QP71O1A/counter-neoforge-1.6.1-1.6.1.jar'
 
-[update]
-[update.curseforge]
-file-id = 7068472
-project-id = 900238
+[update.modrinth]
+mod-id = 'rj8uLYP4'
+version = '1QP71O1A'

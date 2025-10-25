@@ -1,0 +1,16 @@
+filename = 'createbetterfps-1.21.1-1.1.2.jar'
+name = 'CreateBetterFps'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2ee2193ca8c3639cb34c6c413fdd93ccf66f95f7b144ec77367462983b25df6e33a4606d3537d8cd7172ed7b6ecbc31b9244c9214716935d5f17aca75331cf62'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lMYIHZNH/versions/XJXyFOVv/createbetterfps-1.21.1-1.1.2.jar'
+
+[update.modrinth]
+mod-id = 'lMYIHZNH'
+version = 'XJXyFOVv'

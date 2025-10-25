@@ -1,13 +1,16 @@
-name = "KubeJS"
-filename = "kubejs-neoforge-2101.7.1-build.181.jar"
-side = "both"
+filename = 'kubejs-neoforge-2101.7.2-build.295.jar'
+name = 'KubeJS'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
 
 [download]
-hash-format = "sha1"
-hash = "be525f7d4d8d71a18b07718352035b3e59e50ebd"
-mode = "metadata:curseforge"
+hash = 'ce6cb1024f054f44c9e0548d65461176013a848dbfdf7c6542629c38373e57b4c3438f76352aa1e9d600802f0f97875200b11edd66f66ca21b4209c8417930d1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/umyGl7zF/versions/YZqAKbnI/kubejs-neoforge-2101.7.2-build.295.jar'
 
-[update]
-[update.curseforge]
-file-id = 5810100
-project-id = 238086
+[update.modrinth]
+mod-id = 'umyGl7zF'
+version = 'YZqAKbnI'
