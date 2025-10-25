@@ -1,13 +1,16 @@
-name = "Cobblemon Unchained"
-filename = "unchained-neoforge-1.6.1-1.5.0.jar"
-side = "both"
+filename = 'unchained-neoforge-1.6.1-1.5.2.jar'
+name = 'Cobblemon Unchained'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "de2b17cb67aae45175bcaf2cfb22a4d8233b2064"
-mode = "metadata:curseforge"
+hash = '24e6107c4582694ecf603c454a155eaa1502c98224c7250dafc22083abcfdfb4c9424560e23269a9df97d61310ca0b2ff4164305c24e228c6f09aacdd734c6ff'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wh0wnzrT/versions/8j3GqLwU/unchained-neoforge-1.6.1-1.5.2.jar'
 
-[update]
-[update.curseforge]
-file-id = 7068545
-project-id = 901476
+[update.modrinth]
+mod-id = 'wh0wnzrT'
+version = '8j3GqLwU'

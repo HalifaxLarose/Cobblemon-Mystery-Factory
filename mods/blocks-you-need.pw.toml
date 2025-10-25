@@ -1,0 +1,16 @@
+filename = 'blocksyouneed_luna-1.10.5-neoforge-1.21.1.jar'
+name = 'Blocks You Need'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '02009a6ddc88553d11843ed4ac84a5eea0b92059473c1196aeab0994d05cddbad72c34a0cddb1ac8271754430c3679827c4a5b8cfedf8c865c5f695b06de9672'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lIyS5pGh/versions/kvXjcGao/blocksyouneed_luna-1.10.5-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'lIyS5pGh'
+version = 'kvXjcGao'

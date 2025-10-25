@@ -1,13 +1,16 @@
-name = "Amendments"
-filename = "amendments-1.21-2.0.8-neoforge.jar"
-side = "both"
+filename = 'amendments-1.21-2.0.8-neoforge.jar'
+name = 'Amendments'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "6c9b796159f7add8367e3d4a8238dd526408bd49"
-mode = "metadata:curseforge"
+hash = '185c6cc49694db792aee0e329831f037e4157f3c5e5e766a15ac534deef0b78467d31c2e71c060a7c0d922acd2a2402c1b1ba33e5f7fe8ad9d0fccb0c6f7dc1e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6iTJugQR/versions/i7GV5VYK/amendments-1.21-2.0.8-neoforge.jar'
 
-[update]
-[update.curseforge]
-file-id = 7054319
-project-id = 896746
+[update.modrinth]
+mod-id = '6iTJugQR'
+version = 'i7GV5VYK'

@@ -1,13 +1,16 @@
-name = "Supplementaries"
-filename = "supplementaries-1.21-3.4.16-neoforge.jar"
-side = "both"
+filename = 'supplementaries-1.21-3.4.20-neoforge.jar'
+name = 'Supplementaries'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "31916219638201f0228a3a8c82e019e26d378513"
-mode = "metadata:curseforge"
+hash = '0206956afafee9846f902bd8d40b56b1707d77bfb8ae6eb1a61499860eccb897ccff81d0a64a8f99202daa2df0111998bf276dd625199129d2ce628a899b2bed'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fFEIiSDQ/versions/rEEPz2OX/supplementaries-1.21-3.4.20-neoforge.jar'
 
-[update]
-[update.curseforge]
-file-id = 7008519
-project-id = 412082
+[update.modrinth]
+mod-id = 'fFEIiSDQ'
+version = 'rEEPz2OX'

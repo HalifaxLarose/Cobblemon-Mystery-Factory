@@ -1,13 +1,16 @@
-name = "Cobblemon Move Inspector"
-filename = "CobblemonMoveInspector-neoforge-1.2.0.jar"
-side = "both"
+filename = 'CobblemonMoveInspector-neoforge-1.2.0.jar'
+name = 'Cobblemon Move Inspector'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "4fa001e09b674af3a544027dfcee86d8c6a491e4"
-mode = "metadata:curseforge"
+hash = 'fd2d629216d69c901412856bf8fccb562e2e7a380f451a88862ef5bda9aebb4b85a080bebd6b32a166fcb53ef91f614d7e7739f258ad81c784c1e804ad26fab2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MqcGBDhG/versions/NWXNcQfr/CobblemonMoveInspector-neoforge-1.2.0.jar'
 
-[update]
-[update.curseforge]
-file-id = 6041812
-project-id = 1022036
+[update.modrinth]
+mod-id = 'MqcGBDhG'
+version = 'NWXNcQfr'

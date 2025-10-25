@@ -1,13 +1,16 @@
-name = "Create Contraption Terminals"
-filename = "createcontraptionterminals-1.21-1.2.0.jar"
-side = "both"
+filename = 'createcontraptionterminals-1.21-1.2.0.jar'
+name = 'Create Contraption Terminals'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "b9b1af2c3642d51cac2129cea2805639c5affad6"
-mode = "metadata:curseforge"
+hash = '43f11d108620ef4e2291b9529e7a46a6cd151cd9df51cb12a527c65f1ae6bed4bacd19616d6dd051c7c457ee1c8bbbd822514cd19c60da16cbfa07f66a61c2fe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gOPAFzp0/versions/5Gi82Kml/createcontraptionterminals-1.21-1.2.0.jar'
 
-[update]
-[update.curseforge]
-file-id = 6265274
-project-id = 1059879
+[update.modrinth]
+mod-id = 'gOPAFzp0'
+version = '5Gi82Kml'

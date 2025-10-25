@@ -1,13 +1,13 @@
 name = "Cobblemon: Cobbled Levels"
 filename = "CobbledLevels-neoforge-1.3.0.jar"
-side = "both"
+side = "server"
 
 [download]
-hash-format = "sha1"
-hash = "7ba638f30974ecd894f937402ace6c474057c31b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/9gwPAAvh/versions/WONVXlfi/CobbledLevels-neoforge-1.3.0.jar"
+hash-format = "sha512"
+hash = "dbad91b292a269e52133c1ef0eedeb49a18cd6df6c21e20dd5070971e1b6a7ceb67702bcfa939c8c555733f9ce3c1eb65699aaf0dfe33a5b358ce22663338ed3"
 
 [update]
-[update.curseforge]
-file-id = 7014531
-project-id = 1290184
+[update.modrinth]
+mod-id = "9gwPAAvh"
+version = "WONVXlfi"

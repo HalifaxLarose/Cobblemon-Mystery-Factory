@@ -1,13 +1,16 @@
-name = "Kube Utils"
-filename = "kube-utils-21.1.1.jar"
-side = "both"
+filename = 'kube-utils-21.1.1.jar'
+name = 'Kube Utils'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "54dc31b7bfa8bc77298f3452a2cbec3e57d1d41a"
-mode = "metadata:curseforge"
+hash = '566c1eb9dc3f18e0bbc3207a85f0950e81c4331172e02ebe18448dab2edce12a8b7e5b520537d196abefbd1c6324c9e866e0ea7ade624227f5bfab0756d75833'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JHdL51WR/versions/QRzhw42E/kube-utils-21.1.1.jar'
 
-[update]
-[update.curseforge]
-file-id = 6181429
-project-id = 678815
+[update.modrinth]
+mod-id = 'JHdL51WR'
+version = 'QRzhw42E'

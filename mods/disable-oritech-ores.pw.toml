@@ -1,13 +1,16 @@
-name = "Disable Oritech Ores"
-filename = "disable_oritech_ores-1.0.0.jar"
-side = "both"
+filename = 'disable_oritech_ores-1.0.0.jar'
+name = 'Disable Oritech Ores'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "bfa5ba21bc39159c618e85e58284916e6e8cb05b"
-mode = "metadata:curseforge"
+hash = '093ae8f77b2c8ee4fb1d15f166887115531fb300858c71b5c8cdd591f063d5a9837873343f56b7fb5b03f51d1d8b9d11b07cb9305ffff6f73b82bf67b9a4ade2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gEjo1U2B/versions/fuw59TGv/disable_oritech_ores-1.0.0.jar'
 
-[update]
-[update.curseforge]
-file-id = 6865362
-project-id = 1323537
+[update.modrinth]
+mod-id = 'gEjo1U2B'
+version = 'fuw59TGv'

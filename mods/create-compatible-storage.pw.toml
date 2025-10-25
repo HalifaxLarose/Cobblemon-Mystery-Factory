@@ -1,13 +1,16 @@
-name = "Create: Compatible Storage"
-filename = "create_compatible_storage-2.7.0-neoforge.jar"
-side = "both"
+filename = 'create_compatible_storage-2.8.1-neoforge.jar'
+name = 'Create: Compatible Storage'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "e4566a417fe9f4f5cc8b51e8d2079239d0cd2c55"
-mode = "metadata:curseforge"
+hash = '2a16a81f22ca2e04530ff2fccf65aa0c868080a1e1447449ae1fea703bd954d1e71693279293f2930773a7b00b7d047a20e392e88dcaea4c3564d37817b8be57'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5ofroZ5W/versions/hpbOuQ0s/create_compatible_storage-2.8.1-neoforge.jar'
 
-[update]
-[update.curseforge]
-file-id = 7046845
-project-id = 1247573
+[update.modrinth]
+mod-id = '5ofroZ5W'
+version = 'hpbOuQ0s'

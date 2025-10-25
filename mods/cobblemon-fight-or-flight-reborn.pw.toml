@@ -1,13 +1,16 @@
-name = "Cobblemon Fight or Flight Reborn"
-filename = "fightorflight-neoforge-0.8.3.jar"
-side = "both"
+filename = 'fightorflight-neoforge-0.8.4.jar'
+name = 'Cobblemon Fight or Flight Reborn'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "7fb330a1993fbdcbbae87e7b701d0bc02045cc24"
-mode = "metadata:curseforge"
+hash = 'a405d7345bd70237735bee3247b0c217d3c72e28d364e9f4161b590379e9fc23a4510d43c4d1bdcbb6787a1b42ec910bab103a5b3ceb3b445fe73a90a3315ecd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cTdIg5HZ/versions/imItm1o4/fightorflight-neoforge-0.8.4.jar'
 
-[update]
-[update.curseforge]
-file-id = 6881170
-project-id = 1168140
+[update.modrinth]
+mod-id = 'cTdIg5HZ'
+version = 'imItm1o4'

@@ -1,13 +1,16 @@
+filename = 'farmers-cutting-regions-unexplored-1.21-1.1a-neoforge.jar'
 name = "Farmer's Cutting: Regions Unexplored"
-filename = "farmers-cutting-regions-unexplored-1.21-1.1a-neoforge.jar"
-side = "both"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "77aaf243b4a7fc108bc967eb1b6d35a3db531a25"
-mode = "metadata:curseforge"
+hash = 'ed27adc112babdc8d1037cdadee68c2a3b90d60120626c8a363bcdf274a17fb7fe43de6e03b9388f724cbd6f577d79fdc4a3495b8fd9bf552f2ac32c3e6893f4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lFKDc2ny/versions/HKjlgJZD/farmers-cutting-regions-unexplored-1.21-1.1a-neoforge.jar'
 
-[update]
-[update.curseforge]
-file-id = 5930418
-project-id = 1133629
+[update.modrinth]
+mod-id = 'lFKDc2ny'
+version = 'HKjlgJZD'

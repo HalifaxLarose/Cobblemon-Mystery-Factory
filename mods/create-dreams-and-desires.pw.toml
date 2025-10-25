@@ -1,13 +1,16 @@
-name = "Create: Dreams & Desires"
-filename = "DnDesires-1.21.1-2.2c-BETA.jar"
-side = "both"
+filename = 'DnDesires-1.21.1-2.2c-BETA.jar'
+name = 'Create: Dreams & Desires'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-url = "https://cdn.modrinth.com/data/JmybsfWs/versions/IQmSy8nn/DnDesires-1.21.1-2.2c-BETA.jar"
-hash-format = "sha512"
-hash = "383f809165e20d672807688174cac474dfc02b0da171cd15285f431f62a82d2a3224f94549a18840c6e2de9f7bf9e78627d3c757bc76fbf7fa69fd5751762878"
+hash = '383f809165e20d672807688174cac474dfc02b0da171cd15285f431f62a82d2a3224f94549a18840c6e2de9f7bf9e78627d3c757bc76fbf7fa69fd5751762878'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JmybsfWs/versions/IQmSy8nn/DnDesires-1.21.1-2.2c-BETA.jar'
 
-[update]
 [update.modrinth]
-mod-id = "JmybsfWs"
-version = "IQmSy8nn"
+mod-id = 'JmybsfWs'
+version = 'IQmSy8nn'

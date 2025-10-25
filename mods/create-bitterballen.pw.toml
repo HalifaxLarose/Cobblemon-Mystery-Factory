@@ -1,13 +1,16 @@
-name = "Create: Bitterballen"
-filename = "create_bic_bit-1.0.1.jar"
-side = "both"
+filename = 'create_bic_bit-1.0.1.jar'
+name = 'Create: Bitterballen'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "5eee2ad228021f73ccda28c1fd1d42e0a40dbf31"
-mode = "metadata:curseforge"
+hash = 'c63cb4cb75a8bb9dd966a8c3fd95e0e8f23bbecb2909ad2f476b88b69b13c69444d6e5fb060ece03af83d79441120016799165165de2e24e40f37ab46de36882'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/16DuAG4k/versions/fw95owiR/create_bic_bit-1.0.1.jar'
 
-[update]
-[update.curseforge]
-file-id = 6678330
-project-id = 918751
+[update.modrinth]
+mod-id = '16DuAG4k'
+version = 'fw95owiR'

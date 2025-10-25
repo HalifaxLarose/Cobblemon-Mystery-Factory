@@ -1,13 +1,16 @@
-name = "Create: Deep Dark [Forge/NeoForge]"
-filename = "create_deep_dark-2.1.0-neoforge-1.21.1.jar"
-side = "both"
+filename = 'create_deep_dark-2.1.0-neoforge-1.21.1.jar'
+name = 'Create: Deep Dark [Forge/NeoForge]'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash-format = "sha1"
-hash = "fdc6f03162ed7cfef09f26a1cb32781b98e5a2b8"
-mode = "metadata:curseforge"
+hash = '845d17fce322af3f9534e8388fc976b769cc6fe8cbc57e452c326b7fb76eecba46a3d41d6c808e1c8806be75a34ce9ab9a98c1828898af9b5f7deb86edaa75f2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/knrLSB8n/versions/r1enuyGf/create_deep_dark-2.1.0-neoforge-1.21.1.jar'
 
-[update]
-[update.curseforge]
-file-id = 7020488
-project-id = 1020173
+[update.modrinth]
+mod-id = 'knrLSB8n'
+version = 'r1enuyGf'

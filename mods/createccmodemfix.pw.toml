@@ -1,0 +1,16 @@
+filename = 'createccmodemfix-4.0.jar'
+name = 'CreateTagsFix'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2ce851967d9bdc35450f699c82bfe2b2fb8aee744383ba971b150efaf9ab4a5b65d24b2b596635e199fb6d45010b0f84678f79e49fb9ea4bd793e93add291625'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/izssR7oN/versions/3tXTx9tK/createccmodemfix-4.0.jar'
+
+[update.modrinth]
+mod-id = 'izssR7oN'
+version = '3tXTx9tK'
