@@ -193,8 +193,9 @@
 		{
 			id: "26B68940794B658A"
 			tasks: [{
-				id: "2F346C3CEA6F185C"
-				type: "checkmark"
+				id: "4C4CF8C8ED8ED251"
+				item: { count: 1, id: "drill_drain:drill_drain" }
+				type: "item"
 			}]
 			x: -0.5d
 			y: -13.5d

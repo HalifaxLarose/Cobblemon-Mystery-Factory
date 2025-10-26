@@ -1,14 +1,12 @@
 {
 	chapter.035D1ABF4FA1F630.title: "4) The Space Age"
 	chapter.0F534FED1A530BAA.title: "Reward Reclaim"
-	chapter.15790140419A8066.title: "Automation Challenges"
+	chapter.15790140419A8066.title: "Your Growing Factory"
 	chapter.166963E568B61211.title: "3) The Industrial Age"
-	chapter.19757F331B3A25D3.title: "Exploration Side Quests"
 	chapter.1A5A28E4EAB97707.title: "Legendary Hunting"
 	chapter.1B50A088E0973BC1.title: "0a) Life as a Dragon"
-	chapter.21AA1C666D354300.title: "World of Cuisine"
-	chapter.2705BF127F8A0D81.title: "Crafting Side Quests"
 	chapter.2ABB2A702B6169AE.title: "1) The Stone Age"
+	chapter.2E8A6C11C883B7F0.title: "Request Board"
 	chapter.41FBEFF9BD4C1ECB.title: "0) Welcome to a New World"
 	chapter.557957158909E65E.title: "1a) Factory Basics"
 	chapter.5A985B5D6F38BD6A.title: "2b) Quaries and Advanced Agriculture"
@@ -31,6 +29,12 @@
 		"It's unconventional crafting, but it has its charm."
 	]
 	quest.005E2061A2742EA8.title: "Andesite Casing"
+	quest.006E924E38D3B4DC.quest_desc: [
+		"Slap a whistle onto your train, and it will go choo-choo whenever you press shift."
+		""
+		"The whistle will also automatically play while arriving to stations, if the train's schedule is automated."
+	]
+	quest.006E924E38D3B4DC.quest_subtitle: "Choo choo mother f"
 	quest.02834CB5B60C35E0.quest_desc: [
 		"As you automate, you will need to move things between machines and into inventories."
 		""
@@ -56,7 +60,9 @@
 	quest.0656B7840C606BB8.title: "Better than Gold"
 	quest.065EDC2D4D98E0C6.quest_desc: ["Some dragon types have a special treat they can eat to have infinite magic for a short while. It'll be worth keeping some on hand."]
 	quest.065EDC2D4D98E0C6.title: "Dragon Treats"
-	quest.067C4963FADE5BAC.title: "Deck Your Train Out!"
+	quest.067C4963FADE5BAC.quest_desc: ["Train doors are special: when the train's schedule is automated, they will open up on their own once stopped at a station."]
+	quest.067C4963FADE5BAC.quest_subtitle: "Invite your passengers in"
+	quest.067C4963FADE5BAC.title: "Welcoming Doors"
 	quest.07C1943969D81782.title: "How to Ponder"
 	quest.07DACF27D2E02D79.quest_desc: [
 		"The adamant ingot is another special kind of alloy, made from diamond and brass."
@@ -83,6 +89,8 @@
 		"If you been using JEI, you may have noticed there's a lot of recipes involving dough, flour, or bread. Feel free to experiment with automating  something fancier and more filling!"
 	]
 	quest.09AF652C5BF6375C.title: "Automate Bread!"
+	quest.09ED0FD1156D8383.quest_desc: ["Here's some more stuff of note for train building, but nothing fancy in particular."]
+	quest.09ED0FD1156D8383.title: "Misc Deco"
 	quest.0A18A7166FAF727E.quest_desc: [
 		"Fluids - such as familiar water and lava - are used in many forms of crafting in the world of engineering. Being unable to be held in hand however, they require special tools to move around."
 		""
@@ -169,8 +177,14 @@
 		"Well, you can almost do that! The most efficient way to process ore is to crush it with a crushing wheel first, and then send it to the pulverizer. The dust produced can then be smelted into an ingot, and you'll end up with more than if you just smelted the raw or directly."
 	]
 	quest.15A2E1D5F70C9F6E.title: "Better Ore Processing"
-	quest.15DCA245B19B9667.quest_desc: ["These two cogwheels are HUGE. Too huge, in fact: you won't be able to craft them until chapter 2. So close to completing your collection..."]
-	quest.15DCA245B19B9667.title: "This is Getting Ridiculous"
+	quest.15DCA245B19B9667.quest_desc: [
+		"The Klink has been a happy member of the guild, getting along with the other Cobblemon and helping out on the factory floor. They're rather cheerful, and a great source of morale for the other guild members."
+		""
+		"THey've even said that their fellow guild members feels like their new family of siblings. They don't seem so alone anymore."
+		""
+		"Still, you wonder if crafting some extra large gears may remind the Klink of their parents, a little surprise for their hard work. That could fill the Klink with inspiration. However, you may need to come back to this idea later, when you have the means to craft such large devices."
+	]
+	quest.15DCA245B19B9667.title: "Big Daddy and Big Momma Gears"
 	quest.1626D22A68A81C35.quest_desc: ["Goggles are invaluable for factory building. They let you see stats about various machines, including how much stress they're consuming, how fast things are spinning, and more. Grab a pair when you can."]
 	quest.1626D22A68A81C35.quest_subtitle: "See Beyond"
 	quest.170301E9D65331BD.quest_desc: ["Elder Dragon Hearts will age adult dragons. If an adult dragon grows old enough, they will become an ancient dragon, and be particularly large."]
@@ -197,6 +211,13 @@
 		"Backpacks can alleviate that. They straight up extend your inventory. They can also be placed down with all their contents inside so you can prepare various packs for different purposes."
 	]
 	quest.19EA3845F442D5D9.title: "Get More Inventory Space"
+	quest.1A256334D9A27F87.quest_desc: ["It's not just enough to have a train. No, you need to make a power statement to the other guilds. Inspire awe and fear, and make the best, sleekest train of anyone's imagination! It's important to the health and growth of the guild!!"]
+	quest.1AAEA0D75666479B.quest_desc: [
+		"You need tracks for the train to go places, obviously."
+		""
+		"You'll want to automate these asap if you want to go anywhere with trains. You can bulk heat cobblestone to make stone, and slabs can be made via the mechanical saw."
+	]
+	quest.1AAEA0D75666479B.title: "Train Tracks"
 	quest.1AAFB7BD5BA0BB83.quest_desc: [
 		"You have special abilities to let you smite monsters or even process resources in a special manner. Some of these abilities are inherit, others require mana to cast. Your mana will need to regenerate with rest, food, or time."
 		""
@@ -215,6 +236,7 @@
 		"About 10% of SU is lost then would have been used to generate the electricity used in the first place. But don't forget: time's a resource, and this 10% penalty may be a fair trade off."
 	]
 	quest.1B8A36994DB3C327.title: "Now in Reverse!"
+	quest.1BEAA6D57950F6DD.quest_desc: ["Sturdy Sheets are used to make train casings, the most important tool for making train components."]
 	quest.1CAF150BFDBD8E3E.quest_desc: [
 		"Contraptions will harvest the natural world for you, but everything it picks up will be stashed inside any inventory block glued to the machine."
 		""
@@ -236,6 +258,7 @@
 		"Using a mechanical saw on wood planks allow you to make cog teeth, which can then be inserted into a deployer. You'll have to figure out how to automate the rest of the ingredients for this task, however."
 	]
 	quest.1FE27F926442DEC7.title: "Automate Cogwheels"
+	quest.1FF16C572ABB9F4A.quest_desc: ["These are advanced tools to communicate what's going on with trains or stations. Play around with them!"]
 	quest.208060DC3A35D465.quest_desc: [
 		"Vaults excel at storing an immense amount of items in one inventory. They are like gigachests."
 		""
@@ -248,7 +271,15 @@
 		"The best part is that this creates more andesite alloy than crafting by hand!"
 	]
 	quest.20BDC6C99562DECC.title: "Automate Andesite Alloy!"
-	quest.21072825C73FB514.quest_desc: ["Create's many addons on adds a wide variety of cogs and shafts. Try to collect all of the strangest ones there are!"]
+	quest.21072825C73FB514.quest_desc: [
+		"A wild Klink wanders into your factory floor, and sees the spinning gears. \"Woaaah!\" it says with inspired eyes."
+		""
+		"It then comes up to you. \"Hello, guild leader! I've heard rumours about an engineering guild!\" You nod in confirmation."
+		""
+		"\"All these cogwheels remind me of my siblings when we were younger. They all had such wild and different personalities. I'm wondering... How many different cogwheels can you make? I want to feel what it's like to be back with them again.\""
+		""
+		"It seems like they may be willing to join if you oblige their request."
+	]
 	quest.21072825C73FB514.title: "Collect all the Cogs"
 	quest.2188014C24C00AB0.quest_desc: [
 		"The gearshaft can reverse the direction of rotation with a redstone signal, which can be useful for fancy moving contraptions like elevators or pistons, which will be discussing in chapter 1a."
@@ -269,6 +300,16 @@
 		""
 		"However, you can't automatically craft belts from dried kelp, not until next chapter. To complete production, there's a few steps left."
 	]
+	quest.24970CBA9D5FC2D7.quest_desc: [
+		"To have trains move on their own, you need two things."
+		""
+		"First, you need a mob to be seated in front of the controls. It can be any mob, including Cobblemon. However, Cobblemon summoned from a pasture can't travel too far away from the pasture, so it's best to use a wild Cobblemon."
+		""
+		"Second, you need a train schedule. After you craft it, you can right click it to describe its destinations and other schedule details."
+		""
+		"Once the schedule is ready, right click it to the conductor mob. It will then operate the train for you."
+	]
+	quest.24970CBA9D5FC2D7.title: "Automatically Conduct Trains"
 	quest.25B19EF290BAC7B8.quest_desc: [
 		"Oritech is a world of electrical machines with many focused on processing ores in unique ways."
 		""
@@ -285,6 +326,15 @@
 		"A deployer is like an automatic fist: it can be configured to to either left click or right click, and when powered, will act as if it was a player clicking the block it is pointing at. It can even be given a tool like shears to automatically shear sheep or bonemeal to automatically grow crops. If given a block, it can automatically place it."
 		""
 		"Deploying is also used for a few unique recipes, especially in sequenced assembly lines."
+	]
+	quest.2832E128EB1B2DB9.quest_desc: [
+		"You may have finding yourself having trouble moving things around, like iron to everything that may want it, or coal to blaze burners. You may also need trains sooner or later, in order to transport bulk amount of items to a specific location... Or because they're REALLY AWESOME."
+		""
+		"The left will teach you how to do some post production - how to have anything request packages of arbitrary goods and get them delivered. Setting up a logistics network means that overtime, you won't need to build integrate mazes of conveyor belts in order to give a second use to something you're already using. It can be complicated, and you may decide not to use it, but it will be very rewarding."
+		""
+		"The right side will teach you how to do trains. Trains can travel through unloaded chunks and can deliver a lot of items. They're also a really quick way to get around."
+		""
+		"Have fun learning about the world of micro and macro logistics!"
 	]
 	quest.2832E128EB1B2DB9.title: "Welcome"
 	quest.2A6F263F498ADA48.quest_desc: [
@@ -313,12 +363,21 @@
 	quest.2D8BA21FB58CE620.title: "Automate Great Balls"
 	quest.2DE0E8FB8EDA4C94.quest_desc: ["This item in particular help sea dragons survive outside of water."]
 	quest.2DE0E8FB8EDA4C94.title: "Survive Land"
+	quest.2EAD774DE4B57AFC.quest_desc: [
+		"Train signals describe the ends of a train block."
+		""
+		"A train block is very simple: only one train may be inside a block at a time. Trains will stop at the signal if the block is occupied. "
+		""
+		"This is most useful making sure trains don't collide at intersections. There's some advanced techniques to squeeze out efficiency in edge cases but honestly, just focus on at least making trains safe."
+	]
 	quest.2EAD774DE4B57AFC.title: "DON'T TRAINWRECK"
+	quest.2F2181FF9E7ECD4E.title: "Every Mega Stone"
 	quest.2F385781C4F668AB.quest_desc: [
 		"Like the portable item interface and the portable fluid interface, the portable energy interface allows you to transfer energy between contraptions and non-contraptions."
 		""
 		"This may be not be useful to hav ein your base, but may be pretty helpful for transfering energy long distance via, let's say, a train..."
 	]
+	quest.2FA6AB0F1224C606.quest_desc: ["Train controls let you move a train forward and back. They have importance."]
 	quest.30BB4ADF4FBEEE1C.quest_desc: [
 		"Flour needs to be mixed with water to turn into dough. Place a basin under a mix, and use a water bucket to fill it with water."
 		""
@@ -345,6 +404,7 @@
 		""
 		"Technically optional. You can just chuck stuff on the floor below a press and it'll do its magic."
 	]
+	quest.3232BBC81F5B7D13.quest_desc: ["Like doors, steps and ramps will be flat while the train is moving, but will transform  to help passengers reach the train from the station."]
 	quest.3360599F5B1838CB.quest_desc: [
 		"Since the recipe for an iron ingot is a 3x3 square of nuggets, they can be compacted with a mechanical press."
 		""
@@ -364,6 +424,7 @@
 	quest.357E014D47850417.quest_desc: ["The quantify key is used like a drawer key, but it does something completely different: it'll display how many items are being stored on the drawer."]
 	quest.357E014D47850417.title: "See Your Stock"
 	quest.361611B3CFF5F931.quest_desc: ["Automating cobblestone is a long and ancient history of two opposite forces of nature working in harmony."]
+	quest.3856928B0D0AA67A.quest_desc: ["A train station is used to determine stopping points of automated trains. In addition, they give you the controls to actually start building a train."]
 	quest.38BF2CAE6EC12222.quest_desc: [
 		"Cogs and shafts can rotate at different speeds. Machines operated at higher speeds will take more stress, but will process items faster. Additionally, some machines require high speeds to operate."
 		""
@@ -461,6 +522,14 @@
 	quest.43F10159CACD7C11.quest_desc: ["SMASH STUFF UP!!"]
 	quest.44286D097B53FD39.quest_desc: ["Cogs can be placed on the end of shafts, and will rotate neighbouring cogs."]
 	quest.44AE71346FC5369B.title: "Heavy Oil Products"
+	quest.44CD520B2C587695.quest_desc: ["The track layer's bag can hold a lot of tracks, and let you place many. You can only build straight tracks with them but it should still let you place more tracks down overall."]
+	quest.44F92646536C90DE.quest_desc: [
+		"Like copper and andesite casing, you got to slap the sturdy sheet onto a brass sheet to get a train casing."
+		""
+		"These casings are used in very few recipes, but they're incredibly slick-looking, and an excellent material for making the trains themselves."
+	]
+	quest.44F92646536C90DE.quest_subtitle: "The most stylish casing"
+	quest.44F92646536C90DE.title: "Train Casing"
 	quest.471CDA944D6A8C40.quest_desc: [
 		"The chute is similar to a funnel in that it will take items out of storage or put them into storage."
 		""
@@ -478,12 +547,30 @@
 	quest.47BB063334F8C001.quest_desc: ["Storage space upgrades increase how many items can be stored at once. It's useful."]
 	quest.47DDB9241ED398B6.quest_desc: ["These two items in particular help cave dragons survive in bodies of water."]
 	quest.47DDB9241ED398B6.title: "Survive Water"
+	quest.48464A249467E6AF.quest_desc: [
+		"Trains do not require any fuel to operate."
+		""
+		"However, if they have a load of coal or charcoal, they will move faster while operating at the cost of slowly consuming the coal."
+	]
+	quest.48464A249467E6AF.quest_subtitle: "You're too slow"
+	quest.48464A249467E6AF.title: "Gotta Go Fast"
 	quest.496B8FD6BE25A5AD.quest_desc: [
 		"Pump some water into the basin and chuck redstone in. They'll mix together into a wonderfully delicious red slurry you pour onto rose quartz like ketchup."
 		""
 		"If you toss 40 redstone, you'll make enough red slurry to pick up in a bucket."
 	]
 	quest.496B8FD6BE25A5AD.quest_subtitle: "It looks tasty..."
+	quest.499806AC57624041.quest_desc: [
+		"A Volcarona wanders into the factory guild. Except, it wasn't a Volcarona - it was made out of metal and plastic, and had glowing, angular wings."
+		"\"Hello, I am Iron Moth, of the Transmonist Guild,\" it says. \"I heard of the founding of an Engineering Guild. Indeed, those whispers are true. It's exciting, seeing another guild impassioned by the merits of technology, even if to different ends.\""
+		""
+		"It seems to notice your curious glance, so it elaborates. \"We build ourselves strong in order to replace Arceus.\""
+		""
+		"There's some awkward silence as you're unsure what to make of the statement. They go on as if they said nothing interesting. \"If there's going to be an overlapping guild, I do want to make sure you do engineering justice. I've come to challenge you to create these and maybe use these parts. I'll give you a strong TM of your choice if you're able.\""
+		""
+		"\"And who knows, maybe you'll be able to make it to Mars to visit our guild some day.\""
+	]
+	quest.499806AC57624041.title: "Advanced Engineering"
 	quest.4C08103DE08919AF.quest_desc: [
 		"You need to make a brass hand to make a deployer."
 		""
@@ -513,6 +600,14 @@
 		"Be mindful that if a storage is full, it'll skip collecting items. See the void upgrade for workarounds."
 	]
 	quest.50E775A4D1C98DB6.title: "Important: Filtering!"
+	quest.52207554D5F46C09.quest_desc: [
+		"Trains are a contraption. That means saws, drills, etc., works on them like they would other contraptions. It also means you can place vaults, fluid tanks, and accumulators on them and use portable interfaces to load and offload their contents at stations. You can also place deployers on them, and the deployers can place tracks down. Yes, trains place down track ahead of them as they go forward, working exactly how you think it would."
+		""
+		"You can right click them with a wrench to move them onto another track. This can be handy if you need to shuffle trains around on tracks."
+		""
+		"To create trains with multiple cars, you continue to place down additional bogies when making a train, but you then only glue two bogies to a single \"car\" each."
+	]
+	quest.52207554D5F46C09.title: "Extra Train Notes"
 	quest.52CCAE509402927D.quest_desc: ["Hey, what if we just combined these two machines into one?"]
 	quest.52CCAE509402927D.title: "Two in One"
 	quest.530E15A5BD357D09.quest_desc: [
@@ -561,9 +656,28 @@
 	quest.55C84F908B2139C1.quest_desc: [
 		"When a storage drawer with the void upgrade receives an item while at full capacity, it will destroy the item. This is extremely useful to prevent backlog and overflow."
 		""
-		"It's also important for keeping server lag down, as clogged up systems tend to drop stuff onto the ground."
+		"This important for keeping server lag down, as clogged up systems tend to drop stuff onto the ground."
+		""
+		"Alternatively, you can use a trash can."
 	]
-	quest.5621C34C88CBEAE7.title: "Assemble a Train"
+	quest.5621C34C88CBEAE7.quest_desc: [
+		"1) Lay down tracks in a straight line."
+		""
+		"2) Right click the track with a train station, than place the train station down somewhere near the track."
+		""
+		"3) Right click the placed train station. Select \"Create a new train.\""
+		""
+		"4) With a train casing in hand, right click the blue part of the track to create a \"bogie\", the wheels of the train. You may then place a second connected bogie if you wish."
+		""
+		"5) Place blocks around the bogie as you would a contraption."
+		""
+		"6) Make sure train controls are placed somewhere on the train. Additionally, place a seat in front of the controls."
+		""
+		"7) Glue all of it together."
+		""
+		"8) Right click the station again. If all goes well, you'll be able to select \"assemble train\", and it will create you train!"
+	]
+	quest.5621C34C88CBEAE7.title: "How to Assemble a Train"
 	quest.562D22ACCA7F1DDF.quest_desc: [
 		"The alternator's kinda useless if power has nowhere to go."
 		""
@@ -646,6 +760,7 @@
 		"Godspeed, you've now formed an engineering guiod!"
 	]
 	quest.6467039452212EB0.quest_subtitle: "Chapter 1a, 2 Unlocked"
+	quest.6467039452212EB0.title: "Your Next Machines"
 	quest.65FF3369DBBEC9D9.quest_desc: [
 		"Steam Engines are a powerful source of kinetic energy, which you'll need as you expand and expand."
 		""
@@ -676,6 +791,7 @@
 		""
 		"It can be crafted in a crafting able, but you get better results using a mixer."
 	]
+	quest.6791BE0D013450EB.quest_desc: ["These nifty things will help you rotate shafts around corners! The alternative would be to use expensive gearboxes or cubbersome large cogwheels, so it's a pretty good idea to make these!"]
 	quest.67E8FC5EC26CF012.title: "Make Steel!"
 	quest.68DCD5A34A0573BC.title: "ROCKET FUEL"
 	quest.6A9342529E8D9221.quest_desc: ["Copper wires, capable of conducting a circuit, are the basis of the vast majority of electronics. They'll also be used in cables everywhere."]
@@ -734,6 +850,12 @@
 	quest.70165EEF2890AD6F.title: "Check out these Girders"
 	quest.7091A4D0B3222FDF.title: "I've Been Using Storage Drawers!"
 	quest.7171AC0F9E9F47C5.quest_desc: ["Much like a regular beacon, a dragon beacon will give you buffs in an area. You'll need a beacon activator to use it."]
+	quest.71897FC72ACFA33B.quest_desc: [
+		"The trash can will get rid of anything you put into it. You can even configure what it accepts with a whitelist or blacklist."
+		""
+		"Throwing away excess can be important for not creating backlog, which could potentially drop stuff on the ground and lag servers up."
+	]
+	quest.71897FC72ACFA33B.title: "Throw Excess Away"
 	quest.727A327ECE33C3E7.quest_desc: [
 		"Forest Dragons have access to unique and varied food unavailable to other animals."
 		""
@@ -794,6 +916,20 @@
 	]
 	quest.7709D40C9E7FE1FE.quest_subtitle: "Mayonaise on the Escalator!"
 	quest.7709D40C9E7FE1FE.title: "Make an Escalator!"
+	quest.7833DE7344DB77FD.quest_desc: [
+		"There are many variations of the steam whistle, each with their own unique sound. Building them taller changes their note, and you can right click the base to change their octave."
+		""
+		"To play them outside of a train, you can put them on a fluid tank that is heated beneath it, and you would use redstone to activate them."
+		""
+		"It is possible to build grand operas with these tools. Or really obnoxious noise makers. Up to you!"
+	]
+	quest.7833DE7344DB77FD.quest_subtitle: "Collect 'em All"
+	quest.7833DE7344DB77FD.title: "The Sound of Steam"
+	quest.787F7F94709C3D16.quest_desc: [
+		"Windows can be configured to move up and down when interacted, giving your passengers a chance to get some fresh air in."
+		""
+		"Windows that move left and right will automatically move when arriving at stations."
+	]
 	quest.789DC38345C759D7.quest_desc: ["I'm sure gear shifting is starting to get tiresome and very cubbersome. The rotation speed controller fixes all your problems in one space-efficient block! Just insert the large cog on top and tell how fast it should spin!"]
 	quest.789DC38345C759D7.title: "Control Speed with Ease"
 	quest.78E3D9D10DC8A719.quest_desc: [
@@ -806,6 +942,13 @@
 	]
 	quest.79400E10CEF4CA8C.quest_desc: ["Weak Dragon Hearts will accelerate the growth of newborns into adult dragons."]
 	quest.79400E10CEF4CA8C.title: "Become an Adult"
+	quest.79D45F11481CBD19.quest_desc: [
+		"The mechanical paver can destroy blocks in the way like a drill, but it also has convenient features of being able to place blocks far below it as it works. This is extremely useful for trains, as it means you can get a solid road beneath your tracks without having to manually change every block along the track."
+		""
+		"It does not pick up items as efficiently as a drill. It is only to help build and tidy up your tracks."
+	]
+	quest.79D45F11481CBD19.quest_subtitle: "Let all roads lead to you!"
+	quest.79D45F11481CBD19.title: "Pave the World"
 	quest.79D8A38D25FD6FEB.quest_desc: [
 		"The mechanical crafter will automatically craft any (shaped) crafting recipe in the game."
 		""
@@ -852,6 +995,8 @@
 	]
 	quest.7EDC103B9424A115.title: "Crush"
 	quest.7EE3C83D0BF37910.quest_subtitle: "(Introduce in Chapter 3)"
+	reward.6F5D987AD3171268.title: "Klink Joins the Guild"
+	reward_table.324557F3A55EA536.title: "Pledges"
 	task.00BACF868F130380.title: "4x64 Charcoal"
 	task.01AFE6B5F75F9708.title: "Understood"
 	task.01D407E3051BCC44.title: "Any Cave Dragon Food"
@@ -862,6 +1007,7 @@
 	task.04B526EC3C7417A6.title: "Understood"
 	task.0624199736CE2BB7.title: "Understood"
 	task.09069C3509A42F83.title: "Understood"
+	task.0A8D6163481E0D5C.title: "Any #cobblemon:mints"
 	task.0AC5C18B39143601.title: "Understood"
 	task.0CCE78AED87AC9B4.title: "Understood"
 	task.0D5AA7E800B160D3.title: "Understood"
@@ -871,9 +1017,11 @@
 	task.1325D664F6217B94.title: "Wow!"
 	task.135D1281D64D4329.title: "Understood"
 	task.14830C57CD511151.title: "Understood"
+	task.148C4BEE59253A1F.title: "Decor Your Train Out"
 	task.180E36A68E5D7A5B.title: "Any Toolbox"
 	task.1918877266F1A840.title: "Any Log"
 	task.191A111D66937578.title: "Understood"
+	task.1BB15023852ED2D1.title: "Understood"
 	task.1C462D7741284336.title: "Any Tundra Dragon Food"
 	task.1CCB16211B5EE56D.title: "Understood"
 	task.1EE6D1370BC82F85.title: "Understood"
@@ -881,7 +1029,6 @@
 	task.1FDE64D9A907DA0C.title: "Carbon Gas Get"
 	task.21067DEC181C43E7.title: "Understood"
 	task.21B8B5A1053AE875.title: "Any Forest Dragon Food"
-	task.2215FE26D06E2B51.title: "64 Common Berries"
 	task.22BB11900BEB46EA.title: "4x64 Andestite Alloy"
 	task.235C04B17A2246A0.title: "Any #dragonsurvival:tundra_dragon_food"
 	task.23B3CF8AE8F81B3A.title: "4x64 Wooden Planks"
@@ -890,26 +1037,31 @@
 	task.25DA2C2FAE1DBE86.title: "Time to Become a Dragon"
 	task.262A9AD39DA6C709.title: "16x64 Steel Ingots"
 	task.297520682E165D85.title: "Understood"
+	task.2999F111EFE9985C.title: "8x64 Copper Ingots"
 	task.2AAA1B474A5FECA4.title: "Any Sea Dragon Food"
 	task.2BD65D01EF00B899.title: "Understood"
 	task.2D20B4E08234FA02.title: "Any Treasure"
-	task.2F346C3CEA6F185C.title: "drill drain"
 	task.2F6DA397BD086931.title: "CREATE SIDE"
 	task.320C10207214AB04.title: "It worked!"
 	task.33CB184B1FB6B249.title: "The Path of Automation"
 	task.34EB311F52B79867.title: "Understood"
+	task.37ED092679E18EEF.title: "Any 64 Berries"
 	task.392330B52EF8DEB9.title: "Any Backpack"
+	task.3979674975BAE636.title: "8x16 Brass Ingots"
 	task.3A0F57279675471B.title: "Red Slurry"
 	task.3D5B6D0595D09E2A.title: "Understood"
 	task.415D3F65CEB96CF5.title: "Ethelene and propylene "
 	task.41A8BFB8CF65604D.title: "4x64 Large Cogwheels"
 	task.46AA680FC9346250.title: "Any Apricorn Sprout"
+	task.4866D6DFDEF08745.title: "Understood"
 	task.49320E4EB0B4AD3B.title: "Understood"
 	task.4A81998FDA29266C.title: "Understood"
+	task.4C99529B87EB4831.title: "Any #oritech:plating"
 	task.4CF6B3F652C261C5.title: "Understood"
 	task.4D42956ED1B19328.title: "Understood"
 	task.4DAA6D5B70F56043.title: "Understood"
 	task.4DBE105356572221.title: "Understood"
+	task.4E7D01421BFDDAFD.title: "4x64 Prismarine Shards"
 	task.501D5AEA12506680.title: "How to Build and Operate a Rocket"
 	task.5110F2760E3FB00E.title: "ORITECH SIDE"
 	task.54CC66CE0D47AA53.title: "4x64 Cogwheels"
@@ -922,12 +1074,13 @@
 	task.5ECBE56A18782DC8.title: "Understood"
 	task.5F2B6C08EBB5F45B.title: "Any Apricorn"
 	task.62181154F14B523B.title: "I'm Ready"
+	task.65C73643A770AAF2.title: "Any 32 Basic Pokeballs"
 	task.667322DF91FCF5B2.title: "Ethelene and  propylene "
 	task.6736993618769277.title: "4x64 Shafts"
 	task.6DAC00F53624AFAD.title: "Any Dragon Altar"
 	task.6ED66D8C4C1A967E.title: "How to Use JEI"
-	task.6FC099E3F355ACE0.title: "Any 32 Pokeballs"
 	task.7216A33D2F32D9D1.title: "Any Backpack"
+	task.7394EBA49B1DED38.title: "Any #minecraft:planks"
 	task.739E84BBF8AFBD82.title: "From A to B"
 	task.77FA5410F2BB7962.title: "Understood"
 	task.7C84B3E9180247A4.title: "Understood"

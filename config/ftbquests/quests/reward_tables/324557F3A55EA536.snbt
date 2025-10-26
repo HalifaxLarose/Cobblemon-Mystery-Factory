@@ -1,0 +1,10 @@
+{
+	id: "324557F3A55EA536"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "39527204F01C23A4", item: { count: 1, id: "simpletms:tm_firepledge" } }
+		{ id: "17F9C68657A34CD3", item: { count: 1, id: "simpletms:tm_waterpledge" } }
+		{ id: "75E575B51E0CE9C7", item: { count: 1, id: "simpletms:tm_grasspledge" } }
+	]
+}

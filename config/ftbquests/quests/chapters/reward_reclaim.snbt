@@ -4,7 +4,7 @@
 	filename: "reward_reclaim"
 	group: "530E09679D7CD852"
 	id: "0F534FED1A530BAA"
-	order_index: 5
+	order_index: 3
 	quest_links: [ ]
 	quests: [ ]
 }

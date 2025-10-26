@@ -1,0 +1,535 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	default_quest_size: 2.0d
+	filename: "request_board"
+	group: "530E09679D7CD852"
+	id: "2E8A6C11C883B7F0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "53AFA4B0832F7A7D"
+			rewards: [
+				{
+					command: "/pokegive ditto"
+					icon: {
+						components: {
+							"ftbquests:icon": "cobblemon_quests:item/poke_ball_icon"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4E1CF9B8F438BC71"
+					type: "command"
+				}
+				{
+					id: "479D5FCA758326F0"
+					item: {
+						count: 1
+						id: "cobblemon:metal_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "762E314C758BFF9B"
+					item: {
+						count: 1
+						id: "cobblemon:quick_powder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3863F8A4F62BED55"
+				item: { count: 1, id: "mcwfurnitures:oak_modern_chair" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			id: "3179E467C257646D"
+			rewards: [{
+				id: "6649ACD9CBF714A2"
+				item: {
+					count: 1
+					id: "cobblemon:icy_rock"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CD0985ADD139447"
+				item: { count: 1, id: "create_confectionery:full_ruby_chocolate_bar" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 4.0d
+		}
+		{
+			id: "7D45D512AB06F2A1"
+			tasks: [{
+				action: "have_registered"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "5A23036F17C6AE5C"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: "cobblemon:flareon,cobblemon:vaporeon,cobblemon:jolteon"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "499806AC57624041"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2794AFCE4CF7CC32"
+				table_id: 3622398179252544822L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "20FAE04B71422918"
+					item: { count: 1, id: "create_connected:encased_chain_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "1A837CB122C93BC9"
+					item: { count: 1, id: "create_connected:parallel_gearbox" }
+					type: "item"
+				}
+				{
+					id: "15726EDF05C1BD0E"
+					item: { count: 1, id: "create_connected:six_way_gearbox" }
+					type: "item"
+				}
+				{
+					id: "622CC232764BE9E9"
+					item: { count: 1, id: "create_connected:overstress_clutch" }
+					type: "item"
+				}
+				{
+					id: "62C814D47EDB29EF"
+					item: { count: 1, id: "create_connected:centrifugal_clutch" }
+					type: "item"
+				}
+				{
+					id: "347D2D45ACAD8203"
+					item: { count: 1, id: "create_connected:freewheel_clutch" }
+					type: "item"
+				}
+				{
+					id: "6251C769131D72C6"
+					item: { count: 1, id: "create_connected:cross_connector" }
+					type: "item"
+				}
+				{
+					id: "0D95E7D35F8140B7"
+					item: { count: 1, id: "create_connected:brake" }
+					type: "item"
+				}
+				{
+					id: "45E9AA574103DDFF"
+					item: { count: 1, id: "create_connected:shear_pin" }
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: -4.0d
+		}
+		{
+			id: "21072825C73FB514"
+			rewards: [
+				{
+					count: 32
+					id: "3338816BA2733780"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "593B2D38C8079A28"
+					item: {
+						count: 1
+						id: "cobblemon:revive"
+					}
+					type: "item"
+				}
+				{
+					command: "/pokegive klink"
+					icon: {
+						components: {
+							"ftbquests:icon": "cobblemon_quests:item/poke_ball_icon"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "6F5D987AD3171268"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "2D077267762EE041"
+					item: { count: 1, id: "gnkinetics:tiny_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "445A6261B5D45CD9"
+					item: { count: 1, id: "gnkinetics:shaftless_tiny_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "775BF6D486E471C3"
+					item: { count: 1, id: "gnkinetics:cog_crank" }
+					type: "item"
+				}
+				{
+					id: "26665A0A279D13AF"
+					item: { count: 1, id: "gnkinetics:shaftless_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "3EFEF991285C934B"
+					item: { count: 1, id: "petrolsparts:coaxial_gear" }
+					type: "item"
+				}
+				{
+					id: "1CB6003FEC356F3E"
+					item: { count: 1, id: "gnkinetics:cogstone" }
+					type: "item"
+				}
+				{
+					id: "6D364AC0958C4535"
+					item: { count: 1, id: "gnkinetics:shaftless_cogstone" }
+					type: "item"
+				}
+				{
+					id: "6892782DBDAE8CE8"
+					item: { count: 1, id: "gnkinetics:large_cog_crank" }
+					type: "item"
+				}
+				{
+					id: "30A91F47CC6FA338"
+					item: { count: 1, id: "gnkinetics:chainable_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "18B2AABF263DD637"
+					item: { count: 1, id: "gnkinetics:shaftless_large_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "43D31CE1665879D3"
+					item: { count: 1, id: "petrolsparts:large_coaxial_gear" }
+					type: "item"
+				}
+				{
+					id: "426466603051F89B"
+					item: { count: 1, id: "petrolsparts:planetary_gearset" }
+					type: "item"
+				}
+				{
+					id: "11FBDA701D0E36B8"
+					item: { count: 1, id: "petrolsparts:differential" }
+					type: "item"
+				}
+				{
+					id: "6FB1E12473644101"
+					item: { count: 1, id: "create_connected:large_crank_wheel" }
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["21072825C73FB514"]
+			hide_until_deps_complete: true
+			id: "15DCA245B19B9667"
+			rewards: [{
+				id: "7F8B6CC071C61B44"
+				item: {
+					count: 1
+					id: "simpletms:tm_shiftgear"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "611EF488212616E7"
+					item: { count: 1, id: "gnkinetics:ring_gear" }
+					type: "item"
+				}
+				{
+					id: "1F02502806C026CB"
+					item: { count: 1, id: "petrolsparts:colossal_cogwheel" }
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			id: "05CF0E4A1D289A65"
+			rewards: [{
+				id: "3FB3E29C04247372"
+				item: {
+					count: 1
+					id: "cobblemon:heat_rock"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "63691C82E0A99719"
+				item: { count: 1, id: "create_deepfried:lava_chicken" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.0d
+		}
+		{
+			id: "7A1356D6E13EE575"
+			rewards: [
+				{
+					id: "140C2CA7CD0281D6"
+					item: {
+						count: 1
+						id: "simpletms:tm_copycat"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6B69F97D1C613367"
+					item: {
+						count: 1
+						id: "create:zinc_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "11FBD897E72E153C"
+					item: { count: 1, id: "copycats:copycat_block" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "485DD02B3C8DB2E8"
+					item: { count: 1, id: "copycats:copycat_layer" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "25B97CA7502EFE8E"
+					item: { count: 1, id: "copycats:copycat_catwalk" }
+					type: "item"
+				}
+				{
+					id: "1D9608F023C48018"
+					item: { count: 1, id: "create:copycat_panel" }
+					type: "item"
+				}
+				{
+					id: "076995528140AD65"
+					item: { count: 1, id: "copycats:copycat_fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "219EF23BFFE0F16D"
+					item: { count: 1, id: "copycats:copycat_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "00E107E409E409DE"
+					item: { count: 1, id: "copycats:copycat_large_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "064C78E5C8F8A955"
+					item: { count: 1, id: "copycats:copycat_shaft" }
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: -5.0d
+		}
+		{
+			id: "25152BCA2CB2AB9A"
+			tasks: [{
+				count: 32L
+				id: "656AA4351994A77C"
+				item: { count: 1, id: "create_deepfried:cheese_curd" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 5.0d
+		}
+		{
+			id: "2A6090F28C331FB6"
+			tasks: [{
+				id: "775FBB928D54CEA8"
+				item: { count: 1, id: "createdieselgenerators:chemical_sprayer_lighter" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 14.0d
+		}
+		{
+			id: "0621334FE642AC5D"
+			tasks: [
+				{
+					id: "0CEE6FFFC567C70B"
+					item: { count: 1, id: "create_deep_dark:echo_armor_helmet" }
+					type: "item"
+				}
+				{
+					id: "37B16D5D7A7D5CB5"
+					item: { count: 1, id: "create_deep_dark:echo_armor_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6853DA40163CCF72"
+					item: { count: 1, id: "create_deep_dark:echo_armor_leggings" }
+					type: "item"
+				}
+				{
+					id: "405A9E6766646F2A"
+					item: { count: 1, id: "create_deep_dark:echo_armor_boots" }
+					type: "item"
+				}
+				{
+					id: "19B260A44E9B374C"
+					item: { count: 1, id: "create_deep_dark:echo_sword" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			id: "0E2162DB14499DC9"
+			tasks: [{
+				id: "33D38DCA771DB0FD"
+				item: { count: 1, id: "create_aquatic_ambitions:mechanical_conduit" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E2162DB14499DC9"]
+			id: "2901C821F2A662DB"
+			tasks: [{
+				count: 256L
+				id: "4E7D01421BFDDAFD"
+				item: { count: 1, id: "minecraft:prismarine_shard" }
+				type: "item"
+			}]
+			x: -23.0d
+			y: 4.0d
+		}
+		{
+			id: "5BE36687DA430BAE"
+			rewards: [{
+				id: "21A387A82CC77A03"
+				item: {
+					count: 1
+					id: "cobblemon:choice_scarf"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DEF3E1377E4BC91"
+				item: { count: 1, id: "createbb:blue_meth" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 18.0d
+		}
+		{
+			id: "51EF195DE5F31228"
+			tasks: [{
+				id: "246E762D1E035AB3"
+				item: { count: 1, id: "createbb:white_meth" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 9.5d
+		}
+		{
+			id: "2F2181FF9E7ECD4E"
+			rewards: [{
+				id: "65ECC7BD84F59BEF"
+				item: {
+					count: 1
+					id: "simpletms:tm_dragonascent"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23A7C4588CD6BDD5"
+				item: { count: 1, id: "mega_showdown:pinsirite" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 22.0d
+		}
+		{
+			id: "0DFB5D867F8F7BED"
+			tasks: [{
+				id: "1EC78DFD83E357FD"
+				item: { count: 1, id: "create:wand_of_symmetry" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			id: "0EC767D99B79471F"
+			tasks: [{
+				id: "077A13D608EDEEC6"
+				item: { count: 1, id: "create:extendo_grip" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			id: "0C763D01540AB541"
+			tasks: [{
+				id: "0EC016559F81525B"
+				item: { count: 1, id: "dndesires:gatling_breaker" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			id: "39F421F123458845"
+			tasks: [{
+				id: "18AA91D089E1B864"
+				item: { count: 1, id: "createfisheryindustry:pneumatic_harpoon_gun" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: 8.0d
+		}
+	]
+}

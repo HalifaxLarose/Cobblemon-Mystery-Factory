@@ -153,6 +153,7 @@
 			dependencies: ["6CD4E1ADCEEE6B60"]
 			hide_until_deps_complete: true
 			id: "15632D26666A0CBF"
+			shape: "heart"
 			tasks: [{
 				id: "180E36A68E5D7A5B"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:toolboxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -387,6 +388,20 @@
 			}]
 			x: -52.0d
 			y: -36.0d
+		}
+		{
+			dependencies: ["1936350E8BD43C68"]
+			icon_scale: 2.0d
+			id: "71897FC72ACFA33B"
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				id: "0D377BFBF450988E"
+				item: { count: 1, id: "trashcans:item_trash_can" }
+				type: "item"
+			}]
+			x: -52.0d
+			y: -30.5d
 		}
 	]
 }

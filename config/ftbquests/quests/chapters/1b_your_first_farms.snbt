@@ -17,12 +17,20 @@
 				"3360599F5B1838CB"
 			]
 			id: "60830DE9CF9FADC6"
+			rewards: [{
+				id: "772F244D7D3927F3"
+				item: {
+					count: 1
+					id: "simpletms:tm_falseswipe"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.5d
 			tasks: [{
 				count: 32L
-				id: "6FC099E3F355ACE0"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblepedia:basic_poke_balls)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "65C73643A770AAF2"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblemon:tier_1_poke_balls)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -17.25d
@@ -381,6 +389,10 @@
 			id: "0AEE300448ED5FA7"
 			shape: "gear"
 			size: 3.0d
+			tasks: [{
+				id: "252B4BA58C472FD6"
+				type: "checkmark"
+			}]
 			x: -34.5d
 			y: -0.75d
 		}
@@ -617,8 +629,8 @@
 			}]
 			tasks: [{
 				count: 64L
-				id: "2215FE26D06E2B51"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblepedia:natural_berries)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "37ED092679E18EEF"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblemon:berries)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.0d

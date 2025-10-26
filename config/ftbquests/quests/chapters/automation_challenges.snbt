@@ -1,10 +1,838 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "diamond"
+	default_quest_size: 2.0d
 	filename: "automation_challenges"
 	group: "530E09679D7CD852"
 	id: "15790140419A8066"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "7B063F34843B9C1F"
+			tasks: [{
+				count: 512L
+				id: "3979674975BAE636"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -14.0d
+		}
+		{
+			id: "4537C628B9BBF453"
+			tasks: [{
+				count: 512L
+				id: "2999F111EFE9985C"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -15.0d
+		}
+		{
+			id: "00BC9A30E2A4C8C8"
+			tasks: [{
+				count: 256L
+				id: "22A336F4D0601E40"
+				item: { count: 1, id: "cobblemon:exp_candy_xs" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -12.0d
+		}
+		{
+			id: "4FD131740E2AC9CD"
+			tasks: [{
+				id: "654CB53FB52DE46D"
+				item: { count: 1, id: "cobblemon:exp_candy_s" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: -13.0d
+		}
+		{
+			id: "0EC96029E25328CA"
+			tasks: [{
+				id: "7758CD2D85C4C05D"
+				item: { count: 1, id: "cobblemon:exp_candy_m" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -14.0d
+		}
+		{
+			id: "6262C4762AC17305"
+			tasks: [{
+				id: "68AA13B26DA7F482"
+				item: { count: 1, id: "cobblemon:exp_candy_l" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: -15.0d
+		}
+		{
+			id: "7D4FBEC76E3B2C5F"
+			tasks: [{
+				id: "0E6579149183482B"
+				item: { count: 1, id: "cobblemon:exp_candy_xl" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -16.0d
+		}
+		{
+			id: "00967168B8B3FA8D"
+			tasks: [{
+				id: "693C3E4536467D35"
+				item: { count: 1, id: "cobblemon:poke_ball" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00967168B8B3FA8D"]
+			id: "1A730EDFB27719BC"
+			tasks: [{
+				id: "1EC7D366B6417888"
+				item: { count: 1, id: "cobblemon:great_ball" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1A730EDFB27719BC"]
+			id: "65349869C18C8450"
+			tasks: [{
+				id: "27E281B6CFA9953F"
+				item: { count: 1, id: "cobblemon:ultra_ball" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["65349869C18C8450"]
+			id: "6C8D1A2B5FE32EBE"
+			tasks: [{
+				id: "58C9E55B5923857D"
+				item: { count: 1, id: "cobblemon:dusk_ball" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["65349869C18C8450"]
+			id: "1BB29D7E698950C2"
+			tasks: [{
+				id: "22B0C698AD35E493"
+				item: { count: 1, id: "cobblemon:net_ball" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["65349869C18C8450"]
+			id: "2895DFDA1C642403"
+			tasks: [{
+				id: "7BE64F00EE3FC6FE"
+				item: { count: 1, id: "cobblemon:quick_ball" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["65349869C18C8450"]
+			id: "5B548A9259FC6EE7"
+			tasks: [{
+				id: "70C67A6E0A4C0CF7"
+				item: { count: 1, id: "cobblemon:dive_ball" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["65349869C18C8450"]
+			id: "14E1B99E3480FCFC"
+			tasks: [{
+				id: "65CEA3495AE18E23"
+				item: { count: 1, id: "cobblemon:fast_ball" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["65349869C18C8450"]
+			id: "7A33392A6987CA55"
+			tasks: [{
+				id: "115B652AD5F727EF"
+				item: { count: 1, id: "cobblemon:lure_ball" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["00967168B8B3FA8D"]
+			id: "1E913BF4CFC8CF6C"
+			tasks: [{
+				id: "3CB3A2795764DFFA"
+				item: { count: 1, id: "cobblemon:level_ball" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A730EDFB27719BC"]
+			id: "708DEF7658F77C97"
+			tasks: [{
+				id: "2441435ED4A010B5"
+				item: { count: 1, id: "cobblemon:park_ball" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["00967168B8B3FA8D"]
+			id: "658C143DD3A8E45F"
+			tasks: [{
+				id: "128A2AD5AF60CBB3"
+				item: { count: 1, id: "cobblemon:heal_ball" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00967168B8B3FA8D"]
+			id: "70EA8885389B01BD"
+			tasks: [{
+				id: "4BBDE19334FE4754"
+				item: { count: 1, id: "cobblemon:safari_ball" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A730EDFB27719BC"]
+			id: "5B2674E25195B393"
+			tasks: [{
+				id: "45F5D8F3EA40640B"
+				item: { count: 1, id: "cobblemon:love_ball" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["65349869C18C8450"]
+			id: "78C828BEBC6CE522"
+			tasks: [{
+				id: "552F2D61A562DB60"
+				item: { count: 1, id: "cobblemon:dream_ball" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["00967168B8B3FA8D"]
+			id: "1637E44E5CB7CAA4"
+			tasks: [{
+				id: "626AFB8571B43D6F"
+				item: { count: 1, id: "cobblemon:luxury_ball" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A730EDFB27719BC"]
+			id: "2292F8AF88B2C7F8"
+			tasks: [{
+				id: "1507437840C2DFA6"
+				item: { count: 1, id: "cobblemon:timer_ball" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1A730EDFB27719BC"]
+			id: "71E2B5AB9551CB39"
+			tasks: [{
+				id: "0BC0071A0865F01F"
+				item: { count: 1, id: "cobblemon:repeat_ball" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["00967168B8B3FA8D"]
+			id: "6742645F58326086"
+			tasks: [{
+				id: "2874D6EB500CEDD9"
+				item: { count: 1, id: "cobblemon:friend_ball" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			id: "329C580DD0E68534"
+			tasks: [{
+				id: "461B8B2614ACC209"
+				item: { count: 1, id: "cobblemon:iron" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: -5.0d
+		}
+		{
+			id: "5EC6207660A09B36"
+			tasks: [{
+				id: "76C8C83376DA345A"
+				item: { count: 1, id: "cobblemon:calcium" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: -6.0d
+		}
+		{
+			id: "28ECC39CCE2A4358"
+			tasks: [{
+				id: "1EFEDF99BF85C7B7"
+				item: { count: 1, id: "cobblemon:carbos" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -5.0d
+		}
+		{
+			id: "146FC5882FF036D0"
+			tasks: [{
+				id: "7E69903637246932"
+				item: { count: 1, id: "cobblemon:zinc" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -4.0d
+		}
+		{
+			id: "0945AF39FF76F6C8"
+			tasks: [{
+				id: "46E9CAE83243E29E"
+				item: { count: 1, id: "cobblemon:protein" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: -7.0d
+		}
+		{
+			id: "59468F71F9CD3F70"
+			tasks: [{
+				id: "772F8E5B7F3F80B6"
+				item: { count: 1, id: "cobblemon:pp_max" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -6.0d
+		}
+		{
+			id: "315EAC9F2ECAA70C"
+			tasks: [{
+				id: "570E37ACA31A9FB0"
+				item: { count: 1, id: "cobblemon:hp_up" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -8.0d
+		}
+		{
+			id: "05F08E1C8F543B16"
+			tasks: [{
+				id: "7DA08381273429B0"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			id: "7D87A0C2B7D32766"
+			tasks: [
+				{
+					id: "7FDFA95C8A0F0147"
+					item: { count: 1, id: "cobblemon:ability_capsule" }
+					type: "item"
+				}
+				{
+					id: "480CA23ABBA08387"
+					item: { count: 1, id: "cobblemon:ability_patch" }
+					type: "item"
+				}
+			]
+			x: -19.0d
+			y: 4.0d
+		}
+		{
+			id: "7C86338D761A86DC"
+			tasks: [{
+				id: "076DDC048FE51A86"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			id: "158A918D7BA0776D"
+			tasks: [{
+				id: "6F8F400101210867"
+				item: { count: 1, id: "create:electron_tube" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			id: "3E1311FDE14C1026"
+			tasks: [{
+				id: "1EA97D4BE35A38B6"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -16.0d
+		}
+		{
+			id: "5EFFBE25FCE3B936"
+			tasks: [{
+				id: "35A7C43D0B0C2A1D"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -13.0d
+		}
+		{
+			id: "46E2D692CDB2A379"
+			tasks: [{
+				id: "49081554C269D8CF"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -17.0d
+		}
+		{
+			id: "0E5F736899AB87EF"
+			tasks: [{
+				id: "667381EB0AEC6ACC"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -18.0d
+		}
+		{
+			id: "15E9194F8336E6C1"
+			tasks: [{
+				id: "118B11DE9200B9DF"
+				item: { count: 1, id: "createaddition:electrum_ingot" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -12.0d
+		}
+		{
+			id: "5C9FB7F6EC0A9588"
+			tasks: [{
+				id: "26F36E5BA30D7146"
+				item: { count: 1, id: "oritech:steel_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -11.0d
+		}
+		{
+			id: "14C8C2DFFDD4432E"
+			tasks: [{
+				id: "4268FA1004D00E78"
+				item: { count: 1, id: "create:blaze_cake" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "5E8505A92510B8F3"
+			tasks: [{
+				id: "298996918F8D15FC"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "5A7A1B11A789FC45"
+			tasks: [{
+				id: "4A74B85836AA5C97"
+				item: { count: 1, id: "oritech:platinum_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			id: "547E880707A737A1"
+			tasks: [{
+				id: "65F8E17DF958FD6B"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "784209573794A65C"
+			tasks: [{
+				id: "49013A16BF7213B3"
+				item: { count: 1, id: "oritech:duratium_ingot" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			id: "0EBEF86883C53B4E"
+			tasks: [{
+				id: "78E6876E7CCDBE16"
+				item: { count: 1, id: "oritech:adamant_ingot" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			id: "4920E545C9EFED1F"
+			tasks: [{
+				id: "4AAB58EFC6B09FF7"
+				item: { count: 1, id: "cobblemon:potion" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4920E545C9EFED1F"]
+			id: "17008B31EC15F6ED"
+			tasks: [{
+				id: "66669B2292E8BB54"
+				item: { count: 1, id: "cobblemon:super_potion" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["17008B31EC15F6ED"]
+			id: "251AD718B1DAAA0E"
+			tasks: [{
+				id: "321853AA1C8FBA06"
+				item: { count: 1, id: "cobblemon:hyper_potion" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["251AD718B1DAAA0E"]
+			id: "77CED091C66B1C2B"
+			tasks: [{
+				id: "56354806047263A8"
+				item: { count: 1, id: "cobblemon:max_potion" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"50DDC4D909E487DA"
+				"77CED091C66B1C2B"
+			]
+			id: "1C0437D298A8B504"
+			tasks: [{
+				id: "15275B4149A78E4B"
+				item: { count: 1, id: "cobblemon:full_restore" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			id: "50DDC4D909E487DA"
+			tasks: [{
+				id: "2863EE7BB5DAC8B8"
+				item: { count: 1, id: "cobblemon:full_heal" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			id: "2D78E38634E28891"
+			tasks: [{
+				id: "5BDE536F8E63D017"
+				item: { count: 1, id: "minecraft:glass_bottle" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 8.0d
+		}
+		{
+			id: "3E9772F4867FCE85"
+			tasks: [{
+				id: "2EA4B071C10D3560"
+				item: { count: 1, id: "simpletms:tm_blank" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: 7.0d
+		}
+		{
+			id: "512E59B808259337"
+			tasks: [{
+				id: "341CCE61387C3E5F"
+				item: { count: 1, id: "minecraft:lapis_lazuli" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			id: "75851E8F3CD0A323"
+			tasks: [{
+				id: "0E6944E62C096734"
+				item: { count: 1, id: "oritech:processing_unit" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			id: "0FAD7FC0A4B0568C"
+			tasks: [{
+				id: "28EAFE72DCDF50BB"
+				item: { count: 1, id: "oritech:machine_extender" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "636067B1D4FD37FE"
+			tasks: [{
+				id: "2AE8F55FFFFF59DF"
+				item: { count: 1, id: "oritech:plastic_sheet" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -10.0d
+		}
+		{
+			id: "50A4FBA78DC4C14C"
+			tasks: [{
+				count: 1024L
+				id: "62B24AD86A74F042"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "1858F7DC9EE45538"
+			tasks: [{
+				id: "0A8D6163481E0D5C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblemon:mints)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: 1.0d
+		}
+		{
+			id: "0F2EE306CA1A92D6"
+			tasks: [{
+				id: "7394EBA49B1DED38"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			id: "5A819F957900A94E"
+			tasks: [{
+				id: "5D37798F9BF88C54"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			id: "160668FDBF95C86B"
+			tasks: [{
+				id: "1394DE9AF8D66DD4"
+				item: { count: 1, id: "oritech:motor" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "71B65F908C8752A6"
+			tasks: [{
+				id: "0DAEBDC09DF5A36C"
+				item: { count: 1, id: "oritech:machine_speed_addon" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "2F7DFAFAA6506CD8"
+			tasks: [{
+				id: "1A3C72970F5DA8DF"
+				item: { count: 1, id: "oritech:machine_efficiency_addon" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "57653AC4BB3DF412"
+			tasks: [{
+				id: "12781F8F554CDDA3"
+				item: { count: 1, id: "oritech:flux_gate" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "444BB40A4176BA4A"
+			tasks: [{
+				id: "09D54FF8FABBE58C"
+				item: { count: 1, id: "oritech:super_ai_chip" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			id: "39D3D44BE4441967"
+			tasks: [{
+				id: "5AD4728BD9B2748E"
+				item: { count: 1, id: "createaddition:copper_spool" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "643D14566860AB69"
+			tasks: [{
+				id: "55B398B45714AD16"
+				item: { count: 1, id: "createaddition:connector" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			id: "7AC956F606C1D22D"
+			tasks: [{
+				id: "1A3D7602A9E33D3C"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			id: "457CE0D0BF988B42"
+			tasks: [{
+				id: "27461BBDB469AF9C"
+				item: { count: 1, id: "create:copper_casing" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			id: "477C2F278CE62E75"
+			tasks: [{
+				id: "00293ADA9A1A1930"
+				item: { count: 1, id: "create:brass_casing" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			id: "5D26D7D11C05E925"
+			tasks: [{
+				id: "4C99529B87EB4831"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(oritech:plating)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			id: "29C84E93F1ABFAB5"
+			tasks: [{
+				id: "5DD8BDE47CCB23A3"
+				item: { count: 1, id: "cobblemon:air_balloon" }
+				type: "item"
+			}]
+			x: -24.0d
+			y: 3.0d
+		}
+		{
+			id: "08CBD84E88B35183"
+			tasks: [{
+				id: "1D7B1ACF5E6E48A2"
+				item: { count: 1, id: "cobblemon:focus_sash" }
+				type: "item"
+			}]
+			x: -24.0d
+			y: 5.0d
+		}
+		{
+			id: "232FB1E6E1AF853E"
+			tasks: [{
+				id: "1EC88992AF548CDB"
+				item: { count: 1, id: "cobblemon:revive" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+	]
 }

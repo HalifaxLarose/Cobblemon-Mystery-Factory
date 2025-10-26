@@ -169,8 +169,8 @@
 				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
-			x: -12.0d
-			y: 63.75d
+			x: -15.0d
+			y: 60.75d
 		}
 		{
 			dependencies: ["5FA8D086460D5364"]
@@ -332,18 +332,6 @@
 			y: 54.0d
 		}
 		{
-			dependencies: ["06743F8FA01C4585"]
-			id: "16D6DCCE07D8385C"
-			shape: "diamond"
-			tasks: [{
-				id: "3C05E05937945440"
-				item: { count: 1, id: "createbb:blue_meth" }
-				type: "item"
-			}]
-			x: -23.25d
-			y: 17.25d
-		}
-		{
 			dependencies: ["1D921976BA3B9475"]
 			id: "23608D5A2089B9CD"
 			tasks: [{
@@ -362,8 +350,8 @@
 				item: { count: 1, id: "northstar:oxygen_detector" }
 				type: "item"
 			}]
-			x: -16.5d
-			y: 24.75d
+			x: -15.75d
+			y: 24.0d
 		}
 		{
 			dependencies: ["5FA8D086460D5364"]
@@ -475,6 +463,17 @@
 			}]
 			x: -9.0d
 			y: 18.75d
+		}
+		{
+			dependencies: ["23608D5A2089B9CD"]
+			id: "3F1FDB9E29CD54EB"
+			tasks: [{
+				id: "3D8FB52F4792575D"
+				item: { count: 1, id: "northstar:temperature_regulator" }
+				type: "item"
+			}]
+			x: -14.25d
+			y: 24.75d
 		}
 	]
 }

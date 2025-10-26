@@ -27,6 +27,7 @@
 			dependencies: ["1BEAA6D57950F6DD"]
 			id: "44F92646536C90DE"
 			tasks: [{
+				count: 8L
 				id: "5B39ACF4816B3784"
 				item: { count: 1, id: "create:railway_casing" }
 				type: "item"
@@ -60,7 +61,7 @@
 			dependencies: ["1BEAA6D57950F6DD"]
 			id: "1AAEA0D75666479B"
 			rewards: [{
-				count: 128
+				count: 256
 				id: "1F625C429B8728CD"
 				item: {
 					count: 1
@@ -78,7 +79,7 @@
 			y: -20.25d
 		}
 		{
-			dependencies: ["5621C34C88CBEAE7"]
+			dependencies: ["52207554D5F46C09"]
 			id: "24970CBA9D5FC2D7"
 			shape: "heart"
 			tasks: [{
@@ -86,7 +87,7 @@
 				item: { count: 1, id: "create:schedule" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: 2.25d
 			y: -22.5d
 		}
 		{
@@ -99,14 +100,14 @@
 			}
 			id: "5621C34C88CBEAE7"
 			shape: "hexagon"
-			size: 2.5d
+			size: 3.0d
 			tasks: [{
 				advancement: "create:train"
 				criterion: ""
 				id: "76C964ED6B99F00D"
 				type: "advancement"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: -22.5d
 		}
 		{
@@ -253,16 +254,17 @@
 			y: -24.0d
 		}
 		{
-			dependencies: ["5621C34C88CBEAE7"]
+			dependencies: ["1A256334D9A27F87"]
 			id: "006E924E38D3B4DC"
+			optional: true
 			size: 1.0d
 			tasks: [{
 				id: "6DCA2AEEE51F18BE"
 				item: { count: 1, id: "create:steam_whistle" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -24.5d
+			x: -4.5d
+			y: -27.5d
 		}
 		{
 			dependencies: ["006E924E38D3B4DC"]
@@ -321,43 +323,25 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: -25.5d
+			x: -4.5d
+			y: -28.5d
 		}
 		{
-			dependencies: ["5621C34C88CBEAE7"]
+			dependencies: ["1A256334D9A27F87"]
+			icon: {
+				id: "create:train_door"
+			}
 			id: "067C4963FADE5BAC"
-			shape: "diamond"
+			optional: true
+			shape: "circle"
 			size: 1.0d
-			tasks: [
-				{
-					id: "0FBF240463FFEE14"
-					item: { count: 1, id: "create_things_and_misc:train_stop" }
-					type: "item"
-				}
-				{
-					id: "665102D2DB3E67A8"
-					item: { count: 1, id: "create_things_and_misc:train_buffer" }
-					type: "item"
-				}
-				{
-					id: "2D0898DBA84FDEF5"
-					item: { count: 1, id: "create:train_door" }
-					type: "item"
-				}
-				{
-					id: "5CE853DE68E8D68F"
-					item: { count: 1, id: "bellsandwhistles:headlight" }
-					type: "item"
-				}
-				{
-					id: "1DA2066264D32DC8"
-					item: { count: 1, id: "bellsandwhistles:station_platform" }
-					type: "item"
-				}
-			]
-			x: -5.0d
-			y: -24.0d
+			tasks: [{
+				id: "2D0898DBA84FDEF5"
+				item: { count: 1, id: "create:train_door" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -27.0d
 		}
 		{
 			dependencies: ["5621C34C88CBEAE7"]
@@ -367,8 +351,8 @@
 				item: { count: 1, id: "create:track_signal" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -19.5d
+			x: -4.5d
+			y: -18.75d
 		}
 		{
 			dependencies: ["1EF94604C32773D9"]
@@ -494,15 +478,26 @@
 		{
 			dependencies: ["2832E128EB1B2DB9"]
 			id: "0A1EB446D1F4F556"
-			rewards: [{
-				count: 32
-				id: "5F7A5DBDEB2732E7"
-				item: {
-					count: 1
-					id: "create:display_board"
+			rewards: [
+				{
+					count: 32
+					id: "5F7A5DBDEB2732E7"
+					item: {
+						count: 1
+						id: "create:display_board"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "03EF5DB92F19DE88"
+					item: {
+						count: 1
+						id: "create:display_link"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [
 				{
@@ -511,7 +506,7 @@
 					type: "item"
 				}
 				{
-					count: 2L
+					count: 8L
 					id: "25A991250E19948B"
 					item: { count: 1, id: "create:display_board" }
 					type: "item"
@@ -521,9 +516,9 @@
 			y: -26.0d
 		}
 		{
-			dependencies: ["5621C34C88CBEAE7"]
+			dependencies: ["24970CBA9D5FC2D7"]
 			id: "1FF16C572ABB9F4A"
-			shape: "diamond"
+			optional: true
 			size: 1.0d
 			tasks: [
 				{
@@ -537,8 +532,8 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: -24.0d
+			x: 3.0d
+			y: -21.5d
 		}
 		{
 			dependencies: ["5621C34C88CBEAE7"]
@@ -549,8 +544,8 @@
 				item: { count: 1, id: "create:mechanical_roller" }
 				type: "item"
 			}]
-			x: -3.75d
-			y: -20.25d
+			x: -3.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["1AAEA0D75666479B"]
@@ -563,6 +558,111 @@
 			}]
 			x: -14.25d
 			y: -18.75d
+		}
+		{
+			dependencies: ["5621C34C88CBEAE7"]
+			icon: {
+				id: "minecraft:coal"
+			}
+			id: "48464A249467E6AF"
+			shape: "hexagon"
+			tasks: [{
+				id: "4866D6DFDEF08745"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["5621C34C88CBEAE7"]
+			id: "52207554D5F46C09"
+			tasks: [{
+				id: "1BB15023852ED2D1"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: -22.5d
+		}
+		{
+			dependencies: ["5621C34C88CBEAE7"]
+			id: "1A256334D9A27F87"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "148C4BEE59253A1F"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -25.75d
+		}
+		{
+			dependencies: ["1A256334D9A27F87"]
+			id: "09ED0FD1156D8383"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6C2320D4BB9DBE73"
+					item: { count: 1, id: "create_things_and_misc:train_stop" }
+					type: "item"
+				}
+				{
+					id: "660677B0F08AEDED"
+					item: { count: 1, id: "create_things_and_misc:train_buffer" }
+					type: "item"
+				}
+				{
+					id: "675FA9D1DBF5D7E0"
+					item: { count: 1, id: "bellsandwhistles:station_platform" }
+					type: "item"
+				}
+				{
+					id: "15DA41988C8E3DC7"
+					item: { count: 1, id: "bellsandwhistles:headlight" }
+					type: "item"
+				}
+				{
+					id: "6D6F5085F214AE59"
+					item: { count: 1, id: "bellsandwhistles:andesite_pilot" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["1A256334D9A27F87"]
+			id: "787F7F94709C3D16"
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "760B543A386DC783"
+				item: { count: 1, id: "create_train_parts:glass_sliding_window" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["1A256334D9A27F87"]
+			id: "3232BBC81F5B7D13"
+			optional: true
+			size: 1.0d
+			tasks: [
+				{
+					id: "06962F2B558B34B0"
+					item: { count: 1, id: "create_train_parts:train_step_train" }
+					type: "item"
+				}
+				{
+					id: "303DB01EC797B1F1"
+					item: { count: 1, id: "create_train_parts:train_slide_train" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -27.0d
 		}
 	]
 }

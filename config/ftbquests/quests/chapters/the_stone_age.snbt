@@ -255,7 +255,7 @@
 				type: "item"
 			}]
 			x: 8.25d
-			y: -10.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["138F71A191933F1E"]
@@ -266,7 +266,7 @@
 				type: "item"
 			}]
 			x: 9.75d
-			y: -10.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["44286D097B53FD39"]
@@ -277,7 +277,7 @@
 				type: "item"
 			}]
 			x: 11.25d
-			y: -10.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["47816EB4E84EE905"]
@@ -288,7 +288,7 @@
 				type: "item"
 			}]
 			x: 8.25d
-			y: -12.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["47816EB4E84EE905"]
@@ -318,155 +318,6 @@
 			]
 			x: 5.25d
 			y: -8.25d
-		}
-		{
-			dependencies: ["31789F4CD0EA4FF2"]
-			id: "21072825C73FB514"
-			rewards: [
-				{
-					count: 32
-					id: "3338816BA2733780"
-					item: {
-						count: 1
-						id: "create:andesite_alloy"
-					}
-					type: "item"
-				}
-				{
-					id: "2F48D6A88FE42C6C"
-					item: {
-						count: 1
-						id: "plushie_buddies:plushie_allay"
-					}
-					type: "item"
-				}
-				{
-					id: "593B2D38C8079A28"
-					item: {
-						count: 1
-						id: "cobblemon:max_revive"
-					}
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "612550DCD06EC584"
-					item: { count: 1, id: "copycats:copycat_shaft" }
-					type: "item"
-				}
-				{
-					id: "7A2DAAA6003F296E"
-					item: { count: 1, id: "petrolsparts:corner_shaft" }
-					type: "item"
-				}
-				{
-					id: "2D077267762EE041"
-					item: { count: 1, id: "gnkinetics:tiny_cogwheel" }
-					type: "item"
-				}
-				{
-					id: "445A6261B5D45CD9"
-					item: { count: 1, id: "gnkinetics:shaftless_tiny_cogwheel" }
-					type: "item"
-				}
-				{
-					id: "540937339B10A7A9"
-					item: { count: 1, id: "copycats:copycat_cogwheel" }
-					type: "item"
-				}
-				{
-					id: "775BF6D486E471C3"
-					item: { count: 1, id: "gnkinetics:cog_crank" }
-					type: "item"
-				}
-				{
-					id: "26665A0A279D13AF"
-					item: { count: 1, id: "gnkinetics:shaftless_cogwheel" }
-					type: "item"
-				}
-				{
-					id: "3EFEF991285C934B"
-					item: { count: 1, id: "petrolsparts:coaxial_gear" }
-					type: "item"
-				}
-				{
-					id: "1CB6003FEC356F3E"
-					item: { count: 1, id: "gnkinetics:cogstone" }
-					type: "item"
-				}
-				{
-					id: "6D364AC0958C4535"
-					item: { count: 1, id: "gnkinetics:shaftless_cogstone" }
-					type: "item"
-				}
-				{
-					id: "03298A5156463F5E"
-					item: { count: 1, id: "copycats:copycat_large_cogwheel" }
-					type: "item"
-				}
-				{
-					id: "6892782DBDAE8CE8"
-					item: { count: 1, id: "gnkinetics:large_cog_crank" }
-					type: "item"
-				}
-				{
-					id: "30A91F47CC6FA338"
-					item: { count: 1, id: "gnkinetics:chainable_cogwheel" }
-					type: "item"
-				}
-				{
-					id: "18B2AABF263DD637"
-					item: { count: 1, id: "gnkinetics:shaftless_large_cogwheel" }
-					type: "item"
-				}
-				{
-					id: "43D31CE1665879D3"
-					item: { count: 1, id: "petrolsparts:large_coaxial_gear" }
-					type: "item"
-				}
-				{
-					id: "426466603051F89B"
-					item: { count: 1, id: "petrolsparts:planetary_gearset" }
-					type: "item"
-				}
-				{
-					id: "11FBDA701D0E36B8"
-					item: { count: 1, id: "petrolsparts:differential" }
-					type: "item"
-				}
-			]
-			x: 12.75d
-			y: -10.5d
-		}
-		{
-			dependencies: ["21072825C73FB514"]
-			hide_until_deps_complete: true
-			id: "15DCA245B19B9667"
-			rewards: [{
-				id: "7F8B6CC071C61B44"
-				item: {
-					count: 1
-					id: "simpletms:tm_shiftgear"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "611EF488212616E7"
-					item: { count: 1, id: "gnkinetics:ring_gear" }
-					type: "item"
-				}
-				{
-					id: "1F02502806C026CB"
-					item: { count: 1, id: "petrolsparts:colossal_cogwheel" }
-					type: "item"
-				}
-			]
-			x: 14.25d
-			y: -10.5d
 		}
 		{
 			dependencies: ["21B2F0553C8DA3C1"]
@@ -540,6 +391,17 @@
 			}]
 			x: 1.8999999999999995d
 			y: -15.700000000000001d
+		}
+		{
+			dependencies: ["138F71A191933F1E"]
+			id: "6791BE0D013450EB"
+			tasks: [{
+				id: "5FB2870D3C97FBC6"
+				item: { count: 1, id: "petrolsparts:corner_shaft" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -13.5d
 		}
 	]
 }
