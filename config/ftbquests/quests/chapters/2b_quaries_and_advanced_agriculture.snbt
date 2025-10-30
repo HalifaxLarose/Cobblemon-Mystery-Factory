@@ -17,18 +17,31 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 3.75d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3758CA898101FABE"]
 			id: "0F0DFC170412280D"
-			tasks: [{
-				id: "7B0169254B7B3A53"
-				item: { count: 1, id: "oritech:machine_frame_block" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 32L
+					id: "7B0169254B7B3A53"
+					item: { count: 1, id: "oritech:machine_frame_block" }
+					type: "item"
+				}
+				{
+					id: "7C525386829FC8F5"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(oritech:plating)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "6C66D5210B6ABC2D"
+					item: { count: 1, id: "oritech:processing_unit" }
+					type: "item"
+				}
+			]
 			x: -1.5d
-			y: 0.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["0F0DFC170412280D"]
@@ -38,54 +51,68 @@
 				item: { count: 1, id: "oritech:placer_block" }
 				type: "item"
 			}]
-			x: -3.75d
-			y: 3.75d
+			x: -5.25d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0F0DFC170412280D"]
 			id: "50ECFA60ED2EA031"
-			tasks: [{
-				id: "608583D83B4211C2"
-				item: { count: 1, id: "oritech:destroyer_block" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "608583D83B4211C2"
+					item: { count: 1, id: "oritech:destroyer_block" }
+					type: "item"
+				}
+				{
+					id: "6426F5820B65CF9A"
+					item: { count: 1, id: "oritech:quarry_addon" }
+					type: "item"
+				}
+			]
 			x: 2.25d
-			y: 3.75d
+			y: 4.5d
 		}
 		{
-			dependencies: ["6E577E4BB7A10106"]
+			dependencies: ["5396538800CDDB37"]
 			id: "49183D472F7FC749"
+			rewards: [{
+				count: 18
+				id: "78F8222AFF7D7738"
+				item: {
+					count: 1
+					id: "create:item_vault"
+				}
+				type: "item"
+			}]
 			tasks: [{
+				count: 16L
 				id: "2E013F4F912D8B19"
 				item: { count: 1, id: "dndesires:bore_block" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -12.75d
+			x: 6.75d
+			y: -12.0d
 		}
 		{
-			dependencies: ["50ECFA60ED2EA031"]
-			id: "490A4D6FFEB5B145"
-			tasks: [{
-				id: "0978C120EC6FCA51"
-				item: { count: 1, id: "oritech:quarry_addon" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.75d
-		}
-		{
-			dependencies: ["50ECFA60ED2EA031"]
+			dependencies: ["0F0DFC170412280D"]
 			id: "302225E49FD9751C"
-			tasks: [{
-				id: "3761BB2CD37EFD45"
-				item: { count: 1, id: "oritech:crop_filter_addon" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.75d
+			tasks: [
+				{
+					id: "3761BB2CD37EFD45"
+					item: { count: 1, id: "oritech:crop_filter_addon" }
+					type: "item"
+				}
+				{
+					id: "572F542063B3D4BD"
+					item: { count: 1, id: "oritech:destroyer_block" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 6.0d
 		}
 		{
+			dependencies: ["54D337A20770D8CA"]
 			icon: {
 				components: {
 					"ftbquests:icon": "oritech:item/wrench"
@@ -93,85 +120,77 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "3758CA898101FABE"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "5110F2760E3FB00E"
 				type: "checkmark"
 			}]
 			x: -1.5d
-			y: -2.25d
+			y: -0.75d
 		}
 		{
+			dependencies: ["54D337A20770D8CA"]
 			icon: {
 				id: "create:wrench"
 			}
 			id: "03DE6FD0DBE9CFA6"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "2F6DA397BD086931"
 				type: "checkmark"
 			}]
 			x: -1.5d
-			y: -8.25d
+			y: -9.75d
 		}
 		{
-			dependencies: ["6E577E4BB7A10106"]
+			dependencies: ["03DE6FD0DBE9CFA6"]
 			id: "5396538800CDDB37"
 			tasks: [{
 				id: "4DB4E949C7060FB2"
 				item: { count: 1, id: "create:rope_pulley" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -11.25d
-		}
-		{
-			id: "7095251066EA4F6C"
-			tasks: [
-				{
-					id: "7B945F6F56D8C419"
-					item: { count: 1, id: "oritech:machine_plating_block" }
-					type: "item"
-				}
-				{
-					id: "7827411397159469"
-					item: { count: 1, id: "oritech:processing_unit" }
-					type: "item"
-				}
-			]
 			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6E577E4BB7A10106"]
-			id: "42346B8878F610DA"
-			tasks: [{
-				id: "6C40C008CA381F81"
-				item: { count: 1, id: "create:pulse_timer" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -9.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["03DE6FD0DBE9CFA6"]
-			id: "6E577E4BB7A10106"
-			tasks: [{
-				id: "7F42BC6BBE981932"
-				type: "checkmark"
-			}]
-			x: 0.5d
-			y: -10.5d
+			id: "42346B8878F610DA"
+			tasks: [
+				{
+					id: "286BE2FB85470F7C"
+					item: { count: 1, id: "create:contraption_controls" }
+					type: "item"
+				}
+				{
+					id: "7A131079A6F87BF5"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+				{
+					id: "6C40C008CA381F81"
+					item: { count: 1, id: "create:pulse_timer" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -12.0d
 		}
 		{
+			dependencies: ["03DE6FD0DBE9CFA6"]
 			id: "2BB7282862F954FE"
 			tasks: [{
 				id: "64E1ABF5BEE7A3F1"
 				item: { count: 1, id: "sliceanddice:sprinkler" }
 				type: "item"
 			}]
-			x: -6.75d
-			y: -12.75d
+			x: -7.5d
+			y: -14.25d
 		}
 		{
+			dependencies: ["03DE6FD0DBE9CFA6"]
 			id: "2601D5868EC22044"
 			tasks: [{
 				id: "1FFEAC0A58974AD6"
@@ -179,26 +198,130 @@
 				type: "item"
 			}]
 			x: -8.25d
-			y: -12.0d
+			y: -12.75d
 		}
 		{
 			id: "54D337A20770D8CA"
+			shape: "rsquare"
+			size: 2.5d
 			tasks: [{
 				id: "191A111D66937578"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: -6.5d
+			x: -1.5d
+			y: -5.25d
 		}
 		{
+			dependencies: ["5396538800CDDB37"]
 			id: "26B68940794B658A"
+			rewards: [{
+				count: 18
+				id: "48F7B17A46FD4CFF"
+				item: {
+					count: 1
+					id: "create:item_vault"
+				}
+				type: "item"
+			}]
 			tasks: [{
+				count: 16L
 				id: "4C4CF8C8ED8ED251"
 				item: { count: 1, id: "drill_drain:drill_drain" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 6.75d
+			y: -15.0d
+		}
+		{
+			dependencies: ["03DE6FD0DBE9CFA6"]
+			id: "12445561AD63AC2F"
+			tasks: [{
+				id: "30A478D354E29979"
+				item: { count: 1, id: "ratatouille:irrigation_tower" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["5396538800CDDB37"]
+			id: "645371C88E503FF6"
+			rewards: [{
+				count: 18
+				id: "2ADBBAD08AB0D86F"
+				item: {
+					count: 1
+					id: "create:item_vault"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "72BF5AE60C3773CB"
+				item: { count: 1, id: "create:mechanical_drill" }
+				type: "item"
+			}]
+			x: 6.75d
 			y: -13.5d
+		}
+		{
+			dependencies: ["5396538800CDDB37"]
+			icon: {
+				id: "create:track_station"
+			}
+			id: "4128752783BF50B4"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "3E79E5F7152A36DE"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["5396538800CDDB37"]
+			icon: {
+				id: "create:deployer"
+			}
+			id: "5F0EF21AFDD6D995"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "4B66ECB603A7F93B"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["03DE6FD0DBE9CFA6"]
+			id: "2922E50CB5C436B0"
+			tasks: [
+				{
+					id: "03B958CC26300651"
+					item: { count: 1, id: "ratatouille:oven" }
+					type: "item"
+				}
+				{
+					id: "133B6C1639166593"
+					item: { count: 1, id: "ratatouille:oven_fan" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["03DE6FD0DBE9CFA6"]
+			id: "5CFC106FFA920D8C"
+			tasks: [{
+				id: "18F7B32C56B7FEC1"
+				item: { count: 1, id: "ratatouille:compost_tower" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.25d
 		}
 	]
 }

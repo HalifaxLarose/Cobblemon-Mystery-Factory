@@ -531,5 +531,21 @@
 			x: -21.0d
 			y: 8.0d
 		}
+		{
+			id: "53E7F598C0C8EDAA"
+			tasks: [
+				{
+					id: "3975EFD1F8378985"
+					type: "checkmark"
+				}
+				{
+					id: "0815B4879514A907"
+					item: { count: 1, id: "oritech:nuke" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 18.0d
+		}
 	]
 }

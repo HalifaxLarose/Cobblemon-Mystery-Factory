@@ -576,6 +576,7 @@
 		{
 			dependencies: ["5621C34C88CBEAE7"]
 			id: "52207554D5F46C09"
+			shape: "hexagon"
 			tasks: [{
 				id: "1BB15023852ED2D1"
 				type: "checkmark"
@@ -663,6 +664,18 @@
 			]
 			x: -3.5d
 			y: -27.0d
+		}
+		{
+			dependencies: ["52207554D5F46C09"]
+			id: "58A624AB612901ED"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "560A192B9FD7411F"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: -24.25d
 		}
 	]
 }

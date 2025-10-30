@@ -47,6 +47,8 @@
 	quest.0292D2861DD21B47.title: "Become a Cardboard Warrior!"
 	quest.033E501F0A85FEE8.quest_desc: ["Trust me, you never ever have enough belts. You'll aways need more."]
 	quest.033E501F0A85FEE8.title: "Automate Mechanical Belts!"
+	quest.03DE6FD0DBE9CFA6.quest_desc: ["Remember those basic tree farms from chapter 1b? Create's advanced agriculture and quarries work like that: you build moving machines that interact with the world. Compared to Oritech, you'll need simple resources, but you'll need more of them, and operating them is more complicated. However, if you manage to pull it off, they tend to be faster and have high degrees of customizability. They also feel more satisfying to operate."]
+	quest.03DE6FD0DBE9CFA6.title: "The Create Way"
 	quest.064EC8C54AECDF13.quest_desc: [
 		"The gearbox is an incredibly dear friend. It branches rotational power into three different directions at once!"
 		""
@@ -76,6 +78,7 @@
 		"If you craft a dragon altar, you can change your appearance, or even return to a human, all for free."
 	]
 	quest.07E9CB1BCC8E8F3B.title: "Need a Style Do-over?"
+	quest.09323D5B840E46EC.quest_desc: ["A fertilizer block will take bonemeal and distribute it across your farm for you."]
 	quest.0946E21922298C64.quest_desc: ["One of the uses of golden sheets is advanced electronics. Actually, maybe gold sheets aren't that useless."]
 	quest.09A4424786AB5F35.quest_desc: [
 		"Cave Dragons have access to unique and varied food unavailable to other animals."
@@ -138,6 +141,14 @@
 	]
 	quest.0E7FFBC699E11EA4.quest_desc: ["Now with blaze burner in hand, find a Nether Fortress, and find some blazes, and right click on them. This will scoop the blaze into the burner, just like a Cobblemon in a friend ball. Once you're satisfied, head back to the overworld, to start putting them to good use."]
 	quest.0E7FFBC699E11EA4.quest_subtitle: "Hot, hot, hot!"
+	quest.0F0DFC170412280D.quest_desc: [
+		"Machine Frames are blocks you physically place around the location you want to farm or mine out. You'll need a couple of them."
+		""
+		"Processing units are necessary to create \"addons\" that transform machines in different ways. For our purposes, addons will allow machines to mine and cultivate."
+		""
+		"You attach addons to machines by physically placing them on the &9blue socket faces&r of the machines."
+	]
+	quest.0F0DFC170412280D.title: "Build your Machine Frame"
 	quest.0F4BA454F283D62A.quest_desc: [
 		"The basic generator takes basic burnable fuels like coal and generates electricity."
 		""
@@ -319,6 +330,12 @@
 	]
 	quest.25B19EF290BAC7B8.title: "Welcome to Oritech!"
 	quest.26A6308CF7AE20CC.quest_desc: ["This gizmo lets you insert items into vaults directly from your hands."]
+	quest.26B68940794B658A.quest_desc: [
+		"The Drill Drain is an improvement over the mechanical drill, in that it can also \"mine\" fluids in the way. There must be available fluid storage connected to the contraption for fluids to be drained."
+		""
+		"This is ideal if you want the quarry to be clear from top to bottom."
+	]
+	quest.26B68940794B658A.title: "Fancy New Drills"
 	quest.26CB60C2EBDCA444.quest_desc: ["Since you're a dragon now, are iron nuggets really that far off from chicken nuggets in terms of edibleness?"]
 	quest.26CB60C2EBDCA444.title: "Find Nuggets"
 	quest.26DE4A6B7692144E.title: "Alternative Heavy Oil Use"
@@ -378,6 +395,11 @@
 		"This may be not be useful to hav ein your base, but may be pretty helpful for transfering energy long distance via, let's say, a train..."
 	]
 	quest.2FA6AB0F1224C606.quest_desc: ["Train controls let you move a train forward and back. They have importance."]
+	quest.302225E49FD9751C.quest_desc: [
+		"A destroyer block will destroy everything inside the machine frame and pick it up."
+		""
+		"This will destroy the farmland itself, unless you give it the crop filter addon. Then it will only destroy fully grown crops."
+	]
 	quest.30BB4ADF4FBEEE1C.quest_desc: [
 		"Flour needs to be mixed with water to turn into dough. Place a basin under a mix, and use a water bucket to fill it with water."
 		""
@@ -424,6 +446,12 @@
 	quest.357E014D47850417.quest_desc: ["The quantify key is used like a drawer key, but it does something completely different: it'll display how many items are being stored on the drawer."]
 	quest.357E014D47850417.title: "See Your Stock"
 	quest.361611B3CFF5F931.quest_desc: ["Automating cobblestone is a long and ancient history of two opposite forces of nature working in harmony."]
+	quest.3758CA898101FABE.quest_desc: [
+		"Doing things the Oritech way involve placing frames around the area you want to farm or mine, and letting machines do the work."
+		""
+		"It should be simpler to set up than doing things the Create way, but it may operate slower, and the resource costs are different."
+	]
+	quest.3758CA898101FABE.title: "The Oritech Way"
 	quest.3856928B0D0AA67A.quest_desc: ["A train station is used to determine stopping points of automated trains. In addition, they give you the controls to actually start building a train."]
 	quest.38BF2CAE6EC12222.quest_desc: [
 		"Cogs and shafts can rotate at different speeds. Machines operated at higher speeds will take more stress, but will process items faster. Additionally, some machines require high speeds to operate."
@@ -497,6 +525,13 @@
 		"Working with fluids is covered in chapter 2."
 	]
 	quest.40DF0F34B630142A.quest_desc: ["The mechanical mixer will mix items and fluids found in a basin together. There's many unique processes that can be done with this, but you can also use this process to &nautomatically craft any crafting table recipe in the game&r that does not require its ingredients to be in a specific shape."]
+	quest.4128752783BF50B4.quest_desc: [
+		"Trains are a contraption, and be given drills. Deployers can lay track as it progresses and deployers can fill out holes in the terrain and place down saftey lights."
+		""
+		"It's going to be even more work than a rope pulley contraption, but does this idea not tempt you?"
+	]
+	quest.4128752783BF50B4.quest_subtitle: "What if you just want to mine at optimal diamond level?"
+	quest.4128752783BF50B4.title: "Use a Train Instead"
 	quest.41606AF427A479A1.quest_desc: [
 		"A water wheel will rotate forever whenever running water passes through its spokes. It will power the mechanical press for you."
 		""
@@ -511,6 +546,14 @@
 		"Note: to automate apricorns, you'll need apricorn spouts in particular. These have a chance of dropping when plucking an apricorn fruit."
 	]
 	quest.41B3D4B4B97A5FCF.title: "Automate Lumber"
+	quest.42346B8878F610DA.quest_desc: [
+		"Contraption Controls let you turn on and off various machines on a contraption, which can be handy for advanced contraptions."
+		""
+		"Redstone links let you transfer redstone signals wireless. Namely, it's a great way to have on and off switches without routing redstone everywhere."
+		""
+		"Pulse timers can be configured to be on for a set amount of time, then off for the same amount of time. Very useful in combination with a gearshift, so you can have contraptions move back and forth, if you rather use something like a gantry shaft for farms."
+	]
+	quest.42346B8878F610DA.quest_subtitle: "Don't be scared of Redstone!"
 	quest.42346B8878F610DA.title: "Logic Tools of Interest"
 	quest.425C799A70DE09BF.title: "Acidify your production line"
 	quest.43C5A3753F2AAA6A.quest_desc: [
@@ -554,6 +597,8 @@
 	]
 	quest.48464A249467E6AF.quest_subtitle: "You're too slow"
 	quest.48464A249467E6AF.title: "Gotta Go Fast"
+	quest.49183D472F7FC749.quest_desc: ["The tunnelbore block will destory everything in its way while moving on a contraption and put it into the contraption's storage. It may not look like much but it does work! For aesthetic reasons, you may want it to place it such that it resembles a big drill."]
+	quest.49183D472F7FC749.title: "Big Ass Tunnelbore"
 	quest.496B8FD6BE25A5AD.quest_desc: [
 		"Pump some water into the basin and chuck redstone in. They'll mix together into a wonderfully delicious red slurry you pour onto rose quartz like ketchup."
 		""
@@ -600,6 +645,11 @@
 		"Be mindful that if a storage is full, it'll skip collecting items. See the void upgrade for workarounds."
 	]
 	quest.50E775A4D1C98DB6.title: "Important: Filtering!"
+	quest.50ECFA60ED2EA031.quest_desc: [
+		"A destroyer block will destroy everything inside the machine frame and pick it up."
+		""
+		"It will only go a block deep however, unless you insert a quarry addon."
+	]
 	quest.52207554D5F46C09.quest_desc: [
 		"Trains are a contraption. That means saws, drills, etc., works on them like they would other contraptions. It also means you can place vaults, fluid tanks, and accumulators on them and use portable interfaces to load and offload their contents at stations. You can also place deployers on them, and the deployers can place tracks down. Yes, trains place down track ahead of them as they go forward, working exactly how you think it would."
 		""
@@ -619,6 +669,15 @@
 	]
 	quest.530E15A5BD357D09.quest_subtitle: "Bring Human Industry to this Land!"
 	quest.530E15A5BD357D09.title: "Start Your Engineering Guild!"
+	quest.5396538800CDDB37.quest_desc: [
+		"The rope pulley is one of the easiest mechanisms for creating contraptions that mine quarries."
+		""
+		"When supplied with rotational force, it will move up and down, moving any block beneath it up and down with it."
+		""
+		"If said block is moved to any other block, those other blocks will move with it - including machines like drills."
+		""
+		"In short, draw the rope a bit, attach the end to a bunch of drills, then supply a bunch of rotation to the top of the rope pulley. Then those drills will break deep into the Earth's mantle!"
+	]
 	quest.5396F655F1F9866E.quest_desc: [
 		"You spout red slurry onto quartz, and then you sand it into polished rose quartz. Finally, you place it on an iron plate to make an electron tube."
 		""
@@ -702,6 +761,8 @@
 		""
 		"In addition, increasing the fan speed only makes the fan project further. It will always take the same amount of time to smelt goods no matter how fast or slow the fan is."
 	]
+	quest.58A624AB612901ED.quest_desc: ["Trains can ride through Nether Portals, so long as there's a track on yeah side."]
+	quest.58A624AB612901ED.title: "Through a Nether Portal"
 	quest.598CCCB21C5CFAE1.quest_desc: [
 		"This mixer is one of the most useful and versatile machines out there. It can mix solids together, or solids with liquids, or even liquids with liquids. It can even do this over a heated basin for more possibilities."
 		""
@@ -730,6 +791,12 @@
 	quest.5D304AD3C66A4942.title: "How Stressed Are You?"
 	quest.5D416510290959B2.title: "yeah"
 	quest.5DC2A64D173354DE.title: "Alternative Plastic"
+	quest.5F0EF21AFDD6D995.quest_desc: [
+		"You can attach a deployer to this rope pulley contraption to place ladders as it descends, allowing you to climb down after the quarry has been mined."
+		""
+		"Do note that if you try to bring the rope pulley contraption back up after it's cleared everything, it will mine the ladders on the way up. To prevent this, use the contraption control block from \"Logic Tools of Interest.\""
+	]
+	quest.5F0EF21AFDD6D995.title: "Auto-Build a Ladder!"
 	quest.5F6D0517D279089E.title: "Automate Planks!"
 	quest.5F9A7918F706602E.quest_desc: ["The encased chain drive transfers rotation in a straight line. Unlike cogs, their rotation direction won't alternate every block. They can look nicer than cogs in some places."]
 	quest.5FF98D1BE52A53C8.quest_desc: [
@@ -747,11 +814,23 @@
 	quest.60830DE9CF9FADC6.title: "Automate Pokeballs?"
 	quest.60A46DD0FE6B9295.quest_desc: ["Your tree farm will produce saplings, sticks, logs, and even apples if using an oak log. You could store these all, but you're most likely interested in the lumber, as it can be processed into sweet furniture. And your guild absolutely needs some stylsh interior deco."]
 	quest.60A46DD0FE6B9295.title: "Get Logs"
+	quest.60EF099ABAB08AD5.quest_desc: [
+		"A placer block will place items within the machine frame for you."
+		""
+		"Items such as seeds."
+	]
 	quest.63B4D36F936A25A8.quest_desc: ["Smart fluid items can be set a filter such that only a specific type of fluid can go through it. Very useful when a mixer has a fluid input and output, and you only want to pump out the output."]
 	quest.63B4D36F936A25A8.quest_subtitle: "If only you had this sooner..."
 	quest.64292AE90578D1A7.quest_desc: ["Harvest clouds for the athmospheric condenser."]
 	quest.64446935A72B9350.quest_desc: ["You can add deployers to tree farms to plant any saplings it collects, thus letting the tree farm go on forever."]
 	quest.64446935A72B9350.title: "Improve Tree Farms"
+	quest.645371C88E503FF6.quest_desc: [
+		"The simple Create way of doing things. Add a bunch of drills to a contraption and let it go on its way."
+		""
+		"Drills will place anything they break into a contraption's connected inventory."
+	]
+	quest.645371C88E503FF6.quest_subtitle: "The Vanilla Create Way"
+	quest.645371C88E503FF6.title: "Old Fashioned Drills"
 	quest.6467039452212EB0.quest_desc: [
 		"You now have a wide access to machines, but the ones you most immediately need are the rolling machine, and the mixing basin - these will allow you to create cables and more powerful alloys respectively, which will empower you to create the next suite of technology."
 		""
@@ -1041,21 +1120,24 @@
 	task.2AAA1B474A5FECA4.title: "Any Sea Dragon Food"
 	task.2BD65D01EF00B899.title: "Understood"
 	task.2D20B4E08234FA02.title: "Any Treasure"
-	task.2F6DA397BD086931.title: "CREATE SIDE"
+	task.2F6DA397BD086931.title: "I'll try the Create way!"
 	task.320C10207214AB04.title: "It worked!"
 	task.33CB184B1FB6B249.title: "The Path of Automation"
 	task.34EB311F52B79867.title: "Understood"
 	task.37ED092679E18EEF.title: "Any 64 Berries"
 	task.392330B52EF8DEB9.title: "Any Backpack"
+	task.3975EFD1F8378985.title: "Denote a Nuke on Mercury"
 	task.3979674975BAE636.title: "8x16 Brass Ingots"
 	task.3A0F57279675471B.title: "Red Slurry"
 	task.3D5B6D0595D09E2A.title: "Understood"
+	task.3E79E5F7152A36DE.title: "Oh hell yeah!"
 	task.415D3F65CEB96CF5.title: "Ethelene and propylene "
 	task.41A8BFB8CF65604D.title: "4x64 Large Cogwheels"
 	task.46AA680FC9346250.title: "Any Apricorn Sprout"
 	task.4866D6DFDEF08745.title: "Understood"
 	task.49320E4EB0B4AD3B.title: "Understood"
 	task.4A81998FDA29266C.title: "Understood"
+	task.4B66ECB603A7F93B.title: "Huh"
 	task.4C99529B87EB4831.title: "Any #oritech:plating"
 	task.4CF6B3F652C261C5.title: "Understood"
 	task.4D42956ED1B19328.title: "Understood"
@@ -1063,10 +1145,11 @@
 	task.4DBE105356572221.title: "Understood"
 	task.4E7D01421BFDDAFD.title: "4x64 Prismarine Shards"
 	task.501D5AEA12506680.title: "How to Build and Operate a Rocket"
-	task.5110F2760E3FB00E.title: "ORITECH SIDE"
+	task.5110F2760E3FB00E.title: "I'll try the Oritech way!"
 	task.54CC66CE0D47AA53.title: "4x64 Cogwheels"
 	task.55EBEF59C628B35B.title: "Understood"
 	task.55FB6097E08D0EAE.title: "Understood"
+	task.560A192B9FD7411F.title: "Holy Moly"
 	task.579ECBE69A1D03F0.title: "Any Sapling"
 	task.5C05CB2182DB2DEE.title: "Dragon Passion"
 	task.5CE8455D76A1A5C4.title: "Understood"
@@ -1083,6 +1166,7 @@
 	task.7394EBA49B1DED38.title: "Any #minecraft:planks"
 	task.739E84BBF8AFBD82.title: "From A to B"
 	task.77FA5410F2BB7962.title: "Understood"
+	task.7C525386829FC8F5.title: "Any #oritech:plating"
 	task.7C84B3E9180247A4.title: "Understood"
 	task.7F42BC6BBE981932.title: "quary"
 }
