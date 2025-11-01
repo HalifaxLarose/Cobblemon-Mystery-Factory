@@ -42,7 +42,6 @@
 		{
 			dependencies: ["6316A63414A96A6F"]
 			id: "66B834D216407F46"
-			shape: "rsquare"
 			tasks: [{
 				id: "5212EEF87E8F92E4"
 				item: { count: 1, id: "createdieselgenerators:oil_scanner" }
@@ -101,9 +100,8 @@
 			dependencies: ["66B834D216407F46"]
 			id: "4AED9CB632D9D82F"
 			tasks: [{
-				id: "4D256FE77129C89B"
-				item: { count: 1, id: "createdieselgenerators:crude_oil_bucket" }
-				type: "item"
+				id: "54F207600232EEB0"
+				type: "checkmark"
 			}]
 			x: -1.5d
 			y: -9.0d
@@ -823,7 +821,10 @@
 			y: -15.75d
 		}
 		{
-			dependencies: ["12A50EF8D8C5FBCF"]
+			dependencies: [
+				"12A50EF8D8C5FBCF"
+				"2D3935A777CEC349"
+			]
 			id: "293E7252B6BE58F3"
 			tasks: [{
 				id: "126DCB7A58375927"

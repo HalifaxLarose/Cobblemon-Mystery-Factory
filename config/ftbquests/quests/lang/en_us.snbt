@@ -47,6 +47,12 @@
 	quest.0292D2861DD21B47.title: "Become a Cardboard Warrior!"
 	quest.033E501F0A85FEE8.quest_desc: ["Trust me, you never ever have enough belts. You'll aways need more."]
 	quest.033E501F0A85FEE8.title: "Automate Mechanical Belts!"
+	quest.03BECF0CDFE6C49B.quest_desc: [
+		"The centrifuge spins things around super fast. This separate components in it."
+		""
+		"There's a few materials that can only be crafted this way. Additionally, if you give it ore - especially ore crushed by crushing wheels - it will produce more metals than if you were to just smelt the ore."
+	]
+	quest.03BECF0CDFE6C49B.quest_subtitle: "Your First Industrial Machine"
 	quest.03DE6FD0DBE9CFA6.quest_desc: ["Remember those basic tree farms from chapter 1b? Create's advanced agriculture and quarries work like that: you build moving machines that interact with the world. Compared to Oritech, you'll need simple resources, but you'll need more of them, and operating them is more complicated. However, if you manage to pull it off, they tend to be faster and have high degrees of customizability. They also feel more satisfying to operate."]
 	quest.03DE6FD0DBE9CFA6.title: "The Create Way"
 	quest.064EC8C54AECDF13.quest_desc: [
@@ -173,7 +179,17 @@
 		"This method of power generation does make you very hungry however, so have some hamburgers you found on the ground to replenish your strength later."
 	]
 	quest.12973A49772AB62D.quest_desc: ["Crushing up Quartz from the Nether gives you Quartz Dust, which may have a use or two."]
+	quest.12A50EF8D8C5FBCF.quest_desc: [
+		"The assembler is a large upgrade to your factory. It specializes in crafting complicated parts."
+		""
+		"A few items can only be made in assemblers, but some machines you have been crafting up until now can be made more efficiently in the assembler. &nThis includes most Create machines!&r Most of them have tripled output!"
+	]
 	quest.138F71A191933F1E.quest_desc: ["You can probably guess how these work."]
+	quest.142EBF48F0082CFF.quest_desc: [
+		"Refinery chamber modules allow refineries to have extra output slots. You attach them to refineries by carefully placing them right above the block where you placed the base refinery block."
+		""
+		"... Yes, we are doing things a bit backwards, but you need these chamber modules to build the refinery itself."
+	]
 	quest.149084F279A4EDF0.quest_desc: ["This item in particular help aether dragons survive the darkness."]
 	quest.149084F279A4EDF0.title: "Survive Darkness"
 	quest.15632D26666A0CBF.quest_desc: [
@@ -212,7 +228,7 @@
 		"They can be really helpful if you run out of space."
 	]
 	quest.19258004F540C3FD.title: "The WTF Way to Do Things"
-	quest.1936350E8BD43C68.title: "Inventory Management"
+	quest.1936350E8BD43C68.title: "Storage Solutions"
 	quest.19B6477802FF062A.quest_desc: ["This cool upgrade lets you see how full your drawer is."]
 	quest.19D440D4A38C663D.quest_desc: ["You can use saws to automatically craft shafts from alloy, and this produces more shafts than hand crafting them."]
 	quest.19D440D4A38C663D.title: "Automate Shafts!"
@@ -237,6 +253,7 @@
 		"You can see all your abilities in the dragon tab of the dragon inventory menu."
 	]
 	quest.1AAFB7BD5BA0BB83.title: "Dragon Magic"
+	quest.1ABBA2172F6E4963.quest_desc: ["I'm worried about overwhelming players with information though"]
 	quest.1B2D84A8C5E84512.quest_desc: ["Instead of automating antidotes, awakenings, etc., it is much easier to just farm status healing berries directly."]
 	quest.1B2D84A8C5E84512.title: "Automate Berries"
 	quest.1B2E19172641070F.quest_subtitle: "What the heck are all those items when I press e?"
@@ -363,12 +380,14 @@
 	quest.2A93CFA2627ED3F8.quest_desc: ["You can craft these big boys to generate even more stress units! Give it a shot."]
 	quest.2A93CFA2627ED3F8.title: "MORE POWER!"
 	quest.2B2CEC1E023328E9.quest_desc: ["With access to electrum, you can now make large connectors and electrum wire. The former connects more wires at once, while electrum wire can handle more charge going through it at once. Not that you'll have any need for electrum for awhile."]
+	quest.2B5A21EBF14E93C0.quest_desc: ["The refinery takes either a fluid, or a fluid and item, can make up to three different fldui outputs."]
 	quest.2BDF2361DAF97D58.quest_desc: [
 		"Water in front of an spinning encased fan will spit out bubbles. Any item caught inside these bubbles will be washed, transforming into a different item, if applicable."
 		""
 		"Keep in mind, increasing the fan speed only makes the fan project further. It will always take the same amount of time to wash an item no matter how fast or slow the fan is."
 	]
 	quest.2BDF2361DAF97D58.title: "Bulk Washing"
+	quest.2D3935A777CEC349.quest_desc: [" Crafted from centrifuging an ender pearl, enderic compounds have a couple of uses, most which came later. It is a necessary step for power tools, however."]
 	quest.2D60596BED788EEA.quest_desc: ["The modern computer has many uses and applications that can ease automation and production in your factory. Too bad you have no idea how to use this."]
 	quest.2D60596BED788EEA.title: "Skipping Ahead in the Tech Tree"
 	quest.2D7FDEA914582A3F.quest_desc: [
@@ -616,6 +635,7 @@
 		"\"And who knows, maybe you'll be able to make it to Mars to visit our guild some day.\""
 	]
 	quest.499806AC57624041.title: "Advanced Engineering"
+	quest.4AED9CB632D9D82F.title: "Find some Oil"
 	quest.4C08103DE08919AF.quest_desc: [
 		"You need to make a brass hand to make a deployer."
 		""
@@ -745,7 +765,7 @@
 		"Note: \"Push\" means they take electricity FROM the machine/generator and transfer it aronud, while \"pull\" means it's powering the machine from the network. Use a wrench on the connector to change its state."
 	]
 	quest.562D22ACCA7F1DDF.title: "Connecting Wires"
-	quest.56A19205C33CA00F.quest_desc: ["The direct chute transfer items directly from one inventory to another inventory storage, no need for a belt inbetween."]
+	quest.56A19205C33CA00F.quest_desc: ["The direct chute transfer items directly from one inventory to another inventory storage horizontally, no need for a belt inbetween."]
 	quest.5849CC9BA757F975.quest_desc: [
 		"A Rose Pulley has a nozzle which can be lifted up and down with rotational force. They're intended to use to suck up large bodies of fluid, or fill up a natural basin."
 		""
@@ -819,6 +839,7 @@
 		""
 		"Items such as seeds."
 	]
+	quest.6316A63414A96A6F.quest_desc: ["These funny sticks are used in quite a handful of industrial recipes."]
 	quest.63B4D36F936A25A8.quest_desc: ["Smart fluid items can be set a filter such that only a specific type of fluid can go through it. Very useful when a mixer has a fluid input and output, and you only want to pump out the output."]
 	quest.63B4D36F936A25A8.quest_subtitle: "If only you had this sooner..."
 	quest.64292AE90578D1A7.quest_desc: ["Harvest clouds for the athmospheric condenser."]
@@ -1135,6 +1156,7 @@
 	task.41A8BFB8CF65604D.title: "4x64 Large Cogwheels"
 	task.46AA680FC9346250.title: "Any Apricorn Sprout"
 	task.4866D6DFDEF08745.title: "Understood"
+	task.48A3FB6657A75D4A.title: "Tom's Storage Section"
 	task.49320E4EB0B4AD3B.title: "Understood"
 	task.4A81998FDA29266C.title: "Understood"
 	task.4B66ECB603A7F93B.title: "Huh"
@@ -1147,6 +1169,7 @@
 	task.501D5AEA12506680.title: "How to Build and Operate a Rocket"
 	task.5110F2760E3FB00E.title: "I'll try the Oritech way!"
 	task.54CC66CE0D47AA53.title: "4x64 Cogwheels"
+	task.54F207600232EEB0.title: "Found Oil!"
 	task.55EBEF59C628B35B.title: "Understood"
 	task.55FB6097E08D0EAE.title: "Understood"
 	task.560A192B9FD7411F.title: "Holy Moly"
