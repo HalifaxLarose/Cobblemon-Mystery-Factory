@@ -1,0 +1,13 @@
+name = "Cobblemon Utility+ (IVs, EVs, & More)"
+filename = "Cobblemon-Utility+-neoforge-1.6.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ePxok8ID/versions/l6HtK1sk/Cobblemon-Utility%2B-neoforge-1.6.2.jar"
+hash-format = "sha512"
+hash = "cc0db2ed6418c39389f2b0e0f6adcd7860839e5d845d6e385c0c85f6d49ef48c636bdf72d0d0abde7f63f9ad0909635b6f4529853e108e0704af741ebd45101f"
+
+[update]
+[update.modrinth]
+mod-id = "ePxok8ID"
+version = "l6HtK1sk"
