@@ -1,4 +1,7 @@
 ## For Devs
+
+there is a dev template pack with the packwiz command setup, found in the [discord](https://discord.com/channels/1424171691352784988/1426201130966454373) along with a video, all you have to do is follow step 1 to 3, 9 to 12
+
 1) Use prism for your launcher.
 2) Fork Lizards repo
 3) Clone the repo
@@ -15,6 +18,6 @@
 Once this is done, anytime you want to use that dev instance, make sure to run the ``packwiz serve`` in your repo, so your instances can get any fresh changes
 
 # ALSO
-When making a commnit, PLEASE exlude the pack.toml and index.toml, they are local caches that change. they break everythign when commited
+When making a commnit, PLEASE exlude the pack.toml and index.toml, they are local caches that change. they break everythingwhen commited
 
-Also DM if you get stuck :)
+DM theoverlycaffeinatedtrashpanda on discord if you get stuck at any point
