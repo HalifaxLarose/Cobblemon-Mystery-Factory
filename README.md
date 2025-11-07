@@ -2,6 +2,7 @@
 
 there is a dev template pack with the packwiz command setup, found in the [discord](https://discord.com/channels/1424171691352784988/1426201130966454373) along with a video, all you have to do is follow step 1 to 3, 9 to 12
 
+Manual Setup:
 1) Use prism for your launcher.
 2) Fork Lizards repo
 3) Clone the repo
