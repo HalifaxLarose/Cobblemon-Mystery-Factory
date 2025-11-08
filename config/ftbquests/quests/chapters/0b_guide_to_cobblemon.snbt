@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0b_guide_to_cobblemon"
+	group: "25AFFF4BEEB54E90"
+	id: "2641F4D75FA23768"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

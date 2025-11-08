@@ -88,6 +88,29 @@ ServerEvents.recipes(event => {
         },
     )
 
+    // Chapter 3
+    // event.shaped(
+    //     Item.of('oritech:assembler', 1),
+    //     [
+    //         "ABA",
+    //         "CDC",
+    //         "EFE"
+    //     ],
+    //     {
+    //         A:"oritech:carbon_fibre_strands",
+    //         B: "create:mechanical_arm",
+    //         C: "create:mechanical_crafter",
+    //         D: "oritech:adamant_ingot",
+    //         E: "oritech:motor",
+    //         F: "#oritech:plating" 
+    //         // S: "createaddition:copper_spool",
+    //         // E: "create:electron_tube",
+    //         // B: "create:brass_sheet",
+    //         // R: "create:brass_casing",
+    //         // C: "createaddition:capacitor",
+    //     },
+    // )
+
     // Chapter 4
     event.shaped(
         Item.of("oritech:laser_arm_block", 1),
@@ -108,7 +131,3 @@ ServerEvents.recipes(event => {
 })
 
 
-
-function lizardChanges(event) {
-
-}

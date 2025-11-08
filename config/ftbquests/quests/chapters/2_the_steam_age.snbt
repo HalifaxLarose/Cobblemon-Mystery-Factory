@@ -8,7 +8,7 @@
 		id: "create:steam_engine"
 	}
 	id: "5F6BDBB03A7631E3"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -80,6 +80,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [
 				{
 					id: "19DCAB2E11A5B0FF"
@@ -291,6 +292,7 @@
 			]
 			id: "2769D96526B7A2FE"
 			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "1CB0629BB9763F56"
 				item: { count: 1, id: "create:deployer" }
@@ -390,6 +392,7 @@
 		{
 			dependencies: ["3A1B3C0A77F150EC"]
 			id: "66FA8D5801720727"
+			shape: "heart"
 			tasks: [{
 				id: "580A47B0F89361D5"
 				item: { count: 1, id: "create:mechanical_arm" }
@@ -481,13 +484,14 @@
 			dependencies: ["599F25DDE7CE7C45"]
 			id: "25B19EF290BAC7B8"
 			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "0EBC268C379973F3"
 				item: { count: 1, id: "oritech:pulverizer_block" }
 				type: "item"
 			}]
 			x: 9.75d
-			y: 13.5d
+			y: 13.7d
 		}
 		{
 			dependencies: ["7EDC103B9424A115"]
@@ -507,6 +511,7 @@
 			}
 			id: "3107D3458D88336D"
 			shape: "gear"
+			size: 2.0d
 			tasks: [
 				{
 					id: "30C17AB57E603AAF"
@@ -554,7 +559,7 @@
 				type: "item"
 			}]
 			x: 9.75d
-			y: 15.75d
+			y: 16.25d
 		}
 		{
 			dependencies: [
@@ -612,23 +617,25 @@
 		{
 			dependencies: ["0656B7840C606BB8"]
 			id: "6A9342529E8D9221"
+			size: 1.0d
 			tasks: [{
 				id: "5DB0FDAE03E953BC"
 				item: { count: 1, id: "createaddition:copper_wire" }
 				type: "item"
 			}]
-			x: 3.75d
+			x: 4.25d
 			y: 11.25d
 		}
 		{
 			dependencies: ["6A9342529E8D9221"]
 			id: "6E4DC0FB20FCB6CF"
+			size: 1.0d
 			tasks: [{
 				id: "11D8A10EFEAB1958"
 				item: { count: 1, id: "createaddition:copper_spool" }
 				type: "item"
 			}]
-			x: 6.75d
+			x: 5.75d
 			y: 11.25d
 		}
 		{
@@ -653,6 +660,7 @@
 		{
 			dependencies: ["6D160C05DD00036A"]
 			id: "3B9E88B89A7251CE"
+			size: 1.0d
 			tasks: [{
 				id: "521D8C1CBD23EF90"
 				item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
@@ -718,7 +726,7 @@
 				type: "item"
 			}]
 			x: -3.75d
-			y: 21.75d
+			y: 21.25d
 		}
 		{
 			dependencies: ["3A1B3C0A77F150EC"]
@@ -933,6 +941,8 @@
 				"07DACF27D2E02D79"
 			]
 			id: "552852905016218D"
+			shape: "gear"
+			size: 2.0d
 			tasks: [
 				{
 					id: "7ECFAE27F063C7BB"
@@ -962,6 +972,7 @@
 		{
 			dependencies: ["6D160C05DD00036A"]
 			id: "191C2FFC2CF75EA7"
+			size: 1.0d
 			tasks: [{
 				count: 2L
 				id: "07A580B6926D30F7"
@@ -1025,6 +1036,7 @@
 		{
 			dependencies: ["12973A49772AB62D"]
 			id: "672383DCF81D46B5"
+			size: 1.0d
 			tasks: [{
 				id: "0F1459AB20023E5A"
 				item: { count: 1, id: "oritech:raw_silicon" }
@@ -1079,7 +1091,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 20.25d
+			y: 24.750000000000064d
 		}
 		{
 			dependencies: ["598CCCB21C5CFAE1"]
@@ -1097,6 +1109,8 @@
 				"25B19EF290BAC7B8"
 				"7EDC103B9424A115"
 			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "15A2E1D5F70C9F6E"
 			shape: "hexagon"
 			size: 1.0d

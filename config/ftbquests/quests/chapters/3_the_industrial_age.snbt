@@ -8,11 +8,11 @@
 		id: "blocksyouneed_luna:steel_ingot"
 	}
 	id: "166963E568B61211"
-	order_index: 8
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4AED9CB632D9D82F"]
+			dependencies: ["6316A63414A96A6F"]
 			id: "41B0C6106C9FC751"
 			tasks: [
 				{
@@ -36,8 +36,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -6.75d
+			x: -3.75d
+			y: -9.0d
 		}
 		{
 			dependencies: ["6316A63414A96A6F"]
@@ -47,7 +47,7 @@
 				item: { count: 1, id: "createdieselgenerators:oil_scanner" }
 				type: "item"
 			}]
-			x: -3.75d
+			x: -1.5d
 			y: -9.0d
 		}
 		{
@@ -61,7 +61,7 @@
 				type: "item"
 			}]
 			x: -3.75d
-			y: -11.25d
+			y: -13.5d
 		}
 		{
 			dependencies: ["03BECF0CDFE6C49B"]
@@ -71,8 +71,8 @@
 				item: { count: 1, id: "oritech:carbon_fibre_strands" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -9.0d
+			x: -3.75d
+			y: -11.25d
 		}
 		{
 			dependencies: ["142EBF48F0082CFF"]
@@ -94,7 +94,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -6.75d
+			y: -9.0d
 		}
 		{
 			dependencies: ["66B834D216407F46"]
@@ -104,7 +104,7 @@
 				type: "checkmark"
 			}]
 			x: -1.5d
-			y: -9.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["0A80791CD01A78C4"]
@@ -169,8 +169,8 @@
 					type: "item"
 				}
 			]
-			x: -13.5d
-			y: 0.0d
+			x: -12.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -405,15 +405,16 @@
 			y: -2.25d
 		}
 		{
-			dependencies: ["35D2DE55D0A8F5E2"]
+			dependencies: ["304043D24BE66C18"]
 			id: "3167FF382443FD84"
+			shape: "gear"
 			tasks: [{
 				id: "49669B30EBD89893"
 				item: { count: 1, id: "oritech:augment_application_block" }
 				type: "item"
 			}]
 			x: 9.0d
-			y: -3.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3167FF382443FD84"]
@@ -424,12 +425,13 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -4.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["6316A63414A96A6F"]
 			id: "12A50EF8D8C5FBCF"
 			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "399A490FFD0C8159"
 				item: { count: 1, id: "oritech:assembler_block" }
@@ -757,14 +759,24 @@
 			y: 14.25d
 		}
 		{
-			dependencies: ["41B0C6106C9FC751"]
+			dependencies: [
+				"41B0C6106C9FC751"
+				"4AED9CB632D9D82F"
+			]
 			id: "59EA6F25FC90E26A"
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				id: "2BD65D01EF00B899"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2BD65D01EF00B899"
+					type: "checkmark"
+				}
+				{
+					id: "320FC87141D02A22"
+					item: { count: 1, id: "createdieselgenerators:crude_oil_bucket" }
+					type: "item"
+				}
+			]
 			x: -3.75d
 			y: -6.75d
 		}
@@ -788,8 +800,8 @@
 				item: { count: 1, id: "oritech:drone_port_block" }
 				type: "item"
 			}]
-			x: 12.75d
-			y: -3.0d
+			x: 12.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["03BECF0CDFE6C49B"]
@@ -799,8 +811,8 @@
 				item: { count: 1, id: "oritech:enderic_compound" }
 				type: "item"
 			}]
-			x: -3.75d
-			y: -13.5d
+			x: -6.0d
+			y: -15.75d
 		}
 		{
 			dependencies: ["2D3935A777CEC349"]
@@ -817,8 +829,8 @@
 					type: "item"
 				}
 			]
-			x: -3.75d
-			y: -15.75d
+			x: -6.0d
+			y: -18.0d
 		}
 		{
 			dependencies: [
@@ -832,7 +844,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: -11.25d
+			y: -13.5d
 		}
 		{
 			dependencies: [
@@ -851,20 +863,22 @@
 		{
 			dependencies: [
 				"4E642601D9A10A66"
-				"35D2DE55D0A8F5E2"
+				"304043D24BE66C18"
 			]
 			id: "07ED90197AF67536"
+			optional: true
 			tasks: [{
 				id: "19F11B3423994A41"
 				item: { count: 1, id: "oritech:large_storage_block" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["4E642601D9A10A66"]
 			id: "3822D6A78D6FEE85"
+			optional: true
 			tasks: [
 				{
 					id: "0A349B8A77C97A23"
@@ -890,6 +904,30 @@
 			}]
 			x: 10.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["35E5D5DAB54EFFF8"]
+			id: "4E99209A569476AA"
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "3A77AAD93E0CAB64"
+				item: { count: 1, id: "oritech:carbon_plating_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35D2DE55D0A8F5E2"]
+			id: "304043D24BE66C18"
+			tasks: [{
+				id: "47949BAB14D5C032"
+				item: { count: 1, id: "oritech:dubios_container" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
 		}
 	]
 }

@@ -5,6 +5,7 @@
 	chapter.166963E568B61211.title: "3) The Industrial Age"
 	chapter.1A5A28E4EAB97707.title: "Legendary Hunting"
 	chapter.1B50A088E0973BC1.title: "0a) Life as a Dragon"
+	chapter.2641F4D75FA23768.title: "0b) Guide to Cobblemon"
 	chapter.2ABB2A702B6169AE.title: "1) The Stone Age"
 	chapter.2E8A6C11C883B7F0.title: "Request Board"
 	chapter.41FBEFF9BD4C1ECB.title: "0) Welcome to a New World"
@@ -71,6 +72,11 @@
 	quest.067C4963FADE5BAC.quest_desc: ["Train doors are special: when the train's schedule is automated, they will open up on their own once stopped at a station."]
 	quest.067C4963FADE5BAC.quest_subtitle: "Invite your passengers in"
 	quest.067C4963FADE5BAC.title: "Welcoming Doors"
+	quest.07C1943969D81782.quest_desc: [
+		"Certain items from the &bCreate&r mod and its addons have a feature called ponder. When hovering over certain items from these mods, you can hold &c\"W\"&r to view a special scene where its usage is explained."
+		""
+		"Try it out by searching \"mechanical plough\" in EMI and holding W there. You probably will not understand what it's saying, but when the time is right, ponder will be there to expand on all the details that won't fit in this quest book."
+	]
 	quest.07C1943969D81782.title: "How to Ponder"
 	quest.07DACF27D2E02D79.quest_desc: [
 		"The adamant ingot is another special kind of alloy, made from diamond and brass."
@@ -110,6 +116,7 @@
 		"Fluids also use special machines to process them. Copper Casing is a common component in all these machines, much like hwo andesite casing is used in a lot of kinetic machines."
 	]
 	quest.0A18A7166FAF727E.title: "Bend Water to your Will"
+	quest.0A80791CD01A78C4.title: "Distill Your Oil"
 	quest.0AEE300448ED5FA7.quest_desc: [
 		"Using a drill with a cobblestone generator involves dropping entities into the world. This can cause server lag quick if things aren't finely tuned."
 		""
@@ -184,6 +191,7 @@
 		""
 		"A few items can only be made in assemblers, but some machines you have been crafting up until now can be made more efficiently in the assembler. &nThis includes most Create machines!&r Most of them have tripled output!"
 	]
+	quest.12A50EF8D8C5FBCF.title: "Get Free Extra Stuff!"
 	quest.138F71A191933F1E.quest_desc: ["You can probably guess how these work."]
 	quest.142EBF48F0082CFF.quest_desc: [
 		"Refinery chamber modules allow refineries to have extra output slots. You attach them to refineries by carefully placing them right above the block where you placed the base refinery block."
@@ -192,6 +200,15 @@
 	]
 	quest.149084F279A4EDF0.quest_desc: ["This item in particular help aether dragons survive the darkness."]
 	quest.149084F279A4EDF0.title: "Survive Darkness"
+	quest.150F9D369115D63A.quest_desc: [
+		"You are in touch with life around you. Heavy thoughts and foolish desires do not sway your feet. Your heart guides you through life. When you set your eyes on something, you know you aren’t alone, all the world is here with you to shape your story, even if you just as easily feel the pain of the world. You do not fear failure, because you are part of a larger story still being written."
+		""
+		"You will awaken as a Primordial Exeggutor. Just as your brethren, the sun is your strength, but the darkness is your weakness. The darkness of deep caves will sap your strength and psyche, requiring careful planning while in the mines."
+		""
+		"But in turn, your connection to life lets you use strong poison to bane adversaries who dare harm you and your friends around you, as well as many sneaky abilities such as invisibility and slow falling."
+	]
+	quest.150F9D369115D63A.quest_subtitle: "A Forest Dragon"
+	quest.150F9D369115D63A.title: "Awaken as a Primordial Exeguttor"
 	quest.15632D26666A0CBF.quest_desc: [
 		"The toolbox lets you store a few stacks of single items. You can then select what item you want by holding down left alt."
 		""
@@ -256,8 +273,15 @@
 	quest.1ABBA2172F6E4963.quest_desc: ["I'm worried about overwhelming players with information though"]
 	quest.1B2D84A8C5E84512.quest_desc: ["Instead of automating antidotes, awakenings, etc., it is much easier to just farm status healing berries directly."]
 	quest.1B2D84A8C5E84512.title: "Automate Berries"
+	quest.1B2E19172641070F.quest_desc: [
+		"You know when you open up your inventory, and you're jumpscared with hundreds of items on the right? This is a mod called EMI (which doesn't stand for anything). It lets you browser all available items in the game, as well as search them."
+		""
+		"In addition, it will tell you how to craft each item, and how each item can be used in crafting others, using left click and right click respectively."
+		""
+		"In addition, if you press &c\"R\"&r or &c\"U\"&r while your mouse is hovering over any item, it will tell you their crafting &cr&recipes or crafting &cu&rses respectively."
+	]
 	quest.1B2E19172641070F.quest_subtitle: "What the heck are all those items when I press e?"
-	quest.1B2E19172641070F.title: "How to use JEI"
+	quest.1B2E19172641070F.title: "How to use EMI"
 	quest.1B8A36994DB3C327.quest_desc: [
 		"The electric motor takes electricity to start spinning a shaft."
 		""
@@ -321,6 +345,22 @@
 		"Iron sheets are used to craft the rest of the basic Create machines. You'll be crafting them often. You may want to find a way to operate it without manual labour: you only have so many peanut butter hamburgers, after all."
 	]
 	quest.21BAC44F2572FCFE.quest_desc: ["The Brass Funnel is an upgrade to the Andesite Tunnel. It can transfer stacks at a time instead of individual items, and you can set a filter so it'll only accept certain items. You'll likely be using a lot of these."]
+	quest.21E35D25C796F819.quest_desc: [
+		"\"Hello! I'm Archen of the Beauty Guild!\""
+		""
+		"\"I recently taken up a hobby of old school redstone, like how forefathers before me have done. There's a sort of zen sensation to assembling contraptions this way that's really grown on me. The only problem is that there isn't a lot of redstone up here in the Aether!\""
+		""
+		"\"I don't need these advanced tools anymore, so I'll trade them in exchange for more redstone. It'll be a huge help.\""
+		""
+		"It seems like the items Archen is willing to trade can do filtering. An advanced engineer should be able to take great advantage of them."
+	]
+	quest.21E35D25C796F819.title: "\"Willing to make a trade!\""
+	quest.21E78150F0DE810B.quest_desc: [
+		"You do not wish to become a mighty dragon. You are accustomed to the strength of the human body, which represents who you are the most. Your hands guide you through life."
+		""
+		"Becoming a dragon is optional, although cobblemon will still believe you to be a primordial dragon, as the ancient human race has been long surrounded by lore, myths, and reverence. You are as mighty and honoured as any other legend."
+	]
+	quest.21E78150F0DE810B.quest_subtitle: "Still a legendary species"
 	quest.21E78150F0DE810B.title: "I want to stay as a human..."
 	quest.21E8F2DA6F9C0AD1.quest_desc: ["Wheat, a familiar beloved crop, is one such crop that can be automated with the harvester."]
 	quest.23CCE09AC12A8F37.quest_desc: [
@@ -346,6 +386,15 @@
 		"For now, start with the pulverizer. The pulverizer specializes in crushing ingots into dust. Do note: it only operates on hard minerals like iron. Processes that don't involve something coming from ore will be used in the mixer or crusher."
 	]
 	quest.25B19EF290BAC7B8.title: "Welcome to Oritech!"
+	quest.264BE6A0576CE112.quest_desc: [
+		"This modpack comes pre-packaged with two shader packs: &bFastPBR&r and &bComplimentary Reimagined&r."
+		""
+		"The former is more advanced and more realistic, and the recommended shader for this modpack. If it's not your style - or if your gpu can't handle it - Complimentary is a far more lightweight shader pack, that focuses on a more faithful adaptation of Minecraft's style."
+		""
+		"To enable shaders, go to options, go to video settings, and go to shaders. You can then enable your choice from there."
+	]
+	quest.264BE6A0576CE112.quest_subtitle: "How to burn your retinas!"
+	quest.264BE6A0576CE112.title: "About Shaders"
 	quest.26A6308CF7AE20CC.quest_desc: ["This gizmo lets you insert items into vaults directly from your hands."]
 	quest.26B68940794B658A.quest_desc: [
 		"The Drill Drain is an improvement over the mechanical drill, in that it can also \"mine\" fluids in the way. There must be available fluid storage connected to the contraption for fluids to be drained."
@@ -387,6 +436,16 @@
 		"Keep in mind, increasing the fan speed only makes the fan project further. It will always take the same amount of time to wash an item no matter how fast or slow the fan is."
 	]
 	quest.2BDF2361DAF97D58.title: "Bulk Washing"
+	quest.2BEB21989E67AA14.quest_desc: [
+		"\"Hello, I'm Shuppet of the Death Guild.\""
+		""
+		"\"First off: no, we're not about killing things. In fact, I want you to keep your guild members safe, as we deal with the afterlife and I rather my job doesn't get any harder.\""
+		""
+		"\"As you make large pits or spew fire everywhere, make sure to section them off so people don't walk into them. Balaconies are especially good for this.\""
+		""
+		"\"I'll give you some gems we found in the Deep Dark if you oblige and set up some OSHA around your factory!\""
+	]
+	quest.2BEB21989E67AA14.title: "\"Please, keep your factory safe!\""
 	quest.2D3935A777CEC349.quest_desc: [" Crafted from centrifuging an ender pearl, enderic compounds have a couple of uses, most which came later. It is a necessary step for power tools, however."]
 	quest.2D60596BED788EEA.quest_desc: ["The modern computer has many uses and applications that can ease automation and production in your factory. Too bad you have no idea how to use this."]
 	quest.2D60596BED788EEA.title: "Skipping Ahead in the Tech Tree"
@@ -452,7 +511,17 @@
 		"Enjoy never needing to go on an iron mining errand. You can safely ignore all those ores now."
 	]
 	quest.3360599F5B1838CB.title: "Iron Ingots"
-	quest.3386DE3C85EDBBB6.title: "You Awaken as a Dragon..."
+	quest.3386DE3C85EDBBB6.quest_desc: [
+		"You faintly remember being a human, but most of your memories are lost. And when you open your eyes, you are now a dragon."
+		""
+		"You’ll eventually learn this dragon body is a primordial Cobblemon species, ancient and elder. The body you have reflects you who are, but also who you want to be. The quests above will tell you the possibilities of what your new life may be."
+		""
+		"You will be able to change any decisions you make later, including your chosen species or being a dragon at all, at no penalty."
+		""
+		"Once you’ve decided what dragon you want to become, open up your inventory and select the dragons icon to customize your body."
+	]
+	quest.3386DE3C85EDBBB6.quest_subtitle: "What will fate decide?"
+	quest.3386DE3C85EDBBB6.title: "Becoming a Dragon"
 	quest.3442B87707008E93.quest_desc: [
 		"Hopefully you've figured out how to set up moving contraptions! With this skilled learnt, you now have an alternative to water: wind power."
 		""
@@ -520,6 +589,16 @@
 		"You can insert items by dropping them on top and output finished recipes with the funnel on the bottom. You can also add input and output funnels directly to the sides of the millstone. It will look very weird, but it will work."
 	]
 	quest.3CB038C1A63EE776.quest_subtitle: "Doing things old school"
+	quest.3CDD814B33B2A508.quest_desc: [
+		"Thank you for playing this pack!"
+		""
+		"Cobblemon Mystery Factory is designed to allow many sandboxing opportunities. Although the main chapters are necessary to reach the End dimension, the goal of subchapters (ie 0a, 1b), are to be &ninformative&r. They're meant to enable you to sandbox around! "
+		""
+		"So, just because this book tells you to do something, does not mean you should do it. Instead, pick what looks interesting, fun, or useful for helping you with the main quests."
+		""
+		"Hexagonal quests are informational, like this one. Pentagonal quests are the goal of main chapters and rounded square chapters are the starting points."
+	]
+	quest.3CDD814B33B2A508.quest_subtitle: "PLEASE READ"
 	quest.3D5936265F6B6CE5.quest_desc: [
 		"Automation is key to healthy engineering guild: without critical resources, you'll struggle to keep with demand and you'll fail your guildmembers depending on you."
 		""
@@ -584,6 +663,15 @@
 	quest.43F10159CACD7C11.quest_desc: ["SMASH STUFF UP!!"]
 	quest.44286D097B53FD39.quest_desc: ["Cogs can be placed on the end of shafts, and will rotate neighbouring cogs."]
 	quest.44AE71346FC5369B.title: "Heavy Oil Products"
+	quest.44B8C7DFFBC08CB9.quest_desc: [
+		"You are passionate. Self-determined. Your soul guides you through life. When you set your eyes on something, you use hard work and persistence to accomplish your goals, even when you’re overwhelmed by how confusing and chaotic the world is. You do not fear failure, for real failure is to not try at all."
+		""
+		"You will awaken as a Primordial Charizard, otherwise  known as a cave dragon. The flame of your tail of your descendants flows through your blood, but much like your kin, is snuffed out by the water. You must remain dry, finding the underground to be the easiest way to avoid the rain."
+		""
+		"But in turn, your connection to fire lets you resist lava, letting you swim and breathe in it. You will also be able to cast fire from your maw, and cook adversaries foolish enough to defy you. Strong scales keep you strong and sturdy."
+	]
+	quest.44B8C7DFFBC08CB9.quest_subtitle: "A Cave Dragon"
+	quest.44B8C7DFFBC08CB9.title: "Awaken as a Primordial Charizard"
 	quest.44CD520B2C587695.quest_desc: ["The track layer's bag can hold a lot of tracks, and let you place many. You can only build straight tracks with them but it should still let you place more tracks down overall."]
 	quest.44F92646536C90DE.quest_desc: [
 		"Like copper and andesite casing, you got to slap the sturdy sheet onto a brass sheet to get a train casing."
@@ -646,7 +734,10 @@
 		"With these tools, you can enjoy the ancient tradition of stargazing."
 		""
 		"In fact, by taking measurements of celestial bodies like the moon or mars, you'll be able to get star readings, which will let you navigate to them later. It's take a few in-game nights to collect the data you need, so you may want to check in on the telescope once in awhile."
+		""
+		"&oYou will probably need this information later once you have the means to travel space.&r"
 	]
+	quest.4DCE48D4B2A596FA.quest_subtitle: "This is more important than you might think"
 	quest.4DCE48D4B2A596FA.title: "Astronomy"
 	quest.4E00B85073B1DC78.quest_desc: [
 		"The magic of Create is the ability to craft your own moving \"contraptions\" comprised of multiple blocks. This is required for farms that use the saw and the harvester, as you'll want those machines to spin around to catch newly grown crops."
@@ -731,6 +822,15 @@
 	]
 	quest.552852905016218D.quest_subtitle: "Double your power"
 	quest.552852905016218D.title: "Steam Age Part 2"
+	quest.55A4CEB1697ABFA6.quest_desc: [
+		"The World of Cobblemon Mystery Factory is a beautiful, wild world filled of living, breathing, and thinking beasts called Cobblemon, as well as dangerous, unthinking monsters known as mobs. Having woken up with the objective to \"save me\", your impulse is to build an engineer guild to explore the world to find this person, and have the strength to save them once you do."
+		""
+		"You will be going back and forth between growing your team of Cobblemon guildmembers, and building factories that automate precious resources - friend balls for recruiting guildmembers, iron an steel, medicine, circuitry, experience candy, electricty, and so one. In fact, you can automate anything you desire, this is a world of freedom."
+		""
+		"Growing your team and defeating rival guildmasters will earn the respect of stronger cobblemon, and will let you level up your guildmembers to higher levels. And along the way, cobblemon of various guilds will post requests to your request board, giving you the opportunity to earn rare held items, tms, or even new guild members for satisfying them."
+		""
+		"But before we do any of that, it's time to reawaken in your new body..."
+	]
 	quest.55A4CEB1697ABFA6.title: "Welcome to the World of Cobblemon Mystery Dungeon!"
 	quest.55C84F908B2139C1.quest_desc: [
 		"When a storage drawer with the void upgrade receives an item while at full capacity, it will destroy the item. This is extremely useful to prevent backlog and overflow."
@@ -811,6 +911,14 @@
 	quest.5D304AD3C66A4942.title: "How Stressed Are You?"
 	quest.5D416510290959B2.title: "yeah"
 	quest.5DC2A64D173354DE.title: "Alternative Plastic"
+	quest.5EEE56D7B236EFB2.quest_desc: [
+		"\"Hello, I'm Auroras of the End Guild. We believe that destruction is the natural order of things, and that by embracing it, you connect to the world on a deeper, more spiritual level.\""
+		""
+		"\"I spent the last few months trying to get my hands on a nuke, but I'm not actually allowed to detonate it anywhere. TNT should be a good enough alternative, but none of the other guilds will give me any. But you're the engineer guild, right? Will you craft TNT for me? It'll be good exercise for you! I'll give you the nuke I don't need anymore. I really want to be able to practice my religion on a deeper level!\""
+		""
+		"They're right. Engineering and mass production is always morally right. (Plus you really want to set off a nuke.)"
+	]
+	quest.5EEE56D7B236EFB2.title: "\"Please give me explosives\""
 	quest.5F0EF21AFDD6D995.quest_desc: [
 		"You can attach a deployer to this rope pulley contraption to place ladders as it descends, allowing you to climb down after the quarry has been mined."
 		""
@@ -922,6 +1030,16 @@
 		""
 		"Dragon dust is needed to craft many speciality dragon goods. Accumulating it will also allow you to craft growing items."
 	]
+	quest.6E321FBE3B2DC9B3.quest_desc: [
+		"You can search for items by specific mods by prepending \"@\" in front of your search term."
+		""
+		"Try it by searching up some of our deco mods:"
+		"- &b@macaw&r"
+		"- &b@need&r"
+		"- &b@copycats&r"
+		"- &b@chimes&r"
+		"- &b@night&r"
+	]
 	quest.6E321FBE3B2DC9B3.title: "Check out the Deco!"
 	quest.6E4DC0FB20FCB6CF.quest_desc: [
 		"A copper spool wraps the wire nice and tightly, ready to be used in practical applications."
@@ -955,7 +1073,17 @@
 		""
 		"Throwing away excess can be important for not creating backlog, which could potentially drop stuff on the ground and lag servers up."
 	]
+	quest.71897FC72ACFA33B.quest_subtitle: "Please"
 	quest.71897FC72ACFA33B.title: "Throw Excess Away"
+	quest.725E1A54E3ECBDA3.quest_desc: [
+		"You are deliberate. You do not make mistakes. Your wisdom guides you through life. When you set your eyes on something, you see the obstacles to overcome, and systematically strip them away one by one. It can be lonely being so self-dependent, and yet, this is just another form of your strength. You do not fear failure, as there is always a way to success if you look hard enough."
+		""
+		"You will awaken as a Primordial Lapras, otherwise known as a sea dragon. The ocean is your body, and outside of it, your skin dries up and becomes parched. You will need to draw out the hidden strengths of the vast ocean, and likely the strengths of a bucket of water."
+		""
+		"But in turn, your connection to water lets you summon storms to smite your adversaries, wringing storm and electricity around all. You may strike through the strongest defenses and see clear in the night."
+	]
+	quest.725E1A54E3ECBDA3.quest_subtitle: "A Sea Dragon"
+	quest.725E1A54E3ECBDA3.title: "Awaken as a Primordial Lapras"
 	quest.727A327ECE33C3E7.quest_desc: [
 		"Forest Dragons have access to unique and varied food unavailable to other animals."
 		""
@@ -1056,7 +1184,7 @@
 		""
 		"In addition, you can now craft recipes that require more space than the standard 3x3 grid."
 	]
-	quest.79D8A38D25FD6FEB.quest_subtitle: "Important Machine!"
+	quest.79D8A38D25FD6FEB.quest_subtitle: "Automate EVERYTHING!"
 	quest.79D8A38D25FD6FEB.title: "Automated Crafting"
 	quest.7B40E692C6B23D11.quest_desc: [
 		"You craft a press, and are excited to make materials no claw can make on its own. Now to just assemble it."
@@ -1097,6 +1225,7 @@
 	quest.7EE3C83D0BF37910.quest_subtitle: "(Introduce in Chapter 3)"
 	reward.6F5D987AD3171268.title: "Klink Joins the Guild"
 	reward_table.324557F3A55EA536.title: "Pledges"
+	reward_table.45A8B0FAFF573F9C.title: "Smart Rewards"
 	task.00BACF868F130380.title: "4x64 Charcoal"
 	task.01AFE6B5F75F9708.title: "Understood"
 	task.01D407E3051BCC44.title: "Any Cave Dragon Food"
@@ -1116,7 +1245,7 @@
 	task.104BAC91C8C9DCAF.title: "Sea Dragon Considerations"
 	task.1325D664F6217B94.title: "Wow!"
 	task.135D1281D64D4329.title: "Understood"
-	task.14830C57CD511151.title: "Understood"
+	task.14830C57CD511151.title: "This is who I am..."
 	task.148C4BEE59253A1F.title: "Decor Your Train Out"
 	task.180E36A68E5D7A5B.title: "Any Toolbox"
 	task.1918877266F1A840.title: "Any Log"
@@ -1124,9 +1253,12 @@
 	task.1BB15023852ED2D1.title: "Understood"
 	task.1C462D7741284336.title: "Any Tundra Dragon Food"
 	task.1CCB16211B5EE56D.title: "Understood"
+	task.1E2B0133F875FC5A.title: "This is who I am..."
+	task.1E7D3D43CA5F6050.title: "2x64 TNT"
 	task.1EE6D1370BC82F85.title: "Understood"
 	task.1FD1ABCFA4D4252B.title: "understood"
 	task.1FDE64D9A907DA0C.title: "Carbon Gas Get"
+	task.1FF18A88770B4B6E.title: "Understood"
 	task.21067DEC181C43E7.title: "Understood"
 	task.21B8B5A1053AE875.title: "Any Forest Dragon Food"
 	task.22BB11900BEB46EA.title: "4x64 Andestite Alloy"
@@ -1145,11 +1277,13 @@
 	task.320C10207214AB04.title: "It worked!"
 	task.33CB184B1FB6B249.title: "The Path of Automation"
 	task.34EB311F52B79867.title: "Understood"
+	task.353EFBCA41774DBA.title: "This is who I am..."
 	task.37ED092679E18EEF.title: "Any 64 Berries"
 	task.392330B52EF8DEB9.title: "Any Backpack"
 	task.3975EFD1F8378985.title: "Denote a Nuke on Mercury"
 	task.3979674975BAE636.title: "8x16 Brass Ingots"
 	task.3A0F57279675471B.title: "Red Slurry"
+	task.3A1D1A87E9A70C12.title: "This is who I am..."
 	task.3D5B6D0595D09E2A.title: "Understood"
 	task.3E79E5F7152A36DE.title: "Oh hell yeah!"
 	task.415D3F65CEB96CF5.title: "Ethelene and propylene "
@@ -1174,6 +1308,7 @@
 	task.55FB6097E08D0EAE.title: "Understood"
 	task.560A192B9FD7411F.title: "Holy Moly"
 	task.579ECBE69A1D03F0.title: "Any Sapling"
+	task.5B82A994EAF03B85.title: "Time to be reborn"
 	task.5C05CB2182DB2DEE.title: "Dragon Passion"
 	task.5CE8455D76A1A5C4.title: "Understood"
 	task.5D6230BD55D544AB.title: "Understood"
@@ -1185,10 +1320,12 @@
 	task.6736993618769277.title: "4x64 Shafts"
 	task.6DAC00F53624AFAD.title: "Any Dragon Altar"
 	task.6ED66D8C4C1A967E.title: "How to Use JEI"
+	task.6FE6E357DD4F212E.title: "About the Questbook"
 	task.7216A33D2F32D9D1.title: "Any Backpack"
 	task.7394EBA49B1DED38.title: "Any #minecraft:planks"
 	task.739E84BBF8AFBD82.title: "From A to B"
 	task.77FA5410F2BB7962.title: "Understood"
+	task.7A4DF9467C6CACA0.title: "Let the adventure begin!"
 	task.7C525386829FC8F5.title: "Any #oritech:plating"
 	task.7C84B3E9180247A4.title: "Understood"
 	task.7F42BC6BBE981932.title: "quary"
