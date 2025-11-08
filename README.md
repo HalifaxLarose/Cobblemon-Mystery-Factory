@@ -1,4 +1,13 @@
+You wake up as a Dragon in a foreign land, with a mysterious voice giving you one command: "save me". In this new World of Cobblemon Mystery Factory, beasts roam free across beautiful landscapes, organizing themselves into guilds to accomplish share goals. You decide that the only way to save this voice is to start the Engineering guild. As you grow your factory, you will be able to automate production of more powerful pokeballs, medicine, tms, and even vitamins and bottle caps to fully strengthen your guildmembers - as well as access to dimensions with rare and unique cobblemon. And you're going to need this strength - you can't recruit higher-level Cobblemon until you defeat rival guildmasters.
+
+More specifically, this modpack will be a cross between a tech pack and a kitchen sink, a lot of both centered around the Create mod. The quest guidebook will be carefully crafted to guide players through the tech tree and the complexities of the Create mod, and side content will reward players with powerful held items and rare TMs. For those who have no interest in playing a tech mod, you will still be able to engage in Cobblemon - pokeballs and items can be found in treasure chests, and there will be an-game shop system. Industry will still be the most powerful option, regardless.
+
+
 ## For Devs
+
+there is a dev template pack with the packwiz command setup, found in the [discord](https://discord.com/channels/1424171691352784988/1426201130966454373) along with a video, all you have to do is follow step 1 to 3, 9 to 12
+
+Manual Setup:
 1) Use prism for your launcher.
 2) Fork Lizards repo
 3) Clone the repo
@@ -15,6 +24,6 @@
 Once this is done, anytime you want to use that dev instance, make sure to run the ``packwiz serve`` in your repo, so your instances can get any fresh changes
 
 # ALSO
-When making a commnit, PLEASE exlude the pack.toml and index.toml, they are local caches that change. they break everythign when commited
+When making a commnit, PLEASE exlude the pack.toml and index.toml, they are local caches that change. they break everythingwhen commited
 
-Also DM if you get stuck :)
+DM theoverlycaffeinatedtrashpanda on discord if you get stuck at any point
