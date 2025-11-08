@@ -1,0 +1,11 @@
+{
+	id: "45A8B0FAFF573F9C"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "6A61E49E77ED19A7", item: { count: 1, id: "create:smart_chute" } }
+		{ id: "459DFAB275CB9523", item: { count: 1, id: "create:smart_fluid_pipe" } }
+		{ id: "359BD04ACDB6ACC9", item: { count: 1, id: "create:brass_funnel" } }
+		{ id: "5927881C0CC12ACF", item: { count: 1, id: "create:brass_tunnel" } }
+	]
+}

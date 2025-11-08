@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {    
-    // Chapter 2
+    // Chapter 3
     event.custom({
         type: "create:mixing",
         "ingredients": [
@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
         }],
         "heat_requirement": "superheated",
     });
-    // Chapter 3
+    // Chapter 2
     event.custom({
         type: "create:mixing",
         "ingredients": [

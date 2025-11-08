@@ -53,7 +53,7 @@
 			}
 			id: "07C1943969D81782"
 			shape: "hexagon"
-			size: 3.0d
+			size: 2.0d
 			tasks: [{
 				id: "09069C3509A42F83"
 				type: "checkmark"
@@ -206,6 +206,39 @@
 			}]
 			x: 1.0d
 			y: -12.0d
+		}
+		{
+			dependencies: ["55A4CEB1697ABFA6"]
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "3CDD814B33B2A508"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "6FE6E357DD4F212E"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55A4CEB1697ABFA6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/spyglass"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "264BE6A0576CE112"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1FF18A88770B4B6E"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: 3.0d
 		}
 	]
 }

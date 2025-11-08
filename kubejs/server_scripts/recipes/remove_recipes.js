@@ -34,10 +34,10 @@ ServerEvents.recipes(event => {
 
         // Chapter 3
         // {output: "northstar:carbon"},
-        {id: "northstar:mixing/hydrocarbon_from_carbon"},
-        {id: "oritech:pulverizer/pearl_enderic"},
-        {id: "garnished:milling/crushed_ender_pearl"},
-        {id: "garnished:crushing/crushed_ender_pearl"},
+        // {id: "northstar:mixing/hydrocarbon_from_carbon"},
+        // {id: "oritech:pulverizer/pearl_enderic"},
+        // {id: "garnished:milling/crushed_ender_pearl"},
+        // {id: "garnished:crushing/crushed_ender_pearl"},
 
         // Chapter 4
         {output: "oritech:laser_arm_block"},
