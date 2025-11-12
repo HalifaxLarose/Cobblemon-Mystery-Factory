@@ -18,15 +18,20 @@ ServerEvents.recipes(event => {
         {filter: {output: "oritech:destroyer_block"}, original: "oritech:laser_arm_block", replaceWith:"minecraft:ender_pearl"},
         {filter: {output: "oritech:destroyer_block"}, original: "oritech:pulverizer_block", replaceWith:"createaddition:tesla_coil"},
         {filter: {output: "oritech:destroyer_block"}, original: "#oritech:plating", replaceWith:"create:copper_casing"},
+
+        {filter: {mod: "extra_gauges"}, original: "create:precision_mechanism", replaceWith: "oritech:processing_unit"},
+        {filter: {output: "create:factory_gauge"}, original: "create:precision_mechanism", replaceWith: "oritech:processing_unit"},
     ]
 
     const replacementOutput = [
     ]
 
     replacementInput.forEach((recipe) => {
+        event.replaceInput(recipe.filter, recipe.original, recipe.replaceWith)
     })
 
 
     replacementOutput.forEach((recipe) => {
+        event.replaceOutput(recipe.filter, recipe.original, recipe.replaceWith)
     })
 })

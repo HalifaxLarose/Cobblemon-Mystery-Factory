@@ -186,7 +186,7 @@
 				item: { count: 1, id: "sliceanddice:sprinkler" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.75d
 			y: -14.25d
 		}
 		{
@@ -201,6 +201,11 @@
 			y: -12.75d
 		}
 		{
+			dependencies: [
+				"6E4E34426C883504"
+				"3A1B3C0A77F150EC"
+			]
+			hide_until_deps_complete: true
 			id: "54D337A20770D8CA"
 			shape: "rsquare"
 			size: 2.5d

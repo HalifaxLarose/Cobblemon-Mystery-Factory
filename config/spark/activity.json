@@ -1,0 +1,54 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "LizardLeliel",
+      "uniqueId": "815761ae-9f37-4511-99ad-8c020529780b"
+    },
+    "time": 1761415148809,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/EYWhHyFVEd"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "LizardLeliel",
+      "uniqueId": "815761ae-9f37-4511-99ad-8c020529780b"
+    },
+    "time": 1761406319970,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/2WCgnJViZD"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "LizardLeliel",
+      "uniqueId": "815761ae-9f37-4511-99ad-8c020529780b"
+    },
+    "time": 1761405351915,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/HHQAReuKp9"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "LizardLeliel",
+      "uniqueId": "815761ae-9f37-4511-99ad-8c020529780b"
+    },
+    "time": 1761405296252,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/deK0fEOmeL"
+    }
+  }
+]

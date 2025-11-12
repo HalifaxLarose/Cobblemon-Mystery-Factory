@@ -26,7 +26,7 @@
 			y: -5.25d
 		}
 		{
-			dependencies: ["111CF8517DF1F154"]
+			dependencies: ["45D0E4FC6DA40041"]
 			id: "530E15A5BD357D09"
 			shape: "rsquare"
 			size: 2.5d
@@ -93,14 +93,11 @@
 			dependencies: ["1DD6BF171DC10E1C"]
 			id: "1269ECC706EC81E3"
 			rewards: [{
-				count: 3
-				id: "6248F3E4E0D0F3B1"
+				count: 4
+				id: "7CCC22B984EF9846"
 				item: {
-					components: {
-						"ftbquests:missing_item": "createfood:hamburger_peanut_butter"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "create_deepfried:deepfried_chocolate_bar"
 				}
 				type: "item"
 			}]
@@ -115,6 +112,7 @@
 		{
 			dependencies: ["1DD6BF171DC10E1C"]
 			id: "31BC7B591DD81EDB"
+			optional: true
 			tasks: [{
 				id: "05F69AB23ADCDB93"
 				item: { count: 1, id: "create:depot" }
@@ -334,6 +332,53 @@
 		{
 			dependencies: ["21B2F0553C8DA3C1"]
 			id: "6467039452212EB0"
+			rewards: [
+				{
+					count: 32
+					id: "1521A37614194FEB"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1353CEE38838240C"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "71B96A88C6FCB0EE"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5753FA08728893EE"
+					item: {
+						count: 1
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3844ECB5C637C3FD"
+					item: {
+						count: 1
+						id: "create_connected:parallel_gearbox"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 3.0d
 			tasks: [
@@ -357,13 +402,13 @@
 			y: -19.5d
 		}
 		{
-			dependencies: [
-				"111CF8517DF1F154"
-				"530E15A5BD357D09"
-			]
+			dependencies: ["530E15A5BD357D09"]
 			id: "19EA3845F442D5D9"
 			size: 2.0d
 			tasks: [{
+				icon: {
+					id: "sophisticatedbackpacks:backpack"
+				}
 				id: "392330B52EF8DEB9"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:back)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -402,6 +447,37 @@
 			}]
 			x: 8.25d
 			y: -13.5d
+		}
+		{
+			dependencies: ["530E15A5BD357D09"]
+			icon: {
+				components: {
+					"ftbquests:icon": "create:textures/gui/logo.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "07C1943969D81782"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "09069C3509A42F83"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["530E15A5BD357D09"]
+			icon: {
+				id: "minecraft:deepslate"
+			}
+			id: "18CC4766C0E8DC95"
+			tasks: [{
+				id: "51CA601758F0D298"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.0d
 		}
 	]
 }

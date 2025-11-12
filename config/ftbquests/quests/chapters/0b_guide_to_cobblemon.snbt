@@ -1,10 +1,217 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	default_quest_size: 1.5d
 	filename: "0b_guide_to_cobblemon"
 	group: "25AFFF4BEEB54E90"
 	id: "2641F4D75FA23768"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["45D0E4FC6DA40041"]
+			hide_until_deps_complete: true
+			id: "584798C2F18042B3"
+			shape: "rsquare"
+			tasks: [{
+				id: "1838749E4E196F01"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["584798C2F18042B3"]
+			id: "343CC6908A08D00C"
+			tasks: [{
+				id: "62EF7EFF0742288A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblemon:tier_1_poke_balls)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["584798C2F18042B3"]
+			id: "245CC27DD5C351B5"
+			tasks: [{
+				id: "0DD5E7067590C44E"
+				item: { count: 1, id: "cobblemonmechanicalhealingmachine:mechanical_healing_machine" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["584798C2F18042B3"]
+			id: "2696035D0D71A998"
+			tasks: [{
+				id: "57AFE2E8504A4928"
+				item: { count: 1, id: "cobblemon:pc" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2696035D0D71A998"]
+			id: "5103C2478E61F510"
+			tasks: [{
+				id: "7251854279CE7F9B"
+				item: { count: 1, id: "cobblemon:pasture" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["584798C2F18042B3"]
+			id: "31AD3761490D23B9"
+			tasks: [{
+				id: "439051F000622D85"
+				item: { count: 1, id: "cobblemon:oran_berry" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -6.75d
+		}
+		{
+			dependencies: ["584798C2F18042B3"]
+			id: "4531204E67645F33"
+			shape: "hexagon"
+			tasks: [{
+				id: "27EFAFD252197917"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4531204E67645F33"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "030227B14AC78080"
+			shape: "hexagon"
+			tasks: [{
+				id: "0DCD9D6A50976997"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["030227B14AC78080"]
+			icon: {
+				id: "cobblemon:nest_ball"
+			}
+			id: "40985C639992F2DC"
+			shape: "hexagon"
+			tasks: [{
+				id: "16FBF68EA738EBA7"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40985C639992F2DC"]
+			icon: {
+				id: "cobblemon:premier_ball"
+			}
+			id: "66F4D189AEE1FA60"
+			shape: "hexagon"
+			tasks: [{
+				id: "32F82ED39033B9D5"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["66F4D189AEE1FA60"]
+			icon: {
+				id: "cobblemon:great_ball"
+			}
+			id: "5222728D013B992C"
+			shape: "hexagon"
+			tasks: [{
+				id: "01F7F7BB7D920AB2"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5222728D013B992C"]
+			icon: {
+				id: "cobblemon:luxury_ball"
+			}
+			id: "080E6B7CC7386935"
+			shape: "hexagon"
+			tasks: [{
+				id: "41EB5F9D88C90E95"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["080E6B7CC7386935"]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "40A46B7171D3DA34"
+			shape: "hexagon"
+			tasks: [{
+				id: "7D481C113333158D"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["40A46B7171D3DA34"]
+			icon: {
+				id: "cobblemon:timer_ball"
+			}
+			id: "6195AFACC72979FA"
+			shape: "hexagon"
+			tasks: [{
+				id: "5262D76D382F8821"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["6195AFACC72979FA"]
+			icon: {
+				id: "cobblemon:beast_ball"
+			}
+			id: "1689430BB1BCDCC7"
+			shape: "hexagon"
+			tasks: [{
+				id: "4612FC60A5FE1C88"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1689430BB1BCDCC7"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "0534F8B494547CC4"
+			shape: "hexagon"
+			tasks: [{
+				id: "4EAE9B8674AC6B99"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+	]
 }

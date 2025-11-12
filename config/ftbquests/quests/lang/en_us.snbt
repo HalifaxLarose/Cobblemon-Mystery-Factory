@@ -1,9 +1,8 @@
 {
 	chapter.035D1ABF4FA1F630.title: "4) The Space Age"
-	chapter.0F534FED1A530BAA.title: "Reward Reclaim"
+	chapter.111729AEDA1135CE.title: "Marketplace"
 	chapter.15790140419A8066.title: "Your Growing Factory"
 	chapter.166963E568B61211.title: "3) The Industrial Age"
-	chapter.1A5A28E4EAB97707.title: "Legendary Hunting"
 	chapter.1B50A088E0973BC1.title: "0a) Life as a Dragon"
 	chapter.2641F4D75FA23768.title: "0b) Guide to Cobblemon"
 	chapter.2ABB2A702B6169AE.title: "1) The Stone Age"
@@ -46,16 +45,39 @@
 	quest.02834CB5B60C35E0.quest_subtitle: "How to get stuff around"
 	quest.02834CB5B60C35E0.title: "Logistics"
 	quest.0292D2861DD21B47.title: "Become a Cardboard Warrior!"
+	quest.030227B14AC78080.quest_desc: [
+		"Level 14"
+		"Normal and Bug"
+		"Village"
+	]
+	quest.030227B14AC78080.quest_subtitle: "Overworld"
+	quest.030227B14AC78080.title: "The Explorer's Guild"
 	quest.033E501F0A85FEE8.quest_desc: ["Trust me, you never ever have enough belts. You'll aways need more."]
 	quest.033E501F0A85FEE8.title: "Automate Mechanical Belts!"
+	quest.034A82636C6D606D.quest_subtitle: "Fuel for Generators"
 	quest.03BECF0CDFE6C49B.quest_desc: [
 		"The centrifuge spins things around super fast. This separate components in it."
 		""
 		"There's a few materials that can only be crafted this way. Additionally, if you give it ore - especially ore crushed by crushing wheels - it will produce more metals than if you were to just smelt the ore."
 	]
 	quest.03BECF0CDFE6C49B.quest_subtitle: "Your First Industrial Machine"
+	quest.03D54B15CEE07D18.quest_subtitle: "Beat the Modpack"
+	quest.03D54B15CEE07D18.title: "Kill the Enderdragon"
 	quest.03DE6FD0DBE9CFA6.quest_desc: ["Remember those basic tree farms from chapter 1b? Create's advanced agriculture and quarries work like that: you build moving machines that interact with the world. Compared to Oritech, you'll need simple resources, but you'll need more of them, and operating them is more complicated. However, if you manage to pull it off, they tend to be faster and have high degrees of customizability. They also feel more satisfying to operate."]
 	quest.03DE6FD0DBE9CFA6.title: "The Create Way"
+	quest.0534F8B494547CC4.quest_desc: [
+		"Level 100"
+		"The Otherside"
+		""
+		"Save Arceus"
+	]
+	quest.0534F8B494547CC4.quest_subtitle: "The Otherside"
+	quest.0534F8B494547CC4.title: "The Silent Guild"
+	quest.06093EAE5484C273.quest_desc: [
+		"Asphalt can be made from either bitumen, or heavy residual oil."
+		""
+		"It has one bonus: you walk faster on it."
+	]
 	quest.064EC8C54AECDF13.quest_desc: [
 		"The gearbox is an incredibly dear friend. It branches rotational power into three different directions at once!"
 		""
@@ -73,7 +95,9 @@
 	quest.067C4963FADE5BAC.quest_subtitle: "Invite your passengers in"
 	quest.067C4963FADE5BAC.title: "Welcoming Doors"
 	quest.07C1943969D81782.quest_desc: [
-		"Certain items from the &bCreate&r mod and its addons have a feature called ponder. When hovering over certain items from these mods, you can hold &c\"W\"&r to view a special scene where its usage is explained."
+		"This modpack is centered around the &bCreate&r mod. You will be introduced to it very soon. "
+		""
+		"Certain items from the mod and its addons have a feature called ponder. When hovering over certain items from these mods, you can hold &c\"W\"&r to view a special scene where its usage is explained."
 		""
 		"Try it out by searching \"mechanical plough\" in EMI and holding W there. You probably will not understand what it's saying, but when the time is right, ponder will be there to expand on all the details that won't fit in this quest book."
 	]
@@ -90,6 +114,14 @@
 		"If you craft a dragon altar, you can change your appearance, or even return to a human, all for free."
 	]
 	quest.07E9CB1BCC8E8F3B.title: "Need a Style Do-over?"
+	quest.07ED90197AF67536.quest_subtitle: "Store a lot of energy"
+	quest.080E6B7CC7386935.quest_desc: [
+		"Level 44"
+		"Fighting and Flying"
+		"The Aether"
+	]
+	quest.080E6B7CC7386935.quest_subtitle: "The Aether"
+	quest.080E6B7CC7386935.title: "The Beauty Guild"
 	quest.09323D5B840E46EC.quest_desc: ["A fertilizer block will take bonemeal and distribute it across your farm for you."]
 	quest.0946E21922298C64.quest_desc: ["One of the uses of golden sheets is advanced electronics. Actually, maybe gold sheets aren't that useless."]
 	quest.09A4424786AB5F35.quest_desc: [
@@ -116,7 +148,17 @@
 		"Fluids also use special machines to process them. Copper Casing is a common component in all these machines, much like hwo andesite casing is used in a lot of kinetic machines."
 	]
 	quest.0A18A7166FAF727E.title: "Bend Water to your Will"
+	quest.0A80791CD01A78C4.quest_desc: [
+		"To build a distillation tower, stack fluid tanks a few blocks up as you would a steam engine. Then put blaze burners beneath and slap the controller onto it."
+		""
+		"You then pump the oil into the bottom. Heat will then separate the oil into smaller, usable components. Many diffferent usable components, in fact - some can be immediately used, other outputs can have extra processing to become useful."
+		""
+		"If the options overwhelm you, do not worry, as you &nonly need to deal with kerosene, naphtha, and diesel&r, indicated by heart shaped icons. You can safely get rid of the rest, although you would be losing out on extra resources."
+		""
+		"(PS: The tower will need to be as high as their are outputs plus the input at the bottom. However, the mod can be a bit buggy in recognizing outputs. Try to build more layers than you need, as destroying a top layer may get it to recognize the other layers correctly.)"
+	]
 	quest.0A80791CD01A78C4.title: "Distill Your Oil"
+	quest.0ACDB990F54F0298.quest_subtitle: "Second Socket"
 	quest.0AEE300448ED5FA7.quest_desc: [
 		"Using a drill with a cobblestone generator involves dropping entities into the world. This can cause server lag quick if things aren't finely tuned."
 		""
@@ -124,6 +166,8 @@
 	]
 	quest.0AEE300448ED5FA7.quest_subtitle: "Upgrades, people!"
 	quest.0B19548897BFDF79.title: "Now Give it a Try"
+	quest.0B3C2A8C0200EEDF.quest_desc: ["Said processes includes bonus ore processing."]
+	quest.0B3C2A8C0200EEDF.quest_subtitle: "Adds additional processes to the centrifuge."
 	quest.0D24B2C14A4AFC47.quest_desc: [
 		"As a Cave Dragon, you are weak to water - and that includes rain. You could building an extensive shelter over your head, but if you build your guild underground, you will always stay dry."
 		""
@@ -154,6 +198,12 @@
 	]
 	quest.0E7FFBC699E11EA4.quest_desc: ["Now with blaze burner in hand, find a Nether Fortress, and find some blazes, and right click on them. This will scoop the blaze into the burner, just like a Cobblemon in a friend ball. Once you're satisfied, head back to the overworld, to start putting them to good use."]
 	quest.0E7FFBC699E11EA4.quest_subtitle: "Hot, hot, hot!"
+	quest.0F05E7C38813FDBC.quest_desc: [
+		"Good job with your persistance and patience!"
+		""
+		"Or you you discovered this item in chapter 4. In which case, doing fluid separation with dubious containers and strange matter inside a centrifuge will yield you unholy intelligence, which can be used to craft this item instead."
+	]
+	quest.0F05E7C38813FDBC.title: "You found the secret!"
 	quest.0F0DFC170412280D.quest_desc: [
 		"Machine Frames are blocks you physically place around the location you want to farm or mine out. You'll need a couple of them."
 		""
@@ -168,6 +218,8 @@
 		"It's unforunately a little too basic, and not terrible strong. Maybe it can be helpful in a pinch though."
 	]
 	quest.0F4BA454F283D62A.quest_subtitle: "This is hella nerfed"
+	quest.0F9AC6CC69E801FB.quest_subtitle: "Plastic ingredient"
+	quest.0F9AC6CC69E801FB.title: "Light Naphtha"
 	quest.108410E4B63C51E8.quest_desc: ["You can wash gravel to uncover flint and iron nuggets burried beneath. You may want to use the storage drawer filtering trick to separate them from the assembly line."]
 	quest.10B277D07A049ED3.quest_desc: [
 		"This thing's lame."
@@ -178,12 +230,18 @@
 	]
 	quest.10B277D07A049ED3.quest_subtitle: "Funnel's Virgin Brother"
 	quest.11157DC7D8C40913.title: "Become a Cardboard Handyman!"
-	quest.111CF8517DF1F154.quest_subtitle: "Chapter 0a, 1 Unlocked"
-	quest.111CF8517DF1F154.title: "Begin Your Adventure!"
+	quest.11F3D6C1162DF9A5.quest_desc: [
+		"Your body will take time to get used to. In the meantime, the best way to do that is to probably start your mission and explore the world for a place to set your guild up."
+		""
+		"Except you aren't alone. Nearby, a shadowy figure approaches. You don't know it now, but this Cobblemon is destined to be a cherished partner as you found and grow the guild."
+		""
+		"To meet them, press &c\"P\"&r"
+	]
+	quest.11F3D6C1162DF9A5.title: "Your Starting Partner Approaches"
 	quest.1269ECC706EC81E3.quest_desc: [
 		"Machines need power to move. A handcrank lets you supply that power through manual effort."
 		""
-		"This method of power generation does make you very hungry however, so have some hamburgers you found on the ground to replenish your strength later."
+		"This method of power generation does make you very hungry however, so have some deep fried chocolate you found on the ground to replenish your strength later."
 	]
 	quest.12973A49772AB62D.quest_desc: ["Crushing up Quartz from the Nether gives you Quartz Dust, which may have a use or two."]
 	quest.12A50EF8D8C5FBCF.quest_desc: [
@@ -200,6 +258,7 @@
 	]
 	quest.149084F279A4EDF0.quest_desc: ["This item in particular help aether dragons survive the darkness."]
 	quest.149084F279A4EDF0.title: "Survive Darkness"
+	quest.150D4F9EA3526C3F.quest_desc: ["Please, check the ponder on one of the previous few quests."]
 	quest.150F9D369115D63A.quest_desc: [
 		"You are in touch with life around you. Heavy thoughts and foolish desires do not sway your feet. Your heart guides you through life. When you set your eyes on something, you know you aren’t alone, all the world is here with you to shape your story, even if you just as easily feel the pain of the world. You do not fear failure, because you are part of a larger story still being written."
 		""
@@ -231,9 +290,25 @@
 	quest.15DCA245B19B9667.title: "Big Daddy and Big Momma Gears"
 	quest.1626D22A68A81C35.quest_desc: ["Goggles are invaluable for factory building. They let you see stats about various machines, including how much stress they're consuming, how fast things are spinning, and more. Grab a pair when you can."]
 	quest.1626D22A68A81C35.quest_subtitle: "See Beyond"
+	quest.1689430BB1BCDCC7.quest_desc: [
+		"Level 70"
+		"Dragon, Poison, and Ice"
+		"The End"
+		"(Or the desert)"
+	]
+	quest.1689430BB1BCDCC7.quest_subtitle: "The End"
+	quest.1689430BB1BCDCC7.title: "The End Guild"
+	quest.16BB19A7F443711D.quest_desc: ["Yet again, the atomic forge can increase the output of ores."]
+	quest.16BB19A7F443711D.title: "Bonus Ore"
 	quest.170301E9D65331BD.quest_desc: ["Elder Dragon Hearts will age adult dragons. If an adult dragon grows old enough, they will become an ancient dragon, and be particularly large."]
 	quest.170301E9D65331BD.title: "Become a Boomer"
+	quest.17676283D431B0BF.quest_desc: ["This asphalt has the same bonus, but can be dyed."]
 	quest.17676283D431B0BF.title: "A different Asphalt"
+	quest.18CC4766C0E8DC95.quest_desc: [
+		"As you roam around, you may find meteors stuck in the ground, full of rare ore."
+		""
+		"You may want to mark these on the maps. They'll become important later - much much much much much much much much much much much later."
+	]
 	quest.191C2FFC2CF75EA7.quest_desc: [
 		"If you got into chapter 1b, you would have learned about portable item interfaces, which allow contraptions to move inventories to non-contraption storages."
 		""
@@ -363,6 +438,7 @@
 	quest.21E78150F0DE810B.quest_subtitle: "Still a legendary species"
 	quest.21E78150F0DE810B.title: "I want to stay as a human..."
 	quest.21E8F2DA6F9C0AD1.quest_desc: ["Wheat, a familiar beloved crop, is one such crop that can be automated with the harvester."]
+	quest.225EB1B9C530866D.quest_desc: ["Titanium ingots and titanium sheets are used to craft rocketship components."]
 	quest.23CCE09AC12A8F37.quest_desc: [
 		"Kelp can be smelted or bulk blasted into dried kelp, which can be used directly to craft belts and handles."
 		""
@@ -378,6 +454,8 @@
 		"Once the schedule is ready, right click it to the conductor mob. It will then operate the train for you."
 	]
 	quest.24970CBA9D5FC2D7.title: "Automatically Conduct Trains"
+	quest.24AE4ADA1F062575.quest_subtitle: "Remember those meteors from chapter 1?"
+	quest.24AE4ADA1F062575.title: "Easy Infinite Ores"
 	quest.25B19EF290BAC7B8.quest_desc: [
 		"Oritech is a world of electrical machines with many focused on processing ores in unique ways."
 		""
@@ -404,12 +482,22 @@
 	quest.26B68940794B658A.title: "Fancy New Drills"
 	quest.26CB60C2EBDCA444.quest_desc: ["Since you're a dragon now, are iron nuggets really that far off from chicken nuggets in terms of edibleness?"]
 	quest.26CB60C2EBDCA444.title: "Find Nuggets"
-	quest.26DE4A6B7692144E.title: "Alternative Heavy Oil Use"
 	quest.2769D96526B7A2FE.quest_desc: [
 		"A deployer is like an automatic fist: it can be configured to to either left click or right click, and when powered, will act as if it was a player clicking the block it is pointing at. It can even be given a tool like shears to automatically shear sheep or bonemeal to automatically grow crops. If given a block, it can automatically place it."
 		""
 		"Deploying is also used for a few unique recipes, especially in sequenced assembly lines."
 	]
+	quest.27999AECE5D54163.quest_desc: [
+		"You now know the voice is Arceus, and you now know that beating the Enderdragon will save them, because shut up."
+		""
+		"You still have aways to go. Here on the moon, there are two resources you need: lunar sapphire crystals, and platinum ore. Lunar Sapphire crystals are found in structures, and will enable you to go to Mars and build space bases. Platinum will be used to create the most advanced machines of Oritech."
+		""
+		"There's one important catch to platinum though: there is no ore for it. Instead, you need to process A LOT moon sand and moon stone. You'll want to reference chapter 2b to see how to set up quarries again."
+		""
+		"The work to generate platinum might mean coming back when you have the means to build a space base would be a wise idea. Or you can try to dig up just enough to get by. The choice is your's and your's alone!"
+	]
+	quest.27999AECE5D54163.quest_subtitle: "Across the Stars"
+	quest.27999AECE5D54163.title: "The Final Age"
 	quest.2832E128EB1B2DB9.quest_desc: [
 		"You may have finding yourself having trouble moving things around, like iron to everything that may want it, or coal to blaze burners. You may also need trains sooner or later, in order to transport bulk amount of items to a specific location... Or because they're REALLY AWESOME."
 		""
@@ -420,6 +508,12 @@
 		"Have fun learning about the world of micro and macro logistics!"
 	]
 	quest.2832E128EB1B2DB9.title: "Welcome"
+	quest.29D6C25365290376.quest_desc: [
+		"You can distill this product to get more of everything you already produced, plus two more oils: bitumen and Heavy Oil (not to be confnused with Heavy Residual Crude Oil). However, you will need superheating in order to process heavy oil further."
+		""
+		"Processed heavy oil will have two uses."
+	]
+	quest.29D6C25365290376.quest_subtitle: "Can distilled a second time"
 	quest.2A6F263F498ADA48.quest_desc: [
 		"These oak drawers will become your best friend. They can only store one type of item, but they will store huge amounts of it. Since you're likely to be mass producing singular items, these drawers can be more convenient than regular chests."
 		""
@@ -429,7 +523,9 @@
 	quest.2A93CFA2627ED3F8.quest_desc: ["You can craft these big boys to generate even more stress units! Give it a shot."]
 	quest.2A93CFA2627ED3F8.title: "MORE POWER!"
 	quest.2B2CEC1E023328E9.quest_desc: ["With access to electrum, you can now make large connectors and electrum wire. The former connects more wires at once, while electrum wire can handle more charge going through it at once. Not that you'll have any need for electrum for awhile."]
-	quest.2B5A21EBF14E93C0.quest_desc: ["The refinery takes either a fluid, or a fluid and item, can make up to three different fldui outputs."]
+	quest.2B5A21EBF14E93C0.quest_desc: ["The refinery takes either a fluid, or a fluid and item, can make up to three different fluid outputs."]
+	quest.2B9CEC108ACDEF88.title: "\"Will Press for You!\""
+	quest.2BCFE2AFBCB166AC.title: "Travel to Mars"
 	quest.2BDF2361DAF97D58.quest_desc: [
 		"Water in front of an spinning encased fan will spit out bubbles. Any item caught inside these bubbles will be washed, transforming into a different item, if applicable."
 		""
@@ -446,7 +542,8 @@
 		"\"I'll give you some gems we found in the Deep Dark if you oblige and set up some OSHA around your factory!\""
 	]
 	quest.2BEB21989E67AA14.title: "\"Please, keep your factory safe!\""
-	quest.2D3935A777CEC349.quest_desc: [" Crafted from centrifuging an ender pearl, enderic compounds have a couple of uses, most which came later. It is a necessary step for power tools, however."]
+	quest.2C8C9E07C7D3E5AD.quest_subtitle: "You may need these later"
+	quest.2D3935A777CEC349.quest_desc: ["Crafted from centrifuging an ender pearl, enderic compounds have a couple of uses, most which came later. It is a necessary step for power tools, however."]
 	quest.2D60596BED788EEA.quest_desc: ["The modern computer has many uses and applications that can ease automation and production in your factory. Too bad you have no idea how to use this."]
 	quest.2D60596BED788EEA.title: "Skipping Ahead in the Tech Tree"
 	quest.2D7FDEA914582A3F.quest_desc: [
@@ -455,7 +552,6 @@
 		"The first star bone may be difficult to collect, but once you have one, it's easier to collect more."
 	]
 	quest.2D7FDEA914582A3F.title: "Grow Younger"
-	quest.2D8BA21FB58CE620.title: "Automate Great Balls"
 	quest.2DE0E8FB8EDA4C94.quest_desc: ["This item in particular help sea dragons survive outside of water."]
 	quest.2DE0E8FB8EDA4C94.title: "Survive Land"
 	quest.2EAD774DE4B57AFC.quest_desc: [
@@ -472,6 +568,7 @@
 		""
 		"This may be not be useful to hav ein your base, but may be pretty helpful for transfering energy long distance via, let's say, a train..."
 	]
+	quest.2F854177096A5AD9.quest_subtitle: "Asphalt enabler"
 	quest.2FA6AB0F1224C606.quest_desc: ["Train controls let you move a train forward and back. They have importance."]
 	quest.302225E49FD9751C.quest_desc: [
 		"A destroyer block will destroy everything inside the machine frame and pick it up."
@@ -494,17 +591,24 @@
 		"It is also your first multiblock Oritech machine. Therefore, to actually assemble it, you will need to right click the placed block with machine cores to fill out the rest of it. Better cores means you can place more \"addon extenders\" down the line once you can actually make them."
 	]
 	quest.3107D3458D88336D.quest_subtitle: "Make alloys!"
+	quest.3167FF382443FD84.quest_desc: [
+		"The cybernetic augmentation center can be used to permanently power up your body, at the cost of sometimes steep resource and energy prices."
+		""
+		"Being a dragon is already awesome, now you're going to be a CYBORG DRAGON COBBLEMON TRAINER!!! Isn't this the coolest modpack ever made??"
+	]
 	quest.31789F4CD0EA4FF2.quest_desc: [
 		"Large Cogwheels operate a little differently than small cogwheels, so listen up."
 		""
 		"Small cogs will attach to the corners of large cogs, and the large cog will spin twice as slow as the small cog. Additionally, if you place a large cogwheel next to a large cogwheel, it will connect perpendicularly. This is a good way to move rotation around corners."
 	]
+	quest.31AD3761490D23B9.title: "Find these berries"
 	quest.31BC7B591DD81EDB.quest_desc: [
 		"If you place a depot right below a machine, then you give yourself a neat, tidy spot to place your crafting materials for your machines to operate on."
 		""
 		"Technically optional. You can just chuck stuff on the floor below a press and it'll do its magic."
 	]
 	quest.3232BBC81F5B7D13.quest_desc: ["Like doors, steps and ramps will be flat while the train is moving, but will transform  to help passengers reach the train from the station."]
+	quest.32752DB90B322E59.quest_subtitle: "Rocket fuel ingredient"
 	quest.3360599F5B1838CB.quest_desc: [
 		"Since the recipe for an iron ingot is a 3x3 square of nuggets, they can be compacted with a mechanical press."
 		""
@@ -540,6 +644,11 @@
 		"It should be simpler to set up than doing things the Create way, but it may operate slower, and the resource costs are different."
 	]
 	quest.3758CA898101FABE.title: "The Oritech Way"
+	quest.37B1AF0DCF9C5E39.quest_desc: ["Also, it can not be used as rocket fuel."]
+	quest.37B1AF0DCF9C5E39.quest_subtitle: "Needs one more processing step"
+	quest.380A0B685B2A3EDC.quest_subtitle: "Can be used in diesel generators. Is also a very powerful furnace fuel"
+	quest.3822D6A78D6FEE85.quest_subtitle: "For those weak flightless humans"
+	quest.3822D6A78D6FEE85.title: "Exosuit"
 	quest.3856928B0D0AA67A.quest_desc: ["A train station is used to determine stopping points of automated trains. In addition, they give you the controls to actually start building a train."]
 	quest.38BF2CAE6EC12222.quest_desc: [
 		"Cogs and shafts can rotate at different speeds. Machines operated at higher speeds will take more stress, but will process items faster. Additionally, some machines require high speeds to operate."
@@ -556,13 +665,25 @@
 		""
 		"As you grow older and stronger, you will be able to tolerate your land allergy better. There are also treats you can eat to negate your weakness for awhile."
 	]
+	quest.3955CAB3E422B099.quest_desc: [
+		"The dubious container has a couple of uses. Some you can use now, some you can use later. But there may be one more use for it not listed here..."
+		""
+		"If you let your curiosity guide you, there may find a way to use dubious containers to create powerful augmentations for Oritech machines..."
+	]
+	quest.3955CAB3E422B099.quest_subtitle: "Secrets abound..."
+	quest.3955CAB3E422B099.title: "Arcane Machinations"
 	quest.3A1B3C0A77F150EC.quest_desc: [
 		"Precision mechanisms and brass casings are used for all the advanced Create machines. You'll soon find yourself beaming with joy everytime you see them."
 		""
 		"Additionally, brass casing is stylish as heck!"
 	]
-	quest.3A1B3C0A77F150EC.quest_subtitle: "Chapter 2a (Trains) Unlocked"
+	quest.3A1B3C0A77F150EC.quest_subtitle: "Chapter 2a and 2b Unlocked"
 	quest.3A1B3C0A77F150EC.title: "The Factory Must Grow"
+	quest.3A4B07DF954BFB61.quest_desc: [
+		"This does what you'd expect it to do."
+		""
+		"It's particularly useful in space though as it doesn't depend on fuels that may not agree with space, such as steam engines, windmills, or waterwheels."
+	]
 	quest.3A4D822386BBA666.quest_desc: [
 		"These blaze burners will be your new age furnaces. They can house a blaze, who can be fed with coal to heat certain productions up."
 		""
@@ -599,6 +720,7 @@
 		"Hexagonal quests are informational, like this one. Pentagonal quests are the goal of main chapters and rounded square chapters are the starting points."
 	]
 	quest.3CDD814B33B2A508.quest_subtitle: "PLEASE READ"
+	quest.3CDD814B33B2A508.title: "About This Questbook"
 	quest.3D5936265F6B6CE5.quest_desc: [
 		"Automation is key to healthy engineering guild: without critical resources, you'll struggle to keep with demand and you'll fail your guildmembers depending on you."
 		""
@@ -622,6 +744,21 @@
 		""
 		"Working with fluids is covered in chapter 2."
 	]
+	quest.40985C639992F2DC.quest_desc: [
+		"Level 20"
+		"Grass and Water"
+		"Lush Caves"
+	]
+	quest.40985C639992F2DC.quest_subtitle: "Lush Caves"
+	quest.40985C639992F2DC.title: "The Life Guild"
+	quest.40A46B7171D3DA34.quest_desc: [
+		"Level 42"
+		"Psychic and Fairy"
+		"The Moon"
+		"(Or Mountains)"
+	]
+	quest.40A46B7171D3DA34.quest_subtitle: "The Moon"
+	quest.40A46B7171D3DA34.title: "The Guild of the Beyond"
 	quest.40DF0F34B630142A.quest_desc: ["The mechanical mixer will mix items and fluids found in a basin together. There's many unique processes that can be done with this, but you can also use this process to &nautomatically craft any crafting table recipe in the game&r that does not require its ingredients to be in a specific shape."]
 	quest.4128752783BF50B4.quest_desc: [
 		"Trains are a contraption, and be given drills. Deployers can lay track as it progresses and deployers can fill out holes in the terrain and place down saftey lights."
@@ -662,6 +799,16 @@
 	quest.43C5A3753F2AAA6A.quest_subtitle: "Squirt squirt, ha ha ha"
 	quest.43F10159CACD7C11.quest_desc: ["SMASH STUFF UP!!"]
 	quest.44286D097B53FD39.quest_desc: ["Cogs can be placed on the end of shafts, and will rotate neighbouring cogs."]
+	quest.44AE71346FC5369B.quest_desc: [
+		"Heavy oil can be used for two things:"
+		""
+		"You can make plastic from it by using the hydraulic press."
+		""
+		"Or, you can put it in an Oritech refinery to create diesel and some leftover naphtha and sulphuric acid."
+		""
+		"Real life oil refinery does get this complicated."
+	]
+	quest.44AE71346FC5369B.quest_subtitle: "Superheat for more fun!"
 	quest.44AE71346FC5369B.title: "Heavy Oil Products"
 	quest.44B8C7DFFBC08CB9.quest_desc: [
 		"You are passionate. Self-determined. Your soul guides you through life. When you set your eyes on something, you use hard work and persistence to accomplish your goals, even when you’re overwhelmed by how confusing and chaotic the world is. You do not fear failure, for real failure is to not try at all."
@@ -680,6 +827,18 @@
 	]
 	quest.44F92646536C90DE.quest_subtitle: "The most stylish casing"
 	quest.44F92646536C90DE.title: "Train Casing"
+	quest.4540BDE88BC8679D.title: "The Path of Nuclear Energy..."
+	quest.45D0E4FC6DA40041.quest_desc: [
+		"Your partner was alarmed seeing your fearsome, primordial form. But you managed to calm them down, and they warm up pretty quickly."
+		""
+		"You two talk. You mention that you were human and that a voice told you save them. They're obviously skeptical, except they can't deny that being a primordial dragon has some significance."
+		""
+		"They take their turn to talk about their dreams. That they want to explore the stars someday, going to the Moon and Mars, and even see the End dimensions someday. They then blurt out that you two should start an engineering guild. It catches you off guard but they go on to explain about how all the Cobblemon form guilds to work together for a shared value, and that if you and them worked together, we can accomplish both your goals. They're right."
+		""
+		"You agree to it. They take out some items and hand them to you to you, and you two start to search for where you will found your base."
+	]
+	quest.45D0E4FC6DA40041.quest_subtitle: "Chapter 0a, 0b, 1 Unlocked"
+	quest.45D0E4FC6DA40041.title: "Let the Adventure Begin"
 	quest.471CDA944D6A8C40.quest_desc: [
 		"The chute is similar to a funnel in that it will take items out of storage or put them into storage."
 		""
@@ -730,6 +889,13 @@
 		"You can't make hands out of any other material. You tried: it just doesn't work."
 	]
 	quest.4C9850CFFBA0FE8B.quest_desc: ["You can also make gold sheets. They're not nearly as helpful iron sheets, but they still have uses."]
+	quest.4CCA8EDAF63EF4FC.quest_desc: [
+		"Blaze cakes can be made with any oil product except bitumen. Alternatively, they can be made with sheol fire, which is made by putting lava into an Oritech refinery."
+		""
+		"When fed to a blaze burner, the blaze burner will become \"superheated\", which will enable it to do some extra special recipes, including the step necessary to create rocket fuel."
+	]
+	quest.4D69AE23A428224C.quest_subtitle: "Fortune enchantment for your Oritech quarries"
+	quest.4D84153928AA6768.quest_subtitle: "Gotta go green!"
 	quest.4DCE48D4B2A596FA.quest_desc: [
 		"With these tools, you can enjoy the ancient tradition of stargazing."
 		""
@@ -748,6 +914,9 @@
 	]
 	quest.4E00B85073B1DC78.quest_subtitle: "Stick to it"
 	quest.4E00B85073B1DC78.title: "Building Contraptions with Glue"
+	quest.4E99209A569476AA.quest_desc: ["This is the fourth plating block which can be used in many Oritech machine recipes. It is the simplest on paper, although it does go require oil processing."]
+	quest.50C1F54211951561.quest_desc: ["It'll operate in bursts. Meaning that if its dormant and you manually insert items, it'll craft those items really quick. Otherwise, it's not ideal for use in an automated machine."]
+	quest.50C1F54211951561.quest_subtitle: "Ideal for manually-used machines"
 	quest.50E775A4D1C98DB6.quest_desc: [
 		"Quite a few automation tasks will produce multiple items in the same line. For example, automating iron nuggets will produce excess flint. Andesite funnels aren't smart enough to do any filtering, but there is a sneaky workaround."
 		""
@@ -761,6 +930,7 @@
 		""
 		"It will only go a block deep however, unless you insert a quarry addon."
 	]
+	quest.5196371A529F2BC2.quest_subtitle: "Makes automation not painful"
 	quest.52207554D5F46C09.quest_desc: [
 		"Trains are a contraption. That means saws, drills, etc., works on them like they would other contraptions. It also means you can place vaults, fluid tanks, and accumulators on them and use portable interfaces to load and offload their contents at stations. You can also place deployers on them, and the deployers can place tracks down. Yes, trains place down track ahead of them as they go forward, working exactly how you think it would."
 		""
@@ -769,14 +939,21 @@
 		"To create trains with multiple cars, you continue to place down additional bogies when making a train, but you then only glue two bogies to a single \"car\" each."
 	]
 	quest.52207554D5F46C09.title: "Extra Train Notes"
+	quest.5222728D013B992C.quest_desc: [
+		"Level 36"
+		"Ghost and Dark"
+		"The Deep Dark"
+	]
+	quest.5222728D013B992C.quest_subtitle: "Deep Dark"
+	quest.5222728D013B992C.title: "The Death Guild"
 	quest.52CCAE509402927D.quest_desc: ["Hey, what if we just combined these two machines into one?"]
 	quest.52CCAE509402927D.title: "Two in One"
 	quest.530E15A5BD357D09.quest_desc: [
-		"Fresh in a new body with a mission from a stranger to rescue them, you look upon the world and realize you have no idea where to start."
+		"Fresh in a new body with a mission from a stranger to rescue them, you look upon the world and realize the first thing you need to do is pick a location."
 		""
-		"So instead of looking outward, you look inward - you're a former human, whose greatness was in their tenacity to exploit the world with fanciful contraptions to create plentiful bounty for all. This must be the only reason the voice chose you over any other hero across the multiverse."
+		"The factory is likely to grow big. Likely, REALLY big, bigger than you might expect, so the ideal place will be a wide flat area with trees nearby. Of course, beauty is also an important factor. But in the end, the place you pick has to speak to you."
 		""
-		"So you start your engineering guild from the ground up. It will be long, but with strong problem solving skills, you will soon have everything you ever want and more automated and at your finger tips. You will be able to dominate the world, and stretch your search for this voice out to the stars behind. But for now, you need andesite metals - all basic machines start with a simple alloy."
+		"Once you plant your feet in the right spot, you'll begin to build your engineering guild from the ground up. It will be long, but with strong problem solving skills, you will soon have everything you ever want and more automated and at your finger tips. You will be able to dominate the world, and stretch your search for this voice out to the stars behind. But for now, you need andesite metals - all basic machines start with a simple alloy."
 	]
 	quest.530E15A5BD357D09.quest_subtitle: "Bring Human Industry to this Land!"
 	quest.530E15A5BD357D09.title: "Start Your Engineering Guild!"
@@ -866,6 +1043,11 @@
 	]
 	quest.562D22ACCA7F1DDF.title: "Connecting Wires"
 	quest.56A19205C33CA00F.quest_desc: ["The direct chute transfer items directly from one inventory to another inventory storage horizontally, no need for a belt inbetween."]
+	quest.57ACE39B62951158.quest_desc: [
+		"Crude oil taken straight from the ground is too unpure to process. It has yucky things like sulfide in it."
+		""
+		"Thankfully, Oritech refineries are precies enough to separate sulfides, creating useful sulphuric acid and even more useful Industrial Crude Oil, all ready for distillation."
+	]
 	quest.5849CC9BA757F975.quest_desc: [
 		"A Rose Pulley has a nozzle which can be lifted up and down with rotational force. They're intended to use to suck up large bodies of fluid, or fill up a natural basin."
 		""
@@ -896,9 +1078,20 @@
 		"That's what an alternator is: you spin a magnet next to a wire, and that creates electricity. Electricity can be used to power more fine and precise tools then the kinetic machines of Create."
 	]
 	quest.599F25DDE7CE7C45.title: "Your First Electric Generator"
+	quest.59EA6F25FC90E26A.quest_desc: [
+		"Please, please check the ponders in the quest above. I wouldn't be able to do it justice otherwise."
+		""
+		"That being said, some things need to be stressed:"
+		""
+		"The glued section and the arrangement of the core pumpjack blocks have to be precisely arranged. Additionally, you need to build a vertical pipe all the way from bedrock."
+		""
+		"You may think you can cheese the system by building the pumpjack closer to bedrock. That ain't a bad idea, except for one thing: you still need to get the oil to the surface somehow."
+	]
 	quest.59EA6F25FC90E26A.title: "How to Mine Oil"
 	quest.5A300859DE39D199.quest_desc: ["Dragon Heart Shards will accelerate the growth of newborns into teenager dragons."]
 	quest.5A300859DE39D199.title: "Become a Teenager"
+	quest.5A4DAA89F7360EF0.quest_subtitle: "You need more power!"
+	quest.5A4DAA89F7360EF0.title: "Nuclear Upgrades, People"
 	quest.5C3E53E38827C070.quest_desc: [
 		"Electrum is an essential material in advanced electronics, circuitry, and power generation."
 		""
@@ -925,6 +1118,7 @@
 		"Do note that if you try to bring the rope pulley contraption back up after it's cleared everything, it will mine the ladders on the way up. To prevent this, use the contraption control block from \"Logic Tools of Interest.\""
 	]
 	quest.5F0EF21AFDD6D995.title: "Auto-Build a Ladder!"
+	quest.5F3F882E32837478.quest_subtitle: "Can be cracked into a variety of useful stuff"
 	quest.5F6D0517D279089E.title: "Automate Planks!"
 	quest.5F9A7918F706602E.quest_desc: ["The encased chain drive transfers rotation in a straight line. Unlike cogs, their rotation direction won't alternate every block. They can look nicer than cogs in some places."]
 	quest.5FF98D1BE52A53C8.quest_desc: [
@@ -947,6 +1141,14 @@
 		""
 		"Items such as seeds."
 	]
+	quest.6195AFACC72979FA.quest_desc: [
+		"Level 60"
+		"Electric and Steel"
+		"Mars"
+		"(Or Badlands)"
+	]
+	quest.6195AFACC72979FA.quest_subtitle: "Mars"
+	quest.6195AFACC72979FA.title: "The Tranmonist Guild"
 	quest.6316A63414A96A6F.quest_desc: ["These funny sticks are used in quite a handful of industrial recipes."]
 	quest.63B4D36F936A25A8.quest_desc: ["Smart fluid items can be set a filter such that only a specific type of fluid can go through it. Very useful when a mixer has a fluid input and output, and you only want to pump out the output."]
 	quest.63B4D36F936A25A8.quest_subtitle: "If only you had this sooner..."
@@ -991,6 +1193,13 @@
 		"Collecting treasure and placing it down will allow you to sleep, which recovers health and mana. Placing more treasure down will recover yourself faster. Grow your hoard!"
 	]
 	quest.66E15C13252F4BEC.title: "Grow Your Treasure!"
+	quest.66F4D189AEE1FA60.quest_desc: [
+		"Level 28"
+		"Fire, Ground, and Rock"
+		"The Nether"
+	]
+	quest.66F4D189AEE1FA60.quest_subtitle: "The Nether"
+	quest.66F4D189AEE1FA60.title: "The Treasure Guild"
 	quest.66FA8D5801720727.quest_desc: ["With the mechanical arm in hand, you assign where the arm will pick stuff up from, and where it will place items. After placing it down and giving it power, it will move items for you. Saves a lot of headaches with mechanical belt wrangling."]
 	quest.66FA8D5801720727.quest_subtitle: "Very Handy"
 	quest.66FA8D5801720727.title: "Arm"
@@ -999,10 +1208,25 @@
 		""
 		"It can be crafted in a crafting able, but you get better results using a mixer."
 	]
+	quest.67528477F582BCC2.quest_desc: ["You will need to put the chestplate into the oxygen filler, and pump the filler with oxygen from the condenser."]
 	quest.6791BE0D013450EB.quest_desc: ["These nifty things will help you rotate shafts around corners! The alternative would be to use expensive gearboxes or cubbersome large cogwheels, so it's a pretty good idea to make these!"]
 	quest.67E8FC5EC26CF012.title: "Make Steel!"
+	quest.684EB4BDF33C749C.quest_subtitle: "It involves trial and error"
+	quest.684EB4BDF33C749C.title: "How to Build and Operate a Nuclear Reactor"
+	quest.68DCD5A34A0573BC.quest_desc: [
+		"Don't be fooled by the first recipe for carbon gas. You can't get sodium in liquid form until later."
+		""
+		"For now, you'll need to superheat mix sodium catalyst, kerosene, and carbon gas."
+	]
 	quest.68DCD5A34A0573BC.title: "ROCKET FUEL"
+	quest.6947F9E2737E3051.quest_desc: ["With the deployer, you will now be able to automate pokeballs."]
+	quest.6947F9E2737E3051.title: "Automate Pokeballs"
 	quest.6A9342529E8D9221.quest_desc: ["Copper wires, capable of conducting a circuit, are the basis of the vast majority of electronics. They'll also be used in cables everywhere."]
+	quest.6B2F817CE9E4F096.quest_desc: ["But ony while its on Earth, does nothing on the moon."]
+	quest.6B2F817CE9E4F096.quest_subtitle: "Creates Oxygen"
+	quest.6B44F59994831E7D.title: "Internal Cooling Components"
+	quest.6C28D99B4CB48AA7.quest_subtitle: "Alternative way to craft plastic"
+	quest.6C5B4E15F1203397.quest_subtitle: "Gotta go fast!"
 	quest.6C846C8CBA9DA3A6.quest_desc: ["The mechanical pipette is similar to the mechanical arm, except it transports fluids instead of items."]
 	quest.6C846C8CBA9DA3A6.title: "Wet Arm"
 	quest.6CD4E1ADCEEE6B60.quest_desc: [
@@ -1018,6 +1242,7 @@
 		"Some of these food items grant noteworth bonuses for you. Take note of any that stand out to you!"
 	]
 	quest.6CDC20CF07C4E089.title: "Sea Dragon Diet"
+	quest.6D0F588A8FBD82F3.quest_subtitle: "EW REDSTONE"
 	quest.6D160C05DD00036A.quest_desc: [
 		"The fluid tank is like a chest: it can store a lot of fluid. Like, a lot."
 		""
@@ -1048,6 +1273,7 @@
 	]
 	quest.6E4E34426C883504.quest_desc: ["The electron tube and brass metal combine together to form a suite of very powerful logistical tools. These tools allow you to filter out items in transit, making many headaches go away. Check them out!"]
 	quest.6E4E34426C883504.title: "New Logistic Tools"
+	quest.6EBE083EDC87FFCD.quest_subtitle: "WHY"
 	quest.6F022C581F6530E5.quest_desc: [
 		"One chunk can feel a little cramped, and adding more chunk loaders can really eat your SU."
 		""
@@ -1100,8 +1326,6 @@
 		"Lava from the basins can then be pumped out. Start chapter 2 for more info."
 	]
 	quest.728B07747E8065F9.title: "Automating Lava"
-	quest.7413E6C8B0D1CF8A.quest_subtitle: "This is for kinetic energy, needs balancing"
-	quest.7413E6C8B0D1CF8A.title: "Kinetic Solar Panel?"
 	quest.74AFBD46BF0C8F43.quest_desc: [
 		"The mechanical drill, when powered, will mine anything in front of it."
 		""
@@ -1214,6 +1438,11 @@
 		"Cave dragons, forest dragons, and sea dragons can build special plates and doors that only open to their specific species of dragons."
 	]
 	quest.7CEE18F24A72C771.title: "Secure Your Lair"
+	quest.7D18B29BF5EBC9B6.quest_desc: [
+		"Once you're actually on the moon, you can set down an oxygen sealer to fill a space station with air to breath."
+		""
+		"Getting an infinite source of oxygen on the moon may be trickier than you might expect."
+	]
 	quest.7DF3D41A3CB1423F.quest_desc: ["The Pneumatic Tube can help you move items through awkward spaces."]
 	quest.7DF3D41A3CB1423F.title: "Yet Another Way to Move Items"
 	quest.7EDC103B9424A115.quest_desc: [
@@ -1222,10 +1451,11 @@
 		"It's good for turning natural materials into dust, and being the first step of advanced ore processing."
 	]
 	quest.7EDC103B9424A115.title: "Crush"
-	quest.7EE3C83D0BF37910.quest_subtitle: "(Introduce in Chapter 3)"
 	reward.6F5D987AD3171268.title: "Klink Joins the Guild"
 	reward_table.324557F3A55EA536.title: "Pledges"
 	reward_table.45A8B0FAFF573F9C.title: "Smart Rewards"
+	reward_table.46625899F45FA5E3.title: "5x Friend Ball"
+	reward_table.56AD45462FC10A05.title: "Sleeping Bag"
 	task.00BACF868F130380.title: "4x64 Charcoal"
 	task.01AFE6B5F75F9708.title: "Understood"
 	task.01D407E3051BCC44.title: "Any Cave Dragon Food"
@@ -1235,19 +1465,23 @@
 	task.0443033F3FF4F768.title: "Kerosene"
 	task.04B526EC3C7417A6.title: "Understood"
 	task.0624199736CE2BB7.title: "Understood"
+	task.081DAA0DB5C15127.title: "Heck Yes"
 	task.09069C3509A42F83.title: "Understood"
 	task.0A8D6163481E0D5C.title: "Any #cobblemon:mints"
 	task.0AC5C18B39143601.title: "Understood"
 	task.0CCE78AED87AC9B4.title: "Understood"
 	task.0D5AA7E800B160D3.title: "Understood"
+	task.0DCD9D6A50976997.title: "Beaten"
 	task.0F17964A34C2D44F.title: "Found"
-	task.0F312AD9B4AB1C09.title: "Any #dragonsurvival:dragon_treasures"
+	task.0F312AD9B4AB1C09.title: "Any Treasure"
 	task.104BAC91C8C9DCAF.title: "Sea Dragon Considerations"
 	task.1325D664F6217B94.title: "Wow!"
 	task.135D1281D64D4329.title: "Understood"
 	task.14830C57CD511151.title: "This is who I am..."
 	task.148C4BEE59253A1F.title: "Decor Your Train Out"
+	task.174DB4DFDA006738.title: "Oh my god, oh my god, oh my god..."
 	task.180E36A68E5D7A5B.title: "Any Toolbox"
+	task.1838749E4E196F01.title: "controls"
 	task.1918877266F1A840.title: "Any Log"
 	task.191A111D66937578.title: "Understood"
 	task.1BB15023852ED2D1.title: "Understood"
@@ -1266,15 +1500,20 @@
 	task.23B3CF8AE8F81B3A.title: "4x64 Wooden Planks"
 	task.23E5B0E290D3DDC2.title: "4x64 Mechanical Belts"
 	task.24069D56347CFB96.title: "understood"
+	task.2596A500CD9E8771.title: "Understood"
 	task.25DA2C2FAE1DBE86.title: "Time to Become a Dragon"
 	task.262A9AD39DA6C709.title: "16x64 Steel Ingots"
+	task.27EFAFD252197917.title: "About Battling Guilds and Leveling"
 	task.297520682E165D85.title: "Understood"
 	task.2999F111EFE9985C.title: "8x64 Copper Ingots"
 	task.2AAA1B474A5FECA4.title: "Any Sea Dragon Food"
 	task.2BD65D01EF00B899.title: "Understood"
+	task.2C08C6D0ACF1FB6B.title: "Hmmm..."
 	task.2D20B4E08234FA02.title: "Any Treasure"
+	task.2DA93F9DB05FD3F8.title: "item 1"
 	task.2F6DA397BD086931.title: "I'll try the Create way!"
 	task.320C10207214AB04.title: "It worked!"
+	task.3332821A9E8D08C0.title: "Let's Go"
 	task.33CB184B1FB6B249.title: "The Path of Automation"
 	task.34EB311F52B79867.title: "Understood"
 	task.353EFBCA41774DBA.title: "This is who I am..."
@@ -1283,17 +1522,20 @@
 	task.3975EFD1F8378985.title: "Denote a Nuke on Mercury"
 	task.3979674975BAE636.title: "8x16 Brass Ingots"
 	task.3A0F57279675471B.title: "Red Slurry"
+	task.3A1209E76DA8F12A.title: "item 3"
 	task.3A1D1A87E9A70C12.title: "This is who I am..."
 	task.3D5B6D0595D09E2A.title: "Understood"
 	task.3E79E5F7152A36DE.title: "Oh hell yeah!"
 	task.415D3F65CEB96CF5.title: "Ethelene and propylene "
 	task.41A8BFB8CF65604D.title: "4x64 Large Cogwheels"
+	task.430E3184AA1ED1D5.title: "item 2"
 	task.46AA680FC9346250.title: "Any Apricorn Sprout"
 	task.4866D6DFDEF08745.title: "Understood"
 	task.48A3FB6657A75D4A.title: "Tom's Storage Section"
 	task.49320E4EB0B4AD3B.title: "Understood"
 	task.4A81998FDA29266C.title: "Understood"
 	task.4B66ECB603A7F93B.title: "Huh"
+	task.4B86F399F7CBB2A1.title: "Understood"
 	task.4C99529B87EB4831.title: "Any #oritech:plating"
 	task.4CF6B3F652C261C5.title: "Understood"
 	task.4D42956ED1B19328.title: "Understood"
@@ -1302,6 +1544,7 @@
 	task.4E7D01421BFDDAFD.title: "4x64 Prismarine Shards"
 	task.501D5AEA12506680.title: "How to Build and Operate a Rocket"
 	task.5110F2760E3FB00E.title: "I'll try the Oritech way!"
+	task.51CA601758F0D298.title: "Understood"
 	task.54CC66CE0D47AA53.title: "4x64 Cogwheels"
 	task.54F207600232EEB0.title: "Found Oil!"
 	task.55EBEF59C628B35B.title: "Understood"
@@ -1310,17 +1553,20 @@
 	task.579ECBE69A1D03F0.title: "Any Sapling"
 	task.5B82A994EAF03B85.title: "Time to be reborn"
 	task.5C05CB2182DB2DEE.title: "Dragon Passion"
+	task.5CA5658A91B1A4DE.title: "We are all sons of Arcanine now"
 	task.5CE8455D76A1A5C4.title: "Understood"
 	task.5D6230BD55D544AB.title: "Understood"
 	task.5ECBE56A18782DC8.title: "Understood"
 	task.5F2B6C08EBB5F45B.title: "Any Apricorn"
 	task.62181154F14B523B.title: "I'm Ready"
+	task.62EF7EFF0742288A.title: "Any #cobblemon:tier_1_poke_balls"
+	task.649E968AE4248CA0.title: "Select your Partner"
 	task.65C73643A770AAF2.title: "Any 32 Basic Pokeballs"
 	task.667322DF91FCF5B2.title: "Ethelene and  propylene "
 	task.6736993618769277.title: "4x64 Shafts"
 	task.6DAC00F53624AFAD.title: "Any Dragon Altar"
 	task.6ED66D8C4C1A967E.title: "How to Use JEI"
-	task.6FE6E357DD4F212E.title: "About the Questbook"
+	task.6FE6E357DD4F212E.title: "Understood"
 	task.7216A33D2F32D9D1.title: "Any Backpack"
 	task.7394EBA49B1DED38.title: "Any #minecraft:planks"
 	task.739E84BBF8AFBD82.title: "From A to B"

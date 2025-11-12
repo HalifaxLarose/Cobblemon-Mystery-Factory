@@ -21,6 +21,9 @@ ServerEvents.recipes(event => {
         
         // Post-Distillation
         { filter: { output: "oritech:machine_fluid_addon"}, original: "createaddition:electrum_ingot", replaceWith: "oritech:reinforced_carbon_sheet"},
+        { filter: { output: "oritech:drone_port_block"}, original: "oritech:super_ai_chip", replaceWith: "northstar:circuit"},
+        { filter: { output: "oritech:drone_port_block"}, original: "oritech:superconductor", replaceWith: "oritech:basic_battery"},
+        { filter: { output: "oritech:drone_port_block"}, original: "oritech:advanced_computing_engine", replaceWith: "create:propeller"},
 
 
         // Pumpjack recipes
@@ -30,15 +33,18 @@ ServerEvents.recipes(event => {
         { filter: { output: `${CDG}:pumpjack_crank`}, original: "create:iron_sheet", replaceWith: "create:sturdy_sheet"},
         { filter: { output: `${CDG}:pumpjack_head`}, original: "create:zinc_ingot", replaceWith: STEEL},
         { filter: { output: `${CDG}:pumpjack_head`}, original: "minecraft:dried_kelp", replaceWith: 'oritech:silicon'},
+
     ]
 
     const replacementOutput = [
     ]
 
     replacementInput.forEach((recipe) => {
+        event.replaceInput(recipe.filter, recipe.original, recipe.replaceWith)
     })
 
 
     replacementOutput.forEach((recipe) => {
+        event.replaceOutput(recipe.filter, recipe.original, recipe.replaceWith)
     })
 })

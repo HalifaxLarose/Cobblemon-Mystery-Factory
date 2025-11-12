@@ -42,26 +42,32 @@ syncChiseledBookshelves = true
 	#Smithing will propagate the Contaminants of the base Item and added Item to the result
 	propagateSmithing = true
 
+#.
+[compatibility]
+
 	#.
-	[contamination.create]
+	[compatibility.create]
+
 		#.
-		#How many mB of Fluid should be considered to be equal to one Item when weighting preserved Contaminants in any Recipes involving Fluids
-		#Set to 0 to not count the Contaminants of input Fluids. Contaminants will still propagate to output Fluids.
-		# Default: 100.0
-		# Range: 0.0 ~ 3.4028234663852886E38
-		fluidWeight = 100.0
-		#.
-		#Recipes done in a Basin will propagate the Contaminants of the input to the outputs
-		propagateBasin = true
-		#.
-		#Recipes done by Millstones and Crushing Wheels will propagate the Contaminants of the input to the outputs
-		propagateCrushing = true
-		#.
-		#Manual Sandpaper Polishing Recipes will propagate the Contaminants of the input to the output
-		propagateSanding = true
-		#.
-		#Cutting Recipes will propagate the Contaminants of the input to the output
-		propagateCutting = true
-		#.
-		#Pressing, Deploying, Washing and all Mechanical Fan Recipes propagate the Contaminants of the input to the outputs
-		propagateOther = true
+		[compatibility.create.contamination]
+			#.
+			#How many mB of Fluid should be considered to be equal to one Item when weighting preserved Contaminants in any Recipes involving Fluids
+			#Set to 0 to not count the Contaminants of input Fluids. Contaminants will still propagate to output Fluids.
+			# Default: 100.0
+			# Range: 0.0 ~ 3.4028234663852886E38
+			fluidWeight = 100.0
+			#.
+			#Recipes done in a Basin will propagate the Contaminants of the input to the outputs
+			propagateBasin = true
+			#.
+			#Recipes done by Millstones and Crushing Wheels will propagate the Contaminants of the input to the outputs
+			propagateCrushing = true
+			#.
+			#Manual Sandpaper Polishing Recipes will propagate the Contaminants of the input to the output
+			propagateSanding = true
+			#.
+			#Cutting Recipes will propagate the Contaminants of the input to the output
+			propagateCutting = true
+			#.
+			#Pressing, Deploying, Washing and all Mechanical Fan Recipes propagate the Contaminants of the input to the outputs
+			propagateOther = true

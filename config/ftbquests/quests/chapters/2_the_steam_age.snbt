@@ -286,9 +286,6 @@
 			dependencies: [
 				"4C08103DE08919AF"
 				"6E4E34426C883504"
-				"1FE27F926442DEC7"
-				"2D8BA21FB58CE620"
-				"64446935A72B9350"
 			]
 			id: "2769D96526B7A2FE"
 			shape: "gear"
@@ -791,8 +788,11 @@
 					count: 32
 					id: "7EE8602ABA3CA0CD"
 					item: {
+						components: {
+							"ftbquests:missing_item": "blocksyouneed_luna:starchart"
+						}
 						count: 1
-						id: "blocksyouneed_luna:starchart"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1147,6 +1147,7 @@
 			y: 21.5d
 		}
 		{
+			dependencies: ["2769D96526B7A2FE"]
 			icon: {
 				id: "create:large_cogwheel"
 			}
@@ -1175,23 +1176,11 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 16.0d
-		}
-		{
-			id: "2D8BA21FB58CE620"
-			shape: "diamond"
-			size: 1.0d
-			tasks: [{
-				count: 64L
-				id: "7C3775A9ECA1D534"
-				item: { count: 1, id: "cobblemon:great_ball" }
-				type: "item"
-			}]
 			x: 2.5d
-			y: 16.5d
+			y: 17.0d
 		}
 		{
+			dependencies: ["2769D96526B7A2FE"]
 			icon: {
 				id: "minecraft:oak_sapling"
 			}
@@ -1202,8 +1191,23 @@
 				id: "34EB311F52B79867"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 18.0d
+		}
+		{
+			dependencies: ["2769D96526B7A2FE"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "6947F9E2737E3051"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "2596A500CD9E8771"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 16.0d
 		}
 	]
 }

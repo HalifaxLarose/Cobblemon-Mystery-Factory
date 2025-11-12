@@ -14,52 +14,9 @@ ServerEvents.recipes(event => {
     //         }
     //     ]
     // })
-    event.custom({
-        type: "create:mixing",
-        "ingredients": [
-            {
-                "item": "northstar:sodium_catalyst",
-            },
-            {
-                "type": "fluid_stack",
-                "fluid": "northstar:carbon",
-                "amount": 500,
-            },
-            {
-                "type": "fluid_stack",
-                "fluid": "kubejs:kerosene",
-                "amount": 500,
-            },
-        ],
-        "results": [{
-            amount: 500,
-            id: "northstar:hydrocarbon"
-        }],
-        "heat_requirement": "superheated",
-    });
-
-    // Cracking recipes
-    event.custom({
-        "type": "dndesires:hydraulic_compacting",
-        "heat_requirement": "superheated",
-        "ingredients": [
-            {
-                "type": "fluid_stack",
-                "fluid": "oritech:still_heavy_oil",
-                "amount": 100
-            },
-            {
-                "tag": "minecraft:sand",
-                count: 1
-            }
-        ],
-        "results": [{
-            id: "oritech:polymer_resin",
-            count: 3
-        }]
-    })
 
 
+    // region Plating
     // Plating
     const STEEL = 'oritech:steel_ingot';
     // Iron plates
@@ -75,8 +32,8 @@ ServerEvents.recipes(event => {
             event.recipes.create.pressing(ironPlatingTransitional, ironPlatingTransitional),
         ]
     )
-    .transitionalItem(ironPlatingTransitional)
-    .loops(2)
+        .transitionalItem(ironPlatingTransitional)
+        .loops(2)
     // Note: there is no manual crafting for this item on purpose, unless I change my mind
 
 
@@ -92,8 +49,8 @@ ServerEvents.recipes(event => {
             event.recipes.create.pressing(copperPlatingTransitional, copperPlatingTransitional),
         ]
     )
-    .transitionalItem(copperPlatingTransitional)
-    .loops(3)
+        .transitionalItem(copperPlatingTransitional)
+        .loops(3)
 
     // "Brass" plating
     const nickelPlatingTransitional = 'kubejs:example_item';
@@ -108,9 +65,10 @@ ServerEvents.recipes(event => {
             event.recipes.create.pressing(nickelPlatingTransitional, nickelPlatingTransitional),
         ]
     )
-    .transitionalItem(nickelPlatingTransitional)
-    .loops(1)
+        .transitionalItem(nickelPlatingTransitional)
+        .loops(1)
 
+    // region oil processing
     // Carbon Gas
     event.custom({
         "type": "dndesires:hydraulic_compacting",
@@ -177,4 +135,72 @@ ServerEvents.recipes(event => {
             amount: 500
         }]
     })
+
+    event.custom({
+        type: "create:mixing",
+        "ingredients": [
+            {
+                "item": "northstar:sodium_catalyst",
+            },
+            {
+                "type": "fluid_stack",
+                "fluid": "northstar:carbon",
+                "amount": 500,
+            },
+            {
+                "type": "fluid_stack",
+                "fluid": "kubejs:kerosene",
+                "amount": 500,
+            },
+        ],
+        "results": [{
+            amount: 500,
+            id: "northstar:hydrocarbon"
+        }],
+        "heat_requirement": "superheated",
+    });
+
+    // Cracking recipes
+    event.custom({
+        "type": "dndesires:hydraulic_compacting",
+        "heat_requirement": "superheated",
+        "ingredients": [
+            {
+                "type": "fluid_stack",
+                "fluid": "oritech:still_heavy_oil",
+                "amount": 100
+            },
+            {
+                "tag": "minecraft:sand",
+                count: 1
+            }
+        ],
+        "results": [{
+            id: "oritech:polymer_resin",
+            count: 3
+        }]
+    })
+
+
+    // #region Circuitry
+    const processing_unit_transitional = 'northstar:unfinished_circuit'
+    event.recipes.create.sequenced_assembly(
+        // Outputs:
+        [
+            CreateItem.of('oritech:processing_unit', 1.0), // Main output, will appear in JEI as the result
+        ],
+        // Input:
+        'ccbr:integrated_circuit',
+        // Sequence:
+        [
+            // The transitional item is a constant, that is 'kubejs:incomplete_spore_blossom' and is used during the intermediate stages of the assembly.
+            // Like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item.
+            event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'create:electron_tube']),
+            event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'createaddition:electrum_wire']),
+            event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'createaddition:electrum_wire']),
+            event.recipes.create.pressing(processing_unit_transitional, processing_unit_transitional)
+        ]
+    )
+        .transitionalItem(processing_unit_transitional) // Set the transitional item
+        .loops(1) // Set the number of loops
 })

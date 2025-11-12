@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["111CF8517DF1F154"]
+			dependencies: ["45D0E4FC6DA40041"]
 			hide_until_deps_complete: true
 			icon: {
 				components: {

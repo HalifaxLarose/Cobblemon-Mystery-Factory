@@ -52,15 +52,8 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddons.create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "goggles.detailed": false,
-    "placard": true
+  "create_mechanical_chicken": {
+    "data": true
   },
   "jade_access": {
     "held_item": true,
@@ -95,11 +88,8 @@
   "balm": {
     "jade": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
-  "jadeaddons.lootr": {
-    "info": true
+  "ars_nouveau": {
+    "mob_jar": true
   },
   "toms_storage": {
     "inventory_config": true,
@@ -114,13 +104,13 @@
   "gravestone": {
     "grave": true
   },
+  "mechanical_cow": {
+    "data": true
+  },
   "toms_peripherals": {
     "modem_info": true,
     "full_modem_info": true,
     "wdt_info": true
-  },
-  "camera": {
-    "image_frame": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

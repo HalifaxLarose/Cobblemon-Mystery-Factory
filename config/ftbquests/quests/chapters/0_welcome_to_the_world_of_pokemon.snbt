@@ -4,6 +4,12 @@
 	default_quest_size: 1.5d
 	filename: "0_welcome_to_the_world_of_pokemon"
 	group: "25AFFF4BEEB54E90"
+	icon: {
+		components: {
+			"ftbquests:icon": "cobblemon:item/advancements/cobblemon_logo"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "41FBEFF9BD4C1ECB"
 	order_index: 0
 	quest_links: [ ]
@@ -42,24 +48,6 @@
 			}]
 			x: 3.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["55A4CEB1697ABFA6"]
-			icon: {
-				components: {
-					"ftbquests:icon": "create:textures/gui/logo.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "07C1943969D81782"
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "09069C3509A42F83"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 3.0d
 		}
 		{
 			dependencies: ["55A4CEB1697ABFA6"]
@@ -147,52 +135,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"725E1A54E3ECBDA3"
-				"150F9D369115D63A"
-				"44B8C7DFFBC08CB9"
-				"21E78150F0DE810B"
-			]
-			id: "111CF8517DF1F154"
-			min_required_dependencies: 1
-			rewards: [
-				{
-					id: "1C1E9BA8ECEA2659"
-					item: {
-						count: 1
-						id: "comforts:sleeping_bag_white"
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "38449E3CCF143872"
-					item: {
-						count: 1
-						id: "cobblemon:poke_ball"
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "7B965037DE90F316"
-					item: {
-						count: 1
-						id: "cobblemon:potion"
-					}
-					type: "item"
-				}
-			]
-			shape: "pentagon"
-			size: 5.0d
-			tasks: [{
-				id: "135D1281D64D4329"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: -20.0d
-		}
-		{
 			dependencies: ["3386DE3C85EDBBB6"]
 			icon: {
 				id: "minecraft:totem_of_undying"
@@ -239,6 +181,92 @@
 			}]
 			x: -3.75d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"21E78150F0DE810B"
+				"725E1A54E3ECBDA3"
+				"150F9D369115D63A"
+				"44B8C7DFFBC08CB9"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/heart"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "11F3D6C1162DF9A5"
+			optional: true
+			shape: "heart"
+			size: 4.0d
+			tasks: [{
+				advancement: "cobblemon:root"
+				criterion: ""
+				id: "649E968AE4248CA0"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["11F3D6C1162DF9A5"]
+			icon: {
+				components: {
+					"ftbquests:icon": "supplementaries:item/globe"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "45D0E4FC6DA40041"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BB7DF062D865C0A"
+					table_id: 6245724425983953413L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46882D06A969F2F0"
+					table_id: 5071713548625749475L
+					type: "choice"
+				}
+				{
+					count: 5
+					id: "2DA574E7CE24E57F"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6FF7B588D4599830"
+					item: {
+						count: 1
+						id: "farmersdelight:egg_sandwich"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "070ED450C40FE4BD"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 6.0d
+			tasks: [{
+				id: "3332821A9E8D08C0"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -25.5d
 		}
 	]
 }

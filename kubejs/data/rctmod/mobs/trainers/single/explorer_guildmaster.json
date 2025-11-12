@@ -1,0 +1,26 @@
+{
+  "battleCooldownTicks": 240,
+  "biomeTagBlacklist": [
+    "is_void",
+    "is_nether",
+    "is_end",
+    "is_spooky"
+  ],
+  "biomeTagWhitelist": [
+    "has_structure/village_desert",
+    "has_structure/village_plains",
+    "has_structure/village_savanna",
+    "has_structure/village_snowy",
+    "has_structure/village_taiga"
+  ],
+  "maxTrainerDefeats": 1,
+  "maxTrainerWins": -1,
+  "optional": false,
+  "requiredDefeats": [],
+  "series": [
+    "cobblemonmysteryfactory"
+  ],
+  "signatureItem": "minecraft:emerald",
+  "spawnWeightFactor": 0.25,
+  "type": "guildmaster"
+}

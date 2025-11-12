@@ -5,8 +5,14 @@
 	filename: "request_board"
 	group: "530E09679D7CD852"
 	hide_quest_until_deps_complete: true
+	icon: {
+		components: {
+			"ftbquests:icon": "dndecor:block/old/symbol_signs/exclamation_point"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "2E8A6C11C883B7F0"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -498,25 +504,6 @@
 			]
 			x: -7.0d
 			y: 19.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["7B40E692C6B23D11"]
-			id: "21E35D25C796F819"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6134D057C9AC2DBE"
-				table_id: 5019456376776638364L
-				type: "choice"
-			}]
-			tasks: [{
-				count: 16L
-				id: "31F8FEF6702535C8"
-				item: { count: 1, id: "minecraft:redstone" }
-				type: "item"
-			}]
-			x: -18.0d
-			y: -12.0d
 		}
 		{
 			dependencies: ["6467039452212EB0"]
