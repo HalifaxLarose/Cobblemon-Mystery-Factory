@@ -27,4 +27,21 @@ ServerEvents.recipes(event => {
             "time": 200
         }
     )
+
+    event.custom({
+        "type": "oritech:assembler",
+        "ingredients": [
+            { "tag": "oritech:plating" },
+            { "tag": "oritech:plating" },
+            { "item": "oritech:steel_ingot" },
+            { "item": "create:brass_ingot" },
+        ],
+        "results": [
+            {
+                "count": 3,
+                "id": "oritech:reactor_wall"
+            }
+        ],
+        "time": 96
+    })
 })

@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
     const CDG = "createdieselgenerators";
     const STEEL = "#c:ingots/steel";
     const TITANIUM = "northstar:titanium_ingot"
+    const ORI_PLATING = '#oritech:plating'
     event.shaped(
         Item.of('oritech:assembler_block', 1),
         [
@@ -46,7 +47,7 @@ ServerEvents.recipes(event => {
         }
     )
 
-    // Plating
+    // Plating & Machine blocks
     event.shaped(
         Item.of('oritech:iron_plating_block', 1),
         [
@@ -60,7 +61,7 @@ ServerEvents.recipes(event => {
         },
     );
     event.shaped(
-        Item.of('oritech:iron_plating_block', 6),
+        Item.of('oritech:iron_plating_block', 8),
         [
             " S ",
             "SCS",
@@ -84,7 +85,7 @@ ServerEvents.recipes(event => {
         },
     );
     event.shaped(
-        Item.of('oritech:machine_plating_block', 6),
+        Item.of('oritech:machine_plating_block', 8),
         [
             " S ",
             "SCS",
@@ -125,6 +126,19 @@ ServerEvents.recipes(event => {
             C: "oritech:reinforced_carbon_sheet"
         },
     );
+    event.shaped(
+        'oritech:machine_extender',
+        [
+            ' S ',
+            'SPS',
+            ' S ',
+        ], {
+            S: 'oritech:plastic_sheet',
+            P: ORI_PLATING
+        }
+    )
+
+
 
     event.shapeless(
         Item.of('dndesires:asphalt', 1), // arg 1: output

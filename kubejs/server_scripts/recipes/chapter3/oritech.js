@@ -620,28 +620,13 @@ function assembler_recipes(event) {
         ],
         "time": CREATE_ASSEMBLY_TIME
     })
-    event.custom({
-        "type": "oritech:assembler",
-        "ingredients": [
-            { "item": "create:item_vault" },
-            { "item": "minecraft:slime_ball" },
-            { "item": "create:andesite_alloy" },
-        ],
-        "results": [
-            {
-                "count": CREATE_ASSEMBLY_BONUS_RATIO,
-                "id": "create:package_frogport"
-            }
-        ],
-        "time": CREATE_ASSEMBLY_TIME
-    })
 
     // Addons
     event.custom({
         "type": "oritech:assembler",
         "ingredients": [
             { "item": "create:brass_sheet" },
-            { "tag": "c:glass_pane" },
+            { "tag": "c:glass_panes" },
         ],
         "results": [
             {
