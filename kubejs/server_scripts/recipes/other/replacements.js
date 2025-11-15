@@ -9,9 +9,14 @@ ServerEvents.recipes(event => {
         // Electrum unification
         {filter: {output: "oritech:electrum_ingot"}, original: "oritech:electrum_ingot", replaceWith:"createaddition:electrum_ingot"},
         {filter: {input: "oritech:electrum_block"}, original: "oritech:electrum_block", replaceWith:"createaddition:electrum_block"},
+        
+        // Degating fun elytra upgrades, since otherwise its post game
+        {filter: {input: "minecraft:elytra"}, original: "minecraft:elytra", replaceWith:"createcardboardthings:cardboard_elytra"},
+        
     ]
-
+    
     const replacementOutput = [
+        {filter: {input: "createornithopterglider:elytra_piece"}, original: "minecraft:elytra", replaceWith:"createcardboardthings:cardboard_elytra"},
     ]
 
     replacementInput.forEach((recipe) => {

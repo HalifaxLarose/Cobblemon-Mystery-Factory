@@ -268,5 +268,24 @@
 			x: -2.0d
 			y: -25.5d
 		}
+		{
+			id: "7F4398083FC8242C"
+			rewards: [{
+				count: 3
+				id: "1A55051C70BE56AF"
+				item: {
+					count: 1
+					id: "create_deepfried:sweet_berry_chocolate_glazed_donut"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "5CAEFA36CA0BFA74"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
 	]
 }

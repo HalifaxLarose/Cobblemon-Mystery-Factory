@@ -17,56 +17,58 @@ ServerEvents.recipes(event => {
 
 
     // region Plating
-    // Plating
     const STEEL = 'oritech:steel_ingot';
+    // NOTE: I decided that using the mechanical crafter to automate these are more interesting than sequential assembly.
+    // We have a lot of sequential assembly recipes.
+
     // Iron plates
-    const ironPlatingTransitional = 'kubejs:example_item';
-    event.recipes.create.sequenced_assembly(
-        [
-            CreateItem.of('oritech:iron_plating_block')
-        ],
-        'create:andesite_casing',
-        [
-            event.recipes.create.deploying(ironPlatingTransitional, [ironPlatingTransitional, 'create:iron_sheet']),
-            event.recipes.create.deploying(ironPlatingTransitional, [ironPlatingTransitional, STEEL]),
-            event.recipes.create.pressing(ironPlatingTransitional, ironPlatingTransitional),
-        ]
-    )
-        .transitionalItem(ironPlatingTransitional)
-        .loops(2)
+    // const ironPlatingTransitional = 'kubejs:example_item';
+    // event.recipes.create.sequenced_assembly(
+    //     [
+    //         CreateItem.of('oritech:iron_plating_block')
+    //     ],
+    //     'create:andesite_casing',
+    //     [
+    //         event.recipes.create.deploying(ironPlatingTransitional, [ironPlatingTransitional, 'create:iron_sheet']),
+    //         event.recipes.create.deploying(ironPlatingTransitional, [ironPlatingTransitional, STEEL]),
+    //         event.recipes.create.pressing(ironPlatingTransitional, ironPlatingTransitional),
+    //     ]
+    // )
+    //     .transitionalItem(ironPlatingTransitional)
+    //     .loops(2)
     // Note: there is no manual crafting for this item on purpose, unless I change my mind
 
 
     // Copper Plating
-    const copperPlatingTransitional = 'kubejs:example_item'
-    event.recipes.create.sequenced_assembly(
-        [
-            CreateItem.of('oritech:machine_plating_block')
-        ],
-        'create:copper_casing',
-        [
-            event.recipes.create.deploying(copperPlatingTransitional, [copperPlatingTransitional, STEEL]),
-            event.recipes.create.pressing(copperPlatingTransitional, copperPlatingTransitional),
-        ]
-    )
-        .transitionalItem(copperPlatingTransitional)
-        .loops(3)
+    // const copperPlatingTransitional = 'kubejs:example_item'
+    // event.recipes.create.sequenced_assembly(
+    //     [
+    //         CreateItem.of('oritech:machine_plating_block')
+    //     ],
+    //     'create:copper_casing',
+    //     [
+    //         event.recipes.create.deploying(copperPlatingTransitional, [copperPlatingTransitional, STEEL]),
+    //         event.recipes.create.pressing(copperPlatingTransitional, copperPlatingTransitional),
+    //     ]
+    // )
+    //     .transitionalItem(copperPlatingTransitional)
+    //     .loops(3)
 
     // "Brass" plating
-    const nickelPlatingTransitional = 'kubejs:example_item';
-    event.recipes.create.sequenced_assembly(
-        [
-            CreateItem.of('oritech:nickel_plating_block')
-        ],
-        'create:brass_casing',
-        [
-            event.recipes.create.deploying(nickelPlatingTransitional, [nickelPlatingTransitional, STEEL]),
-            event.recipes.create.deploying(nickelPlatingTransitional, [nickelPlatingTransitional, STEEL]),
-            event.recipes.create.pressing(nickelPlatingTransitional, nickelPlatingTransitional),
-        ]
-    )
-        .transitionalItem(nickelPlatingTransitional)
-        .loops(1)
+    // const nickelPlatingTransitional = 'kubejs:example_item';
+    // event.recipes.create.sequenced_assembly(
+    //     [
+    //         CreateItem.of('oritech:nickel_plating_block')
+    //     ],
+    //     'create:brass_casing',
+    //     [
+    //         event.recipes.create.deploying(nickelPlatingTransitional, [nickelPlatingTransitional, STEEL]),
+    //         event.recipes.create.deploying(nickelPlatingTransitional, [nickelPlatingTransitional, STEEL]),
+    //         event.recipes.create.pressing(nickelPlatingTransitional, nickelPlatingTransitional),
+    //     ]
+    // )
+    //     .transitionalItem(nickelPlatingTransitional)
+    //     .loops(1)
 
     // region oil processing
     // Carbon Gas
@@ -160,26 +162,54 @@ ServerEvents.recipes(event => {
         "heat_requirement": "superheated",
     });
 
-    // Cracking recipes
-    event.custom({
-        "type": "dndesires:hydraulic_compacting",
-        "heat_requirement": "superheated",
-        "ingredients": [
-            {
-                "type": "fluid_stack",
-                "fluid": "oritech:still_heavy_oil",
-                "amount": 100
-            },
-            {
-                "tag": "minecraft:sand",
-                count: 1
-            }
-        ],
-        "results": [{
-            id: "oritech:polymer_resin",
-            count: 3
-        }]
-    })
+    event.recipes.create.mixing(
+        Item.of("createdieselgenerators:asphalt_block", 16),
+        [
+            'minecraft:sand',
+            'minecraft:gravel',
+            Fluid.of('kubejs:bitumen', 100)
+        ]
+    ) 
+
+    // event.recipes.create.mixing(
+    //     [
+    //         Fluid.of('northstar:methane', 500),
+    //         Fluid.of('kubejs:butane', 300),
+    //         Fluid.of('createdieselgenerators:gasoline', 200)
+    //     ],
+    //     Fluid.of('kubejs:light_petroleum_gas', 1000)
+    // ).heated()
+
+    // #region Blaze Cakes
+    const BLAZE_RATIOS = [
+        ["northstar:methane", 50],
+        ['oritech:still_sheol_fire', 100],
+        ["kubejs:light_petroleum_gas", 120],
+        ['kubejs:butane', 180],
+        ['createdieselgenerators:gasoline', 200],
+        ['oritech:still_naphtha', 220],
+        ['kubejs:kerosene', 250],
+        ['oritech:still_heavy_oil', 500],
+        ['kubejs:heavy_residual_crude_oil', 1000],
+        ['kubejs:industrial_crude_oil', 2500],
+        ['createdieselgenerators:crude_oil', 4000]
+    ]
+
+    for (let blaze_ratio of BLAZE_RATIOS) {
+        event.recipes.create.filling(
+            'create:blaze_cake',
+            [
+                Fluid.of(blaze_ratio[0], blaze_ratio[1]),
+                'create:blaze_cake_base'
+            ]
+        )
+    }
+
+
+    event.recipes.create.compacting(
+        [Item.of('oritech:polymer_resin', 2)],
+        [Fluid.of('kubejs:butane', 100), 'minecraft:sand'],
+    ).heated()
 
 
     // #region Circuitry
@@ -203,4 +233,80 @@ ServerEvents.recipes(event => {
     )
         .transitionalItem(processing_unit_transitional) // Set the transitional item
         .loops(1) // Set the number of loops
+        
+    // Northstar uses some exclusive machines so we'll have to fallback to custom events
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+            "item": "oritech:plastic_sheet"
+        },
+        "loops": 3,
+        "results": [
+            {
+                "id": "northstar:circuit",
+                count: 1
+            }
+        ],
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "northstar:unfinished_circuit"
+                    },
+                    [
+                        {
+                            "item": "oritech:processing_unit"
+                        },
+                    ]
+                ],
+                "results": [
+                    {
+                        "id": "northstar:unfinished_circuit"
+                    }
+                ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "northstar:unfinished_circuit"
+                    },
+                    [
+                        {
+                            "item": "northstar:polished_amethyst"
+                        },
+                    ]
+                ],
+                "results": [
+                    {
+                        "id": "northstar:unfinished_circuit"
+                    }
+                ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "northstar:unfinished_circuit"
+                    },
+                    [
+                        {
+                            "item": "createaddition:electrum_wire"
+                        },
+                    ]
+                ],
+                "results": [
+                    {
+                        "id": "northstar:unfinished_circuit"
+                    }
+                ]
+            },
+        ],
+        "transitional_item": {
+            "id": "northstar:unfinished_circuit"
+        }
+    })
+    
+
 })

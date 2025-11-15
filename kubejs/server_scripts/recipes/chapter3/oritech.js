@@ -1,25 +1,26 @@
 ServerEvents.recipes(event => {
     assembler_recipes(event);
 
-    // Further oil refining
+
+    // #region Redstone automation
     event.custom({
         "type": "oritech:refinery",
         "fluidInput": {
-            "amount": 1000,
-            "fluid": "createdieselgenerators:crude_oil"
+            "amount": 80,
+            "fluid": "oritech:still_sulfuric_acid"
         },
-        "time": 60,
-        "fluidOutputs": [
-            { "fluid": "kubejs:industrial_crude_oil", "amount": 750, },
-            { "fluid": "oritech:still_sulfuric_acid", "amount": 250, },
+        "ingredients": [
+            {
+                "item": "oritech:iron_dust",
+            }
         ],
-        "ingredients": [],
+        "time": 15,
+        "fluidOutputs": [
+            { "fluid": "kubejs:red_slurry", "amount": 100, },
+        ],
         "results": []
     })
-
-    // Redstone automation
     event.custom({
-
         "type": "oritech:centrifuge_fluid",
         "fluidInput": {
             "amount": 500,
@@ -41,28 +42,77 @@ ServerEvents.recipes(event => {
             }
         ],
         "time": 60
+    })
 
+    // #region Oil Processing
+    // Further oil refining
+    event.custom({
+        "type": "oritech:refinery",
+        "fluidInput": {
+            "amount": 1000,
+            "fluid": "createdieselgenerators:crude_oil"
+        },
+        "time": 60,
+        "fluidOutputs": [
+            { "fluid": "kubejs:industrial_crude_oil", "amount": 750, },
+            { "fluid": "oritech:still_sulfuric_acid", "amount": 250, },
+        ],
+        "ingredients": [],
+        "results": []
     })
     event.custom({
         "type": "oritech:refinery",
         "fluidInput": {
-            "amount": 80,
-            "fluid": "oritech:still_sulfuric_acid"
+            "amount": 1000,
+            "fluid": "kubejs:light_petroleum_gas"
         },
-        "ingredients": [
-            {
-                "item": "oritech:iron_dust",
-            }
-        ],
-        "time": 15,
+        "time": 60,
         "fluidOutputs": [
-            { "fluid": "kubejs:red_slurry", "amount": 100, },
+            { "fluid": "createdieselgenerators:gasoline", "amount": 200, },
+            { "fluid": "kubejs:butane", "amount": 300, },
+            { "fluid": "northstar:methane", "amount": 500, },
         ],
+        "ingredients": [],
         "results": []
     })
+    // event.recipes.create.mixing(
+    //     [
+    //         Fluid.of('northstar:methane', 500),
+    //         Fluid.of('kubejs:butane', 300),
+    //         Fluid.of('createdieselgenerators:gasoline', 200)
+    //     ],
+    //     Fluid.of('kubejs:light_petroleum_gas', 1000)
+    // ).heated()
 })
 
+
+// #region Assembler
 function assembler_recipes(event) {
+    event.custom({
+        "type": "oritech:assembler",
+        "ingredients": [
+            {
+                "item": "oritech:plastic_sheet"
+            },
+            {
+                "item": "oritech:carbon_fibre_strands"
+            },
+            {
+                "tag": "c:ingots/electrum"
+            },
+            {
+                "item": "create:electron_tube"
+            }
+        ],
+        "results": [
+            {
+                "count": 1,
+                "id": "oritech:processing_unit"
+            }
+        ],
+        "time": 96
+    })
+    
     // A LOT of assembler re
     const CREATE_ASSEMBLY_TIME = 32;
     const CREATE_ASSEMBLY_BONUS_RATIO = 3;

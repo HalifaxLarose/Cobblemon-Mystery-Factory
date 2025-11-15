@@ -73,11 +73,7 @@
 	]
 	quest.0534F8B494547CC4.quest_subtitle: "The Otherside"
 	quest.0534F8B494547CC4.title: "The Silent Guild"
-	quest.06093EAE5484C273.quest_desc: [
-		"Asphalt can be made from either bitumen, or heavy residual oil."
-		""
-		"It has one bonus: you walk faster on it."
-	]
+	quest.06093EAE5484C273.quest_desc: ["Asphalt has one bonus that makes it worth considering: you can walk faster on it."]
 	quest.064EC8C54AECDF13.quest_desc: [
 		"The gearbox is an incredibly dear friend. It branches rotational power into three different directions at once!"
 		""
@@ -220,7 +216,7 @@
 	quest.0F4BA454F283D62A.quest_subtitle: "This is hella nerfed"
 	quest.0F9AC6CC69E801FB.quest_subtitle: "Plastic ingredient"
 	quest.0F9AC6CC69E801FB.title: "Light Naphtha"
-	quest.108410E4B63C51E8.quest_desc: ["You can wash gravel to uncover flint and iron nuggets burried beneath. You may want to use the storage drawer filtering trick to separate them from the assembly line."]
+	quest.108410E4B63C51E8.quest_desc: ["You can wash gravel to uncover iron nuggets burried beneath."]
 	quest.10B277D07A049ED3.quest_desc: [
 		"This thing's lame."
 		""
@@ -247,7 +243,7 @@
 	quest.12A50EF8D8C5FBCF.quest_desc: [
 		"The assembler is a large upgrade to your factory. It specializes in crafting complicated parts."
 		""
-		"A few items can only be made in assemblers, but some machines you have been crafting up until now can be made more efficiently in the assembler. &nThis includes most Create machines!&r Most of them have tripled output!"
+		"A few items can only be made in assemblers, but some machines you have been crafting up until now can be made more efficiently in the assembler. &nThis includes most &6Create machines!&r&r Most of them have tripled output!"
 	]
 	quest.12A50EF8D8C5FBCF.title: "Get Free Extra Stuff!"
 	quest.138F71A191933F1E.quest_desc: ["You can probably guess how these work."]
@@ -302,6 +298,11 @@
 	quest.16BB19A7F443711D.title: "Bonus Ore"
 	quest.170301E9D65331BD.quest_desc: ["Elder Dragon Hearts will age adult dragons. If an adult dragon grows old enough, they will become an ancient dragon, and be particularly large."]
 	quest.170301E9D65331BD.title: "Become a Boomer"
+	quest.172BC54EE5CD221C.quest_desc: [
+		"Carbon gas can be most easily made by using a &ehydraulic press&r on &6coal&r while heated."
+		""
+		"Do not that it can not be picked up in a bucket, hence the checkmark."
+	]
 	quest.17676283D431B0BF.quest_desc: ["This asphalt has the same bonus, but can be dyed."]
 	quest.17676283D431B0BF.title: "A different Asphalt"
 	quest.18CC4766C0E8DC95.quest_desc: [
@@ -331,6 +332,14 @@
 	]
 	quest.19EA3845F442D5D9.title: "Get More Inventory Space"
 	quest.1A256334D9A27F87.quest_desc: ["It's not just enough to have a train. No, you need to make a power statement to the other guilds. Inspire awe and fear, and make the best, sleekest train of anyone's imagination! It's important to the health and growth of the guild!!"]
+	quest.1A6ED99315CDE5DD.quest_desc: [
+		"\"Lanturn of the Explorer's Guild.\""
+		""
+		"\"I like to explore oceans, and I've found quite a bit of sponges from my adventures. I have more than I need: I'll give it away for andesite alloy!\""
+		""
+		"If you're a sea dragon, this may be a good way to make space underwater for bulk smelting."
+	]
+	quest.1A6ED99315CDE5DD.title: "\"Trade for Sponges!\""
 	quest.1AAEA0D75666479B.quest_desc: [
 		"You need tracks for the train to go places, obviously."
 		""
@@ -345,7 +354,7 @@
 		"You can see all your abilities in the dragon tab of the dragon inventory menu."
 	]
 	quest.1AAFB7BD5BA0BB83.title: "Dragon Magic"
-	quest.1ABBA2172F6E4963.quest_desc: ["I'm worried about overwhelming players with information though"]
+	quest.1ABBA2172F6E4963.quest_desc: ["I don't know how Tom's Storage Mod should work but it'd go here."]
 	quest.1B2D84A8C5E84512.quest_desc: ["Instead of automating antidotes, awakenings, etc., it is much easier to just farm status healing berries directly."]
 	quest.1B2D84A8C5E84512.title: "Automate Berries"
 	quest.1B2E19172641070F.quest_desc: [
@@ -429,7 +438,7 @@
 		""
 		"It seems like the items Archen is willing to trade can do filtering. An advanced engineer should be able to take great advantage of them."
 	]
-	quest.21E35D25C796F819.title: "\"Willing to make a trade!\""
+	quest.21E35D25C796F819.title: "\"Brass for Redstone!\""
 	quest.21E78150F0DE810B.quest_desc: [
 		"You do not wish to become a mighty dragon. You are accustomed to the strength of the human body, which represents who you are the most. Your hands guide you through life."
 		""
@@ -508,8 +517,9 @@
 		"Have fun learning about the world of micro and macro logistics!"
 	]
 	quest.2832E128EB1B2DB9.title: "Welcome"
+	quest.293E7252B6BE58F3.quest_desc: ["Laser enabler pew pew"]
 	quest.29D6C25365290376.quest_desc: [
-		"You can distill this product to get more of everything you already produced, plus two more oils: bitumen and Heavy Oil (not to be confnused with Heavy Residual Crude Oil). However, you will need superheating in order to process heavy oil further."
+		"You can &edistill&r this product to get more of everything you already produced, plus two more oils: &6bitumen&r and &6Refined Heavy Oil&r (not to be confnused with Heavy Residual Crude Oil). However, you will need &esuperheating&r in order to process heavy oil further."
 		""
 		"Processed heavy oil will have two uses."
 	]
@@ -524,6 +534,13 @@
 	quest.2A93CFA2627ED3F8.title: "MORE POWER!"
 	quest.2B2CEC1E023328E9.quest_desc: ["With access to electrum, you can now make large connectors and electrum wire. The former connects more wires at once, while electrum wire can handle more charge going through it at once. Not that you'll have any need for electrum for awhile."]
 	quest.2B5A21EBF14E93C0.quest_desc: ["The refinery takes either a fluid, or a fluid and item, can make up to three different fluid outputs."]
+	quest.2B9CEC108ACDEF88.quest_desc: [
+		"\"Hariyama of the Treasure Guild here.\""
+		""
+		"\"Will press iron with my fists for coal.\""
+		""
+		"This may be a nice way to save some time."
+	]
 	quest.2B9CEC108ACDEF88.title: "\"Will Press for You!\""
 	quest.2BCFE2AFBCB166AC.title: "Travel to Mars"
 	quest.2BDF2361DAF97D58.quest_desc: [
@@ -543,7 +560,7 @@
 	]
 	quest.2BEB21989E67AA14.title: "\"Please, keep your factory safe!\""
 	quest.2C8C9E07C7D3E5AD.quest_subtitle: "You may need these later"
-	quest.2D3935A777CEC349.quest_desc: ["Crafted from centrifuging an ender pearl, enderic compounds have a couple of uses, most which came later. It is a necessary step for power tools, however."]
+	quest.2D3935A777CEC349.quest_desc: ["Crafted from &ecentrifuging&r an &6ender pearl&r, enderic compounds have a couple of uses, most which came later. It is a necessary step for power tools, however."]
 	quest.2D60596BED788EEA.quest_desc: ["The modern computer has many uses and applications that can ease automation and production in your factory. Too bad you have no idea how to use this."]
 	quest.2D60596BED788EEA.title: "Skipping Ahead in the Tech Tree"
 	quest.2D7FDEA914582A3F.quest_desc: [
@@ -609,6 +626,11 @@
 	]
 	quest.3232BBC81F5B7D13.quest_desc: ["Like doors, steps and ramps will be flat while the train is moving, but will transform  to help passengers reach the train from the station."]
 	quest.32752DB90B322E59.quest_subtitle: "Rocket fuel ingredient"
+	quest.33297A73CFB10E08.quest_desc: [
+		"The Oritech version of a fuel generator lets you turn fuel directly into electricity."
+		""
+		"It is not known if this is more efficient than converting the kinetic diesel generators into electricity or not. I haven't had time to do the math."
+	]
 	quest.3360599F5B1838CB.quest_desc: [
 		"Since the recipe for an iron ingot is a 3x3 square of nuggets, they can be compacted with a mechanical press."
 		""
@@ -644,9 +666,9 @@
 		"It should be simpler to set up than doing things the Create way, but it may operate slower, and the resource costs are different."
 	]
 	quest.3758CA898101FABE.title: "The Oritech Way"
-	quest.37B1AF0DCF9C5E39.quest_desc: ["Also, it can not be used as rocket fuel."]
-	quest.37B1AF0DCF9C5E39.quest_subtitle: "Needs one more processing step"
-	quest.380A0B685B2A3EDC.quest_subtitle: "Can be used in diesel generators. Is also a very powerful furnace fuel"
+	quest.37B1AF0DCF9C5E39.quest_desc: ["Alternatively, it can be refined into Kerosene to make more rocket fuel."]
+	quest.37B1AF0DCF9C5E39.quest_subtitle: "The BEST blaze cake ingredient"
+	quest.380A0B685B2A3EDC.quest_subtitle: "Can be used in diesel generators. It is also very powerful for heating blazes."
 	quest.3822D6A78D6FEE85.quest_subtitle: "For those weak flightless humans"
 	quest.3822D6A78D6FEE85.title: "Exosuit"
 	quest.3856928B0D0AA67A.quest_desc: ["A train station is used to determine stopping points of automated trains. In addition, they give you the controls to actually start building a train."]
@@ -665,6 +687,7 @@
 		""
 		"As you grow older and stronger, you will be able to tolerate your land allergy better. There are also treats you can eat to negate your weakness for awhile."
 	]
+	quest.38EF57763A9510EC.quest_desc: ["This one is unique for letting build many in a row while only requiring you to input fuel to the first one."]
 	quest.3955CAB3E422B099.quest_desc: [
 		"The dubious container has a couple of uses. Some you can use now, some you can use later. But there may be one more use for it not listed here..."
 		""
@@ -738,12 +761,22 @@
 	quest.3E6B4140D204B499.quest_desc: ["Dragons can place special sources of magic to gain infinite mana temporarily. They're ideal for your own private lair within your guild!"]
 	quest.3E6B4140D204B499.title: "Source of Magic"
 	quest.3FD4C8C666C4977B.quest_desc: [
-		"The most complex recipe of this chapter, you can combine gravel, flint, and lava in a basin under a press to create andesite."
+		"The most complex recipe of this chapter, you can combine gravel, flint, and lava &nin a basin under a press&r to create andesite."
 		""
 		"If spliting the gravel from your iron farm is too much of a headache, you can always build a second cobblestone generator."
 		""
 		"Working with fluids is covered in chapter 2."
 	]
+	quest.4001F7C3479071EE.quest_desc: [
+		"\"I'm Banette of the Death Guild.\""
+		""
+		"\"I love rotten flesh...\""
+		""
+		"\"Please, give it to me, I got shiny pearls to trade...\""
+		""
+		"\"Keheheheh.\""
+	]
+	quest.4001F7C3479071EE.title: "\"Kehehehehe\""
 	quest.40985C639992F2DC.quest_desc: [
 		"Level 20"
 		"Grass and Water"
@@ -773,6 +806,11 @@
 		"Be warned: a water wheel can only provide \"stress units\", which you can think of as power. If you want to power multiple machines, you'll need to build multiple water wheels."
 	]
 	quest.41606AF427A479A1.title: "Automated Power Please"
+	quest.41B0C6106C9FC751.quest_desc: [
+		"All of these are necessary components for building a functioning pumpjack."
+		""
+		"&nIn addition, you'll need a lot of fluid pipes.&r Enough to reach bedrock from the surface."
+	]
 	quest.41B3D4B4B97A5FCF.quest_desc: [
 		"You can plant many saplings into a circular field, and a let mechanical saws spin around. When the saplings grow, the saws will cut down the entire tree, picking up all its contents and placing it in the storage interface."
 		""
@@ -790,7 +828,12 @@
 	]
 	quest.42346B8878F610DA.quest_subtitle: "Don't be scared of Redstone!"
 	quest.42346B8878F610DA.title: "Logic Tools of Interest"
-	quest.425C799A70DE09BF.title: "Acidify your production line"
+	quest.425C799A70DE09BF.quest_desc: [
+		"Sulphuric Acid can be used on various &6clumps of ore&r to create &6gems&r using a &ecentrifuge with a fluid addon&r. These gems can smelted for ingots, and this process is incredibly efficient."
+		""
+		"It also have other uses, including automating &6redstone&r"
+	]
+	quest.425C799A70DE09BF.title: "Acidify Your Production Line"
 	quest.43C5A3753F2AAA6A.quest_desc: [
 		"The spout is used splash fluids onto items, or to fill up buckets and glass bottles."
 		""
@@ -802,14 +845,14 @@
 	quest.44AE71346FC5369B.quest_desc: [
 		"Heavy oil can be used for two things:"
 		""
-		"You can make plastic from it by using the hydraulic press."
+		"1) You can make polymer resin from it by using the hydraulic press and superheated blaze burners."
 		""
-		"Or, you can put it in an Oritech refinery to create diesel and some leftover naphtha and sulphuric acid."
+		"2) Or, you can put it in an Oritech refinery to create diesel and some leftover naphtha and sulphuric acid. If you then convert the naphtha to plastic, you'll still create half as much plastic."
 		""
 		"Real life oil refinery does get this complicated."
 	]
 	quest.44AE71346FC5369B.quest_subtitle: "Superheat for more fun!"
-	quest.44AE71346FC5369B.title: "Heavy Oil Products"
+	quest.44AE71346FC5369B.title: "Heavy Oil Product"
 	quest.44B8C7DFFBC08CB9.quest_desc: [
 		"You are passionate. Self-determined. Your soul guides you through life. When you set your eyes on something, you use hard work and persistence to accomplish your goals, even when you’re overwhelmed by how confusing and chaotic the world is. You do not fear failure, for real failure is to not try at all."
 		""
@@ -839,6 +882,7 @@
 	]
 	quest.45D0E4FC6DA40041.quest_subtitle: "Chapter 0a, 0b, 1 Unlocked"
 	quest.45D0E4FC6DA40041.title: "Let the Adventure Begin"
+	quest.45F01D8B0C98DD80.quest_desc: ["Your basic generator."]
 	quest.471CDA944D6A8C40.quest_desc: [
 		"The chute is similar to a funnel in that it will take items out of storage or put them into storage."
 		""
@@ -882,6 +926,11 @@
 		"\"And who knows, maybe you'll be able to make it to Mars to visit our guild some day.\""
 	]
 	quest.499806AC57624041.title: "Advanced Engineering"
+	quest.4AED9CB632D9D82F.quest_desc: [
+		"Mark down where you found oil."
+		""
+		"It's likely that the best source of oil may be far from your base. Thankfully you have trains to transport materials too and from."
+	]
 	quest.4AED9CB632D9D82F.title: "Find some Oil"
 	quest.4C08103DE08919AF.quest_desc: [
 		"You need to make a brass hand to make a deployer."
@@ -890,9 +939,11 @@
 	]
 	quest.4C9850CFFBA0FE8B.quest_desc: ["You can also make gold sheets. They're not nearly as helpful iron sheets, but they still have uses."]
 	quest.4CCA8EDAF63EF4FC.quest_desc: [
-		"Blaze cakes can be made with any oil product except bitumen. Alternatively, they can be made with sheol fire, which is made by putting lava into an Oritech refinery."
+		"Blaze cakes can be made with &6any oil product&r except bitumen. Alternatively, they can be made with &6sheol fire&r, which is made by putting lava into an &eOritech refinery&r."
 		""
 		"When fed to a blaze burner, the blaze burner will become \"superheated\", which will enable it to do some extra special recipes, including the step necessary to create rocket fuel."
+		""
+		"The order of recipe efficiency is: &6Methane&r > &6Sheol Fire&r > &6Light Petroleum Gas&r > &6Butane&r > &6Gasoline&r > &6Naphtha&r > &6Kerosene&r > &6Heavy Oil&r > &6Heavy Redisual Crude Oil&r > &6Industrial Crude Oil&r > &6Crude Oil&r"
 	]
 	quest.4D69AE23A428224C.quest_subtitle: "Fortune enchantment for your Oritech quarries"
 	quest.4D84153928AA6768.quest_subtitle: "Gotta go green!"
@@ -905,6 +956,14 @@
 	]
 	quest.4DCE48D4B2A596FA.quest_subtitle: "This is more important than you might think"
 	quest.4DCE48D4B2A596FA.title: "Astronomy"
+	quest.4DFF5804574428EE.quest_desc: [
+		"\"Hello, I'm just a random joe schmoe Pangoro. No guild affiliation.\""
+		""
+		"\"I'm selling bamboo for from zinc ingots. I want to decorate my home with more copycat blocks.\""
+		""
+		"Bamboo is needed to craft scaffolding. This may be valuable."
+	]
+	quest.4DFF5804574428EE.title: "\"Selling Bamboo\""
 	quest.4E00B85073B1DC78.quest_desc: [
 		"The magic of Create is the ability to craft your own moving \"contraptions\" comprised of multiple blocks. This is required for farms that use the saw and the harvester, as you'll want those machines to spin around to catch newly grown crops."
 		""
@@ -1103,7 +1162,6 @@
 	quest.5D304AD3C66A4942.quest_desc: ["The stressometer allows you to see the total stress units available for the entire mechanical network. It'll let you upgrade power before things break."]
 	quest.5D304AD3C66A4942.title: "How Stressed Are You?"
 	quest.5D416510290959B2.title: "yeah"
-	quest.5DC2A64D173354DE.title: "Alternative Plastic"
 	quest.5EEE56D7B236EFB2.quest_desc: [
 		"\"Hello, I'm Auroras of the End Guild. We believe that destruction is the natural order of things, and that by embracing it, you connect to the world on a deeper, more spiritual level.\""
 		""
@@ -1128,6 +1186,11 @@
 	]
 	quest.5FF98D1BE52A53C8.quest_subtitle: "A Server's Nightmare!"
 	quest.5FF98D1BE52A53C8.title: "Chunk Loading!"
+	quest.60806FF62BA5A20A.quest_desc: [
+		"This is needed to craft &6titanium&r."
+		""
+		"Do not be confused by the recipe requiring chlorine gas: you do not have access to it for awhile."
+	]
 	quest.60830DE9CF9FADC6.quest_desc: [
 		"You can get the base ingredients for a pokeball, but alas, you lack the tools to do the final assembly."
 		""
@@ -1187,6 +1250,13 @@
 		"The accumulator is a block that does such."
 	]
 	quest.667413DDB3A31753.title: "Store Your Energy"
+	quest.66B834D216407F46.quest_desc: [
+		"You wonder why you really needed to build the handle out of steel or how carbon fibres were needed, but oh well."
+		""
+		"Right clicking with the oil scan will try to detect if the chunk you stand in has oil. Different chunks will have different levels of oil. Chunks with the highest level of oil will have an infinite amount of oil."
+		""
+		"Ideal oil biomes are: savannas, deserts, badlands, plains, and oceans."
+	]
 	quest.66E15C13252F4BEC.quest_desc: [
 		"Dragons don't sleep on beds. They sleep on treasure."
 		""
@@ -1216,7 +1286,7 @@
 	quest.68DCD5A34A0573BC.quest_desc: [
 		"Don't be fooled by the first recipe for carbon gas. You can't get sodium in liquid form until later."
 		""
-		"For now, you'll need to superheat mix sodium catalyst, kerosene, and carbon gas."
+		"For now, you'll need to &esuperheat mix&r &6sodium catalyst&r, &6kerosene&r, and &6carbon gas&r."
 	]
 	quest.68DCD5A34A0573BC.title: "ROCKET FUEL"
 	quest.6947F9E2737E3051.quest_desc: ["With the deployer, you will now be able to automate pokeballs."]
@@ -1225,7 +1295,7 @@
 	quest.6B2F817CE9E4F096.quest_desc: ["But ony while its on Earth, does nothing on the moon."]
 	quest.6B2F817CE9E4F096.quest_subtitle: "Creates Oxygen"
 	quest.6B44F59994831E7D.title: "Internal Cooling Components"
-	quest.6C28D99B4CB48AA7.quest_subtitle: "Alternative way to craft plastic"
+	quest.6C28D99B4CB48AA7.quest_subtitle: "Alternative way to craft plastic. Also a very powerful furnace fuel."
 	quest.6C5B4E15F1203397.quest_subtitle: "Gotta go fast!"
 	quest.6C846C8CBA9DA3A6.quest_desc: ["The mechanical pipette is similar to the mechanical arm, except it transports fluids instead of items."]
 	quest.6C846C8CBA9DA3A6.title: "Wet Arm"
@@ -1260,10 +1330,10 @@
 		""
 		"Try it by searching up some of our deco mods:"
 		"- &b@macaw&r"
-		"- &b@need&r"
 		"- &b@copycats&r"
 		"- &b@chimes&r"
 		"- &b@night&r"
+		"- &b@girder&r"
 	]
 	quest.6E321FBE3B2DC9B3.title: "Check out the Deco!"
 	quest.6E4DC0FB20FCB6CF.quest_desc: [
@@ -1394,6 +1464,14 @@
 	]
 	quest.79400E10CEF4CA8C.quest_desc: ["Weak Dragon Hearts will accelerate the growth of newborns into adult dragons."]
 	quest.79400E10CEF4CA8C.title: "Become an Adult"
+	quest.798C4E7B006FAE84.quest_desc: [
+		"\"Hello Sea Cobblemon, whether your sea fish, sea amphibians, sea mammals, or sea dragons -\""
+		""
+		"\"It can be hard to adventure into caves without drying out. A handy bucket can help! I, Golett of the Life Guild, can offer you buckets, just in return I ask for some kelp, which is hard for me to gather. Let's help each other!\""
+		""
+		"If you're a sea dragon, this deal may be necessary."
+	]
+	quest.798C4E7B006FAE84.title: "\"A Bucket for you Sea Mon!\""
 	quest.79D45F11481CBD19.quest_desc: [
 		"The mechanical paver can destroy blocks in the way like a drill, but it also has convenient features of being able to place blocks far below it as it works. This is extremely useful for trains, as it means you can get a solid road beneath your tracks without having to manually change every block along the track."
 		""
@@ -1410,6 +1488,9 @@
 	]
 	quest.79D8A38D25FD6FEB.quest_subtitle: "Automate EVERYTHING!"
 	quest.79D8A38D25FD6FEB.title: "Automated Crafting"
+	quest.79E63D9D2CDA8374.quest_desc: ["This one takes up quite a bit of space, but is the most efficient for converting fuel into SU."]
+	quest.7ACFE06E7557CAC8.quest_desc: ["Goodra will give you slime for a sandwich"]
+	quest.7ACFE06E7557CAC8.title: "egg"
 	quest.7B40E692C6B23D11.quest_desc: [
 		"You craft a press, and are excited to make materials no claw can make on its own. Now to just assemble it."
 		""
@@ -1451,6 +1532,26 @@
 		"It's good for turning natural materials into dust, and being the first step of advanced ore processing."
 	]
 	quest.7EDC103B9424A115.title: "Crush"
+	quest.7F4398083FC8242C.quest_desc: [
+		"An &zextra special thanks&r to all who had a hand in the development of this pack:"
+		"- TheOverlyCaffeinatedTrashPanda"
+		"- MikoBot"
+		"- Winter"
+		"- StarFalcon"
+		"- MagMati"
+		"- Ethanicuss"
+		""
+		"A special thanks to:"
+		"- Solaxy"
+		"- Lasky"
+		"- TheChargingRhino"
+		""
+		""
+		"And thank you to the the entire Cobblemon Mystery Factory Discord server. Thank yo so much for sharing me your excitement for this pack!"
+		""
+		"Create: Cobblemon Mystery Factory is created by BestLizard."
+	]
+	quest.7F4398083FC8242C.title: "Credits"
 	reward.6F5D987AD3171268.title: "Klink Joins the Guild"
 	reward_table.324557F3A55EA536.title: "Pledges"
 	reward_table.45A8B0FAFF573F9C.title: "Smart Rewards"
@@ -1554,6 +1655,7 @@
 	task.5B82A994EAF03B85.title: "Time to be reborn"
 	task.5C05CB2182DB2DEE.title: "Dragon Passion"
 	task.5CA5658A91B1A4DE.title: "We are all sons of Arcanine now"
+	task.5CAEFA36CA0BFA74.title: "<3"
 	task.5CE8455D76A1A5C4.title: "Understood"
 	task.5D6230BD55D544AB.title: "Understood"
 	task.5ECBE56A18782DC8.title: "Understood"

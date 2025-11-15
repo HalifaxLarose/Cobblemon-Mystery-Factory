@@ -74,7 +74,7 @@ ServerEvents.recipes(event => {
             {
                 "type": "fluid_stack",
                 "fluid": "oritech:still_heavy_oil",
-                "amount": 100
+                "amount": 1000
             },
             {
                 "tag": "minecraft:sand",
@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
         ],
         "results": [{
             id: "oritech:polymer_resin",
-            count: 3
+            count: 4
         }]
     })
 })

@@ -14,6 +14,10 @@ ServerEvents.recipes(event => {
         {filter: {output: "oritech:steam_engine_block"}, original: "oritech:basic_generator_block", replaceWith:"create:steam_engine"},
         {filter: {output: "oritech:lava_generator_block"}, original: "#oritech:plating", replaceWith: "create:copper_casing"},
 
+
+        { filter: {output: "trashcans:energy_trash_can"}, original: "#c:stones", replaceWith: "create:brass_sheet" },
+
+
         // Chapter 2B
         {filter: {output: "oritech:destroyer_block"}, original: "oritech:laser_arm_block", replaceWith:"minecraft:ender_pearl"},
         {filter: {output: "oritech:destroyer_block"}, original: "oritech:pulverizer_block", replaceWith:"createaddition:tesla_coil"},

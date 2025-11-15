@@ -126,6 +126,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "32752DB90B322E59"
+			min_required_dependencies: 1
 			shape: "heart"
 			size: 2.0d
 			tasks: [{
@@ -262,10 +263,21 @@
 		{
 			dependencies: ["433141BA6C552F74"]
 			id: "172BC54EE5CD221C"
-			tasks: [{
-				id: "1FDE64D9A907DA0C"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "1FDE64D9A907DA0C"
+					type: "checkmark"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "northstar:carbon"
+					}
+					id: "3B5ACB0076871718"
+					optional_task: true
+					type: "fluid"
+				}
+			]
 			x: -3.75d
 			y: 14.25d
 		}
@@ -295,7 +307,7 @@
 			dependencies: ["225EB1B9C530866D"]
 			id: "42B7C34E32827EB8"
 			tasks: [{
-				count: 9L
+				count: 13L
 				id: "7C37C2815CE0433A"
 				item: { count: 1, id: "northstar:hardened_precision_mechanism" }
 				type: "item"
@@ -556,9 +568,11 @@
 			dependencies: [
 				"0F9AC6CC69E801FB"
 				"44AE71346FC5369B"
+				"6C28D99B4CB48AA7"
 			]
 			dependency_requirement: "one_completed"
 			id: "5894CCB21F6146D4"
+			min_required_dependencies: 1
 			tasks: [{
 				id: "2B6F42895DC3BBD7"
 				item: { count: 1, id: "oritech:polymer_resin" }
@@ -617,15 +631,15 @@
 			y: 5.25d
 		}
 		{
-			dependencies: ["29D6C25365290376"]
+			dependencies: ["2F854177096A5AD9"]
 			id: "06093EAE5484C273"
 			tasks: [{
 				id: "4FB298FF7E5C0B60"
 				item: { count: 1, id: "createdieselgenerators:asphalt_block" }
 				type: "item"
 			}]
-			x: 0.75d
-			y: 2.75d
+			x: 1.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["0A80791CD01A78C4"]
@@ -664,6 +678,7 @@
 		}
 		{
 			dependencies: ["5F3F882E32837478"]
+			hide_dependent_lines: true
 			id: "6C28D99B4CB48AA7"
 			optional: true
 			tasks: [{
@@ -672,18 +687,6 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 5.25d
-		}
-		{
-			dependencies: ["6C28D99B4CB48AA7"]
-			id: "5DC2A64D173354DE"
-			optional: true
-			tasks: [{
-				id: "3982AD6C261BBAF3"
-				item: { count: 1, id: "oritech:plastic_sheet" }
-				type: "item"
-			}]
-			x: -12.75d
 			y: 5.25d
 		}
 		{

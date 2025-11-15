@@ -2,6 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	default_quest_size: 2.0d
+	default_repeatable_quest: true
 	filename: "marketplace"
 	group: "530E09679D7CD852"
 	icon: {
@@ -14,6 +15,9 @@
 		{
 			can_repeat: true
 			dependencies: ["7B40E692C6B23D11"]
+			icon: {
+				id: "create:brass_funnel"
+			}
 			id: "21E35D25C796F819"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -27,11 +31,15 @@
 				item: { count: 1, id: "minecraft:redstone" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["7B40E692C6B23D11"]
+			icon: {
+				id: "create:iron_sheet"
+			}
 			id: "2B9CEC108ACDEF88"
 			rewards: [{
 				count: 64
@@ -58,8 +66,122 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -4.0d
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["45D0E4FC6DA40041"]
+			icon: {
+				id: "minecraft:bucket"
+			}
+			id: "798C4E7B006FAE84"
+			rewards: [{
+				id: "6CCC701A24EEF342"
+				item: {
+					count: 1
+					id: "minecraft:bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "36CA0447ED8A112B"
+				item: { count: 1, id: "minecraft:kelp" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7B40E692C6B23D11"]
+			icon: {
+				id: "minecraft:sponge"
+			}
+			id: "1A6ED99315CDE5DD"
+			rewards: [{
+				id: "151E50D0D7B547A4"
+				item: {
+					count: 1
+					id: "minecraft:sponge"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "268AED71AFBC8B69"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6467039452212EB0"]
+			icon: {
+				id: "minecraft:bamboo"
+			}
+			id: "4DFF5804574428EE"
+			rewards: [{
+				count: 8
+				id: "022A80D037D68BDD"
+				item: {
+					count: 1
+					id: "minecraft:bamboo"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "5AA59863D6F771C1"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["762C57887356A993"]
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "4001F7C3479071EE"
+			rewards: [{
+				id: "4FA010A0E42E9EFA"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "1EBF13D77926B047"
+				item: { count: 1, id: "minecraft:rotten_flesh" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6467039452212EB0"]
+			id: "7ACFE06E7557CAC8"
+			rewards: [{
+				id: "2D01A02534910FAE"
+				item: {
+					count: 1
+					id: "minecraft:slime_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2027D9F787A2D59B"
+				item: { count: 1, id: "farmersdelight:egg_sandwich" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
 		}
 	]
 }
