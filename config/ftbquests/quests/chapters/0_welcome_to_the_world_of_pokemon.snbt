@@ -258,6 +258,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "73D2D73EFC8A917E"
+					item: {
+						count: 1
+						id: "rctmod:trainer_card"
+					}
+					type: "item"
+				}
 			]
 			shape: "pentagon"
 			size: 6.0d

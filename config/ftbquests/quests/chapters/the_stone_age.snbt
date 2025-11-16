@@ -128,6 +128,11 @@
 				"31BC7B591DD81EDB"
 			]
 			id: "7B40E692C6B23D11"
+			rewards: [{
+				id: "2152E1E5AB957035"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -176,7 +181,7 @@
 			id: "2D60596BED788EEA"
 			rewards: [
 				{
-					count: 5
+					count: 12
 					id: "788F489413FE5D7F"
 					item: {
 						count: 1
@@ -185,7 +190,7 @@
 					type: "item"
 				}
 				{
-					count: 3
+					count: 6
 					id: "4A732B84188DF6C1"
 					item: {
 						count: 1
@@ -198,6 +203,14 @@
 					item: {
 						count: 1
 						id: "cobblemon:upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "0C18ABDAE431C6BB"
+					item: {
+						count: 1
+						id: "cobblemon:luxury_ball"
 					}
 					type: "item"
 				}
@@ -225,6 +238,14 @@
 		{
 			dependencies: ["41606AF427A479A1"]
 			id: "2A93CFA2627ED3F8"
+			rewards: [{
+				id: "51F8F8E0BCA59AB2"
+				item: {
+					count: 1
+					id: "create:flywheel"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1998A4500AEDABF2"
 				item: { count: 1, id: "create:large_water_wheel" }
@@ -247,6 +268,14 @@
 		{
 			dependencies: ["47816EB4E84EE905"]
 			id: "138F71A191933F1E"
+			rewards: [{
+				id: "7A1649F9DABD35BA"
+				item: {
+					count: 1
+					id: "create:sweet_roll"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2306FFD9DFBDAE34"
 				item: { count: 1, id: "create:shaft" }
@@ -258,6 +287,14 @@
 		{
 			dependencies: ["138F71A191933F1E"]
 			id: "44286D097B53FD39"
+			rewards: [{
+				id: "74A1C2D253B51CC1"
+				item: {
+					count: 1
+					id: "create:sweet_roll"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E5F4C2809E4E7D8"
 				item: { count: 1, id: "create:cogwheel" }
@@ -269,6 +306,14 @@
 		{
 			dependencies: ["44286D097B53FD39"]
 			id: "31789F4CD0EA4FF2"
+			rewards: [{
+				id: "6A2AAB3CEE984B1E"
+				item: {
+					count: 1
+					id: "simpletms:tr_sweetkiss"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3FE1771B9FAA8422"
 				item: { count: 1, id: "create:large_cogwheel" }
@@ -280,6 +325,15 @@
 		{
 			dependencies: ["47816EB4E84EE905"]
 			id: "5F9A7918F706602E"
+			rewards: [{
+				count: 16
+				id: "3CB857B12A215C5B"
+				item: {
+					count: 1
+					id: "minecraft:chain"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "33D0B6765AD63B19"
 				item: { count: 1, id: "create:encased_chain_drive" }
@@ -291,6 +345,15 @@
 		{
 			dependencies: ["47816EB4E84EE905"]
 			id: "064EC8C54AECDF13"
+			rewards: [{
+				count: 4
+				id: "709D19751FDAAFBE"
+				item: {
+					count: 1
+					id: "create:gearbox"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "10B20FAA992FF9FC"
 				item: { count: 1, id: "create:gearbox" }
@@ -302,6 +365,15 @@
 		{
 			dependencies: ["47816EB4E84EE905"]
 			id: "2188014C24C00AB0"
+			rewards: [{
+				count: 16
+				id: "605BDDEA26B446DC"
+				item: {
+					count: 1
+					id: "create:cogwheel"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "194EA6E52D97518B"
@@ -320,6 +392,12 @@
 		{
 			dependencies: ["21B2F0553C8DA3C1"]
 			id: "7709D40C9E7FE1FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "575C980170E3F44A"
+				table_id: 976022542794356194L
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4985F83217ED0317"
@@ -378,6 +456,25 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "68E5DCF806D73493"
+					table_id: 976022542794356194L
+					type: "choice"
+				}
+				{
+					id: "50AF74FBEA726BE7"
+					table_id: 8353554483474007301L
+					type: "random"
+				}
+				{
+					id: "5E3C7640B6FD6EE5"
+					item: {
+						count: 1
+						id: "cobblemon:ability_patch"
+					}
+					type: "item"
+				}
 			]
 			shape: "pentagon"
 			size: 3.0d
@@ -419,15 +516,32 @@
 		{
 			dependencies: ["21B2F0553C8DA3C1"]
 			id: "70165EEF2890AD6F"
-			rewards: [{
-				count: 32
-				id: "10E9FD24538AE2FA"
-				item: {
-					count: 1
-					id: "create:metal_girder"
+			rewards: [
+				{
+					count: 48
+					id: "10E9FD24538AE2FA"
+					item: {
+						count: 1
+						id: "create:metal_girder"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 16
+					id: "39201C24A7C497A7"
+					item: {
+						count: 1
+						id: "oritech:metal_girder_block"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1829DF8474224F30"
+					table_id: 976022542794356194L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "7213F3C100B0CA87"
@@ -440,6 +554,15 @@
 		{
 			dependencies: ["138F71A191933F1E"]
 			id: "6791BE0D013450EB"
+			rewards: [{
+				count: 8
+				id: "260B7928BCAD47FF"
+				item: {
+					count: 1
+					id: "create:shaft"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FB2870D3C97FBC6"
 				item: { count: 1, id: "petrolsparts:corner_shaft" }
@@ -478,6 +601,26 @@
 			}]
 			x: -3.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["530E15A5BD357D09"]
+			id: "65A187D1388A1809"
+			rewards: [{
+				count: 3
+				id: "069D557D13431CA4"
+				item: {
+					count: 1
+					id: "farmersdelight:bacon_sandwich"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A76359C41B1BE03"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 }

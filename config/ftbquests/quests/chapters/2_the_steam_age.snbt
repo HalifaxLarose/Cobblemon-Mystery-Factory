@@ -156,24 +156,14 @@
 				id: "create:blaze_burner"
 			}
 			id: "0E7FFBC699E11EA4"
-			rewards: [
-				{
-					id: "4DB812E47738C96B"
-					item: {
-						count: 1
-						id: "simpletms:tr_firespin"
-					}
-					type: "item"
+			rewards: [{
+				id: "4DB812E47738C96B"
+				item: {
+					count: 1
+					id: "simpletms:tr_firespin"
 				}
-				{
-					id: "7D537D8C90261669"
-					item: {
-						count: 1
-						id: "plushie_buddies:plushie_blaze"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 8L
@@ -328,6 +318,14 @@
 					item: {
 						count: 1
 						id: "cobblemon:fire_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "52CA5E28168BA70F"
+					item: {
+						count: 1
+						id: "simpletms:tm_steamroller"
 					}
 					type: "item"
 				}
@@ -599,6 +597,20 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "48525D4F0704196F"
+					table_id: 8403049648178631864L
+					type: "choice"
+				}
+				{
+					id: "1B0C79A8BD5BCAC7"
+					item: {
+						count: 1
+						id: "cobblemon_utility:goldencap"
+					}
+					type: "item"
+				}
 			]
 			shape: "pentagon"
 			size: 4.0d
@@ -657,6 +669,14 @@
 		{
 			dependencies: ["6D160C05DD00036A"]
 			id: "3B9E88B89A7251CE"
+			rewards: [{
+				id: "057B81A381E5FEFB"
+				item: {
+					count: 1
+					id: "plushie_buddies:plushie_axolotl"
+				}
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "521D8C1CBD23EF90"
@@ -673,14 +693,24 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "3E00F73FA0DC4DEB"
-			rewards: [{
-				id: "4CFE2DD3EF39C895"
-				item: {
-					count: 1
-					id: "cobblemon:metronome"
+			rewards: [
+				{
+					id: "4CFE2DD3EF39C895"
+					item: {
+						count: 1
+						id: "cobblemon:metronome"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0C0D6BB3F486562F"
+					item: {
+						count: 1
+						id: "simpletms:tm_metronome"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "586A4093C0A99DE6"
 				item: { count: 1, id: "fluid:baton" }
@@ -728,14 +758,22 @@
 		{
 			dependencies: ["3A1B3C0A77F150EC"]
 			id: "3D7ED057FEC4A03C"
-			rewards: [{
-				id: "2F5E702C34084111"
-				item: {
-					count: 1
-					id: "cobblemon:quick_claw"
+			rewards: [
+				{
+					id: "2F5E702C34084111"
+					item: {
+						count: 1
+						id: "cobblemon:quick_claw"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "7498170B8EBD7E3E"
+					table_id: 7593754319294747036L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					count: 2L
@@ -785,18 +823,6 @@
 			id: "4DCE48D4B2A596FA"
 			rewards: [
 				{
-					count: 32
-					id: "7EE8602ABA3CA0CD"
-					item: {
-						components: {
-							"ftbquests:missing_item": "blocksyouneed_luna:starchart"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
 					id: "12F7B007A4B6CB69"
 					item: {
 						count: 1
@@ -832,6 +858,24 @@
 		{
 			dependencies: ["3A1B3C0A77F150EC"]
 			id: "0D9DCD0E20610EA8"
+			rewards: [
+				{
+					id: "00495DAA0AF1AF25"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_shulker"
+					}
+					type: "item"
+				}
+				{
+					id: "22D35E4F5716DB1A"
+					item: {
+						count: 1
+						id: "simpletms:tm_skydrop"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3B04795B448399A2"
 				item: { count: 1, id: "create:elevator_pulley" }
@@ -900,6 +944,24 @@
 					}
 					type: "item"
 				}
+				{
+					count: 50
+					id: "252FD40EC11CA4F4"
+					item: {
+						count: 1
+						id: "mega_showdown:steel_tera_shard"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6BA0A42129AE9A93"
+					item: {
+						count: 1
+						id: "cobblemon:steel_gem"
+					}
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -941,6 +1003,22 @@
 				"07DACF27D2E02D79"
 			]
 			id: "552852905016218D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6550EA6EB0DF0803"
+					table_id: 8403049648178631864L
+					type: "random"
+				}
+				{
+					id: "1DA6FF6CE3BE0B8E"
+					item: {
+						count: 1
+						id: "simpletms:tm_strangesteam"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [
@@ -1001,6 +1079,12 @@
 						id: "cobblemon:dusk_stone"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69858CF876664B46"
+					table_id: 8403049648178631864L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1077,14 +1161,22 @@
 		{
 			dependencies: ["79D8A38D25FD6FEB"]
 			id: "6F022C581F6530E5"
-			rewards: [{
-				id: "74F687FB77B3ABE2"
-				item: {
-					count: 1
-					id: "plushie_buddies:plushie_magma_cube"
+			rewards: [
+				{
+					id: "74F687FB77B3ABE2"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_magma_cube"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "013507EF770F942E"
+					table_id: 7593754319294747036L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "666E1E0B51E5574C"
 				item: { count: 1, id: "create_power_loader:empty_brass_chunk_loader" }
@@ -1152,14 +1244,22 @@
 				id: "create:large_cogwheel"
 			}
 			id: "1FE27F926442DEC7"
-			rewards: [{
-				id: "259784C5BDC26237"
-				item: {
-					count: 1
-					id: "cobblemon:eviolite"
+			rewards: [
+				{
+					id: "259784C5BDC26237"
+					item: {
+						count: 1
+						id: "cobblemon:eviolite"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "5C1B10EA72893F79"
+					table_id: 8403049648178631864L
+					type: "choice"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [

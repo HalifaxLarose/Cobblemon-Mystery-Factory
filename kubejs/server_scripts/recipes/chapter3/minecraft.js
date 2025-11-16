@@ -47,7 +47,125 @@ ServerEvents.recipes(event => {
         }
     )
 
-    // Plating & Machine blocks
+    // #region Oritech Pipes
+    event.shaped(
+        Item.of('oritech:item_pipe', 8),
+        [
+            'PPP',
+            'SBS',
+            'PPP',
+        ],
+        {
+            P: 'oritech:plastic_sheet',
+            S: 'oritech:silicon',
+            B: 'oritech:steel_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('oritech:transparent_item_pipe', 8),
+        [
+            'PPP',
+            'SBS',
+            'PPP',
+        ],
+        {
+            P: 'oritech:plastic_sheet',
+            S: 'oritech:silicon',
+            B: '#c:glass_blocks'
+        }
+    )
+    event.shaped(
+        Item.of('oritech:framed_item_pipe', 8),
+        [
+            'PPP',
+            'SBS',
+            'PPP',
+        ],
+        {
+            P: 'oritech:plastic_sheet',
+            S: 'oritech:silicon',
+            B: '#oritech:plating'
+        }
+    )
+    event.shapeless(
+        Item.of('oritech:framed_item_pipe', 8),
+        [
+          '#oritech:plating',
+         '8x oritech:item_pipe',
+        ]
+    )
+    event.shapeless(
+        Item.of('oritech:item_pipe'),
+        [ 'oritech:framed_item_pipe']
+    )
+    event.shaped(
+        Item.of('oritech:fluid_pipe', 3),
+        [
+            ' A ',
+            'BBB',
+            ' C '
+        ],
+        {
+            A: 'oritech:plastic_sheet',
+            B: 'create:fluid_pipe',
+            C: 'oritech:silicon'
+        }
+    )
+    event.shaped(
+        Item.of('oritech:fluid_pipe', 3),
+        [
+            ' C ',
+            'BBB',
+            ' A '
+        ],
+        {
+            A: 'oritech:plastic_sheet',
+            B: 'create:fluid_pipe',
+            C: 'oritech:silicon'
+        }
+    )
+    event.shaped(
+        Item.of('oritech:item_filter_block', 1),
+        [
+            ' A ',
+            ' B ',
+            ' C '
+        ],
+        {
+            A: 'oritech:plastic_sheet',
+            B: 'oritech:processing_unit',
+            C: '#oritech:plating'
+        }
+    )
+    event.shaped(
+        Item.of('oritech:item_pipe_duct_block', 1),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'oritech:transparent_item_pipe',
+            B: 'oritech:silicon',
+            C: '#oritech:plating'
+        }
+    )
+    event.shaped(
+        Item.of('oritech:item_pipe_duct_block', 1),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            A: 'oritech:item_pipe',
+            B: 'oritech:silicon',
+            C: '#oritech:plating'
+        }
+    )
+
+
+    // #region Plating & Machine blocks
     event.shaped(
         Item.of('oritech:iron_plating_block', 1),
         [
@@ -139,7 +257,7 @@ ServerEvents.recipes(event => {
     )
 
 
-
+    // #region Oil Processing
     event.shapeless(
         Item.of('dndesires:asphalt', 1), // arg 1: output
         [

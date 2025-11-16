@@ -681,4 +681,19 @@ function assembler_recipes(event) {
         ],
         "time": CREATE_ASSEMBLY_TIME
     })
+    event.custom({
+        "type": "oritech:assembler",
+        "ingredients": [
+            { "tag": "c:plates/zinc" },
+            { "item": "create:copper_sheet" },
+            { "item": "minecraft:redstone_torch" },
+        ],
+        "results": [
+            {
+                "count": 2*CREATE_ASSEMBLY_BONUS_RATIO,
+                "id": "createaddition:capacitor"
+            }
+        ],
+        "time": CREATE_ASSEMBLY_TIME
+    })
 }

@@ -3,8 +3,17 @@ ServerEvents.recipes(event => {
         { id: "oritech:pulverizer/pearl_enderic" },
         { output: 'createdieselgenerators:oil_scanner'},
         { output: 'createdieselgenerators:distillation_controller'},
+
+        // Oritech stuff
         { output: 'oritech:machine_extender' },
         { output: 'oritech:assembler_block' },
+        { output: /oritech:.*item_pipe$/},
+        { output: /oritech:.*energy_pipe/},
+        { output: 'oritech:fluid_pipe'},
+        { output: 'oritech:item_filter_block'},
+        { output: 'oritech:item_pipe_duct_block'},
+
+        // Assembling stuff
         { id: 'oritech:assembler/plating'},
         { id: 'oritech:assembler/platingiron'},
         { id: 'oritech:assembler/platingnickel'},

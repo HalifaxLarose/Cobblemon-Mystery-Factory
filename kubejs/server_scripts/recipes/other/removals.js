@@ -2,6 +2,9 @@ ServerEvents.recipes(event => {
     const recipeRemove = [
         // Not for private release
         // {output: "cobblemon:healing_machine", input: "cobblemon:revive"},
+
+        {output: 'cobblemon_utility:shinycard'},
+        {output: 'cobblemon_utility:woodencap'}
     ]
     recipeRemove.forEach((recipe) => {
         event.remove(recipe)

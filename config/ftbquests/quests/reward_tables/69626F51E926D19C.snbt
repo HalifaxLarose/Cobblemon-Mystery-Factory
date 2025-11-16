@@ -1,0 +1,88 @@
+{
+	id: "69626F51E926D19C"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			count: 10
+			id: "4B0E6526222F5A5D"
+			item: {
+				count: 1
+				id: "cobblemon:great_ball"
+			}
+		}
+		{
+			count: 6
+			id: "128B7325267C17C4"
+			item: {
+				count: 1
+				id: "cobblemon:super_potion"
+			}
+		}
+		{
+			count: 3
+			id: "577B2CA8DC6DCF7E"
+			item: {
+				count: 1
+				id: "cobblemon:protein"
+			}
+		}
+		{
+			count: 3
+			id: "27A44D248C43487A"
+			item: {
+				count: 1
+				id: "cobblemon:carbos"
+			}
+		}
+		{
+			count: 3
+			id: "2A80CAB023F2B5D3"
+			item: {
+				count: 1
+				id: "cobblemon:zinc"
+			}
+		}
+		{
+			count: 3
+			id: "752D830AF0F00B4D"
+			item: {
+				count: 1
+				id: "cobblemon:iron"
+			}
+		}
+		{
+			count: 3
+			id: "4DE518C6601AABE5"
+			item: {
+				count: 1
+				id: "cobblemon:calcium"
+			}
+		}
+		{
+			count: 3
+			id: "0C29E91814A7042F"
+			item: {
+				count: 1
+				id: "cobblemon:hp_up"
+			}
+		}
+		{ id: "271A3A68561D985F", item: { count: 1, id: "cobblemon:pp_up" } }
+		{
+			count: 2
+			id: "76251E9EE95F2EF3"
+			item: {
+				count: 1
+				id: "cobblemon:revive"
+			}
+		}
+		{
+			count: 5
+			id: "2C0D9157CC3EEE84"
+			item: {
+				count: 1
+				id: "cobblemon:quick_ball"
+			}
+		}
+	]
+}

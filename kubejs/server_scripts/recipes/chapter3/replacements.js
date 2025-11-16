@@ -23,6 +23,9 @@ ServerEvents.recipes(event => {
         { filter: { output: "oritech:drone_port_block"}, original: "oritech:advanced_computing_engine", replaceWith: "create:propeller"},
         { filter: { output: "northstar:titanium_ingot"}, original: "create:sturdy_sheet", replaceWith: "oritech:steel_ingot"},
         { filter: { mod: "northstar"}, original: 'create:industrial_iron_block', replaceWith: "oritech:steel_ingot"},
+        { filter: {output: 'oritech:pipe_booster_block'}, original: 'oritech:fluid_pipe', replaceWith: 'oritech:silicon'},
+        { filter: {output: 'oritech:pipe_booster_block'}, original: 'oritech:silicon', replaceWith: 'oritech:plastic_sheet'},
+        { filter: {output: 'oritech:fluid_pipe_duct_block'}, original: 'minecraft:stone', replaceWith: 'oritech:silicon'},
 
         // Circuitry
         { filter: { output: "northstar:targeting_computer"}, original: "create:iron_sheet", replaceWith: "oritech:plastic_sheet"},

@@ -32,6 +32,7 @@
 			id: "1D921976BA3B9475"
 			ignore_reward_blocking: true
 			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "294319AB094C1253"
 				item: { count: 1, id: "oritech:atomic_forge_block" }
@@ -43,12 +44,27 @@
 		{
 			dependencies: ["34281E9EAA50CCFE"]
 			id: "1721C690EF183AB9"
-			shape: "gear"
-			tasks: [{
-				id: "39764C98F333019D"
-				item: { count: 1, id: "oritech:laser_arm_block" }
+			rewards: [{
+				id: "6DDBDF40260C4275"
+				item: {
+					count: 1
+					id: "cobblemon:ring_target"
+				}
 				type: "item"
 			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "39764C98F333019D"
+					item: { count: 1, id: "oritech:laser_arm_block" }
+					type: "item"
+				}
+				{
+					id: "5E18558B71B8B720"
+					item: { count: 1, id: "oritech:target_designator" }
+					type: "item"
+				}
+			]
 			x: -10.5d
 			y: 9.0d
 		}
@@ -167,15 +183,15 @@
 			y: 29.25d
 		}
 		{
-			dependencies: ["11A043D25079D587"]
+			dependencies: ["33BB4935D86DEE5E"]
 			id: "68F2EDECF572AC43"
 			tasks: [{
 				id: "4EE156C1AD9F4615"
 				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
-			x: -12.0d
-			y: 45.75d
+			x: -7.5d
+			y: 44.25d
 		}
 		{
 			dependencies: ["074D353D9302F129"]
@@ -231,14 +247,15 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(dragonsurvival:dragon_treasures)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -21.0d
-			y: 45.75d
+			x: -18.75d
+			y: 44.25d
 		}
 		{
 			dependencies: [
 				"7E49CFB6F5B7AADC"
 				"623C6B3205C956C3"
 			]
+			dependency_requirement: "one_completed"
 			id: "264B6ECC5357EE55"
 			tasks: [{
 				id: "6DE30E074A81E5E8"
@@ -504,18 +521,18 @@
 			y: 33.300000000000004d
 		}
 		{
-			dependencies: ["1C5A3A5F5731DECC"]
+			dependencies: ["2FE2F003F7B00E09"]
 			id: "58367F2C115A9281"
 			tasks: [{
 				id: "0A8903880446D42D"
 				item: { count: 1, id: "oritech:portable_laser" }
 				type: "item"
 			}]
-			x: -20.25d
-			y: 32.25d
+			x: -21.0d
+			y: 33.0d
 		}
 		{
-			dependencies: ["2118D08A3DAEB5A1"]
+			dependencies: ["2C8C9E07C7D3E5AD"]
 			icon: {
 				id: "oritech:nuke"
 			}
@@ -527,7 +544,7 @@
 				type: "checkmark"
 			}]
 			x: 0.75d
-			y: 13.5d
+			y: 17.300000000000004d
 		}
 		{
 			dependencies: ["4540BDE88BC8679D"]
@@ -538,7 +555,7 @@
 				type: "item"
 			}]
 			x: 0.75d
-			y: 18.0d
+			y: 21.800000000000004d
 		}
 		{
 			dependencies: ["4540BDE88BC8679D"]
@@ -549,7 +566,7 @@
 				type: "item"
 			}]
 			x: -2.25d
-			y: 19.5d
+			y: 23.300000000000004d
 		}
 		{
 			dependencies: ["4540BDE88BC8679D"]
@@ -572,7 +589,7 @@
 				}
 			]
 			x: 3.75d
-			y: 19.5d
+			y: 23.300000000000004d
 		}
 		{
 			dependencies: [
@@ -583,6 +600,14 @@
 				"6C4D6885108C8B78"
 			]
 			id: "684EB4BDF33C749C"
+			rewards: [{
+				id: "6F3E684ED45A6899"
+				item: {
+					count: 1
+					id: "cobblemon:choice_specs"
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
@@ -597,7 +622,7 @@
 				}
 			]
 			x: 0.75d
-			y: 25.5d
+			y: 29.300000000000004d
 		}
 		{
 			dependencies: ["12A5A6E6C420D6DB"]
@@ -607,7 +632,7 @@
 				item: { count: 1, id: "oritech:reactor_reflector" }
 				type: "item"
 			}]
-			x: 0.75d
+			x: -5.75d
 			y: 30.75d
 		}
 		{
@@ -646,23 +671,39 @@
 				item: { count: 1, id: "oritech:reactor_double_rod" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: -3.5d
 			y: 30.75d
 		}
 		{
 			dependencies: ["2FE53267F415BD85"]
 			id: "557DF63CBF2ABB7B"
+			rewards: [{
+				id: "44158D474CFE088B"
+				item: {
+					count: 1
+					id: "cobblemon:loaded_dice"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A635C55AC2E9EF1"
 				item: { count: 1, id: "oritech:reactor_quad_rod" }
 				type: "item"
 			}]
-			x: 5.25d
+			x: -1.25d
 			y: 30.75d
 		}
 		{
 			dependencies: ["074D353D9302F129"]
 			id: "6EBE083EDC87FFCD"
+			rewards: [{
+				id: "5E304C208A5FFCCC"
+				item: {
+					count: 1
+					id: "cobblemon:life_orb"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "234471F285961528"
 				item: { count: 1, id: "oritech:nuke" }
@@ -693,54 +734,48 @@
 			dependencies: ["6E3190354C280AA5"]
 			id: "3052698DEB3EBE78"
 			tasks: [{
-				id: "2DA93F9DB05FD3F8"
-				type: "checkmark"
+				id: "5A9A043B1A84A51B"
+				item: { count: 1, id: "kubejs:enderdragon_treasure" }
+				type: "item"
 			}]
-			x: -18.75d
-			y: 45.75d
+			x: -16.5d
+			y: 44.25d
 		}
 		{
 			dependencies: ["3052698DEB3EBE78"]
 			id: "00DEF41669ECCBD7"
 			tasks: [{
-				id: "430E3184AA1ED1D5"
-				type: "checkmark"
+				id: "5E7192888DF507BF"
+				item: { count: 1, id: "kubejs:enderdragon_essence" }
+				type: "item"
 			}]
-			x: -16.5d
-			y: 45.75d
+			x: -14.25d
+			y: 44.25d
 		}
 		{
 			dependencies: ["00DEF41669ECCBD7"]
 			id: "11A043D25079D587"
 			tasks: [{
-				id: "3A1209E76DA8F12A"
-				type: "checkmark"
+				id: "2F6993601392E37C"
+				item: { count: 1, id: "kubejs:powerful_enderdragon_essence" }
+				type: "item"
 			}]
-			x: -14.25d
-			y: 45.75d
+			x: -12.0d
+			y: 44.25d
 		}
 		{
 			dependencies: ["68F2EDECF572AC43"]
-			id: "128EEBD218E6A300"
-			tasks: [{
-				dimension: "minecraft:the_end"
-				id: "3577B0896507D42F"
-				type: "dimension"
-			}]
-			x: -9.75d
-			y: 45.75d
-		}
-		{
-			dependencies: ["128EEBD218E6A300"]
+			icon_scale: 0.75d
 			id: "03D54B15CEE07D18"
 			shape: "pentagon"
 			size: 8.0d
 			tasks: [{
-				id: "24F0C3DD4856EA45"
-				type: "checkmark"
+				dimension: "minecraft:the_end"
+				id: "53C9F2D033848A89"
+				type: "dimension"
 			}]
-			x: -2.75d
-			y: 45.75d
+			x: -4.0d
+			y: 48.0d
 		}
 		{
 			dependencies: ["25EFF8979C0E104C"]
@@ -751,7 +786,7 @@
 				type: "item"
 			}]
 			x: 2.25d
-			y: 19.5d
+			y: 23.300000000000004d
 		}
 		{
 			dependencies: ["25EFF8979C0E104C"]
@@ -762,7 +797,7 @@
 				type: "item"
 			}]
 			x: -0.75d
-			y: 19.5d
+			y: 23.300000000000004d
 		}
 		{
 			dependencies: ["25EFF8979C0E104C"]
@@ -795,7 +830,7 @@
 				}
 			]
 			x: 0.75d
-			y: 20.25d
+			y: 24.050000000000004d
 		}
 		{
 			dependencies: ["4540BDE88BC8679D"]
@@ -806,7 +841,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 13.5d
+			y: 17.300000000000004d
 		}
 		{
 			dependencies: ["074D353D9302F129"]
@@ -873,6 +908,48 @@
 			}]
 			x: -9.0d
 			y: 33.5d
+		}
+		{
+			dependencies: ["11A043D25079D587"]
+			id: "33BB4935D86DEE5E"
+			tasks: [{
+				id: "71DAD901CF635C39"
+				item: { count: 1, id: "kubejs:dormant_eye_of_ender" }
+				type: "item"
+			}]
+			x: -9.75d
+			y: 44.25d
+		}
+		{
+			dependencies: ["12A5A6E6C420D6DB"]
+			id: "01A8F147B9BF2E1E"
+			tasks: [{
+				id: "1A6350E29D6667F9"
+				item: { count: 1, id: "oritech:unstable_container" }
+				type: "item"
+			}]
+			x: -15.75d
+			y: 33.0d
+		}
+		{
+			dependencies: ["2FE2F003F7B00E09"]
+			icon: {
+				id: "oritech:black_hole_block"
+			}
+			id: "642F2D206ADE0B3F"
+			optional: true
+			tasks: [{
+				icon: {
+					id: "oritech:black_hole_block"
+				}
+				id: "6F51DC310A25E88A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "oritech:black_hole_block"
+				type: "observation"
+			}]
+			x: -24.0d
+			y: 35.25d
 		}
 	]
 }

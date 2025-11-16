@@ -1,10 +1,13 @@
 ServerEvents.recipes(event => {
     const recipeRemove = [
         {output: "oritech:laser_arm_block"},
-        {output: "minecraft:ender_eye", input: "minecraft:blaze_rod"},
+        {output: "minecraft:ender_eye"},
         {id: "oritech:foundry/alloy/duratium",},
+        {id: "oritech:foundry/alloy/energite",},
         {id: "oritech:atomicforge/duratium",},
         {id: 'oritech:assembler/reactorplatingalt'},
+        {id: 'oritech:assembler/reactorplatingalt'},
+        {id: 'oritech:mixing/compat/create/duratium'},
 
     ]
     recipeRemove.forEach((recipe) => {

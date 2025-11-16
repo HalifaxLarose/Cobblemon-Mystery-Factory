@@ -1,0 +1,119 @@
+{
+	id: "0D8B8754DC07F5E2"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 8
+			id: "2FF6D91E4CA2AEA3"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+		}
+		{
+			count: 20
+			id: "236AC778E79D8EF6"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+		}
+		{
+			count: 10
+			id: "66DEE37ABC90C5B6"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+		}
+		{
+			count: 10
+			id: "0807D585D2A5620F"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+		}
+		{
+			count: 5
+			id: "41B6B487FEACE50D"
+			item: {
+				count: 1
+				id: "create:gearbox"
+			}
+		}
+		{
+			count: 5
+			id: "33C91113F778C37B"
+			item: {
+				count: 1
+				id: "create_connected:six_way_gearbox"
+			}
+		}
+		{
+			count: 10
+			id: "08433B7B54CC035D"
+			item: {
+				count: 1
+				id: "create:encased_chain_drive"
+			}
+		}
+		{
+			count: 4
+			id: "324154C3C08681D5"
+			item: {
+				count: 1
+				id: "create:chain_conveyor"
+			}
+		}
+		{
+			count: 32
+			id: "5151545AAEF8E81D"
+			item: {
+				count: 1
+				id: "minecraft:chain"
+			}
+		}
+		{
+			count: 12
+			id: "4BC3259B3610ECFC"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+		}
+		{
+			count: 16
+			id: "54F63508F40ADB5E"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+		}
+		{
+			count: 2
+			id: "2CEC086A57A35338"
+			item: {
+				count: 1
+				id: "create:large_water_wheel"
+			}
+		}
+		{
+			count: 16
+			id: "219643295A6F64FB"
+			item: {
+				count: 1
+				id: "create:white_sail"
+			}
+		}
+		{
+			count: 8
+			id: "71EDBDA63F6B5F5F"
+			item: {
+				count: 1
+				id: "create:andesite_funnel"
+			}
+		}
+	]
+}

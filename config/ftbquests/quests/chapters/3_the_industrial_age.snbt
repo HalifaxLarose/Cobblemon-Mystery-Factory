@@ -164,6 +164,12 @@
 		{
 			dependencies: ["45F01D8B0C98DD80"]
 			id: "35D541188A3450EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "279E2D1DA75A29AB"
+				table_id: 409107174919387587L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "17BEF99705174957"
@@ -185,13 +191,19 @@
 				"35D2DE55D0A8F5E2"
 			]
 			id: "4FFBEDDFCC6DB238"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "651939C1B91B31A4"
+				table_id: 409107174919387587L
+				type: "choice"
+			}]
 			size: 2.5d
 			tasks: [{
 				id: "7171A6E52BAB3FCC"
 				item: { count: 1, id: "northstar:circuit" }
 				type: "item"
 			}]
-			x: 14.25d
+			x: 17.25d
 			y: -0.75d
 		}
 		{
@@ -203,21 +215,18 @@
 				item: { count: 1, id: "northstar:circuit_engraver" }
 				type: "item"
 			}]
-			x: 14.25d
+			x: 17.25d
 			y: 3.75d
 		}
 		{
-			dependencies: [
-				"4FFBEDDFCC6DB238"
-				"64292AE90578D1A7"
-			]
+			dependencies: ["4FFBEDDFCC6DB238"]
 			id: "6B2F817CE9E4F096"
 			tasks: [{
 				id: "61455450BD7AC18F"
 				item: { count: 1, id: "northstar:oxygen_concentrator" }
 				type: "item"
 			}]
-			x: 14.25d
+			x: 17.25d
 			y: -5.25d
 		}
 		{
@@ -300,7 +309,7 @@
 				item: { count: 1, id: "northstar:jet_engine" }
 				type: "item"
 			}]
-			x: 25.5d
+			x: 28.5d
 			y: 8.25d
 		}
 		{
@@ -312,30 +321,20 @@
 				item: { count: 1, id: "northstar:hardened_precision_mechanism" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 21.0d
 			y: 8.25d
-		}
-		{
-			id: "64292AE90578D1A7"
-			shape: "rsquare"
-			tasks: [{
-				dimension: "aether:the_aether"
-				id: "091497C9AD7FEE71"
-				type: "dimension"
-			}]
-			x: 14.25d
-			y: -7.5d
 		}
 		{
 			dependencies: ["5894CCB21F6146D4"]
 			dependency_requirement: "one_completed"
 			id: "35D2DE55D0A8F5E2"
+			size: 2.0d
 			tasks: [{
 				id: "552BC667297AE65B"
 				item: { count: 1, id: "oritech:plastic_sheet" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: -0.75d
 		}
 		{
@@ -346,7 +345,7 @@
 				item: { count: 1, id: "northstar:rocket_station" }
 				type: "item"
 			}]
-			x: 21.75d
+			x: 24.75d
 			y: 0.75d
 		}
 		{
@@ -360,7 +359,7 @@
 				item: { count: 1, id: "northstar:targeting_computer" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 21.0d
 			y: 0.75d
 		}
 		{
@@ -371,7 +370,7 @@
 				item: { count: 1, id: "northstar:rocket_controls" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 21.0d
 			y: -2.25d
 		}
 		{
@@ -404,7 +403,7 @@
 					type: "item"
 				}
 			]
-			x: 21.75d
+			x: 24.75d
 			y: -5.25d
 		}
 		{
@@ -417,11 +416,18 @@
 			id: "150D4F9EA3526C3F"
 			shape: "hexagon"
 			size: 3.0d
-			tasks: [{
-				id: "501D5AEA12506680"
-				type: "checkmark"
-			}]
-			x: 25.5d
+			tasks: [
+				{
+					id: "501D5AEA12506680"
+					type: "checkmark"
+				}
+				{
+					id: "72500D20DDBA3E13"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"item.northstar.star_map_moon\"}", "northstar:planet": "moon" }, count: 1, id: "northstar:star_map" }
+					type: "item"
+				}
+			]
+			x: 28.5d
 			y: -2.25d
 		}
 		{
@@ -433,18 +439,34 @@
 				item: { count: 1, id: "oritech:augment_application_block" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -7.5d
+			x: 6.75d
+			y: -6.75d
 		}
 		{
 			dependencies: ["3167FF382443FD84"]
 			id: "4575E0CF14405C92"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E5DEC3A371256F0"
+					table_id: 409107174919387587L
+					type: "random"
+				}
+				{
+					id: "30C80E77E2BA71BA"
+					item: {
+						count: 1
+						id: "simpletms:tm_trickroom"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0749D72BCB87B2AD"
 				item: { count: 1, id: "oritech:simple_augment_station" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 6.75d
 			y: -9.0d
 		}
 		{
@@ -469,6 +491,59 @@
 				id: "cobblemon:moon_ball"
 			}
 			id: "0871DBE326AEEB81"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33D9D477530892AC"
+					table_id: 409107174919387587L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09E5B6583B471383"
+					table_id: 409107174919387587L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "351A4C928D3A9DF4"
+					table_id: 409107174919387587L
+					type: "choice"
+				}
+				{
+					id: "75DAD038AA1C77F7"
+					item: {
+						count: 1
+						id: "simpletms:tm_moonblast"
+					}
+					type: "item"
+				}
+				{
+					id: "1F69FBBA5436D1D5"
+					item: {
+						count: 1
+						id: "simpletms:tm_terablast"
+					}
+					type: "item"
+				}
+				{
+					id: "06F9FCA5EA1E7B8D"
+					item: {
+						count: 1
+						id: "simpletms:tm_blank"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "4B5A609FBA53837E"
+					item: {
+						count: 1
+						id: "mega_showdown:stellar_tera_shard"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 8.0d
 			tasks: [{
@@ -476,7 +551,7 @@
 				id: "6F0B68D39A02FBF9"
 				type: "dimension"
 			}]
-			x: 32.25d
+			x: 35.25d
 			y: 3.0d
 		}
 		{
@@ -493,23 +568,32 @@
 		{
 			dependencies: ["35D2DE55D0A8F5E2"]
 			id: "592CD9583CECC0EF"
+			size: 2.0d
 			tasks: [{
 				id: "2EF7186CD3FA1EB8"
 				item: { count: 1, id: "oritech:machine_extender" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: 2.25d
 		}
 		{
 			dependencies: ["592CD9583CECC0EF"]
 			id: "4D84153928AA6768"
+			rewards: [{
+				id: "3A1BF844F4869AF0"
+				item: {
+					count: 1
+					id: "simpletms:tm_irondefense"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "186BA344D295A47B"
 				item: { count: 1, id: "oritech:machine_efficiency_addon" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 12.0d
 			y: 3.75d
 		}
 		{
@@ -589,7 +673,7 @@
 				item: { count: 1, id: "northstar:rocket_combustion_chamber" }
 				type: "item"
 			}]
-			x: 21.75d
+			x: 24.75d
 			y: 8.25d
 		}
 		{
@@ -702,7 +786,7 @@
 				item: { count: 1, id: "northstar:titanium_sheet" }
 				type: "item"
 			}]
-			x: 14.25d
+			x: 17.25d
 			y: 8.25d
 		}
 		{
@@ -773,7 +857,7 @@
 				item: { count: 1, id: "oritech:drone_port_block" }
 				type: "item"
 			}]
-			x: 12.75d
+			x: 15.75d
 			y: -2.25d
 		}
 		{
@@ -790,6 +874,12 @@
 		{
 			dependencies: ["2D3935A777CEC349"]
 			id: "71E6E8C787E02D62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01F54AFA0AA8EC03"
+				table_id: 409107174919387587L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "21D09CBEF456C574"
@@ -845,13 +935,19 @@
 				item: { count: 1, id: "oritech:large_storage_block" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["4E642601D9A10A66"]
 			id: "3822D6A78D6FEE85"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "240477936B77FBF1"
+				table_id: 409107174919387587L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "0A349B8A77C97A23"
@@ -870,12 +966,20 @@
 		{
 			dependencies: ["592CD9583CECC0EF"]
 			id: "6C5B4E15F1203397"
+			rewards: [{
+				id: "1B051D1378D81D75"
+				item: {
+					count: 1
+					id: "simpletms:tm_agility"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "491E9D4EDE32959D"
 				item: { count: 1, id: "oritech:machine_speed_addon" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 12.75d
 			y: 2.25d
 		}
 		{
@@ -899,7 +1003,7 @@
 				item: { count: 1, id: "oritech:dubios_container" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 6.75d
 			y: -4.5d
 		}
 		{
@@ -910,7 +1014,7 @@
 				item: { count: 1, id: "northstar:oxygen_sealer" }
 				type: "item"
 			}]
-			x: 29.25d
+			x: 32.25d
 			y: -2.25d
 		}
 		{
@@ -929,8 +1033,8 @@
 				id: "2C08C6D0ACF1FB6B"
 				type: "checkmark"
 			}]
-			x: 10.0d
-			y: -5.5d
+			x: 6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3955CAB3E422B099"]
@@ -943,8 +1047,8 @@
 				item: { count: 1, id: "oritech:machine_processing_addon" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -6.5d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4FFBEDDFCC6DB238"]
@@ -954,7 +1058,7 @@
 				item: { count: 1, id: "northstar:solar_panel" }
 				type: "item"
 			}]
-			x: 12.75d
+			x: 15.75d
 			y: 0.75d
 		}
 		{
@@ -983,12 +1087,20 @@
 		{
 			dependencies: ["592CD9583CECC0EF"]
 			id: "50C1F54211951561"
+			rewards: [{
+				id: "531C43FDF8C0275B"
+				item: {
+					count: 1
+					id: "simpletms:tm_nastyplot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C0A45831FAC93E7"
 				item: { count: 1, id: "oritech:machine_burst_addon" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.25d
 			y: 2.25d
 		}
 		{
@@ -1000,7 +1112,7 @@
 				item: { count: 1, id: "oritech:machine_yield_addon" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: 0.75d
 		}
 		{
@@ -1011,7 +1123,7 @@
 				item: { count: 1, id: "oritech:machine_acceptor_addon" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: 3.75d
 		}
 		{
@@ -1023,23 +1135,37 @@
 				item: { count: 1, id: "oritech:machine_inventory_proxy_addon" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 12.0d
 			y: 0.75d
 		}
 		{
 			dependencies: ["592CD9583CECC0EF"]
 			id: "6D0F588A8FBD82F3"
+			rewards: [{
+				id: "43D92958329CAA9F"
+				item: {
+					count: 1
+					id: "simpletms:tm_amnesia"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4DB440AD5136C910"
 				item: { count: 1, id: "oritech:machine_redstone_addon" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.75d
+			x: 10.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["034A82636C6D606D"]
 			id: "79E63D9D2CDA8374"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56628928BECDBC63"
+				table_id: 409107174919387587L
+				type: "random"
+			}]
 			tasks: [{
 				id: "55F001D2FDFD3684"
 				item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }
@@ -1047,6 +1173,59 @@
 			}]
 			x: -9.75d
 			y: 1.5d
+		}
+		{
+			dependencies: ["35D2DE55D0A8F5E2"]
+			id: "13393B7E20E06E62"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "38756322985089C3"
+					item: { count: 1, id: "oritech:item_pipe" }
+					type: "item"
+				}
+				{
+					id: "347FD8C853D81205"
+					item: { count: 1, id: "oritech:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13393B7E20E06E62"]
+			id: "1BBB76BB470B0C34"
+			tasks: [{
+				id: "79B26984FE63BEFC"
+				item: { count: 1, id: "oritech:pipe_booster_block" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["13393B7E20E06E62"]
+			id: "688D82FBC08A8152"
+			tasks: [{
+				id: "10C7A898613A8459"
+				item: { count: 1, id: "oritech:item_filter_block" }
+				type: "item"
+			}]
+			x: 12.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13393B7E20E06E62"]
+			id: "261CF7044914ED78"
+			tasks: [{
+				id: "3FBDE5142EA5606C"
+				item: { count: 1, id: "oritech:wrench" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
 		}
 	]
 }

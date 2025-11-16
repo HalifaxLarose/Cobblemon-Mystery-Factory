@@ -33,4 +33,14 @@ ServerEvents.recipes(event => {
         ],
         'northstar:moon_deep_stone'
     )
+    event.recipes.create.mechanical_crafting('kubejs:dormant_eye_of_ender', [
+        'DDDDD',
+        'DDDDD',
+        'DDEDD',
+        'DDDDD',
+        'DDDDD',
+    ], {
+        D: 'kubejs:powerful_enderdragon_essence',
+        E: 'minecraft:ender_pearl'
+    })
 })

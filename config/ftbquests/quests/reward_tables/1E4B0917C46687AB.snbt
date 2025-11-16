@@ -1,0 +1,29 @@
+{
+	id: "1E4B0917C46687AB"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			id: "7E82C12096B7C3C1"
+			item: {
+				count: 1
+				id: "cobblemon_utility:shinycard"
+			}
+			weight: 0.01f
+		}
+		{
+			id: "008FC0CA6A02C363"
+			type: "xp"
+			weight: 0.98f
+			xp: 5
+		}
+		{
+			id: "2E7B4A944D18C5F6"
+			item: {
+				count: 1
+				id: "cobblemon:master_ball"
+			}
+			weight: 0.01f
+		}
+	]
+}
