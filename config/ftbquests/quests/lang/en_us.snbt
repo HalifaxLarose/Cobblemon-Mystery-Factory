@@ -164,6 +164,12 @@
 	quest.0871DBE326AEEB81.title: "Go to the Moon"
 	quest.09323D5B840E46EC.quest_desc: ["A fertilizer block will take bonemeal and distribute it across your farm for you."]
 	quest.0946E21922298C64.quest_desc: ["One of the uses of golden sheets is advanced electronics. Actually, maybe gold sheets aren't that useless."]
+	quest.09A19273AED703D5.quest_desc: [
+		"You will need to craft a second new machine to create the copper wire for integrated circuits: the rolling mill."
+		""
+		"If you can craft this item however, you can make even stronger computers."
+	]
+	quest.09A19273AED703D5.title: "Advanced Integrated Circuits"
 	quest.09A4424786AB5F35.quest_desc: [
 		"Cave Dragons have access to unique and varied food unavailable to other animals."
 		""
@@ -393,10 +399,11 @@
 	quest.17676283D431B0BF.quest_desc: ["This asphalt has the same bonus, but can be dyed."]
 	quest.17676283D431B0BF.title: "A different Asphalt"
 	quest.18CC4766C0E8DC95.quest_desc: [
-		"As you roam around, you may find meteors stuck in the ground, full of rare ore."
+		"As you roam around, you may find deepslate meteors stuck in the ground, full of rare ore."
 		""
 		"You may want to mark these on the maps. They'll become important later - much much much much much much much much much much much later."
 	]
+	quest.18CC4766C0E8DC95.title: "Rocks"
 	quest.191C2FFC2CF75EA7.quest_desc: [
 		"If you got into chapter 1b, you would have learned about portable item interfaces, which allow contraptions to move inventories to non-contraption storages."
 		""
@@ -413,9 +420,15 @@
 	quest.19D440D4A38C663D.quest_desc: ["You can use saws to automatically craft shafts from alloy, and this produces more shafts than hand crafting them."]
 	quest.19D440D4A38C663D.title: "Automate Shafts!"
 	quest.19EA3845F442D5D9.quest_desc: [
-		"Your default inventory is woefully limited. With how many tools, machines, ingots, food, deco, and everything else you'll need to hold, you will run out of space."
+		"A Galarian Zigzagoon wanders into your empty base. She seems to wiggle around a lot with high energy."
 		""
-		"Backpacks can alleviate that. They straight up extend your inventory. They can also be placed down with all their contents inside so you can prepare various packs for different purposes."
+		"\"Heeeyyy!! Welcome new guild!\" She says. \"I'm from the Explorer's Guild! I just wanted to let you know about backpacks! They let you carry a looot more stuff! We use them all the time back at our guild!\""
+		""
+		"She then goes on to wander around your under-construction base and get to know your other guild members."
+		""
+		"With how many tools, machines, ingots, food, deco, and everything else you'll need to hold, you will run out of space very quickly. This would be a really good idea."
+		""
+		"(Once your backpack is equipped, you can access its inventory with &c\"B\"&r.)"
 	]
 	quest.19EA3845F442D5D9.title: "Get More Inventory Space"
 	quest.1A256334D9A27F87.quest_desc: ["It's not just enough to have a train. No, you need to make a power statement to the other guilds. Inspire awe and fear, and make the best, sleekest train of anyone's imagination! It's important to the health and growth of the guild!!"]
@@ -436,9 +449,9 @@
 	quest.1AAFB7BD5BA0BB83.quest_desc: [
 		"You have special abilities to let you smite monsters or even process resources in a special manner. Some of these abilities are inherit, others require mana to cast. Your mana will need to regenerate with rest, food, or time."
 		""
-		"As you gain experience, these skills will level up. It is tied directly to how much exp you have - you do not select which skills get strong, and dying or enchanting will weaken abilities, so think carefully about how you want to use your experience."
+		"How much experience you have is tied directly to your mana. The more experience you have stored, the more mana you have. However, you can also spend experience to level up your skills in the skill tab of the dragon menu."
 		""
-		"You can see all your abilities in the dragon tab of the dragon inventory menu."
+		"To cycle through skills, press &c\"X\"&r (&cshift+X&r to cycle backwards). Press &c\"C\"&r to cast your chosen skill."
 	]
 	quest.1AAFB7BD5BA0BB83.title: "Dragon Magic"
 	quest.1ABBA2172F6E4963.quest_desc: ["I don't know how Tom's Storage Mod should work but it'd go here."]
@@ -598,7 +611,7 @@
 		""
 		"The former is more advanced and more realistic, and the recommended shader for this modpack. If it's not your style - or if your gpu can't handle it - Complimentary is a far more lightweight shader pack, that focuses on a more faithful adaptation of Minecraft's style."
 		""
-		"To enable shaders, go to options, go to video settings, and go to shaders. You can then enable your choice from there."
+		"To enable shaders, go to options, go to video settings, and go to shaders. You can then enable your choice from there. Alternatively, you can press &c\"-\" on the keypad&r"
 	]
 	quest.264BE6A0576CE112.quest_subtitle: "How to burn your retinas!"
 	quest.264BE6A0576CE112.title: "About Shaders"
@@ -798,7 +811,7 @@
 	quest.343CC6908A08D00C.quest_desc: [
 		"To start crafting friend balls, you will need to find an &6Apicorn Tree&r, and &eright click the apricorns&r hanging from them. They can then be used with ingots to craft friend balls."
 		""
-		"&bCreate&r offers ways to automate this process."
+		"&bCreate&r offers ways to automate this process once you reach chapter 2."
 	]
 	quest.343CC6908A08D00C.title: "Your Basic Pokeballs"
 	quest.3442B87707008E93.quest_desc: [
@@ -911,6 +924,8 @@
 		"To mega evolve, you must first actually craft your desired mega stone from the raw mega stone, then equip it to a pokemon."
 		""
 		"Do note that a Pokemon holding a mega stone can not dynamax nor terrastalize."
+		""
+		"To mega evolve your pokemon in battle, press &c\"K\"&r"
 	]
 	quest.3D5936265F6B6CE5.quest_desc: [
 		"Automation is key to healthy engineering guild: without critical resources, you'll struggle to keep with demand and you'll fail your guildmembers depending on you."
@@ -982,6 +997,14 @@
 	quest.41606AF427A479A1.title: "Automated Power Please"
 	quest.41647FBBA1FA0929.quest_desc: ["Instead of needing to find a power spot, you can &ecraft&r a power spot using a &6max mushroom&r and a &6wishing star&r. It's a little steep though, and a better alternative may be just picking up the power source."]
 	quest.41647FBBA1FA0929.title: "Just make Your Own Power Spot!"
+	quest.4178203F8E6B95C8.quest_desc: [
+		"You've now just noticed a Typhlosion leaning on the door frame to your guild. \"Hey, nice backpack,\" she says."
+		""
+		"\"I'm from the Treasure Guild. Backpacks are important to us, they let us carry all the treasure we loot. Or er, find. You wanna know what make them so sophisticated? They can be upgraded. The backpack can be upgraded directly to copper or iron variants to have more inventory slots, or you can apply upgrades within it. Said upgrades include increasing the stack size of each slot, using the crafting table, using a stonecutter, or just some really werid stuff.\""
+		""
+		"\"Look, I want to see you upgrade it, it'll probably let you carry more treasure that I can buy later. I'll give you this massive chest I er, won, off someone. I don't really want it, I hate being reminded of that douche.\""
+	]
+	quest.4178203F8E6B95C8.title: "\"Carry More of Your Treasure\""
 	quest.418755406885C014.quest_desc: [
 		"Some very advanced players may want to minimize certain IVs or grow their Pokemon to level 1."
 		""
@@ -1281,6 +1304,7 @@
 		"The public version of this modpack will feature those quests completed, however :)"
 	]
 	quest.54D337A20770D8CA.title: "PLEASE READ"
+	quest.54D5B454DF1B86AB.title: "Kill"
 	quest.552852905016218D.quest_desc: [
 		"The steam boiler addon can be placed in the outlet-looking socket on ANY Oritech generator (except fission generators). Instead of producing electricity directly, the addon can take water and will produce steam. This steam can then be pumped to steam engines to produce twice the amount of power you would otherwise."
 		""
@@ -1338,6 +1362,13 @@
 		"Crude oil taken straight from the ground is too unpure to process. It has yucky things like sulfide in it."
 		""
 		"Thankfully, Oritech refineries are precies enough to separate sulfides, creating useful sulphuric acid and even more useful Industrial Crude Oil, all ready for distillation."
+	]
+	quest.584798C2F18042B3.quest_desc: [
+		"- &c\"R\"&r to summon your Pokemon. Starts a battle if looking at trainer or wild Pokemon."
+		"- &c\"P\"&r to check your party."
+		"- &c\"Shift\"+\"Right Click\"&r while looking at a pokemon opens a quick select menu. &nYou can ride Pokemon through this menu&r."
+		"- &cRight Click&r while holding a ball to throw it."
+		"- &cRight Click&r while looking at a pokemon to pet it."
 	]
 	quest.584798C2F18042B3.title: "Controls"
 	quest.5849CC9BA757F975.quest_desc: [
@@ -1420,6 +1451,8 @@
 	quest.5D304AD3C66A4942.quest_desc: ["The stressometer allows you to see the total stress units available for the entire mechanical network. It'll let you upgrade power before things break."]
 	quest.5D304AD3C66A4942.title: "How Stressed Are You?"
 	quest.5D416510290959B2.title: "yeah"
+	quest.5DD560281DB9B137.quest_desc: ["Ask NiceJS how to use these machines."]
+	quest.5DD560281DB9B137.title: "Skipping Further Ahead"
 	quest.5DDA389F54B16D45.title: "Catwalks Baby!!"
 	quest.5E2A8AD935E2FA3A.quest_desc: ["The Pokerod is used to fish for pokemon."]
 	quest.5EEE56D7B236EFB2.quest_desc: [
@@ -1640,6 +1673,7 @@
 		"- &b@chimes&r"
 		"- &b@night&r"
 		"- &b@girder&r"
+		"- &b@Simply&r"
 	]
 	quest.6E321FBE3B2DC9B3.title: "Check out the Deco!"
 	quest.6E4DC0FB20FCB6CF.quest_desc: [
@@ -1718,7 +1752,7 @@
 		""
 		"In the dragon inventory however, you can equip numerous tools as \"equipment\" for your claws. This allows your claws to act as all of them at once, saving you the need to constantly change your tool."
 		""
-		"You also have wings, and can fly! It can be a bit draining on your hunger but its a very convenient way to travel. When you're an adult, you can even ferry newborn dragons and humans on your back!"
+		"You also have wings, and can fly! Toggle flight with &c\"G\"&r. Make sure not to run out of energy as you fly. When you're an adult, you can even ferry newborn dragons and humans on your back!"
 	]
 	quest.755CD75830E45C7C.title: "Claw and Wing"
 	quest.7579BA2504060B7C.quest_desc: ["It's a chute, but it can filter to only transfer certain items!"]
@@ -1740,6 +1774,7 @@
 		""
 		"Your first goal should be to get a piece of netherrack off the ground as soon as you enter, there's something you'll want to do before you go further."
 	]
+	quest.762C57887356A993.title: "Go to the Nether"
 	quest.7656F0A220CB3D56.quest_desc: ["The Fishing Nav shows you what Pokemon can be fished in the biome you're in."]
 	quest.765EC8DBE5162583.quest_subtitle: "Steel is Seriously Important"
 	quest.765EC8DBE5162583.title: "Automate Steel Ingots"
@@ -2019,6 +2054,7 @@
 	task.6ED66D8C4C1A967E.title: "How to Use JEI"
 	task.6F51DC310A25E88A.title: "Observe a Black Hole"
 	task.6FE6E357DD4F212E.title: "Understood"
+	task.71371764F9D2341C.title: "Go to the Nether"
 	task.7216A33D2F32D9D1.title: "Any Backpack"
 	task.7394EBA49B1DED38.title: "Any #minecraft:planks"
 	task.739E84BBF8AFBD82.title: "From A to B"

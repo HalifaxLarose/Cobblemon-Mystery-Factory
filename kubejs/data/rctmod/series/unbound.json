@@ -1,0 +1,10 @@
+{
+  "description": {
+    "translatable": "series.rctmod.unbound.description"
+  },
+  "difficulty": 8,
+  "requiredSeries": [],
+  "title": {
+    "translatable": "series.rctmod.unbound.title"
+  }
+}

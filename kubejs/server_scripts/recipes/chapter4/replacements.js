@@ -6,6 +6,9 @@ ServerEvents.recipes(event => {
         { filter: {output: 'oritech:reactor_energy_port'}, original: "minecraft:iron_ingot", replaceWith: "oritech:steel_ingot" },
         { filter: {output: 'oritech:reactor_controller'}, original: "oritech:processing_unit", replaceWith: "northstar:circuit" },
         { filter: {output: 'oritech:superconductor_duct_block'}, original: 'minecraft:stone', replaceWith: 'oritech:silicon'},
+
+        { filter: {output: 'simpletms:tr_blank'}, original: 'minecraft:diamond', replaceWith: 'minecraft:redstone'},
+        { filter: {output: 'simpletms:tr_blank'}, original: 'minecraft:iron_ingot', replaceWith: 'minecraft:diamond'},
     ]
 
     const replacementOutput = [

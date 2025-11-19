@@ -188,26 +188,20 @@
 			id: "0656B7840C606BB8"
 			rewards: [
 				{
-					count: 16
-					id: "2F110BE361BE2782"
+					count: 64
+					id: "510DDE8F3BDFEC81"
 					item: {
-						components: {
-							"ftbquests:missing_item": "morebridges:brass_bridge"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "morebridges:brass_bridge"
 					}
 					type: "item"
 				}
 				{
-					count: 8
-					id: "625AC97CB558E214"
+					count: 16
+					id: "61B2DD1214A99085"
 					item: {
-						components: {
-							"ftbquests:missing_item": "morebridges:brass_bridge_stair"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "morebridges:brass_bridge_stair"
 					}
 					type: "item"
 				}

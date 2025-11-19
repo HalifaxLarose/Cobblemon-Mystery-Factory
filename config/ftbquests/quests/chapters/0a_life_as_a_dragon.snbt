@@ -121,6 +121,7 @@
 			id: "66E15C13252F4BEC"
 			rewards: [
 				{
+					count: 3
 					id: "1F0F8C62C7543450"
 					item: {
 						count: 1
@@ -129,7 +130,7 @@
 					type: "item"
 				}
 				{
-					count: 3
+					count: 10
 					id: "46B9F8A4262CB0C2"
 					item: {
 						count: 1

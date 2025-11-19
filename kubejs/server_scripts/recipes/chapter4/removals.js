@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         {id: 'oritech:assembler/reactorplatingalt'},
         {id: 'oritech:assembler/reactorplatingalt'},
         {id: 'oritech:mixing/compat/create/duratium'},
-
+        {id: 'dndesires:seething/diamond_shard_from_coal_block'},
     ]
     recipeRemove.forEach((recipe) => {
         event.remove(recipe)

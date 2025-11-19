@@ -12,4 +12,7 @@ ClientEvents.lang('en_us', event => {
   // event.renameItem(`createdieselgenerators:crude_oil_bucket`, "Dirty Crude Oil Bucket")
   // event.renameItem('oritech:still_heavy_oil', "Refined Heavy Oil")
   // event.renameItem('oritech:still_heavy_oil_bucket', "Refined Heavy Oil Bucket")
+  event.renameItem('rctmod:trainer_card', 'Guild Directory')
+  event.renameItem('cobblemon:poke_ball', 'Friend Ball');
+  event.renameItem('cobblemon:friend_ball', 'Friendly Ball');
 })

@@ -37,6 +37,10 @@ ServerEvents.recipes(event => {
         { filter: { output: `${CDG}:pumpjack_crank`}, original: "create:iron_sheet", replaceWith: "create:sturdy_sheet"},
         { filter: { output: `${CDG}:pumpjack_head`}, original: "create:zinc_ingot", replaceWith: STEEL},
         { filter: { output: `${CDG}:pumpjack_head`}, original: "minecraft:dried_kelp", replaceWith: 'oritech:silicon'},
+        
+        // Cobblemon
+        { filter: { output: /cobblemon_utility:.*silver_cap/}, original: "minecraft:iron_ingot", replaceWith: 'oritech:steel_ingot'},
+        { filter: { output: /cobblemon_utility:.*silver_cap/}, original: "minecraft:diamond", replaceWith: 'oritech:adamant_block'},
 
     ]
 

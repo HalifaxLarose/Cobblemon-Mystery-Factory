@@ -156,7 +156,7 @@
 			}
 		}
 		{
-			count: 256
+			count: 512
 			id: "73BC8916DF3B6A48"
 			item: {
 				count: 1
@@ -361,6 +361,46 @@
 			item: {
 				count: 1
 				id: "mcwlights:golden_chandelier"
+			}
+		}
+		{
+			count: 256
+			id: "3E9D5EE322162B1D"
+			item: {
+				count: 1
+				id: "simplylight:illuminant_slab"
+			}
+		}
+		{
+			count: 64
+			id: "6094942F180B74D2"
+			item: {
+				count: 1
+				id: "simplylight:wall_lamp_red"
+			}
+		}
+		{
+			count: 128
+			id: "32982177D881944B"
+			item: {
+				count: 1
+				id: "createprism:brass_glass_scaffolding"
+			}
+		}
+		{
+			count: 128
+			id: "1E55D02877A8E43B"
+			item: {
+				count: 1
+				id: "oritech:ceiling_light"
+			}
+		}
+		{
+			count: 128
+			id: "0B38786EEBA96D30"
+			item: {
+				count: 1
+				id: "oritech:industrial_glass_block"
 			}
 		}
 	]

@@ -179,6 +179,7 @@
 		{
 			dependencies: ["0946E21922298C64"]
 			id: "2D60596BED788EEA"
+			optional: true
 			rewards: [
 				{
 					count: 12
@@ -269,10 +270,11 @@
 			dependencies: ["47816EB4E84EE905"]
 			id: "138F71A191933F1E"
 			rewards: [{
-				id: "7A1649F9DABD35BA"
+				count: 3
+				id: "2520C53A0F01712D"
 				item: {
 					count: 1
-					id: "create:sweet_roll"
+					id: "minecraft:sweet_berries"
 				}
 				type: "item"
 			}]
@@ -307,10 +309,10 @@
 			dependencies: ["44286D097B53FD39"]
 			id: "31789F4CD0EA4FF2"
 			rewards: [{
-				id: "6A2AAB3CEE984B1E"
+				id: "11633F4C656083DF"
 				item: {
 					count: 1
-					id: "simpletms:tr_sweetkiss"
+					id: "simpletms:tm_sweetkiss"
 				}
 				type: "item"
 			}]
@@ -501,6 +503,11 @@
 		{
 			dependencies: ["530E15A5BD357D09"]
 			id: "19EA3845F442D5D9"
+			rewards: [{
+				id: "728C3179FEE9016A"
+				type: "xp"
+				xp: 100
+			}]
 			size: 2.0d
 			tasks: [{
 				icon: {
@@ -621,6 +628,86 @@
 			}]
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["0946E21922298C64"]
+			icon: {
+				id: "ccbr:integrated_circuit"
+			}
+			id: "09A19273AED703D5"
+			tasks: [
+				{
+					id: "5C357B2E35CB8D5C"
+					item: { count: 1, id: "ccbr:lapis_sheet" }
+					type: "item"
+				}
+				{
+					id: "382A4ED8BD293881"
+					item: { count: 1, id: "ccbr:integrated_circuit" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -11.25d
+		}
+		{
+			dependencies: ["09A19273AED703D5"]
+			id: "5DD560281DB9B137"
+			optional: true
+			rewards: [{
+				id: "4A7948BF9D020A58"
+				item: {
+					count: 1
+					id: "cobblemon:dubious_disc"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "076331DAB2948B85"
+				item: { count: 1, id: "computercraft:computer_advanced" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["19EA3845F442D5D9"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}
+			id: "4178203F8E6B95C8"
+			rewards: [{
+				id: "34CA607F0D30A4E7"
+				item: {
+					components: {
+						"sophisticatedstorage:wood_type": "crimson"
+					}
+					count: 1
+					id: "sophisticatedstorage:netherite_chest"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "008C95CA13CA05D9"
+					item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+					type: "item"
+				}
+				{
+					id: "3D8F0182D63CCC1A"
+					item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_starter_tier" }
+					type: "item"
+				}
+				{
+					id: "07FFC46F2025EA46"
+					item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.75d
 		}
 	]
 }

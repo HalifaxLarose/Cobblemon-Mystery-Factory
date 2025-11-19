@@ -136,6 +136,12 @@
 					table_id: 976022542794356194L
 					type: "choice"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "3282994478E8E690"
+					table_id: 976022542794356194L
+					type: "choice"
+				}
 			]
 			tasks: [
 				{
@@ -1417,8 +1423,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3D6B535836C8C08C"
-				item: { count: 1, id: "cmpackagepipebomb:pipebomb" }
+				id: "5387D74B4AA772C7"
+				item: { count: 1, id: "cmpackagepipebomb:pipebomb_rigged" }
 				type: "item"
 			}]
 			x: -30.0d
