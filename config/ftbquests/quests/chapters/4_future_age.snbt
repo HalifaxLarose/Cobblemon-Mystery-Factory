@@ -268,6 +268,14 @@
 		{
 			dependencies: ["2FE2F003F7B00E09"]
 			id: "7E49CFB6F5B7AADC"
+			rewards: [{
+				id: "5EC2AC4521E256E9"
+				item: {
+					count: 1
+					id: "plushie_buddies:plushie_enderdragon"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "179FF6D39169391A"
 				item: { count: 1, id: "minecraft:dragon_head" }
@@ -318,7 +326,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 6.0d
+			y: 6.75d
 		}
 		{
 			dependencies: ["231FBC6C3CF16E7C"]
@@ -354,7 +362,7 @@
 				type: "item"
 			}]
 			x: -12.75d
-			y: 16.5d
+			y: 15.75d
 		}
 		{
 			dependencies: ["1721C690EF183AB9"]
@@ -388,7 +396,7 @@
 				type: "item"
 			}]
 			x: -12.75d
-			y: 18.0d
+			y: 17.25d
 		}
 		{
 			dependencies: ["23608D5A2089B9CD"]
@@ -767,6 +775,41 @@
 			dependencies: ["68F2EDECF572AC43"]
 			icon_scale: 0.75d
 			id: "03D54B15CEE07D18"
+			rewards: [
+				{
+					id: "41C23C916F4AA23D"
+					item: {
+						count: 1
+						id: "cobblemon_utility:shinycard"
+					}
+					type: "item"
+				}
+				{
+					id: "28C5D162CFD8A8CD"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "54A1BEF1AA66C285"
+					item: {
+						count: 1
+						id: "cobblemon_utility:cobblemax"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "29551975FE4B709B"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 8.0d
 			tasks: [{
@@ -888,6 +931,7 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["0871DBE326AEEB81"]
 			id: "27999AECE5D54163"
 			shape: "rsquare"
 			size: 4.0d
@@ -895,7 +939,7 @@
 				id: "4B86F399F7CBB2A1"
 				type: "checkmark"
 			}]
-			x: -16.5d
+			x: -16.0d
 			y: -2.5d
 		}
 		{
@@ -950,6 +994,17 @@
 			}]
 			x: -24.0d
 			y: 35.25d
+		}
+		{
+			dependencies: ["38D53E8D633C1595"]
+			id: "5FDFE4397324CE80"
+			tasks: [{
+				id: "76DC06FD52F6638B"
+				item: { count: 1, id: "laserbridges:laser_source_block" }
+				type: "item"
+			}]
+			x: -12.75d
+			y: 18.75d
 		}
 	]
 }

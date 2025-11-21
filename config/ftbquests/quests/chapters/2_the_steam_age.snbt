@@ -12,7 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6467039452212EB0"]
+			dependencies: ["57EED4C93049042F"]
 			id: "762C57887356A993"
 			shape: "rsquare"
 			size: 3.0d
@@ -32,7 +32,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["6467039452212EB0"]
+			dependencies: ["57EED4C93049042F"]
 			id: "0A18A7166FAF727E"
 			shape: "rsquare"
 			size: 2.5d
@@ -213,25 +213,6 @@
 			}]
 			x: 0.75d
 			y: 11.25d
-		}
-		{
-			dependencies: ["2769D96526B7A2FE"]
-			id: "3A1B3C0A77F150EC"
-			size: 1.5d
-			tasks: [
-				{
-					id: "13A8990C865069DF"
-					item: { count: 1, id: "create:precision_mechanism" }
-					type: "item"
-				}
-				{
-					id: "711B8BAC0B5FAC61"
-					item: { count: 1, id: "create:brass_casing" }
-					type: "item"
-				}
-			]
-			x: 0.75d
-			y: 22.5d
 		}
 		{
 			dependencies: [
@@ -672,13 +653,21 @@
 				type: "item"
 			}]
 			size: 1.0d
-			tasks: [{
-				id: "521D8C1CBD23EF90"
-				item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
-				type: "item"
-			}]
-			x: -8.25d
-			y: 6.75d
+			tasks: [
+				{
+					id: "521D8C1CBD23EF90"
+					item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
+					type: "item"
+				}
+				{
+					id: "20F4A85470F08C14"
+					item: { count: 1, id: "dndesires:fluid_hatch" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -1051,8 +1040,8 @@
 				item: { count: 1, id: "create:portable_fluid_interface" }
 				type: "item"
 			}]
-			x: -9.75d
-			y: 8.25d
+			x: -10.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["667413DDB3A31753"]
@@ -1302,6 +1291,97 @@
 			}]
 			x: 2.5d
 			y: 16.0d
+		}
+		{
+			dependencies: ["5C3E53E38827C070"]
+			id: "140927CB6F987067"
+			optional: true
+			rewards: [
+				{
+					id: "61A040E9CAED3D57"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71E480FD2124EB71"
+					table_id: 7445906247311458666L
+					type: "random"
+				}
+				{
+					id: "7156501EBE602931"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_allay"
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [
+				{
+					id: "4E42A30C1DB46774"
+					item: { count: 1, id: "buildinggadgets2:gadget_building" }
+					type: "item"
+				}
+				{
+					id: "6F08500013B57405"
+					item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+					type: "item"
+				}
+				{
+					id: "1F3F91B088E70597"
+					item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+					type: "item"
+				}
+				{
+					id: "24AA2EE9F6975767"
+					item: { components: { "buildinggadgets2:paste_replace_toggle": 1b }, count: 1, id: "buildinggadgets2:gadget_cut_paste" }
+					type: "item"
+				}
+				{
+					id: "4B94A007287D9220"
+					item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6467039452212EB0"]
+			hide_dependent_lines: true
+			icon: {
+				id: "supplementaries:fire_pit"
+			}
+			id: "57EED4C93049042F"
+			shape: "rsquare"
+			size: 5.0d
+			tasks: [{
+				id: "17B7F0A0BF0B0488"
+				type: "checkmark"
+			}]
+			x: -8.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2769D96526B7A2FE"]
+			id: "3A1B3C0A77F150EC"
+			size: 1.5d
+			tasks: [
+				{
+					id: "13A8990C865069DF"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+				{
+					id: "711B8BAC0B5FAC61"
+					item: { count: 1, id: "create:brass_casing" }
+					type: "item"
+				}
+			]
+			x: 0.75d
+			y: 22.5d
 		}
 	]
 }

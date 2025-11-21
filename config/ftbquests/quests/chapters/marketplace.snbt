@@ -151,7 +151,7 @@
 				item: { count: 1, id: "create:zinc_ingot" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: -1.0d
 		}
 		{

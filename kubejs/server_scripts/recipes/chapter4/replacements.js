@@ -9,6 +9,9 @@ ServerEvents.recipes(event => {
 
         { filter: {output: 'simpletms:tr_blank'}, original: 'minecraft:diamond', replaceWith: 'minecraft:redstone'},
         { filter: {output: 'simpletms:tr_blank'}, original: 'minecraft:iron_ingot', replaceWith: 'minecraft:diamond'},
+        
+        { filter: {output: 'laserbridges:laser_source_block'}, original: 'minecraft:end_crystal', replaceWith: 'oritech:flux_gate'},
+        { filter: {output: 'laserbridges:laser_source_block'}, original: 'minecraft:glass', replaceWith: 'oritech:enderic_lens'},
     ]
 
     const replacementOutput = [

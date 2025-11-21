@@ -14,7 +14,8 @@ ServerEvents.recipes(event => {
         {filter: {input: "minecraft:elytra"}, original: "minecraft:elytra", replaceWith:"createcardboardthings:cardboard_elytra"},
         
         // Oritech unification
-        {filter: {mod: 'oritech'}, original: 'oritech:item_pipe', replaceWith: 'oritech:silicon'}
+        {filter: {mod: 'oritech'}, original: 'oritech:item_pipe', replaceWith: 'oritech:silicon'},
+        {filter: {mod: 'buildinggadgets2'}, original: 'minecraft:iron_ingot', replaceWith: 'createaddition:electrum_ingot'},
     ]
     
     const replacementOutput = [
@@ -24,7 +25,6 @@ ServerEvents.recipes(event => {
     replacementInput.forEach((recipe) => {
         event.replaceInput(recipe.filter, recipe.original, recipe.replaceWith)
     })
-
 
     replacementOutput.forEach((recipe) => {
         event.replaceOutput(recipe.filter, recipe.original, recipe.replaceWith)

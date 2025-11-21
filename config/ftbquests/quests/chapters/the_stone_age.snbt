@@ -27,6 +27,9 @@
 		}
 		{
 			dependencies: ["45D0E4FC6DA40041"]
+			icon: {
+				id: "minecraft:crafting_table"
+			}
 			id: "530E15A5BD357D09"
 			shape: "rsquare"
 			size: 2.5d
@@ -626,7 +629,7 @@
 				item: { count: 1, id: "naturescompass:naturescompass" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.25d
 			y: 0.0d
 		}
 		{
@@ -708,6 +711,36 @@
 			]
 			x: 0.0d
 			y: 3.75d
+		}
+		{
+			dependencies: ["530E15A5BD357D09"]
+			id: "644FBA644CDB301F"
+			rewards: [{
+				id: "144E5206DEE33D8B"
+				item: {
+					count: 1
+					id: "plushie_buddies:plushie_wandering_trader"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63E1FED417CEDBEB"
+				item: { count: 1, id: "wands:stone_wand" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["064EC8C54AECDF13"]
+			id: "3901EEC584B9DE33"
+			tasks: [{
+				id: "473A0C1B449024D8"
+				item: { count: 1, id: "create_connected:six_way_gearbox" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
 		}
 	]
 }

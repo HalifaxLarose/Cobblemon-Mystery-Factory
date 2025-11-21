@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
         { output: 'oritech:fluid_pipe'},
         { output: 'oritech:item_filter_block'},
         { output: 'oritech:item_pipe_duct_block'},
+        { mod: 'belts' },
 
         // Assembling stuff
         { id: 'oritech:assembler/plating'},

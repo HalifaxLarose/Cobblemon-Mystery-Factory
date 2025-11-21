@@ -48,6 +48,42 @@ ServerEvents.recipes(event => {
     )
 
     // #region Oritech Pipes
+    // (Simple conveyors might as well be an Oritech mod)
+    event.shaped(
+        Item.of('belts:belt', 1),
+        [
+            'SBS'
+        ],
+        {
+            S: STEEL,
+            B: 'create:belt'
+        }
+    )
+    event.shaped(
+        Item.of('belts:chute', 2),
+        [
+            'E',
+            'S',
+            'B'
+        ],
+        {
+            E: 'create:electron_tube',
+            S: STEEL,
+            B: 'oritech:silicon'
+        }
+    )
+    event.shaped(
+        Item.of('belts:conveyor_support', 4),
+        [
+            'SBS',
+            ' S '
+        ],
+        {
+            S: STEEL,
+            B: 'oritech:silicon'
+        }
+    )
+
     event.shaped(
         Item.of('oritech:item_pipe', 8),
         [

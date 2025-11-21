@@ -498,6 +498,7 @@
 					type: "item"
 				}
 			]
+			shape: "heart"
 			size: 2.0d
 			tasks: [
 				{

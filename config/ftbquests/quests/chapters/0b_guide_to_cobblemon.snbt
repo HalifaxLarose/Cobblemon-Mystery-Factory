@@ -114,8 +114,8 @@
 				id: "27EFAFD252197917"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 15.75d
+			x: -0.75d
+			y: 12.0d
 		}
 		{
 			dependencies: ["4531204E67645F33"]
@@ -128,8 +128,8 @@
 				id: "0DCD9D6A50976997"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 16.5d
+			x: 0.75d
+			y: 12.75d
 		}
 		{
 			dependencies: ["030227B14AC78080"]
@@ -142,8 +142,8 @@
 				id: "16FBF68EA738EBA7"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 17.25d
+			x: -0.75d
+			y: 13.5d
 		}
 		{
 			dependencies: ["40985C639992F2DC"]
@@ -156,8 +156,8 @@
 				id: "32F82ED39033B9D5"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: 18.0d
+			x: -2.25d
+			y: 14.25d
 		}
 		{
 			dependencies: ["66F4D189AEE1FA60"]
@@ -170,8 +170,8 @@
 				id: "01F7F7BB7D920AB2"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 18.75d
+			x: -0.75d
+			y: 15.0d
 		}
 		{
 			dependencies: ["5222728D013B992C"]
@@ -184,8 +184,8 @@
 				id: "41EB5F9D88C90E95"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 19.5d
+			x: 0.75d
+			y: 15.75d
 		}
 		{
 			dependencies: ["080E6B7CC7386935"]
@@ -198,8 +198,8 @@
 				id: "7D481C113333158D"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 20.25d
+			x: -0.75d
+			y: 16.5d
 		}
 		{
 			dependencies: ["40A46B7171D3DA34"]
@@ -212,8 +212,8 @@
 				id: "5262D76D382F8821"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: 21.0d
+			x: -2.25d
+			y: 17.25d
 		}
 		{
 			dependencies: ["6195AFACC72979FA"]
@@ -226,8 +226,8 @@
 				id: "4612FC60A5FE1C88"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 21.75d
+			x: -0.75d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1689430BB1BCDCC7"]
@@ -241,8 +241,8 @@
 				id: "4EAE9B8674AC6B99"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 23.25d
+			x: -0.75d
+			y: 19.5d
 		}
 		{
 			dependencies: ["31627A295980E23B"]

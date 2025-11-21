@@ -15,4 +15,6 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('rctmod:trainer_card', 'Guild Directory')
   event.renameItem('cobblemon:poke_ball', 'Friend Ball');
   event.renameItem('cobblemon:friend_ball', 'Friendly Ball');
+  event.renameItem('belts:chute', 'Steel Funnel')
+  event.renameItem('belts:belt', 'Steel Conveyor Belt')
 })

@@ -3,14 +3,15 @@ ServerEvents.recipes(event => {
     const STEEL = "#c:ingots/steel";
 
     const replacementInput = [
-        { filter: {}, original: "", replaceWith: "" },
         // Pre-distillation
+        { filter: { output: "dndesires:industrial_casing" }, original: "create:zinc_ingot", replaceWith: STEEL },
         { filter: { output: "dndesires:hydraulic_press" }, original: "minecraft:copper_block", replaceWith: "#c:storage_blocks/steel" },
         { filter: { output: "oritech:centrifuge_block" }, original: "minecraft:iron_block", replaceWith: "#c:storage_blocks/steel" },
         { filter: { output: "oritech:machine_extender" }, original: "oritech:duratium_ingot", replaceWith: "oritech:plastic_sheet" },
         { filter: { output: "oritech:machine_extender" }, original: "oritech:machine_core_2", replaceWith: "oritech:machine_core_3" },
         { filter: { output: "oritech:refinery_module_block"}, original: "oritech:small_tank_block", replaceWith: "create:fluid_tank"},
         { filter: { output: "oritech:refinery_module_block"}, original: "minecraft:copper_ingot", replaceWith: STEEL},
+        { filter: { mod: "belts"}, original: "minecraft:copper_ingot", replaceWith: 'oritech:silicon'},
         
         // Oil processing
         { filter: { mod: "createdieselgenerators"}, original: 'createdieselgenerators:crude_oil_bucket', replaceWith: "kubejs:bitumen_bucket"},

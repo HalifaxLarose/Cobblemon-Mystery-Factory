@@ -51,6 +51,8 @@
 			y: -9.0d
 		}
 		{
+			dependencies: ["6C2FD2EDFB9EF31E"]
+			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "03BECF0CDFE6C49B"
 			shape: "rsquare"
@@ -270,7 +272,14 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["433141BA6C552F74"]
+			dependencies: ["6C2FD2EDFB9EF31E"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "northstar:fluid/carbon_still"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "172BC54EE5CD221C"
 			tasks: [
 				{
@@ -543,6 +552,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "016D880A7E1F5D1D"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:stack_upgrade_tier_5"
+					}
+					type: "item"
+				}
 			]
 			shape: "pentagon"
 			size: 8.0d
@@ -555,6 +572,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["6C2FD2EDFB9EF31E"]
+			hide_dependency_lines: false
 			id: "433141BA6C552F74"
 			shape: "gear"
 			tasks: [{
@@ -562,8 +581,8 @@
 				item: { count: 1, id: "dndesires:hydraulic_press" }
 				type: "item"
 			}]
-			x: -8.25d
-			y: 14.25d
+			x: 11.25d
+			y: -18.0d
 		}
 		{
 			dependencies: ["35D2DE55D0A8F5E2"]
@@ -677,6 +696,8 @@
 			y: 8.25d
 		}
 		{
+			dependencies: ["6C2FD2EDFB9EF31E"]
+			hide_dependency_lines: true
 			id: "4CCA8EDAF63EF4FC"
 			shape: "rsquare"
 			size: 2.0d
@@ -1226,6 +1247,83 @@
 			}]
 			x: 12.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["67E8FC5EC26CF012"]
+			icon: {
+				id: "oritech:steel_block"
+			}
+			id: "6C2FD2EDFB9EF31E"
+			shape: "rsquare"
+			size: 5.0d
+			tasks: [{
+				id: "2942437D8AB36692"
+				type: "checkmark"
+			}]
+			x: 12.75d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6C2FD2EDFB9EF31E"]
+			id: "2890D6336ECE44C9"
+			rewards: [{
+				id: "521424F669BC429B"
+				item: {
+					count: 1
+					id: "mega_showdown:rotom_fan"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "008C337A8082E6C3"
+				item: { count: 1, id: "dndesires:industrial_fan" }
+				type: "item"
+			}]
+			x: 14.25d
+			y: -18.0d
+		}
+		{
+			dependencies: ["6C2FD2EDFB9EF31E"]
+			id: "4C13571360BBF4A0"
+			size: 2.0d
+			tasks: [{
+				id: "523F6BE6CDD57A15"
+				item: { count: 1, id: "belts:belt" }
+				type: "item"
+			}]
+			x: 12.75d
+			y: -19.5d
+		}
+		{
+			dependencies: ["4C13571360BBF4A0"]
+			id: "58E09375CAAA3A66"
+			tasks: [
+				{
+					id: "63FA6BCA874373CE"
+					item: { count: 1, id: "belts:chute" }
+					type: "item"
+				}
+				{
+					id: "23D66E47ADB66497"
+					item: { count: 1, id: "belts:conveyor_support" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -21.75d
+		}
+		{
+			dependencies: ["4C13571360BBF4A0"]
+			icon: {
+				id: "ftbfiltersystem:smart_filter"
+			}
+			id: "099984E4F498CB5B"
+			tasks: [{
+				id: "1573749D89177325"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: -21.75d
 		}
 	]
 }

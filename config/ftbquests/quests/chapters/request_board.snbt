@@ -110,6 +110,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "23800DC693783BC7"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_husk"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 128L
@@ -247,11 +255,6 @@
 					type: "item"
 				}
 				{
-					id: "775BF6D486E471C3"
-					item: { count: 1, id: "gnkinetics:cog_crank" }
-					type: "item"
-				}
-				{
 					id: "26665A0A279D13AF"
 					item: { count: 1, id: "gnkinetics:shaftless_cogwheel" }
 					type: "item"
@@ -269,11 +272,6 @@
 				{
 					id: "6D364AC0958C4535"
 					item: { count: 1, id: "gnkinetics:shaftless_cogstone" }
-					type: "item"
-				}
-				{
-					id: "6892782DBDAE8CE8"
-					item: { count: 1, id: "gnkinetics:large_cog_crank" }
 					type: "item"
 				}
 				{
@@ -302,8 +300,8 @@
 					type: "item"
 				}
 				{
-					id: "6FB1E12473644101"
-					item: { count: 1, id: "create_connected:large_crank_wheel" }
+					id: "09159A067DEF9F53"
+					item: { count: 1, id: "create_connected:encased_chain_cogwheel" }
 					type: "item"
 				}
 			]
@@ -427,14 +425,32 @@
 		{
 			dependencies: ["6467039452212EB0"]
 			id: "25152BCA2CB2AB9A"
-			rewards: [{
-				id: "1700C6719B6A80DA"
-				item: {
-					count: 1
-					id: "simpletms:tm_stealthrock"
+			rewards: [
+				{
+					id: "1700C6719B6A80DA"
+					item: {
+						count: 1
+						id: "simpletms:tm_stealthrock"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "67D88541273DDC44"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_zombified_piglin"
+					}
+					type: "item"
+				}
+				{
+					id: "02A346628FB2F36E"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_piglin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 32L
 				id: "656AA4351994A77C"
@@ -585,8 +601,8 @@
 				item: { count: 1, id: "createbb:blue_meth" }
 				type: "item"
 			}]
-			x: -16.0d
-			y: 28.0d
+			x: -18.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["6467039452212EB0"]
@@ -626,12 +642,20 @@
 		{
 			dependencies: ["3A1B3C0A77F150EC"]
 			id: "0DFB5D867F8F7BED"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "536B975604AE36A1"
-				table_id: 8403049648178631864L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "536B975604AE36A1"
+					table_id: 8403049648178631864L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76ADD7C210A01EC7"
+					table_id: 7445906247311458666L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1EC78DFD83E357FD"
 				item: { count: 1, id: "create:wand_of_symmetry" }
@@ -729,8 +753,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: 28.0d
+			x: -9.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["6467039452212EB0"]
@@ -830,6 +854,22 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0888462E4F8293ED"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_pig"
+					}
+					type: "item"
+				}
+				{
+					id: "492DB1D4DC13C208"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_cow"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 128L
@@ -857,6 +897,14 @@
 					item: {
 						count: 1
 						id: "simpletms:tm_mirrorcoat"
+					}
+					type: "item"
+				}
+				{
+					id: "45F527B1FBD10654"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_fox"
 					}
 					type: "item"
 				}
@@ -898,6 +946,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "742E9175733261AC"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_armadillo"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 128L
@@ -911,14 +967,24 @@
 		{
 			dependencies: ["6467039452212EB0"]
 			id: "54C61DAA7186617B"
-			rewards: [{
-				id: "30CE9A9EDB9A965A"
-				item: {
-					count: 1
-					id: "simpletms:tm_rapidspin"
+			rewards: [
+				{
+					id: "30CE9A9EDB9A965A"
+					item: {
+						count: 1
+						id: "simpletms:tm_rapidspin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "441F325D15F497AC"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_turtle"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 32L
 				id: "5400C281B8F0BE97"
@@ -994,6 +1060,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "198B1B441C248D7F"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_polar_bear"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 32L
@@ -1056,6 +1130,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3CB7E8048AA19AA4"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_panda"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 64L
@@ -1065,17 +1147,6 @@
 			}]
 			x: -43.0d
 			y: -6.0d
-		}
-		{
-			dependencies: ["67E8FC5EC26CF012"]
-			id: "6D72F813D186EE6C"
-			tasks: [{
-				id: "340099B32E0E8B73"
-				item: { count: 1, id: "dndesires:industrial_fan" }
-				type: "item"
-			}]
-			x: -16.0d
-			y: 22.0d
 		}
 		{
 			dependencies: ["3A1B3C0A77F150EC"]
@@ -1093,6 +1164,14 @@
 					item: {
 						count: 1
 						id: "mcwholidays:mixed_oak_leaves_carpet"
+					}
+					type: "item"
+				}
+				{
+					id: "0D59AE212EFC8677"
+					item: {
+						count: 1
+						id: "create_deepfried:coated_chocolate_berliner"
 					}
 					type: "item"
 				}
@@ -1377,6 +1456,14 @@
 					}
 					type: "item"
 				}
+				{
+					command: "/pokegive bagon"
+					icon: {
+						id: "cobblemon:poke_ball"
+					}
+					id: "17B90B4E1AFBF7EE"
+					type: "command"
+				}
 			]
 			size: 3.0d
 			tasks: [{
@@ -1408,8 +1495,8 @@
 					type: "item"
 				}
 			]
-			x: -22.0d
-			y: -2.0d
+			x: -25.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1DD6BF171DC10E1C"]
@@ -1548,6 +1635,15 @@
 					item: {
 						count: 1
 						id: "cobblemon:leftovers"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "76BBB9CB76C0591F"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_axolotl"
 					}
 					type: "item"
 				}
@@ -1807,15 +1903,25 @@
 		{
 			dependencies: ["6467039452212EB0"]
 			id: "53568F6020505C67"
-			rewards: [{
-				count: 5
-				id: "0E6AEBFCCF687EB4"
-				item: {
-					count: 1
-					id: "farmersdelight:bacon_and_eggs"
+			rewards: [
+				{
+					count: 5
+					id: "0E6AEBFCCF687EB4"
+					item: {
+						count: 1
+						id: "farmersdelight:bacon_and_eggs"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "407C0735EB991705"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_donkey"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3019C5E031AFCC0F"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(animal_pen:animal_pens)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -1900,14 +2006,6 @@
 		{
 			dependencies: ["762C57887356A993"]
 			id: "068963BE731B2E1C"
-			rewards: [{
-				command: "/pokegive bagon"
-				icon: {
-					id: "cobblemon:poke_ball"
-				}
-				id: "6381BA744353D471"
-				type: "command"
-			}]
 			size: 3.0d
 			tasks: [{
 				dimension: "aether:the_aether"
@@ -1935,6 +2033,68 @@
 			}]
 			x: -4.0d
 			y: -20.0d
+		}
+		{
+			dependencies: ["3A1B3C0A77F150EC"]
+			id: "2C51012E62684C6B"
+			rewards: [
+				{
+					id: "680A6994BEF58F49"
+					item: {
+						count: 1
+						id: "minecraft:clock"
+					}
+					type: "item"
+				}
+				{
+					id: "77E37C5488962169"
+					item: {
+						count: 1
+						id: "supplementaries:clock_block"
+					}
+					type: "item"
+				}
+				{
+					id: "0098DD5DAC6B75F5"
+					item: {
+						count: 1
+						id: "createrailwaysnavigator:train_station_clock"
+					}
+					type: "item"
+				}
+				{
+					id: "14877E43BE45147C"
+					item: {
+						count: 1
+						id: "create:cuckoo_clock"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "0AC2DC29922C28CC"
+					item: {
+						count: 1
+						id: "cobblemon:timer_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "4E20B14CC090D269"
+					item: {
+						count: 1
+						id: "simpletms:tm_teatime"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BEA72EDC0BF115D"
+				item: { count: 1, id: "create:clockwork_bearing" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: -1.0d
 		}
 	]
 }
