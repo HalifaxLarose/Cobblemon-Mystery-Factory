@@ -21,7 +21,6 @@ ServerEvents.recipes(event => {
         ],
         'northstar:moon_stone'
     )
-
     event.recipes.create.crushing(
         [
             CreateItem.of('northstar:moon_sand', 0.5),
@@ -33,6 +32,15 @@ ServerEvents.recipes(event => {
         ],
         'northstar:moon_deep_stone'
     )
+
+
+    let dragonIngredients = [];
+    for (let i = 0; i < 8; ++i) {
+        dragonIngredients.push( 'kubejs:enderdragon_treasure');
+    }
+    event.recipes.create.mixing( 'kubejs:small_enderdragon_essence', dragonIngredients).superheated();
+
+
     event.recipes.create.mechanical_crafting('kubejs:dormant_eye_of_ender', [
         'DDDDD',
         'DDDDD',

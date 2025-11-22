@@ -5,8 +5,9 @@ StartupEvents.registry('item', event => {
   event.create('cog_teeth')
   event.create('example_item')
 
-  event.create('enderdragon_essence')
   event.create('enderdragon_treasure')
+  event.create('small_enderdragon_essence')
+  event.create('enderdragon_essence')
   event.create('powerful_enderdragon_essence')
   event.create('dormant_eye_of_ender')
 })
