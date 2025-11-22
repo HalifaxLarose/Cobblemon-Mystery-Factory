@@ -1383,5 +1383,19 @@
 			x: 0.75d
 			y: 22.5d
 		}
+		{
+			dependencies: ["57EED4C93049042F"]
+			icon: {
+				id: "molten_vents:dormant_molten_asurine"
+			}
+			id: "354B58EF3569B3A9"
+			shape: "hexagon"
+			tasks: [{
+				id: "3393CAD394A4E134"
+				type: "checkmark"
+			}]
+			x: -8.25d
+			y: -3.0d
+		}
 	]
 }

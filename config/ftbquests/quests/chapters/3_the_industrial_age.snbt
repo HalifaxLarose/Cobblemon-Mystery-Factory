@@ -1325,5 +1325,19 @@
 			x: 13.5d
 			y: -21.75d
 		}
+		{
+			dependencies: ["6C2FD2EDFB9EF31E"]
+			icon: {
+				id: "arts_and_crafts:white_paintbrush"
+			}
+			id: "140C6034072DF11F"
+			shape: "hexagon"
+			tasks: [{
+				id: "6B39FF71825830F9"
+				type: "checkmark"
+			}]
+			x: 17.25d
+			y: -13.5d
+		}
 	]
 }

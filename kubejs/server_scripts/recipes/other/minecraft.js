@@ -33,4 +33,6 @@ ServerEvents.recipes(event => {
             D:"minecraft:diamond"
         }
     )
+
+    event.stonecutting('arts_and_crafts:white_chalk', 'regions_unexplored:chalk')
 })

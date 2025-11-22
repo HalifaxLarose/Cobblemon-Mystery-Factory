@@ -323,6 +323,14 @@
 		""
 		"They can be controlled with &c\"Y\"&r (anchor), &c\"U\"&r (undo). &c\"I\"&r (range), and &c\"O\"&r (settings). Play around!"
 	]
+	quest.140C6034072DF11F.quest_desc: [
+		"&bOritech&r's colours do look nice and vibrant, but exactly because of that, it may be hard to make it's look work with the rest of your factory."
+		""
+		"There are a few resource packs installed by default that will change their colours. The two main ones are &bNeutral Oritech&r, and &bOritechLab&r. Use the resource pack of your preference, or keep to the default orange colours."
+		""
+		"In addition, you'll unlock Oritech &6item pipes&r later in this chapter. You can use &bOritech Consistent Pipes Retextured&r to change them as well."
+	]
+	quest.140C6034072DF11F.title: "Change Your Oritech Look!"
 	quest.142EBF48F0082CFF.quest_desc: [
 		"Refinery chamber modules allow refineries to have extra output slots. You attach them to refineries by carefully placing them right above the block where you placed the base refinery block."
 		""
@@ -735,6 +743,7 @@
 	quest.2C51012E62684C6B.quest_desc: ["This lets you build a big clock"]
 	quest.2C51012E62684C6B.title: "Build a Big Clock"
 	quest.2C8C9E07C7D3E5AD.quest_subtitle: "You may need these later"
+	quest.2CA24C8DA8866DC3.title: "\"I need to start some landscaping...\""
 	quest.2D3935A777CEC349.quest_desc: ["Crafted from &ecentrifuging&r an &6ender pearl&r, enderic compounds have a couple of uses, most which came later. It is a necessary step for power tools, however."]
 	quest.2D60596BED788EEA.quest_desc: ["The modern computer has many uses and applications that can ease automation and production in your factory. Too bad you have no idea how to use this."]
 	quest.2D60596BED788EEA.title: "Skipping Ahead in the Tech Tree"
@@ -866,9 +875,27 @@
 	quest.3442B87707008E93.title: "Alternate Power"
 	quest.34C0F19214AE7D16.quest_desc: ["Well here you go"]
 	quest.34C0F19214AE7D16.title: "Factory Gauges Aren't Complicated Enough"
-	quest.35125530BA715478.quest_desc: ["Apicrots grow grom trees. Therefore, a tree farm is the best way to automate them."]
+	quest.35125530BA715478.quest_desc: [
+		"&mApicrots grow grom trees. Therefore, a tree farm is the best way to automate them.&r"
+		""
+		"You must use the &edeployer&r unlocked in chapter 2. You can place more leaves and place more apicorns onto there. I didn't have time to refine quests related to Cobblemon. "
+	]
 	quest.352E3DEA192A7893.quest_desc: ["&6Stack Upgrades&r can be used to upgrade how many stacks a single inventory slot can hold. This \"stacks\" with upgrading the base storage itself, meaning storage size can get ridiculous."]
 	quest.352E3DEA192A7893.title: "Bigger Stacks"
+	quest.354B58EF3569B3A9.quest_desc: [
+		"Throughout the world, you will find various vents. If you use &6TNT&r then dump &6a lava source block&r over the activated vent, you will get a block which can then be milled or crushed for ore. These are the vents:"
+		""
+		"- &6Asurine (Zinc)&r can be found in the &emountains&r."
+		"- &6Ochrum (Gold)&r can be found in &ehot biomes&r; anywhere a snowman would melt."
+		"- &6Veridium (Copper)&r can be found in &eforests&r."
+		"- &6Crimsite (Iron)&r can be found &eanywhere&r, but are hard to come by."
+		""
+		"In addition, all four can appear &eunderwater&r, as well as rarely in the &eAether&r."
+		""
+		"&nIf you do not like getting ore this way&r, either due to placing lava or ferrying it back, chapter 3 will introduce alternative ways to generate ore."
+	]
+	quest.354B58EF3569B3A9.quest_subtitle: "Infinite???"
+	quest.354B58EF3569B3A9.title: "How to get Infinite Ore"
 	quest.357E014D47850417.quest_desc: ["The quantify key is used like a drawer key, but it does something completely different: it'll display how many items are being stored on the drawer."]
 	quest.357E014D47850417.title: "See Your Stock"
 	quest.35D9A8F1030032B4.quest_desc: ["This probably does something, I'm not sure what though"]
@@ -1106,6 +1133,8 @@
 		"The &6Hydraulic Press&r operates similarly to a mechanical press, but it can &eprocess whole stacks at a time&r. There are also &eunique recipes&r that can only be done with this machine."
 		""
 		"There is one catch: &6water&r needs to be pumped into it."
+		""
+		"This machine can also be used as an alternative method to molten vents for creating ores."
 	]
 	quest.433141BA6C552F74.quest_subtitle: "Important!"
 	quest.433141BA6C552F74.title: "The Super Press"
@@ -2053,6 +2082,7 @@
 	task.064F255EFE70C61C.title: "Any Storage Drawer"
 	task.0727DA33DE75C3AE.title: "Enchant your Machines"
 	task.081DAA0DB5C15127.title: "Heck Yes"
+	task.08440D3A8A3C4129.title: "Any Leaves"
 	task.09069C3509A42F83.title: "Understood"
 	task.09A7E9389B58EE2D.title: "Any #cobblemon:battle_items"
 	task.0A8D6163481E0D5C.title: "Any #cobblemon:mints"
@@ -2109,6 +2139,7 @@
 	task.320C10207214AB04.title: "It worked!"
 	task.3332821A9E8D08C0.title: "Let's Go"
 	task.3342BF4332EBED2F.title: "Any Mega Stone"
+	task.3393CAD394A4E134.title: "Understood"
 	task.33CB184B1FB6B249.title: "The Path of Automation"
 	task.33CEA8E883CF7531.title: "Any Sophisticated Storage"
 	task.34EB311F52B79867.title: "Understood"
@@ -2155,6 +2186,7 @@
 	task.564AE57704DC0EB7.title: "Understood"
 	task.568D9885F976DF4D.title: "Understood"
 	task.579ECBE69A1D03F0.title: "Any Sapling"
+	task.5822F269C13F70C0.title: "Any Flowers"
 	task.5B82A994EAF03B85.title: "Time to be reborn"
 	task.5C05CB2182DB2DEE.title: "Dragon Passion"
 	task.5CA5658A91B1A4DE.title: "We are all sons of Arcanine now"
@@ -2169,9 +2201,11 @@
 	task.62EF7EFF0742288A.title: "Any #cobblemon:tier_1_poke_balls"
 	task.649E968AE4248CA0.title: "Select your Partner"
 	task.64C87BC19251CBC6.title: "Understood"
+	task.6592DBB474BC8E65.title: "Any Logs"
 	task.65C73643A770AAF2.title: "Any 32 Basic Pokeballs"
 	task.667322DF91FCF5B2.title: "Ethelene and  propylene "
 	task.6736993618769277.title: "4x64 Shafts"
+	task.6B39FF71825830F9.title: "Understood"
 	task.6B8047D21F0D1892.title: "Understood"
 	task.6BA16ECF48D75F7E.title: "Any Z-Ring"
 	task.6DAC00F53624AFAD.title: "Any Dragon Altar"
