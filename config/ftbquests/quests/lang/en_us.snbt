@@ -973,6 +973,8 @@
 		"So, just because this book tells you to do something, does not mean you should do it. Instead, pick what looks interesting, fun, or useful for helping you with the main quests."
 		""
 		"Hexagonal quests are informational, like this one. Pentagonal quests are the goal of main chapters and rounded square chapters are the starting points."
+		""
+		"&lTO OPEN THIS QUEST BOOK AT ANY TIME, PRESS THE &c~&r &lKEY&r (to the left of the \"1\" key)"
 	]
 	quest.3CDD814B33B2A508.quest_subtitle: "PLEASE READ"
 	quest.3CDD814B33B2A508.title: "About This Questbook"
