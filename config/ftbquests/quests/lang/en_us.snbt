@@ -35,7 +35,7 @@
 		"The whistle will also automatically play while arriving to stations, if the train's schedule is automated."
 	]
 	quest.006E924E38D3B4DC.quest_subtitle: "Choo choo mother f"
-	quest.00DEF41669ECCBD7.quest_desc: ["Combine &6eight enderdragon treasures&r with a &6bucket of dragon breath&r under a &ehydraulic press&r to create the very esssence of the enderdragon."]
+	quest.00DEF41669ECCBD7.quest_desc: ["You need more, but it won't bind without help. You'll need to combine &6eight enderdragon treasures&r with a &6bucket of dragon breath&r under a &ehydraulic press&r to bond together the very esssence of the enderdragon."]
 	quest.01A8F147B9BF2E1E.quest_desc: [
 		"The Schrödinger's Safe is the ultimate battery, able to store ludricrous amounts of energy. The caveat is that it must be \"placed\" on a dangerous blocks, and energy can only be inserted into it via &eenderic lasers&r. It can output energy on the top of bottom."
 		""
@@ -284,7 +284,7 @@
 	]
 	quest.10B277D07A049ED3.quest_subtitle: "Funnel's Virgin Brother"
 	quest.11157DC7D8C40913.title: "Become a Cardboard Handyman!"
-	quest.11A043D25079D587.quest_desc: ["Fuse the &6enderdragon essence&r with &6plutonium&r (grown from uranite) inside the &eparticle accelerator&r to make it powerful enough to bend its will on the world."]
+	quest.11A043D25079D587.quest_desc: ["The &6enderdragon essence&r contains the power you need, but it's locked up in a rigid form. You'll need to fuse it with &6plutonium&r (grown from uranite) inside the &eparticle accelerator&r to make it reactive."]
 	quest.11F3D6C1162DF9A5.quest_desc: [
 		"Your body will take time to get used to. In the meantime, the best way to do that is to probably start your mission and explore the world for a place to set your guild up."
 		""
@@ -779,7 +779,11 @@
 		""
 		"This will destroy the farmland itself, unless you give it the crop filter addon. Then it will only destroy fully grown crops."
 	]
-	quest.3052698DEB3EBE78.quest_desc: ["&eBulk end&r any &6dragpm treasure&r to make enderdragon treasure."]
+	quest.3052698DEB3EBE78.quest_desc: [
+		"&eBulk end&r any &6dragon treasure&r to make enderdragon treasure."
+		""
+		"Most of it will melt way under the dragon's potent breath, but what remains is dragon essence imbued in &nphysical&r form. Now to just extract physical essence out of the treasure."
+	]
 	quest.30BB4ADF4FBEEE1C.quest_desc: [
 		"Flour needs to be mixed with water to turn into dough. Place a basin under a mix, and use a water bucket to fill it with water."
 		""
@@ -845,7 +849,7 @@
 	]
 	quest.3386DE3C85EDBBB6.quest_subtitle: "What will fate decide?"
 	quest.3386DE3C85EDBBB6.title: "Becoming a Dragon"
-	quest.33BB4935D86DEE5E.quest_desc: ["Cram all that power into an &6ender pearl&r with the &emechanical crafter&r."]
+	quest.33BB4935D86DEE5E.quest_desc: ["&6Ender Pearls&r are sourced from the End, but they've long lost their connection to the End. Cramming all that enderdragon power into it with the &emechanical crafter&r will reconnect it to its home."]
 	quest.343CC6908A08D00C.quest_desc: [
 		"To start crafting friend balls, you will need to find an &6Apicorn Tree&r, and &eright click the apricorns&r hanging from them. They can then be used with ingots to craft friend balls."
 		""
@@ -1543,6 +1547,7 @@
 		""
 		"Thankfully, zapping gold with electricity somehow adds silver to its chemical structure. Your electric guildmembers just knew this somehow."
 	]
+	quest.5C9B58CB18736C5F.quest_desc: ["You will need melt away most of the metal and distill the essence into a more pure, powdery form."]
 	quest.5D13613A2A106353.quest_desc: ["Silicon is a strong sealant used for advanced fluid operations, made by smelting raw silicon."]
 	quest.5D304AD3C66A4942.quest_desc: ["The stressometer allows you to see the total stress units available for the entire mechanical network. It'll let you upgrade power before things break."]
 	quest.5D304AD3C66A4942.title: "How Stressed Are You?"
@@ -1715,7 +1720,7 @@
 		"For now, you'll need to &esuperheat mix&r &6sodium catalyst&r, &6kerosene&r, and &6carbon gas&r."
 	]
 	quest.68DCD5A34A0573BC.title: "ROCKET FUEL"
-	quest.68F2EDECF572AC43.quest_desc: ["Finally, the &eatomic forge&r can embue the &6dormant eye&r with &6blaze powder&r to awaken it."]
+	quest.68F2EDECF572AC43.quest_desc: ["Lastly, you need to reawaken it with the passion of fire. Use the &eatomic forge&r to embue the &6dormant eye&r with &6blaze powder&r, then it can't resist the pull of home."]
 	quest.6947F9E2737E3051.quest_desc: ["With the deployer, you will now be able to automate pokeballs."]
 	quest.6947F9E2737E3051.title: "Automate Pokeballs"
 	quest.69E51CAF06C4EC83.quest_desc: [
@@ -1771,9 +1776,9 @@
 		"Dragon dust is needed to craft many speciality dragon goods. Accumulating it will also allow you to craft growing items."
 	]
 	quest.6E3190354C280AA5.quest_desc: [
-		"You will need to craft a LOT of treasure. More than 1,000. Good news is that it can be any kind of terasure you want."
+		"You will need to craft a LOT of treasure. More than 1,000. Good news is that it can be any kind of terasure you want, but nothing else in this world resonates with power of dragons of old as treasure."
 		""
-		"The bedrock extractors could be really useful for this feet."
+		"&eBedrock extractors&r could be really useful for this feet."
 	]
 	quest.6E321FBE3B2DC9B3.quest_desc: [
 		"You can search for items by specific mods by prepending \"@\" in front of your search term."

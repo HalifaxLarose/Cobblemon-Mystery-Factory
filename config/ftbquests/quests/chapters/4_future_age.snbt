@@ -190,7 +190,7 @@
 				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.75d
 			y: 44.25d
 		}
 		{
@@ -746,11 +746,11 @@
 				item: { count: 1, id: "kubejs:enderdragon_treasure" }
 				type: "item"
 			}]
-			x: -16.5d
-			y: 44.25d
+			x: -17.25d
+			y: 42.75d
 		}
 		{
-			dependencies: ["3052698DEB3EBE78"]
+			dependencies: ["5C9B58CB18736C5F"]
 			id: "00DEF41669ECCBD7"
 			tasks: [{
 				id: "5E7192888DF507BF"
@@ -758,7 +758,7 @@
 				type: "item"
 			}]
 			x: -14.25d
-			y: 44.25d
+			y: 42.75d
 		}
 		{
 			dependencies: ["00DEF41669ECCBD7"]
@@ -768,7 +768,7 @@
 				item: { count: 1, id: "kubejs:powerful_enderdragon_essence" }
 				type: "item"
 			}]
-			x: -12.0d
+			x: -12.75d
 			y: 44.25d
 		}
 		{
@@ -817,7 +817,7 @@
 				id: "53C9F2D033848A89"
 				type: "dimension"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: 48.0d
 		}
 		{
@@ -961,8 +961,8 @@
 				item: { count: 1, id: "kubejs:dormant_eye_of_ender" }
 				type: "item"
 			}]
-			x: -9.75d
-			y: 44.25d
+			x: -11.25d
+			y: 42.75d
 		}
 		{
 			dependencies: ["12A5A6E6C420D6DB"]
@@ -1005,6 +1005,17 @@
 			}]
 			x: -12.75d
 			y: 18.75d
+		}
+		{
+			dependencies: ["3052698DEB3EBE78"]
+			id: "5C9B58CB18736C5F"
+			tasks: [{
+				id: "060BBDEEC74E5858"
+				item: { count: 1, id: "kubejs:small_enderdragon_essence" }
+				type: "item"
+			}]
+			x: -15.75d
+			y: 44.25d
 		}
 	]
 }

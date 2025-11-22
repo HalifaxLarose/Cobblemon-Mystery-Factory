@@ -25,4 +25,21 @@ ServerEvents.recipes(event => {
     replacementOutput.forEach((recipe) => {
         event.replaceOutput(recipe.filter, recipe.original, recipe.replaceWith)
     })
+
+    // De-gate most eye of ender recipes
+    const ENDER_EYE_DEGATES = [
+        'minecraft:ender_chest',
+        'ars_nouveau:scryers_crystal',
+        'sophisticatedbackpacks:inception_upgrade',
+        'sophisticatedbackpacks:xp_pump_upgrade',
+        'wands:magic_bag_2',
+        'oritech:arcane_augment_station',
+        'mega_showdown:adrenalineorb',
+        'storagedrawers:shroud_key',
+        'minecraft:heart_of_the_sea'
+    ]
+
+    for (let eye_degate of ENDER_EYE_DEGATES) {
+        event.replaceInput({output: eye_degate},  'minecraft:ender_eye', 'minecraft:ender_pearl')
+    }
 })
