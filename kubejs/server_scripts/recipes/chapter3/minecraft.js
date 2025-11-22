@@ -56,7 +56,17 @@ ServerEvents.recipes(event => {
         ],
         {
             S: STEEL,
-            B: 'create:belt'
+            B: 'create:belt_connector'
+        }
+    )
+    event.shaped(
+        Item.of('belts:belt', 1),
+        [
+            'SBS'
+        ],
+        {
+            S: STEEL,
+            B: 'oritech:silicon_block'
         }
     )
     event.shaped(
