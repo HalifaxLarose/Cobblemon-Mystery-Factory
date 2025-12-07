@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
         
         { filter: {output: 'laserbridges:laser_source_block'}, original: 'minecraft:end_crystal', replaceWith: 'oritech:flux_gate'},
         { filter: {output: 'laserbridges:laser_source_block'}, original: 'minecraft:glass', replaceWith: 'oritech:enderic_lens'},
+        { filter: {output: 'oritech:atomic_forge_block'}, original: 'oritech:duratium_ingot', replaceWith: 'oritech:platinum_ingot'},
     ]
 
     const replacementOutput = [
