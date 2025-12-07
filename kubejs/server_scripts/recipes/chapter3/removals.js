@@ -24,7 +24,9 @@ ServerEvents.recipes(event => {
         // Oil processing
         { id: "northstar:mixing/hydrocarbon_from_carbon" },
         { id: 'create:filling/blaze_cake'}, // Technically oil-related
-        
+        { id: 'createdieselgenerators:distillation/superheated_crude_oil'},
+        { id: 'createdieselgenerators:distillation/crude_oil'},
+
         // platings
         { id: "oritech:crafting/plating" },
         { id: "oritech:crafting/iron" },

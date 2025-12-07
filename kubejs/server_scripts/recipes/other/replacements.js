@@ -16,7 +16,8 @@ ServerEvents.recipes(event => {
         // Oritech unification
         {filter: {mod: 'oritech'}, original: 'oritech:item_pipe', replaceWith: 'oritech:silicon'},
         {filter: {mod: 'buildinggadgets2'}, original: 'minecraft:iron_ingot', replaceWith: 'createaddition:electrum_ingot'},
-        {filter: {mod: 'chalk'}, original: 'minecraft:calcite', replaceWith: 'regions_unexplored:chalk'}
+        {filter: {mod: 'chalk'}, original: 'minecraft:calcite', replaceWith: 'regions_unexplored:chalk'},
+        {filter: {output: 'ars_nouveau:warp_scroll'}, original: 'minecraft:lapis_lazuli', replaceWith: 'minecraft:chorus_fruit'},
     ]
     
     const replacementOutput = [

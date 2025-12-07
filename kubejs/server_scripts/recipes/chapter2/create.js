@@ -272,26 +272,26 @@ ServerEvents.recipes(event => {
     .transitionalItem(integrated_circuit_transitional) // Set the transitional item
     .loops(1) // Set the number of loops
 
-    const processing_unit_transitional = 'northstar:unfinished_circuit'
-    event.recipes.create.sequenced_assembly(
-        // Outputs:
-        [
-            CreateItem.of('oritech:processing_unit', 1.0), // Main output, will appear in JEI as the result
-        ],
-        // Input:
-        'ccbr:integrated_circuit',
-        // Sequence:
-        [
-            // The transitional item is a constant, that is 'kubejs:incomplete_spore_blossom' and is used during the intermediate stages of the assembly.
-            // Like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item.
-            event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'create:electron_tube']),
-            event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'createaddition:electrum_wire']),
-            event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'createaddition:electrum_wire']),
-            event.recipes.create.pressing(processing_unit_transitional, processing_unit_transitional)
-        ]
-    )
-    .transitionalItem(processing_unit_transitional) // Set the transitional item
-    .loops(1) // Set the number of loops
+    // const processing_unit_transitional = 'northstar:unfinished_circuit'
+    // event.recipes.create.sequenced_assembly(
+    //     // Outputs:
+    //     [
+    //         CreateItem.of('oritech:processing_unit', 1.0), // Main output, will appear in JEI as the result
+    //     ],
+    //     // Input:
+    //     'ccbr:integrated_circuit',
+    //     // Sequence:
+    //     [
+    //         // The transitional item is a constant, that is 'kubejs:incomplete_spore_blossom' and is used during the intermediate stages of the assembly.
+    //         // Like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item.
+    //         event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'create:electron_tube']),
+    //         event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'createaddition:electrum_wire']),
+    //         event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'createaddition:electrum_wire']),
+    //         event.recipes.create.pressing(processing_unit_transitional, processing_unit_transitional)
+    //     ]
+    // )
+    // .transitionalItem(processing_unit_transitional) // Set the transitional item
+    // .loops(1) // Set the number of loops
 
 
     // Chapter 2
@@ -303,7 +303,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "fluid_stack",
-                "amount": 75,
+                "amount": 50,
                 "fluid": "kubejs:red_slurry"
             }
         ],

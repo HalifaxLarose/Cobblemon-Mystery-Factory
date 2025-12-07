@@ -200,17 +200,24 @@
 			optional: true
 			shape: "heart"
 			size: 4.0d
-			tasks: [{
-				advancement: "cobblemon:root"
-				criterion: ""
-				id: "649E968AE4248CA0"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "cobblemon:root"
+					criterion: ""
+					id: "649E968AE4248CA0"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					id: "7D628842057970D5"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: -18.0d
 		}
 		{
-			dependencies: ["11F3D6C1162DF9A5"]
+			dependencies: ["4508D9B8B66A1448"]
 			icon: {
 				components: {
 					"ftbquests:icon": "supplementaries:item/globe"
@@ -274,7 +281,7 @@
 				type: "checkmark"
 			}]
 			x: -2.0d
-			y: -25.5d
+			y: -32.0d
 		}
 		{
 			id: "7F4398083FC8242C"
@@ -294,6 +301,18 @@
 			}]
 			x: -6.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["11F3D6C1162DF9A5"]
+			id: "4508D9B8B66A1448"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "186EE32C2B8642CD"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -24.0d
 		}
 	]
 }

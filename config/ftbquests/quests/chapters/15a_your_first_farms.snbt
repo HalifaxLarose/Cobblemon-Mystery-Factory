@@ -3,13 +3,13 @@
 	default_quest_shape: ""
 	default_quest_size: 1.5d
 	filename: "15a_your_first_farms"
-	group: "25AFFF4BEEB54E90"
+	group: "07AFEA74923524D0"
 	hide_quest_until_deps_visible: true
 	icon: {
 		id: "create:wrench"
 	}
 	id: "557957158909E65E"
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

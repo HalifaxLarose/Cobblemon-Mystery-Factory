@@ -8,7 +8,7 @@
 		id: "create:steam_engine"
 	}
 	id: "5F6BDBB03A7631E3"
-	order_index: 6
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -142,7 +142,6 @@
 			dependencies: ["762C57887356A993"]
 			id: "3A4D822386BBA666"
 			tasks: [{
-				count: 8L
 				id: "5789A310D44706A2"
 				item: { count: 1, id: "create:empty_blaze_burner" }
 				type: "item"
@@ -164,19 +163,11 @@
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					count: 8L
-					id: "10110444DA1EACD3"
-					item: { count: 1, id: "create:blaze_burner" }
-					type: "item"
-				}
-				{
-					id: "25E2BACD2B69F86E"
-					structure: "minecraft:fortress"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "10110444DA1EACD3"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
 			x: 0.75d
 			y: 8.25d
 		}
@@ -220,11 +211,23 @@
 				"496B8FD6BE25A5AD"
 			]
 			id: "5396F655F1F9866E"
-			tasks: [{
-				id: "75E4FC558D8F2D38"
-				item: { count: 1, id: "create:electron_tube" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "77404919689CF13B"
+					item: { count: 1, id: "create:rose_quartz" }
+					type: "item"
+				}
+				{
+					id: "5B5AF1165347F06A"
+					item: { count: 1, id: "create:polished_rose_quartz" }
+					type: "item"
+				}
+				{
+					id: "75E4FC558D8F2D38"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+			]
 			x: -8.25d
 			y: 17.25d
 		}

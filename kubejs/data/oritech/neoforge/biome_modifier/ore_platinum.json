@@ -1,3 +1,6 @@
 {
-    "type": "neoforge:none"
+    "type": "neoforge:remove_features",
+    "biomes": "#minecraft:is_overworld",
+    "features": "oritech:ore_platinum",
+    "step": "underground_ores"
 }

@@ -106,7 +106,7 @@ function assembler_recipes(event) {
         ],
         "results": [
             {
-                "count": 1,
+                "count": 3,
                 "id": "oritech:processing_unit"
             }
         ],

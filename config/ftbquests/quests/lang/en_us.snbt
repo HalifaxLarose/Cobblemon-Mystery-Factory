@@ -13,6 +13,7 @@
 	chapter.5F6BDBB03A7631E3.title: "Ch.2) The Steam Age"
 	chapter.6885E1A723E07E3F.title: "2a) Trains and Logistic Networks"
 	chapter.77CD88C79A568EAB.title: "1b) Your First Farms"
+	chapter_group.07AFEA74923524D0.title: "Guides"
 	chapter_group.25AFFF4BEEB54E90.title: "Cobblemon Mystery Factory"
 	chapter_group.530E09679D7CD852.title: "Side Quests"
 	quest.00263C66A24A4E32.quest_desc: ["It's called the stone age for a reason. Although it has to be this stone. Other stones won't work. Stupid technology."]
@@ -197,7 +198,7 @@
 		""
 		"To pick up fluid in the overworld, you only need to have an open face of the pump face the fluid."
 		""
-		"Fluids also use special machines to process them. Copper Casing is a common component in all these machines, much like hwo andesite casing is used in a lot of kinetic machines."
+		"Fluids also use special machines to process them. Copper Casing is a common component in all these machines, much like how andesite casing is used in a lot of kinetic machines."
 	]
 	quest.0A18A7166FAF727E.title: "Bend Water to your Will"
 	quest.0A80791CD01A78C4.quest_desc: [
@@ -648,7 +649,7 @@
 		""
 		"The former is more advanced and more realistic, and the recommended shader for this modpack. If it's not your style - or if your gpu can't handle it - Complimentary is a far more lightweight shader pack, that focuses on a more faithful adaptation of Minecraft's style."
 		""
-		"To enable shaders, go to options, go to video settings, and go to shaders. You can then enable your choice from there. Alternatively, you can press &c\"-\" on the keypad&r"
+		"To enable shaders, go to the main menu, go to options, go to video settings, and go to shaders. You can then enable your choice from there. Alternatively, you can press &c\"-\" on the keypad&r"
 	]
 	quest.264BE6A0576CE112.quest_subtitle: "How to burn your retinas!"
 	quest.264BE6A0576CE112.title: "About Shaders"
@@ -1181,6 +1182,16 @@
 	]
 	quest.44F92646536C90DE.quest_subtitle: "The most stylish casing"
 	quest.44F92646536C90DE.title: "Train Casing"
+	quest.4508D9B8B66A1448.quest_desc: [
+		"Your Pokemon will be locked until level 15 until:"
+		"1) You start a series"
+		"2) You start defeating gym leader."
+		""
+		"The tldr is that you can use the guild directory you received to find a \"trainer association\" at a village, who looks like a regular villager. You can then select your series - effectively your difficulty - and from there on out, leaders will periodically spawn."
+		""
+		"&nREAD THE SOUTH BRANCH OF CHAPTER 0B FOR MORE INFORMATION.&r"
+	]
+	quest.4508D9B8B66A1448.title: "INCREASE YOUR LEVEL CAP"
 	quest.4531204E67645F33.quest_desc: ["Here's a list of the other guilds in the lore are and what order you would have fought them."]
 	quest.4531204E67645F33.title: "What the Official Lore Looks Like"
 	quest.4540BDE88BC8679D.quest_desc: ["https://moddedmc.wiki/en/project/oritech/latest/docs/processing/reactor/introduction"]
@@ -1395,6 +1406,7 @@
 		""
 		"The electron tube doesn't do anything on your own, but you'll soon find it's a very useful and in-demand material."
 	]
+	quest.5396F655F1F9866E.title: "Simply Smart"
 	quest.53AFA4B0832F7A7D.quest_desc: [
 		"Didn't have time to make it wood-type-independent."
 		""
@@ -1802,7 +1814,7 @@
 	quest.6D160C05DD00036A.quest_subtitle: "I bet these can get tall!"
 	quest.6D160C05DD00036A.title: "Store Your Fluids"
 	quest.6E1775F6FD33A62D.quest_desc: [
-		"Elder Dragon Dust is collected either as loot from chests, or from defeating monsters. Completing various quests may also reward some."
+		"Elder Dragon Dust is collected either as loot from chests, while mining, or from defeating monsters. Completing various quests may also reward some."
 		""
 		"Dragon dust is needed to craft many speciality dragon goods. Accumulating it will also allow you to craft growing items."
 	]
@@ -2102,6 +2114,7 @@
 	task.17B7F0A0BF0B0488.title: "Let's Begin"
 	task.180E36A68E5D7A5B.title: "Any Toolbox"
 	task.1838749E4E196F01.title: "controls"
+	task.186EE32C2B8642CD.title: "Understood"
 	task.1918877266F1A840.title: "Any Log"
 	task.191A111D66937578.title: "Understood"
 	task.1BB15023852ED2D1.title: "Understood"
@@ -2223,5 +2236,6 @@
 	task.7A4DF9467C6CACA0.title: "Let the adventure begin!"
 	task.7C525386829FC8F5.title: "Any Plating"
 	task.7C84B3E9180247A4.title: "Understood"
+	task.7D628842057970D5.title: "Starter Received"
 	task.7F42BC6BBE981932.title: "quary"
 }

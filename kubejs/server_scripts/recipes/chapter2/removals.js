@@ -29,6 +29,7 @@ ServerEvents.recipes(event => {
         {id: "oritech:pulverizer/recycle/4_quartz_dust"},
         {id: "oritech:pulverizer/recycle/2_quartz_dust"},
         {id: "createaddition:crushing/diamond"},
+        {id: "create:crafting/materials/sand_paper"},
     ]
     recipeRemove.forEach((recipe) => {
         event.remove(recipe)

@@ -3,12 +3,12 @@
 	default_quest_shape: ""
 	default_quest_size: 1.5d
 	filename: "0b_guide_to_cobblemon"
-	group: "25AFFF4BEEB54E90"
+	group: "07AFEA74923524D0"
 	icon: {
 		id: "mega_showdown:keystone"
 	}
 	id: "2641F4D75FA23768"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
             "amount": 100
         }],
         "heat_requirement": "heated",
-        "processingTime": 60,
+        "processing_time": 60,
         "results": [
             { "id": "kubejs:heavy_residual_crude_oil", "amount": 30, },
             { "id": "createdieselgenerators:diesel", "amount": 20, },
@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
             "amount": 100
         }],
         "heat_requirement": "superheated",
-        "processingTime": 40,
+        "processing_time": 40,
         "results": [
             { "id": "kubejs:bitumen", "amount": 40, },
             { "id": "oritech:still_heavy_oil", "amount": 40, },

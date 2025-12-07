@@ -47,17 +47,29 @@ ServerEvents.recipes(event => {
         "time": 120
     })
 
+    // event.custom({
+    //     type: "oritech:pulverizer",
+    //     ingredients: [
+    //         {
+    //             "item": "create:crushed_raw_iron"
+    //         }
+    //     ],
+    //     processing_time: 120,
+    //     results: [
+    //         {"id": "oritech:iron_dust"},
+    //         {"id": "oritech:small_iron_dust", count: 3},
+    //     ]
+    // })
     event.custom({
         type: "oritech:pulverizer",
         ingredients: [
             {
-                "item": "create:crushed_raw_iron"
+                "item": "minecraft:diamond"
             }
         ],
         processing_time: 120,
         results: [
-            {"id": "oritech:iron_dust"},
-            {"id": "oritech:small_iron_dust", count: 3},
+            {"id": "createaddition:diamond_grit"},
         ]
     })
 })

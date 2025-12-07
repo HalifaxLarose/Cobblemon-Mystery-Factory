@@ -4,7 +4,11 @@ ServerEvents.recipes(event => {
         // {output: "cobblemon:healing_machine", input: "cobblemon:revive"},
 
         {output: 'cobblemon_utility:shinycard'},
-        {output: 'cobblemon_utility:woodencap'}
+        {output: 'cobblemon_utility:woodencap'},
+        {output: 'create:sand_paper'},
+        {id: 'ars_nouveau:glyph_launch'},
+        {output: 'create_connected:copycat_board'},
+        {output: 'copycats:copycat_board'},
     ]
     recipeRemove.forEach((recipe) => {
         event.remove(recipe)

@@ -71,11 +71,38 @@ ServerEvents.recipes(event => {
                 {
                     "count": 1,
                     "id": `oritech:${ore_pair.source}_dust`
+                },
+                {
+                    'count': 3,
+                    'id': `oritech:small_${ore_pair.source}_dust`
                 }
             ],
             "time": 120
         })
-
+        event.custom({
+            "type": "oritech:pulverizer",
+            "fluidInput": {
+                "amount": 0,
+                "fluid": "minecraft:empty"
+            },
+            "fluidOutputs": [],
+            "ingredients": [
+                {
+                    "item": `${ore_pair.smod}:raw_${ore_pair.source}`
+                }
+            ],
+            "results": [
+                {
+                    "count": 1,
+                    "id": `oritech:${ore_pair.source}_dust`
+                },
+                {
+                    'count': 3,
+                    'id': `oritech:small_${ore_pair.source}_dust`
+                }
+            ],
+            "time": 120
+        })
 
         event.custom(
             {

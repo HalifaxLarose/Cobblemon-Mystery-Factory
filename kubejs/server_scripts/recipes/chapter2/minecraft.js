@@ -46,14 +46,12 @@ ServerEvents.recipes(event => {
     event.shaped(
         Item.of('createaddition:tesla_coil', 1),
         [
-            "SES",
-            "BRB",
+            "WWW",
+            "WRW",
             "CCC"
         ],
-            {
-            S: "createaddition:copper_spool",
-            E: "create:electron_tube",
-            B: "create:brass_sheet",
+        {
+            W: "createaddition:copper_wire",
             R: "create:brass_casing",
             C: "createaddition:capacitor",
         },
@@ -68,4 +66,26 @@ ServerEvents.recipes(event => {
             C: "oritech:reinforced_carbon_sheet"
         },
     );
+    event.shapeless(
+        Item.of('create:sand_paper', 1), // arg 1: output
+        [
+            'minecraft:sand',
+            'minecraft:sand',
+            'minecraft:paper', 	       // arg 2: the array of inputs
+        ]
+    )
+    event.shaped(
+        Item.of('oritech:processing_unit', 1),
+        [
+            '  A',
+            'BCB',
+            'DDD'
+        ],
+        {
+            A: 'create:electron_tube',
+            B: 'createaddition:copper_wire',
+            C: 'ccbr:lapis_sheet',
+            D: 'createaddition:electrum_nugget'
+        }
+    )
 })
