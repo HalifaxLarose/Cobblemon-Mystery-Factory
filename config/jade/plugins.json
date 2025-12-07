@@ -91,6 +91,10 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
   "toms_storage": {
     "inventory_config": true,
     "inventory_connector": true

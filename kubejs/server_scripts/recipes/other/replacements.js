@@ -18,6 +18,8 @@ ServerEvents.recipes(event => {
         {filter: {mod: 'buildinggadgets2'}, original: 'minecraft:iron_ingot', replaceWith: 'createaddition:electrum_ingot'},
         {filter: {mod: 'chalk'}, original: 'minecraft:calcite', replaceWith: 'regions_unexplored:chalk'},
         {filter: {output: 'ars_nouveau:warp_scroll'}, original: 'minecraft:lapis_lazuli', replaceWith: 'minecraft:chorus_fruit'},
+        // {filter: {output: '#cobblemon:vitamins'}, original: /cobblemon:.*_berry/, output: 'cobblemon:oran_berry'},
+        {filter: {output: /.*silvercap/}, original: "minecraft:iron_ingot", replaceWith: 'oritech:platinum_ingot'}
     ]
     
     const replacementOutput = [
