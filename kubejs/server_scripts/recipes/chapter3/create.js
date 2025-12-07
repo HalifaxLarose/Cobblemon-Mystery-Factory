@@ -190,9 +190,8 @@ ServerEvents.recipes(event => {
         ['oritech:still_naphtha', 220],
         ['kubejs:kerosene', 250],
         ['oritech:still_heavy_oil', 500],
-        ['kubejs:heavy_residual_crude_oil', 1000],
-        ['kubejs:industrial_crude_oil', 2500],
-        ['createdieselgenerators:crude_oil', 4000]
+        ['kubejs:heavy_residual_crude_oil', 800],
+        ['kubejs:industrial_crude_oil', 1000],
     ]
 
     for (let blaze_ratio of BLAZE_RATIOS) {
@@ -213,26 +212,26 @@ ServerEvents.recipes(event => {
 
 
     // #region Circuitry
-    const processing_unit_transitional = 'northstar:unfinished_circuit'
-    event.recipes.create.sequenced_assembly(
-        // Outputs:
-        [
-            CreateItem.of('oritech:processing_unit', 1.0), // Main output, will appear in JEI as the result
-        ],
-        // Input:
-        'ccbr:integrated_circuit',
-        // Sequence:
-        [
-            // The transitional item is a constant, that is 'kubejs:incomplete_spore_blossom' and is used during the intermediate stages of the assembly.
-            // Like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item.
-            event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'create:electron_tube']),
-            event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'createaddition:electrum_wire']),
-            event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'createaddition:electrum_wire']),
-            event.recipes.create.pressing(processing_unit_transitional, processing_unit_transitional)
-        ]
-    )
-        .transitionalItem(processing_unit_transitional) // Set the transitional item
-        .loops(1) // Set the number of loops
+    // const processing_unit_transitional = 'northstar:unfinished_circuit'
+    // event.recipes.create.sequenced_assembly(
+    //     // Outputs:
+    //     [
+    //         CreateItem.of('oritech:processing_unit', 1.0), // Main output, will appear in JEI as the result
+    //     ],
+    //     // Input:
+    //     'ccbr:integrated_circuit',
+    //     // Sequence:
+    //     [
+    //         // The transitional item is a constant, that is 'kubejs:incomplete_spore_blossom' and is used during the intermediate stages of the assembly.
+    //         // Like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item.
+    //         event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'create:electron_tube']),
+    //         event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'createaddition:electrum_wire']),
+    //         event.recipes.create.deploying(processing_unit_transitional, [processing_unit_transitional, 'createaddition:electrum_wire']),
+    //         event.recipes.create.pressing(processing_unit_transitional, processing_unit_transitional)
+    //     ]
+    // )
+    //     .transitionalItem(processing_unit_transitional) // Set the transitional item
+    //     .loops(1) // Set the number of loops
         
     // Northstar uses some exclusive machines so we'll have to fallback to custom events
     event.custom({

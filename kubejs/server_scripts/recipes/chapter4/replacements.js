@@ -36,7 +36,8 @@ ServerEvents.recipes(event => {
         'oritech:arcane_augment_station',
         'mega_showdown:adrenalineorb',
         'storagedrawers:shroud_key',
-        'minecraft:heart_of_the_sea'
+        'minecraft:heart_of_the_sea',
+        'exposure:interplanar_projector',
     ]
 
     for (let eye_degate of ENDER_EYE_DEGATES) {
