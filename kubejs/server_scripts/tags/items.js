@@ -16,4 +16,5 @@ ServerEvents.tags('item', event => {
     for (let tier_1_ball of TIER_1_BALL_LIDS) {
         event.add('kubejs:tier_1_ball_lid', tier_1_ball)
     }
+
 })
