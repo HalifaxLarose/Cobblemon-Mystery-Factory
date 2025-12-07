@@ -1,11 +1,5 @@
 {
-  "breakStreakOnForm": [
-    "capture",
-    "ko",
-    "resurrection",
-    "fish",
-    "hatch"
-  ],
+  "ignoreFormFor": [],
   "broadcast": [
     "capture",
     "ko",

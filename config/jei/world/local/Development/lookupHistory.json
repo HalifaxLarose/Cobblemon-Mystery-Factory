@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:spruce_wood"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arts_and_crafts:black_chalk"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

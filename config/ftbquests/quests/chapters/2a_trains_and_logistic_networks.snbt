@@ -3,13 +3,13 @@
 	default_quest_shape: ""
 	default_quest_size: 1.5d
 	filename: "2a_trains_and_logistic_networks"
-	group: "25AFFF4BEEB54E90"
+	group: "07AFEA74923524D0"
 	hide_quest_until_deps_visible: true
 	icon: {
 		id: "create:item_vault"
 	}
 	id: "6885E1A723E07E3F"
-	order_index: 7
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -498,6 +498,7 @@
 					type: "item"
 				}
 			]
+			shape: "heart"
 			size: 2.0d
 			tasks: [
 				{
@@ -519,6 +520,7 @@
 			dependencies: ["24970CBA9D5FC2D7"]
 			id: "1FF16C572ABB9F4A"
 			optional: true
+			shape: "diamond"
 			size: 1.0d
 			tasks: [
 				{

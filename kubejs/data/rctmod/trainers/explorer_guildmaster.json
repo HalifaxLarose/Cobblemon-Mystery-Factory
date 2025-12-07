@@ -1,0 +1,48 @@
+{
+  "name": "Explorer Guildmaster Wigglytuff",
+  "identity": "Explorer Guildmaster Wigglytuff",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 4
+  },
+  "bag": [
+    {
+      "item": "cobblemon:superb_remedy",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "dewpider",
+      "gender": "MALE",
+      "level": 12,
+      "nature": "quiet",
+      "ability": "waterbubble",
+      "moveset": [
+        "stikcyweb",
+        "waterpulse",
+        "icywind",
+        "bugbite"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+
+      "evs": {
+        "atk": 24,
+        "spa": 224,
+        "spd": 236
+      }
+    }
+  ]
+}

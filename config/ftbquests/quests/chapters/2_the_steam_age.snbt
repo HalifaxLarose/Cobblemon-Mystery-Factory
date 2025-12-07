@@ -8,11 +8,11 @@
 		id: "create:steam_engine"
 	}
 	id: "5F6BDBB03A7631E3"
-	order_index: 6
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6467039452212EB0"]
+			dependencies: ["57EED4C93049042F"]
 			id: "762C57887356A993"
 			shape: "rsquare"
 			size: 3.0d
@@ -32,7 +32,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["6467039452212EB0"]
+			dependencies: ["57EED4C93049042F"]
 			id: "0A18A7166FAF727E"
 			shape: "rsquare"
 			size: 2.5d
@@ -142,7 +142,6 @@
 			dependencies: ["762C57887356A993"]
 			id: "3A4D822386BBA666"
 			tasks: [{
-				count: 8L
 				id: "5789A310D44706A2"
 				item: { count: 1, id: "create:empty_blaze_burner" }
 				type: "item"
@@ -156,37 +155,19 @@
 				id: "create:blaze_burner"
 			}
 			id: "0E7FFBC699E11EA4"
-			rewards: [
-				{
-					id: "4DB812E47738C96B"
-					item: {
-						count: 1
-						id: "simpletms:tr_firespin"
-					}
-					type: "item"
+			rewards: [{
+				id: "4DB812E47738C96B"
+				item: {
+					count: 1
+					id: "simpletms:tr_firespin"
 				}
-				{
-					id: "7D537D8C90261669"
-					item: {
-						count: 1
-						id: "plushie_buddies:plushie_blaze"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 8L
-					id: "10110444DA1EACD3"
-					item: { count: 1, id: "create:blaze_burner" }
-					type: "item"
-				}
-				{
-					id: "25E2BACD2B69F86E"
-					structure: "minecraft:fortress"
-					type: "structure"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "10110444DA1EACD3"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
 			x: 0.75d
 			y: 8.25d
 		}
@@ -198,26 +179,20 @@
 			id: "0656B7840C606BB8"
 			rewards: [
 				{
-					count: 16
-					id: "2F110BE361BE2782"
+					count: 64
+					id: "510DDE8F3BDFEC81"
 					item: {
-						components: {
-							"ftbquests:missing_item": "morebridges:brass_bridge"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "morebridges:brass_bridge"
 					}
 					type: "item"
 				}
 				{
-					count: 8
-					id: "625AC97CB558E214"
+					count: 16
+					id: "61B2DD1214A99085"
 					item: {
-						components: {
-							"ftbquests:missing_item": "morebridges:brass_bridge_stair"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "morebridges:brass_bridge_stair"
 					}
 					type: "item"
 				}
@@ -231,35 +206,28 @@
 			y: 11.25d
 		}
 		{
-			dependencies: ["2769D96526B7A2FE"]
-			id: "3A1B3C0A77F150EC"
-			size: 1.5d
-			tasks: [
-				{
-					id: "13A8990C865069DF"
-					item: { count: 1, id: "create:precision_mechanism" }
-					type: "item"
-				}
-				{
-					id: "711B8BAC0B5FAC61"
-					item: { count: 1, id: "create:brass_casing" }
-					type: "item"
-				}
-			]
-			x: 0.75d
-			y: 22.5d
-		}
-		{
 			dependencies: [
 				"43C5A3753F2AAA6A"
 				"496B8FD6BE25A5AD"
 			]
 			id: "5396F655F1F9866E"
-			tasks: [{
-				id: "75E4FC558D8F2D38"
-				item: { count: 1, id: "create:electron_tube" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "77404919689CF13B"
+					item: { count: 1, id: "create:rose_quartz" }
+					type: "item"
+				}
+				{
+					id: "5B5AF1165347F06A"
+					item: { count: 1, id: "create:polished_rose_quartz" }
+					type: "item"
+				}
+				{
+					id: "75E4FC558D8F2D38"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+			]
 			x: -8.25d
 			y: 17.25d
 		}
@@ -286,9 +254,6 @@
 			dependencies: [
 				"4C08103DE08919AF"
 				"6E4E34426C883504"
-				"1FE27F926442DEC7"
-				"2D8BA21FB58CE620"
-				"64446935A72B9350"
 			]
 			id: "2769D96526B7A2FE"
 			shape: "gear"
@@ -331,6 +296,14 @@
 					item: {
 						count: 1
 						id: "cobblemon:fire_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "52CA5E28168BA70F"
+					item: {
+						count: 1
+						id: "simpletms:tm_steamroller"
 					}
 					type: "item"
 				}
@@ -602,6 +575,20 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "48525D4F0704196F"
+					table_id: 8403049648178631864L
+					type: "choice"
+				}
+				{
+					id: "1B0C79A8BD5BCAC7"
+					item: {
+						count: 1
+						id: "cobblemon_utility:goldencap"
+					}
+					type: "item"
+				}
 			]
 			shape: "pentagon"
 			size: 4.0d
@@ -660,14 +647,30 @@
 		{
 			dependencies: ["6D160C05DD00036A"]
 			id: "3B9E88B89A7251CE"
-			size: 1.0d
-			tasks: [{
-				id: "521D8C1CBD23EF90"
-				item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
+			rewards: [{
+				id: "057B81A381E5FEFB"
+				item: {
+					count: 1
+					id: "plushie_buddies:plushie_axolotl"
+				}
 				type: "item"
 			}]
-			x: -8.25d
-			y: 6.75d
+			size: 1.0d
+			tasks: [
+				{
+					id: "521D8C1CBD23EF90"
+					item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
+					type: "item"
+				}
+				{
+					id: "20F4A85470F08C14"
+					item: { count: 1, id: "dndesires:fluid_hatch" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -676,14 +679,24 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "3E00F73FA0DC4DEB"
-			rewards: [{
-				id: "4CFE2DD3EF39C895"
-				item: {
-					count: 1
-					id: "cobblemon:metronome"
+			rewards: [
+				{
+					id: "4CFE2DD3EF39C895"
+					item: {
+						count: 1
+						id: "cobblemon:metronome"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0C0D6BB3F486562F"
+					item: {
+						count: 1
+						id: "simpletms:tm_metronome"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "586A4093C0A99DE6"
 				item: { count: 1, id: "fluid:baton" }
@@ -731,14 +744,22 @@
 		{
 			dependencies: ["3A1B3C0A77F150EC"]
 			id: "3D7ED057FEC4A03C"
-			rewards: [{
-				id: "2F5E702C34084111"
-				item: {
-					count: 1
-					id: "cobblemon:quick_claw"
+			rewards: [
+				{
+					id: "2F5E702C34084111"
+					item: {
+						count: 1
+						id: "cobblemon:quick_claw"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "7498170B8EBD7E3E"
+					table_id: 7593754319294747036L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					count: 2L
@@ -788,15 +809,6 @@
 			id: "4DCE48D4B2A596FA"
 			rewards: [
 				{
-					count: 32
-					id: "7EE8602ABA3CA0CD"
-					item: {
-						count: 1
-						id: "blocksyouneed_luna:starchart"
-					}
-					type: "item"
-				}
-				{
 					id: "12F7B007A4B6CB69"
 					item: {
 						count: 1
@@ -832,6 +844,24 @@
 		{
 			dependencies: ["3A1B3C0A77F150EC"]
 			id: "0D9DCD0E20610EA8"
+			rewards: [
+				{
+					id: "00495DAA0AF1AF25"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_shulker"
+					}
+					type: "item"
+				}
+				{
+					id: "22D35E4F5716DB1A"
+					item: {
+						count: 1
+						id: "simpletms:tm_skydrop"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3B04795B448399A2"
 				item: { count: 1, id: "create:elevator_pulley" }
@@ -900,6 +930,24 @@
 					}
 					type: "item"
 				}
+				{
+					count: 50
+					id: "252FD40EC11CA4F4"
+					item: {
+						count: 1
+						id: "mega_showdown:steel_tera_shard"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6BA0A42129AE9A93"
+					item: {
+						count: 1
+						id: "cobblemon:steel_gem"
+					}
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -941,6 +989,22 @@
 				"07DACF27D2E02D79"
 			]
 			id: "552852905016218D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6550EA6EB0DF0803"
+					table_id: 8403049648178631864L
+					type: "random"
+				}
+				{
+					id: "1DA6FF6CE3BE0B8E"
+					item: {
+						count: 1
+						id: "simpletms:tm_strangesteam"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [
@@ -979,8 +1043,8 @@
 				item: { count: 1, id: "create:portable_fluid_interface" }
 				type: "item"
 			}]
-			x: -9.75d
-			y: 8.25d
+			x: -10.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["667413DDB3A31753"]
@@ -1001,6 +1065,12 @@
 						id: "cobblemon:dusk_stone"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69858CF876664B46"
+					table_id: 8403049648178631864L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1077,14 +1147,22 @@
 		{
 			dependencies: ["79D8A38D25FD6FEB"]
 			id: "6F022C581F6530E5"
-			rewards: [{
-				id: "74F687FB77B3ABE2"
-				item: {
-					count: 1
-					id: "plushie_buddies:plushie_magma_cube"
+			rewards: [
+				{
+					id: "74F687FB77B3ABE2"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_magma_cube"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "013507EF770F942E"
+					table_id: 7593754319294747036L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "666E1E0B51E5574C"
 				item: { count: 1, id: "create_power_loader:empty_brass_chunk_loader" }
@@ -1147,18 +1225,27 @@
 			y: 21.5d
 		}
 		{
+			dependencies: ["2769D96526B7A2FE"]
 			icon: {
 				id: "create:large_cogwheel"
 			}
 			id: "1FE27F926442DEC7"
-			rewards: [{
-				id: "259784C5BDC26237"
-				item: {
-					count: 1
-					id: "cobblemon:eviolite"
+			rewards: [
+				{
+					id: "259784C5BDC26237"
+					item: {
+						count: 1
+						id: "cobblemon:eviolite"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "5C1B10EA72893F79"
+					table_id: 8403049648178631864L
+					type: "choice"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [
@@ -1175,23 +1262,11 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 16.0d
-		}
-		{
-			id: "2D8BA21FB58CE620"
-			shape: "diamond"
-			size: 1.0d
-			tasks: [{
-				count: 64L
-				id: "7C3775A9ECA1D534"
-				item: { count: 1, id: "cobblemon:great_ball" }
-				type: "item"
-			}]
 			x: 2.5d
-			y: 16.5d
+			y: 17.0d
 		}
 		{
+			dependencies: ["2769D96526B7A2FE"]
 			icon: {
 				id: "minecraft:oak_sapling"
 			}
@@ -1202,8 +1277,128 @@
 				id: "34EB311F52B79867"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 18.0d
+		}
+		{
+			dependencies: ["2769D96526B7A2FE"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "6947F9E2737E3051"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "2596A500CD9E8771"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5C3E53E38827C070"]
+			id: "140927CB6F987067"
+			optional: true
+			rewards: [
+				{
+					id: "61A040E9CAED3D57"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71E480FD2124EB71"
+					table_id: 7445906247311458666L
+					type: "random"
+				}
+				{
+					id: "7156501EBE602931"
+					item: {
+						count: 1
+						id: "plushie_buddies:plushie_allay"
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [
+				{
+					id: "4E42A30C1DB46774"
+					item: { count: 1, id: "buildinggadgets2:gadget_building" }
+					type: "item"
+				}
+				{
+					id: "6F08500013B57405"
+					item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+					type: "item"
+				}
+				{
+					id: "1F3F91B088E70597"
+					item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+					type: "item"
+				}
+				{
+					id: "24AA2EE9F6975767"
+					item: { components: { "buildinggadgets2:paste_replace_toggle": 1b }, count: 1, id: "buildinggadgets2:gadget_cut_paste" }
+					type: "item"
+				}
+				{
+					id: "4B94A007287D9220"
+					item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6467039452212EB0"]
+			hide_dependent_lines: true
+			icon: {
+				id: "supplementaries:fire_pit"
+			}
+			id: "57EED4C93049042F"
+			shape: "rsquare"
+			size: 5.0d
+			tasks: [{
+				id: "17B7F0A0BF0B0488"
+				type: "checkmark"
+			}]
+			x: -8.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2769D96526B7A2FE"]
+			id: "3A1B3C0A77F150EC"
+			size: 1.5d
+			tasks: [
+				{
+					id: "13A8990C865069DF"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+				{
+					id: "711B8BAC0B5FAC61"
+					item: { count: 1, id: "create:brass_casing" }
+					type: "item"
+				}
+			]
+			x: 0.75d
+			y: 22.5d
+		}
+		{
+			dependencies: ["57EED4C93049042F"]
+			icon: {
+				id: "molten_vents:dormant_molten_asurine"
+			}
+			id: "354B58EF3569B3A9"
+			shape: "hexagon"
+			tasks: [{
+				id: "3393CAD394A4E134"
+				type: "checkmark"
+			}]
+			x: -8.25d
+			y: -3.0d
 		}
 	]
 }

@@ -1,0 +1,415 @@
+{
+	id: "67552C4825DC816A"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			count: 196
+			id: "11000E9D0388AE6E"
+			item: {
+				count: 1
+				id: "create:metal_girder"
+			}
+		}
+		{
+			count: 128
+			id: "2EA1DFB1AC3A86B1"
+			item: {
+				count: 1
+				id: "morebridges:brass_bridge"
+			}
+		}
+		{
+			count: 128
+			id: "4A6829BBED50AF45"
+			item: {
+				count: 1
+				id: "minecraft:glass"
+			}
+		}
+		{
+			count: 128
+			id: "71CDB90F813D224A"
+			item: {
+				count: 1
+				id: "mcwabnormals:rope_river_bridge"
+			}
+		}
+		{
+			count: 128
+			id: "1D8A659F37B06F20"
+			item: {
+				count: 1
+				id: "morebridges:industrial_bridge"
+			}
+		}
+		{
+			count: 128
+			id: "36C7E58F0BE85628"
+			item: {
+				count: 1
+				id: "mcwbridges:iron_bridge_pier"
+			}
+		}
+		{
+			count: 128
+			id: "6930428CF642D719"
+			item: {
+				count: 1
+				id: "morebridges:industrial_bridge_stair"
+			}
+		}
+		{
+			count: 128
+			id: "66A8559AFF14491E"
+			item: {
+				count: 1
+				id: "mcwabnormals:river_rope_bridge_stair"
+			}
+		}
+		{
+			count: 128
+			id: "4759D5ACAD503531"
+			item: {
+				count: 1
+				id: "morebridges:industrial_bridge_pier"
+			}
+		}
+		{
+			count: 128
+			id: "3727B929B0B7FC32"
+			item: {
+				count: 1
+				id: "morebridges:weathered_industrial_bridge"
+			}
+		}
+		{
+			count: 128
+			id: "4D6F6A685848AEB7"
+			item: {
+				count: 1
+				id: "mcwbridges:stone_bridge_pier"
+			}
+		}
+		{
+			count: 128
+			id: "09229A1871D50669"
+			item: {
+				count: 1
+				id: "mcwbridges:iron_bridge_stair"
+			}
+		}
+		{
+			count: 128
+			id: "71BD54CD7D561D4E"
+			item: {
+				count: 1
+				id: "mcwbridges:iron_bridge"
+			}
+		}
+		{
+			count: 64
+			id: "2846B40E4B353581"
+			item: {
+				count: 1
+				id: "nightlights:fairy_lights_default"
+			}
+		}
+		{
+			count: 64
+			id: "52C51E1523408611"
+			item: {
+				count: 1
+				id: "mcwlights:garden_light"
+			}
+		}
+		{
+			count: 64
+			id: "5FE681E05A5B9495"
+			item: {
+				count: 1
+				id: "nightlights:hanging_lights_default"
+			}
+		}
+		{
+			count: 64
+			id: "26F49A997694F0DA"
+			item: {
+				count: 1
+				id: "mcwlights:classic_street_lamp"
+			}
+		}
+		{
+			count: 64
+			id: "268AC91DF27B14B5"
+			item: {
+				count: 1
+				id: "mcwlights:double_street_lamp"
+			}
+		}
+		{
+			count: 64
+			id: "763D48DA40172455"
+			item: {
+				count: 1
+				id: "mcwlights:tavern_wall_lantern"
+			}
+		}
+		{
+			count: 512
+			id: "73BC8916DF3B6A48"
+			item: {
+				count: 1
+				id: "minecraft:bricks"
+			}
+		}
+		{
+			count: 128
+			id: "538ECABDDF9AC208"
+			item: {
+				count: 1
+				id: "mcwpaths:stone_strewn_rocky_path"
+			}
+		}
+		{
+			count: 64
+			id: "24BBC133614E5E74"
+			item: {
+				count: 1
+				id: "escalated:metal_walkway_steps"
+			}
+		}
+		{
+			count: 64
+			id: "52A1327F7BDAB41B"
+			item: {
+				count: 1
+				id: "escalated:wooden_walkway_steps"
+			}
+		}
+		{
+			count: 128
+			id: "0CD96544AAEA684C"
+			item: {
+				count: 1
+				id: "copycats:copycat_catwalk"
+			}
+		}
+		{
+			count: 64
+			id: "325C0D74C193FD43"
+			item: {
+				count: 1
+				id: "copycats:copycat_sliding_door"
+			}
+		}
+		{
+			count: 128
+			id: "7ABC6983DDEE86AC"
+			item: {
+				count: 1
+				id: "copycats:copycat_layer"
+			}
+		}
+		{
+			count: 128
+			id: "175972D4EA386CD9"
+			item: {
+				count: 1
+				id: "create:copycat_panel"
+			}
+		}
+		{
+			count: 256
+			id: "71DFBF93232D30CB"
+			item: {
+				count: 1
+				id: "deeperdarker:sculk_stone_bricks"
+			}
+		}
+		{
+			count: 64
+			id: "27870008BBD717B8"
+			item: {
+				count: 1
+				id: "oritech:metal_girder_block"
+			}
+		}
+		{
+			count: 128
+			id: "470F1D90A55F046C"
+			item: {
+				count: 1
+				id: "create:brass_ladder"
+			}
+		}
+		{
+			count: 128
+			id: "77AB1FD75FF0D885"
+			item: {
+				count: 1
+				id: "create:andesite_ladder"
+			}
+		}
+		{
+			count: 128
+			id: "619DBA4ABF9E4658"
+			item: {
+				count: 1
+				id: "copycats:copycat_ladder"
+			}
+		}
+		{
+			count: 64
+			id: "2765A6414D441844"
+			item: {
+				count: 1
+				id: "create:brass_door"
+			}
+		}
+		{
+			count: 64
+			id: "5D609DD41F3C79CC"
+			item: {
+				count: 1
+				id: "create:train_door"
+			}
+		}
+		{
+			count: 32
+			id: "740D562F8B0C6137"
+			item: {
+				count: 1
+				id: "dragonsurvival:iron_dragon_door"
+			}
+		}
+		{
+			count: 64
+			id: "3369D4BB9284A3BD"
+			item: {
+				count: 1
+				id: "create:framed_glass_door"
+			}
+		}
+		{
+			count: 64
+			id: "0E21F4E2D2B14269"
+			item: {
+				count: 1
+				id: "oritech:tech_door"
+			}
+		}
+		{
+			count: 256
+			id: "764B05EF9A959D7C"
+			item: {
+				count: 1
+				id: "mcwstairs:andesite_loft_stairs"
+			}
+		}
+		{
+			count: 256
+			id: "33AA92599EA2650A"
+			item: {
+				count: 1
+				id: "mcwstairs:deepslate_brick_loft_stairs"
+			}
+		}
+		{
+			count: 256
+			id: "4B8026D015AAA476"
+			item: {
+				count: 1
+				id: "mcwstairs:andesite_skyline_stairs"
+			}
+		}
+		{
+			count: 256
+			id: "0763A26EEFE22E06"
+			item: {
+				count: 1
+				id: "minecraft:polished_blackstone_bricks"
+			}
+		}
+		{
+			count: 256
+			id: "2B3CA1F73E54CF1A"
+			item: {
+				count: 1
+				id: "arts_and_crafts:soapstone_bricks"
+			}
+		}
+		{
+			count: 256
+			id: "633EFF8532C67BE9"
+			item: {
+				count: 1
+				id: "mcwpaths:brick_dumble_paving"
+			}
+		}
+		{
+			count: 256
+			id: "09283B1C12A8EC54"
+			item: {
+				count: 1
+				id: "mcwbridges:stone_brick_bridge"
+			}
+		}
+		{
+			count: 32
+			id: "508AC0433A1FACB9"
+			item: {
+				count: 1
+				id: "mcwlights:golden_chandelier"
+			}
+		}
+		{
+			count: 256
+			id: "3E9D5EE322162B1D"
+			item: {
+				count: 1
+				id: "simplylight:illuminant_slab"
+			}
+		}
+		{
+			count: 64
+			id: "6094942F180B74D2"
+			item: {
+				count: 1
+				id: "simplylight:wall_lamp_red"
+			}
+		}
+		{
+			count: 128
+			id: "32982177D881944B"
+			item: {
+				count: 1
+				id: "createprism:brass_glass_scaffolding"
+			}
+		}
+		{
+			count: 128
+			id: "1E55D02877A8E43B"
+			item: {
+				count: 1
+				id: "oritech:ceiling_light"
+			}
+		}
+		{
+			count: 128
+			id: "0B38786EEBA96D30"
+			item: {
+				count: 1
+				id: "oritech:industrial_glass_block"
+			}
+		}
+		{
+			count: 128
+			id: "089523EBBA5CA4A9"
+			item: {
+				count: 1
+				id: "simplylight:edge_light"
+			}
+		}
+	]
+}

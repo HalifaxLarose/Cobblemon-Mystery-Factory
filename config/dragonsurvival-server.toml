@@ -462,7 +462,7 @@
 	#Disable all modifications that dragon survival does to the food system. Some mods will have this setting automatically enabled (such as TFC).
 	disable_dragon_food_handling = false
 	#Dragons will need to adhere to their diets if enabled
-	dragon_food_is_required = true
+	dragon_food_is_required = false
 	#Chance of getting poisoned from eating non-dragon food
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0

@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"upgrade_aquatic:petal_coralstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"upgrade_aquatic:petal_coralstone_slab"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"upgrade_aquatic:chiseled_petal_coralstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"upgrade_aquatic:bedroll"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"upgrade_aquatic:tooth_lantern"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"upgrade_aquatic:prismarine_coral_fan"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"upgrade_aquatic:elder_prismarine_coral"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

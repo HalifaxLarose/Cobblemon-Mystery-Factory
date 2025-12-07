@@ -1,16 +1,13 @@
-filename = 'cobblemonchallenge-neoforge-2.2.0.jar'
-name = 'Cobblemon Challenge'
-side = 'server'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
+name = "Cobblemon Challenge"
+filename = "cobblemonchallenge-neoforge-2.3.0.jar"
+side = "both"
 
 [download]
-hash = '901cba0b571c751d5edd0ce6580a63971ae9fc856feadc6f3e8a164ff07ae0f6e2b8370e6c6646eb4501c2d609cdc02d18fd97e8be3d8e7bbce3eae710136201'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/XpJB1Qk6/versions/Doi9yTLW/cobblemonchallenge-neoforge-2.2.0.jar'
+hash-format = "sha1"
+hash = "46ccf5da60e27d7caf16d76fc1aaf6fcee97ac16"
+mode = "metadata:curseforge"
 
-[update.modrinth]
-mod-id = 'XpJB1Qk6'
-version = 'Doi9yTLW'
+[update]
+[update.curseforge]
+file-id = 7161914
+project-id = 908215

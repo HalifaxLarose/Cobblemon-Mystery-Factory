@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:snow_golem_melts",
+  "features": ["molten_vents:hot_ochrum_vent"],
+  "step": "vegetal_decoration"
+}

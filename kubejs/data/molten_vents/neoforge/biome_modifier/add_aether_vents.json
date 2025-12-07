@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#aether:is_aether",
+  "features": ["molten_vents:veridium_vent", "molten_vents:asurine_vent", "molten_vents:ochrum_vent", "molten_vents:crimsite_vent"],
+  "step": "vegetal_decoration"
+}

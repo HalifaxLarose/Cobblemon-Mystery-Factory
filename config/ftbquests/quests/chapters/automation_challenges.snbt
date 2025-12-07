@@ -1,11 +1,12 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: "diamond"
 	default_quest_size: 2.0d
 	filename: "automation_challenges"
 	group: "530E09679D7CD852"
 	id: "15790140419A8066"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -606,8 +607,8 @@
 		{
 			id: "3E9772F4867FCE85"
 			tasks: [{
-				id: "2EA4B071C10D3560"
-				item: { count: 1, id: "simpletms:tm_blank" }
+				id: "440E21264C1C9152"
+				item: { count: 1, id: "simpletms:tr_blank" }
 				type: "item"
 			}]
 			x: -19.0d

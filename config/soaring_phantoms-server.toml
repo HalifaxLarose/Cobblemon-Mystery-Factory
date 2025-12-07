@@ -1,0 +1,12 @@
+doAltitudeBasedSpawning = true
+# Default: 160
+# Range: -64 ~ 320
+spawnStartHeight = 160
+# Default: 10
+# Range: 1 ~ 300
+spawnFrequencyBase = 10
+# Default: 10
+# Range: 1 ~ 300
+spawnFrequencyRandomOffsetBound = 10
+phantomsRepelledByItem = true
+repellentItems = ["minecraft:phantom_membrane"]

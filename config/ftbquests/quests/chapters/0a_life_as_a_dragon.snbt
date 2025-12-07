@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	default_quest_size: 1.5d
 	filename: "0a_life_as_a_dragon"
-	group: "25AFFF4BEEB54E90"
+	group: "07AFEA74923524D0"
 	hide_quest_until_deps_visible: true
 	icon: {
 		components: {
@@ -12,11 +12,11 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "1B50A088E0973BC1"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["111CF8517DF1F154"]
+			dependencies: ["45D0E4FC6DA40041"]
 			hide_until_deps_complete: true
 			icon: {
 				components: {
@@ -121,6 +121,7 @@
 			id: "66E15C13252F4BEC"
 			rewards: [
 				{
+					count: 3
 					id: "1F0F8C62C7543450"
 					item: {
 						count: 1
@@ -129,7 +130,7 @@
 					type: "item"
 				}
 				{
-					count: 3
+					count: 10
 					id: "46B9F8A4262CB0C2"
 					item: {
 						count: 1

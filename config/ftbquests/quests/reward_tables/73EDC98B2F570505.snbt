@@ -1,0 +1,31 @@
+{
+	id: "73EDC98B2F570505"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 5
+			id: "0B0CB40F984C8F09"
+			item: {
+				count: 1
+				id: "cobblemon:poke_ball"
+			}
+		}
+		{
+			count: 5
+			id: "13835FEEA47B3267"
+			item: {
+				count: 1
+				id: "cobblemon:potion"
+			}
+		}
+		{
+			count: 2
+			id: "7FE2B4B8806BF75D"
+			item: {
+				count: 1
+				id: "cobblemon:full_heal"
+			}
+		}
+	]
+}

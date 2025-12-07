@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_forest",
+  "features": ["molten_vents:forest_veridium_vent"],
+  "step": "vegetal_decoration"
+}

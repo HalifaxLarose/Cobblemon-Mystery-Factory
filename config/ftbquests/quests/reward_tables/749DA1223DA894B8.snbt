@@ -1,0 +1,151 @@
+{
+	id: "749DA1223DA894B8"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 48
+			id: "63989BA884529482"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+		}
+		{
+			count: 64
+			id: "5C98F34CC33FFC7C"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+		}
+		{
+			count: 64
+			id: "21DBB820A0C4811D"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+		}
+		{
+			count: 32
+			id: "25DC797962155308"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+		}
+		{
+			count: 32
+			id: "4560162B7F3A664F"
+			item: {
+				count: 1
+				id: "create:gearbox"
+			}
+		}
+		{
+			count: 16
+			id: "15480ED5252A5832"
+			item: {
+				count: 1
+				id: "create_connected:six_way_gearbox"
+			}
+		}
+		{
+			count: 32
+			id: "60966F406CB1B63A"
+			item: {
+				count: 1
+				id: "create:encased_chain_drive"
+			}
+		}
+		{
+			count: 20
+			id: "1E736013C7F65F69"
+			item: {
+				count: 1
+				id: "create:chain_conveyor"
+			}
+		}
+		{
+			count: 24
+			id: "060C97AF021D9E25"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+		}
+		{
+			count: 16
+			id: "7930181400F9C77E"
+			item: {
+				count: 1
+				id: "create:fluid_tank"
+			}
+		}
+		{
+			count: 64
+			id: "70A22AE84A10655B"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+		}
+		{
+			count: 16
+			id: "60ECB749790E5940"
+			item: {
+				count: 1
+				id: "create:mechanical_pump"
+			}
+		}
+		{
+			count: 32
+			id: "7E9B13733F86BA5B"
+			item: {
+				count: 1
+				id: "create:white_sail"
+			}
+		}
+		{
+			count: 5
+			id: "31950554E69A93A5"
+			item: {
+				count: 1
+				id: "create:large_water_wheel"
+			}
+		}
+		{
+			count: 32
+			id: "3A1DB18E305FB1DE"
+			item: {
+				count: 1
+				id: "create:andesite_funnel"
+			}
+		}
+		{
+			count: 16
+			id: "7DED1EE51AAFC773"
+			item: {
+				count: 1
+				id: "create:item_vault"
+			}
+		}
+		{
+			count: 32
+			id: "6A4A30F083B98CB6"
+			item: {
+				count: 1
+				id: "create:copper_casing"
+			}
+		}
+		{
+			count: 256
+			id: "3CD716265AE877CC"
+			item: {
+				count: 1
+				id: "create:track"
+			}
+		}
+	]
+}

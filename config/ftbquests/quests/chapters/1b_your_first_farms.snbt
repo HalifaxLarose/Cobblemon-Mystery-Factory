@@ -3,12 +3,12 @@
 	default_quest_shape: ""
 	default_quest_size: 1.5d
 	filename: "1b_your_first_farms"
-	group: "25AFFF4BEEB54E90"
+	group: "07AFEA74923524D0"
 	icon: {
 		id: "create:cogwheel"
 	}
 	id: "77CD88C79A568EAB"
-	order_index: 5
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -207,18 +207,11 @@
 				"2BDF2361DAF97D58"
 			]
 			id: "108410E4B63C51E8"
-			tasks: [
-				{
-					id: "4EA369036E9A4CD7"
-					item: { count: 1, id: "minecraft:iron_nugget" }
-					type: "item"
-				}
-				{
-					id: "2C62FA978538D467"
-					item: { count: 1, id: "minecraft:flint" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4EA369036E9A4CD7"
+				item: { count: 1, id: "minecraft:iron_nugget" }
+				type: "item"
+			}]
 			x: -22.5d
 			y: -0.75d
 		}
@@ -456,17 +449,23 @@
 		}
 		{
 			dependencies: [
-				"767CE983B352411F"
 				"728B07747E8065F9"
-				"108410E4B63C51E8"
 				"548F517F8BA2ED6B"
+				"195D49DF7BD8DAF7"
 			]
 			id: "3FD4C8C666C4977B"
-			tasks: [{
-				id: "2DFE611275740D17"
-				item: { count: 1, id: "minecraft:andesite" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2DFE611275740D17"
+					item: { count: 1, id: "minecraft:andesite" }
+					type: "item"
+				}
+				{
+					id: "022888600E04ECC4"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
 			x: -26.25d
 			y: 6.0d
 		}
@@ -635,6 +634,17 @@
 			}]
 			x: 3.0d
 			y: -21.0d
+		}
+		{
+			dependencies: ["767CE983B352411F"]
+			id: "195D49DF7BD8DAF7"
+			tasks: [{
+				id: "0CF3574E7A83974C"
+				item: { count: 1, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: -26.25d
+			y: 2.25d
 		}
 	]
 }
