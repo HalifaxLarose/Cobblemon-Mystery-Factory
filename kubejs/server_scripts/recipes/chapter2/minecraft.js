@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: "create:iron_sheet",
-            B: "createaddition:copper_spool",
+            B: "createaddition:copper_wire",
             C: "create:shaft",
             D: "createaddition:capacitor"
         }
@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: "create:brass_sheet",
-            B: "createaddition:copper_spool",
+            B: "createaddition:copper_wire",
             C: "create:shaft",
             D: "createaddition:capacitor"
         }

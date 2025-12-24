@@ -206,4 +206,52 @@ ServerEvents.recipes(event => {
          'minecraft:pointed_dripstone'
     )
 
+    // Soapstone
+    // Gypsum
+    // Chalk
+    // Limestone
+
+    // event.remove({ type: 'create:crushing', input: /.*ochrum/})
+    // event.remove({ type: 'create:crushing', input: /.*veridium/})
+    // event.remove({ type: 'create:crushing', input: /.*asurine/})
+    // event.remove({ type: 'create:crushing', input: /.*crimsite/})
+    event.recipes.create.crushing(
+        [
+            CreateItem.of('create:crushed_raw_gold', 0.2),
+            CreateItem.of('minecraft:gold_nugget', 0.2),
+            CreateItem.of('minecraft:glowstone_dust', 0.2),
+            CreateItem.of('arts_and_crafts:gypsum', 0.2),
+            CreateItem.of('minecraft:yellow_dye', 0.2),
+        ],
+        'create:ochrum'
+    )
+    event.recipes.create.crushing(
+        [
+            CreateItem.of('create:crushed_raw_copper', 0.8),
+            CreateItem.of('create:copper_nugget', 0.8),
+            CreateItem.of('minecraft:quartz', 0.2),
+            CreateItem.of('create:limestone', 0.2),
+            CreateItem.of('minecraft:green_dye', 0.2),
+        ],
+        'create:veridium'
+    )
+    event.recipes.create.crushing(
+        [
+            CreateItem.of('create:crushed_raw_zinc', 0.3),
+            CreateItem.of('create:zinc_nugget', 0.3),
+            CreateItem.of('minecraft:lapis_lazuli', 0.2),
+            CreateItem.of('arts_and_crafts:soapstone', 0.2),
+            CreateItem.of('minecraft:blue_dye', 0.2),
+        ],
+        'create:asurine'
+    )
+    event.recipes.create.crushing(
+        [
+            CreateItem.of('minecraft:redstone', 0.2),
+            CreateItem.of('minecraft:gunpowder', 0.2),
+            CreateItem.of('regions_unexplored:chalk', 0.2),
+            CreateItem.of('minecraft:red_dye', 0.2),
+        ],
+        'create:crimsite'
+    )
 })

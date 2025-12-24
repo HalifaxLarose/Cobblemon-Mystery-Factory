@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
         },
     );
     event.shaped(
-        Item.of(`${CDG}:distillation_controller`, 1),
+        Item.of(`${CDG}:distillation_controller`, 4),
         [
             'BBB',
             'ADA',
@@ -315,5 +315,17 @@ ServerEvents.recipes(event => {
         [
             'dndesires:asphalt',
         ]
+    )
+    event.shaped(
+        Item.of('createdieselgenerators:asphalt_block', 64),
+        [
+            'SSS',
+            'SBG',
+            'GGG',
+        ], {
+            S: 'minecraft:sand',
+            B: 'kubejs:bitumen_bucket',
+            G: 'minecraft:gravel',
+        }
     )
 })

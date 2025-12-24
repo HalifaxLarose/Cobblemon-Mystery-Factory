@@ -313,4 +313,6 @@ ServerEvents.recipes(event => {
             }
         ]
     });
+
+    event.recipes.create.haunting('minecraft:coal', 'minecraft:charcoal');
 })
