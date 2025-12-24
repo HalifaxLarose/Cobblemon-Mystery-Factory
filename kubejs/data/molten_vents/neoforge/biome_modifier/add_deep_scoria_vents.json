@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_cave",
+  "features": ["molten_vents:deep_scoria_vent"],
+  "step": "vegetal_decoration"
+}

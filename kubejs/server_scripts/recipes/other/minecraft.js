@@ -35,4 +35,16 @@ ServerEvents.recipes(event => {
     )
 
     event.stonecutting('arts_and_crafts:white_chalk', 'regions_unexplored:chalk')
+
+    event.shaped(
+        Item.of("createaddition:electrum_ingot", 9),
+        [
+            "A  ",
+            "   ",
+            "   "
+        ],
+        {
+            A:"oritech:electrum_block",
+        }
+    )
 })

@@ -1,0 +1,24 @@
+{
+  "feature": "molten_vents:deep_scoria_vent",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 12
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "uniform",
+        "min_inclusive": {
+            "above_bottom": 34
+        },
+        "max_inclusive": {
+            "above_bottom": 64
+        }
+      }
+    }
+  ]
+}

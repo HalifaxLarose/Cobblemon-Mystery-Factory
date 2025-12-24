@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     const replacementInput = [
         { filter: {}, original: "", replaceWith: "" },
         // Chapter 2
-        {filter: {input: "oritech:magnetic_coil"}, original: "oritech:magnetic_coil", replaceWith:"createaddition:copper_spool"},
+        {filter: {input: "oritech:magnetic_coil"}, original: "oritech:magnetic_coil", replaceWith:"createaddition:copper_wire"},
         {filter: {input: "oritech:electrum_ingot"}, original: "oritech:electrum_ingot", replaceWith:"createaddition:electrum_ingot"},
         {filter: {input: "oritech:electrum_block"}, original: "oritech:electrum_block", replaceWith:"createaddition:electrum_block"},
         {filter: {output: "oritech:motor"}, original: "#c:ingots/steel", replaceWith:"create:iron_sheet"},

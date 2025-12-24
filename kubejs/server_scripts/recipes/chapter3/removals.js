@@ -26,6 +26,7 @@ ServerEvents.recipes(event => {
         { id: 'create:filling/blaze_cake'}, // Technically oil-related
         { id: 'createdieselgenerators:distillation/superheated_crude_oil'},
         { id: 'createdieselgenerators:distillation/crude_oil'},
+        { id: 'createdieselgenerators:crafting/asphalt_block'},
 
         // platings
         { id: "oritech:crafting/plating" },

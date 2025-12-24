@@ -1,6 +1,7 @@
-"#CB1631"
-
 StartupEvents.registry('fluid', event => {
+    const ONE_BURN_ITEM = 1600 / 8 // Coal's burn rate divided by 8
+
+
   event.create('industrial_crude_oil', 'thick')
     .tint(0x1F2022)
     .displayName("Industrial Crude Oil")
@@ -10,6 +11,8 @@ StartupEvents.registry('fluid', event => {
   event.create('bitumen', 'thick')
     .tint(0x090000)
     .displayName('Bitumen')
+    .bucketItem
+    .burnTime(ONE_BURN_ITEM*40)
   event.create('kerosene', 'thick')
     .tint(0xFFFFA7)
     .displayName('Kerosene')
@@ -19,13 +22,20 @@ StartupEvents.registry('fluid', event => {
   // event.create('methane', 'thin')
   //   .tint(0xFFFFBF)
   //   .displayName('Methane')
+
+    // event.modify('kubejs:butane_bucket', item => {
+    //     item.burnTime = ONE_BURN_ITEM*120
+    // })
   event.create('butane', 'thin')
     .tint(0x9B7A01)
     .displayName('Butane')
+    .bucketItem
+    .burnTime(ONE_BURN_ITEM*120)
   event.create('red_slurry', 'thin')
     .tint(0xCB1631)
     .displayName('Red Slurry')
 })
+
 
 // StartupEvents.registry('fluid', event => {
 //   event.create('heavy_residual_crude_oil')

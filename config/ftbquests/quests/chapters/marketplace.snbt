@@ -184,7 +184,7 @@
 			y: 0.0d
 		}
 		{
-			can_repeat: false
+			can_repeat: true
 			dependencies: [
 				"6467039452212EB0"
 				"45D0E4FC6DA40041"
@@ -354,6 +354,28 @@
 			]
 			x: -10.0d
 			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["45D0E4FC6DA40041"]
+			id: "61FC73C156248BC8"
+			rewards: [{
+				auto: "enabled"
+				id: "2D717FFB4986F51C"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "79C1927F03E8AE45"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 3.0d
 		}
 	]
 }

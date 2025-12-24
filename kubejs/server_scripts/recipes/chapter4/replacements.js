@@ -13,6 +13,10 @@ ServerEvents.recipes(event => {
         { filter: {output: 'laserbridges:laser_source_block'}, original: 'minecraft:end_crystal', replaceWith: 'oritech:flux_gate'},
         { filter: {output: 'laserbridges:laser_source_block'}, original: 'minecraft:glass', replaceWith: 'oritech:enderic_lens'},
         { filter: {output: 'oritech:atomic_forge_block'}, original: 'oritech:duratium_ingot', replaceWith: 'oritech:platinum_ingot'},
+
+        { filter: {output: 'northstar:electrolysis_machine'}, original: 'northstar:martian_steel', replaceWith: 'oritech:steel_ingot'},
+        { filter: {output: 'northstar:electrolysis_machine'}, original: 'northstar:martian_steel_sheet', replaceWith: 'oritech:plastic_sheet'},
+        { filter: {output: 'northstar:electrolysis_machine'}, original: 'northstar:amethyst_crystal', replaceWith: 'northstar:lunar_sapphire_crystal'},
     ]
 
     const replacementOutput = [

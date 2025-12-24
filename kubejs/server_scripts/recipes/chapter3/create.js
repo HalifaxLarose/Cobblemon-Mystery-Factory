@@ -167,7 +167,7 @@ ServerEvents.recipes(event => {
         [
             'minecraft:sand',
             'minecraft:gravel',
-            Fluid.of('kubejs:bitumen', 100)
+            Fluid.of('kubejs:bitumen', 250)
         ]
     ) 
 

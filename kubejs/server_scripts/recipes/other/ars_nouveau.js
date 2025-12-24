@@ -1,0 +1,28 @@
+ServerEvents.recipes(event => {
+    event.custom({
+        "type": "ars_nouveau:enchanting_apparatus",
+        "keepNbtOfReagent": false,
+        "pedestalItems": [
+            {
+                "tag": "c:storage_blocks/source"
+            },
+            {
+                "item": "minecraft:gold_block"
+            },
+            {
+                "item": "minecraft:gold_block"
+            },
+            {
+                "item": "minecraft:ghast_tear"
+            }
+        ],
+        "reagent": {
+            "item": "ars_nouveau:ring_of_potential"
+        },
+        "result": {
+            "count": 1,
+            "id": "ars_elemental:base_bangle"
+        },
+        "sourceCost": 0
+    })
+})
