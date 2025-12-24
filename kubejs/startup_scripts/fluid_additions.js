@@ -11,11 +11,11 @@ StartupEvents.registry('fluid', event => {
   event.create('bitumen', 'thick')
     .tint(0x090000)
     .displayName('Bitumen')
+    .bucketItem
+    .burnTime(ONE_BURN_ITEM*40)
   event.create('kerosene', 'thick')
     .tint(0xFFFFA7)
     .displayName('Kerosene')
-    .bucketItem
-    .burnTime(ONE_BURN_ITEM*40)
   event.create('light_petroleum_gas', 'thin')
     .tint(0xDECBB7)
   //   .displayName('Light Petroleum Gas')

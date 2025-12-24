@@ -8,6 +8,15 @@
 		id: "create:steam_engine"
 	}
 	id: "5F6BDBB03A7631E3"
+	images: [{
+		alpha: 127
+		height: 72.0d
+		image: "ftbquests:textures/quests/cobblemon.png"
+		rotation: 0.0d
+		width: 128.0d
+		x: 3.5d
+		y: 3.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -1019,7 +1028,7 @@
 					type: "item"
 				}
 			]
-			x: 17.25d
+			x: 14.75d
 			y: 22.5d
 		}
 		{
@@ -1100,7 +1109,7 @@
 				item: { count: 1, id: "oritech:silicon" }
 				type: "item"
 			}]
-			x: 17.25d
+			x: 14.75d
 			y: 24.75d
 		}
 		{
@@ -1112,7 +1121,7 @@
 				item: { count: 1, id: "oritech:raw_silicon" }
 				type: "item"
 			}]
-			x: 15.75d
+			x: 13.25d
 			y: 24.75d
 		}
 		{
@@ -1208,8 +1217,8 @@
 				item: { count: 1, id: "oritech:adamant_ingot" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 21.5d
+			x: 14.7d
+			y: 20.6d
 		}
 		{
 			dependencies: ["3A1B3C0A77F150EC"]

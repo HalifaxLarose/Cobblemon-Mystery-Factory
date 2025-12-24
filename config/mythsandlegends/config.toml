@@ -34,7 +34,7 @@ broadcast_settings = [
   { settingName = "Location", settingValue = true }, # Include spawn location? Default: true.
   { settingName = "Shiny", settingValue = false }, # Announce if shiny? Default: false.
   { settingName = "Level", settingValue = true }, # Include Pokemon level? Default: true.
-  { settingName = "XaerosMinimapSupport", settingValue = false } # Add Xaero's Minimap waypoint format if Location is true? Default: false.
+  { settingName = "XaerosMinimapSupport", settingValue = true } # Add Xaero's Minimap waypoint format if Location is true? Default: false.
 ]
 
 # === Force Spawning Settings ===
@@ -44,7 +44,7 @@ enable_force_spawning = true
 
 # Which spawn pool rarity to check when attempting a force spawn (e.g., common, rare, ultra-rare). Default: ultra-rare
 # Note: This influences WHICH Pokemon are considered, not their inherent rarity defined in datapacks.
-force_spawning_spawn_pool = "ultra-rare"
+force_spawning_spawn_pool = "uncommon"
 
 # --- Voucher & Cooldown Settings (for Force Spawning) ---
 
@@ -52,7 +52,7 @@ force_spawning_spawn_pool = "ultra-rare"
 enable_vouchers = false
 
 # Cooldown (in seconds) after using a key item for force spawning (only if enable_vouchers=true). Default: 20
-force_spawn_item_cooldown = 20
+force_spawn_item_cooldown = 5
 
 # Apply cooldown globally? If true, using *any* key item puts *all* key items on cooldown (only if enable_vouchers=true). Default: false
 global_item_cooldown = false

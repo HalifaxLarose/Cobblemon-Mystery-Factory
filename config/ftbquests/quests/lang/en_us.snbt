@@ -209,6 +209,8 @@
 		"If the options overwhelm you, do not worry, as you &nonly need to deal with kerosene, naphtha, and diesel&r, indicated by heart shaped icons. You can safely get rid of the rest, although you would be losing out on extra resources."
 		""
 		"(PS: The tower will need to be as high as their are outputs plus the input at the bottom. However, the mod can be a bit buggy in recognizing outputs. Try to build more layers than you need, as destroying a top layer may get it to recognize the other layers correctly.)"
+		""
+		"&nYou can not distill raw crude oil&r, You must process it into industrial crude oil first before distilling. Get rid of those contaminating sulphurs!"
 	]
 	quest.0A80791CD01A78C4.title: "Distill Your Oil"
 	quest.0ACDB990F54F0298.quest_subtitle: "Second Socket"
@@ -745,7 +747,7 @@
 	quest.2C51012E62684C6B.title: "Build a Big Clock"
 	quest.2C8C9E07C7D3E5AD.quest_subtitle: "You may need these later"
 	quest.2CA24C8DA8866DC3.title: "\"I need to start some landscaping...\""
-	quest.2D3935A777CEC349.quest_desc: ["Crafted from &ecentrifuging&r an &6ender pearl&r, enderic compounds have a couple of uses, most which came later. It is a necessary step for power tools, however."]
+	quest.2D3935A777CEC349.quest_desc: ["Crafted from &ecentrifuging&r &6sculk&r, enderic compounds have a couple of uses, most which came later. It is a necessary step for power tools, however."]
 	quest.2D60596BED788EEA.quest_desc: ["The modern computer has many uses and applications that can ease automation and production in your factory. Too bad you have no idea how to use this."]
 	quest.2D60596BED788EEA.title: "Skipping Ahead in the Tech Tree"
 	quest.2D7FDEA914582A3F.quest_desc: [
@@ -889,9 +891,10 @@
 		"- &6Asurine (Zinc)&r can be found in the &emountains&r."
 		"- &6Ochrum (Gold)&r can be found in &ehot biomes&r; anywhere a snowman would melt."
 		"- &6Veridium (Copper)&r can be found in &eforests&r."
-		"- &6Crimsite (Iron)&r can be found &eanywhere&r, but are hard to come by."
+		"- &6Crimsite (Redstone)&r can be found &eanywhere&r, but are hard to come by."
+		"- &6Scoria (Tin - currently unimplemented)&r can be found in &ecave biomes&r where deepslate starts. Do not simply being underground is not the same as being in a cave biome."
 		""
-		"In addition, all four can appear &eunderwater&r, as well as rarely in the &eAether&r."
+		"In addition, all vents except scoria can appear &eunderwater&r."
 		""
 		"&nIf you do not like getting ore this way&r, either due to placing lava or ferrying it back, chapter 3 will introduce alternative ways to generate ore."
 	]
@@ -2233,6 +2236,7 @@
 	task.739E84BBF8AFBD82.title: "From A to B"
 	task.760123171314A73C.title: "Understood"
 	task.77FA5410F2BB7962.title: "Understood"
+	task.79C1927F03E8AE45.title: "Kill the Wither"
 	task.7A4DF9467C6CACA0.title: "Let the adventure begin!"
 	task.7C525386829FC8F5.title: "Any Plating"
 	task.7C84B3E9180247A4.title: "Understood"
